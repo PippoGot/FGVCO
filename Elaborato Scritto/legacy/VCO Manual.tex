@@ -1,0 +1,40 @@
+\documentclass{report}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\usepackage{calc}
+\graphicspath{{img/}}
+
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat = newest}
+
+\usepackage{parskip}
+
+% title section
+\title{
+    FG-VCO\\
+    {\small Circuit Analysis}
+}
+\author{Filippo Gottardo}
+\date{April 2022}
+
+% document begins here
+\begin{document}
+\maketitle
+
+% utility includes
+\include{Drawing Lib/modules-styles.tex}
+\include{ch-before-you-read/ch-before-you-read.tex}
+
+% generate the index
+\tableofcontents
+
+% includes chapters saved on different files, to keep things organised
+\include{ch-vco-introduction/ch-vco-introduction.tex}
+\include{ch-module-definition/ch-module-definition.tex}
+\include{ch-blocks-design/ch-blocks-design.tex}
+
+% end of the document
+\end{document}

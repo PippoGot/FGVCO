@@ -1,0 +1,55 @@
+\documentclass[twoside, 12pt]{report}
+
+% --- PACCHETTI ---
+
+% include pdfs
+\usepackage{pdfpages}
+
+% numerazione capitoli in italiano
+\usepackage[italian]{babel}
+
+% grafiche (facoltative)
+\usepackage{graphicx}
+\usepackage{calc}
+\graphicspath{{img/}}
+
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat = newest}
+
+% spaziatura (facoltativo)
+\usepackage{parskip}
+
+% impaginazione
+\usepackage{geometry}
+
+% font
+\usepackage{times}
+
+% riempimento testo dummy per prova (da rimuovere una volta finito)
+\usepackage{lipsum}
+
+% --- IMPAGINAZIONE ---
+
+% interlinea
+\linespread{1.5}
+
+% margini
+\geometry{a4paper, top = 2cm, bottom = 2cm, outer = 2cm, inner = 3cm}
+
+% --- DOCUMENTO PRINCIPALE ---
+
+% inizio del documento
+\begin{document}
+
+% frontespizio
+% DA MODIFICARE con i dati personali !!!
+\includepdf{frontespizio/frontespizio_tesi.pdf}
+
+% indice
+\tableofcontents
+
+% capitoli su file appositi per ordine
+
+% fine del documento
+\end{document}

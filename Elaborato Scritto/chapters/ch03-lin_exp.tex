@@ -1,0 +1,155 @@
+\chapter{Condizionamento dell'Ingresso}
+
+%--------------------------------------------------------------------------------------------
+
+\section{Convertitore Lineare-Esponenziale}
+
+%--------------------------------------------------------------------------------------------
+
+Vogliamo ora analizzare la sezione di circuto che soddisfa la specifica sulla modalità
+$1V/Octave$ dell'ingresso, ovvero il circuito in grado di convertire una tensione
+lineare in una esponenziale.
+
+%--------------------------------------------------------------------------------------------
+
+\subsection*{Analisi del Circuito}
+
+%--------------------------------------------------------------------------------------------
+
+Per l'applicazione si sfrutta la caratteristica esponenziale intrinseca del transistor
+bipolare:
+
+% schema transistor figura 1
+
+$$
+    i_e\approx i_c=I_s e^{\left(\frac{v_{be}}{V_T}-1\right)}
+    \approx I_s e^{\left(\frac{v_{be}}{V_T}\right)}
+$$
+
+dove $V_T$ (o potenziale termico) e $I_s$ (o corrente di saturazione) sono variabili in
+funzione della temperatura.
+
+Nella nostra analisi considereremo $V_T$ costante a $26mV$, mentre per rimuovere dall'equazione
+$I_s$, si collegano 2 transistor (il più possibile simili tra loro e termicamente
+accoppiati) in configurazione a coppia differenziale.
+
+% transistor differenziali figura 2
+
+Possiamo quindi scrivere la seguente relazione:
+
+$$
+    \frac{i_{c2}}{i_{c1}}=\frac{I_s e^{\left(\frac{v_{be2}}{V_T}\right)}}{I_s e^{\left(\frac{v_{be1}}{V_T}\right)}}
+    \rightarrow
+    i_{c2}=i_{c1}e^{\left(\frac{v_{be2}-v_{be1}}{V_T}\right)}=i_{c1}e^{\left(\frac{v_{b2}-v_{b1}}{V_T}\right)}
+$$
+
+dove risulta evidente che la dipendenza da $I_s$ viene completamente rimossa.
+
+A questo punto, apportando qualche modifica al circuito possiamo scrivere la relazione
+
+$$i_{freq}=I_{ref}e^{-\frac{v_{b1}}{V_T}}$$
+
+% circuito transistor connessi e i_ref
+% circuito completo figura 3
+
+dove l'operazionale di sinistra si occupa di invertire il segno della tensione di ingresso
+per avere un valore positivo all'esponente, mentre quello di destra si occupa di mantenere
+costante la corrente di riferimento $I_{ref}$. Vale quindi:
+
+$$I_{ref}=\frac{V_{HR}-V_{LR}}{R_{ref}}$$
+
+Ora per completare il tutto basta aggiungere un convertitore corrente-tensione al collettore
+di $Q_2$, legando cosi $V_{in}$ a $V_{out}$ con la seguente relazione:
+
+$$
+    V_{out}=R_f\cdot i_{freq}=
+    R_f\cdot I_{ref}e^{-\frac{v_{b1}}{V_T}}=
+    R_f\cdot I_{ref}e^{-\frac{s\cdot V_{in}}{V_T}}=
+    R_f\cdot \frac{V_{HR}-V_{LR}}{R_{ref}}e^{-\frac{s\cdot V_{in}}{V_T}}
+$$
+
+% circuito completo con IVC figura 4
+
+%--------------------------------------------------------------------------------------------
+
+\subsection*{Dimensionamento dei Componenti}
+
+%--------------------------------------------------------------------------------------------
+
+Passiamo quindi al dimensionamento dei componenti, in modo da imporre al circuito il
+comportamento voluto.
+
+Come prima cosa impostiamo il valore del guadagno $s$ dell'amplificatore invertente.
+Si vuole:
+
+$$
+    i_{freq}=I_{ref}e^{-\frac{s\cdot V_{in}}{V_T}}
+    \rightarrow
+    2i_{freq}=I_{ref}e^{-\frac{s\cdot[V_{in}+\Delta V_{in}]}{V_T}}
+$$
+
+qundi un raddoppio della corrente $i_{freq}$ ad ogni variazione di $\Delta V_{in}=1V$.
+Allora possiamo riscrivere le due relazioni nel seguente modo:
+
+$$
+    2=e^{-\frac{s\cdot\Delta V_{in}}{V_T}}
+    \rightarrow
+    ln{2}=-\frac{s\cdot\Delta V_{in}}{V_T}
+    \rightarrow
+    -s=\frac{V_T\cdot ln{2}}{\Delta V_{in}}
+$$
+
+e sostituendo i valori otteniamo:
+
+$$-s=\frac{26mV\cdot 0.6931}{1V}\approx-0.018\approx-\frac{1}{55.5}$$
+
+valore che può essere diviso nel seguente modo:
+
+$$
+    s=\bar{s}\cdot\hat{s}=\frac{2k\Omega}{100k\Omega}\cdot\frac{440\Omega}{490\Omega}
+    \approx 0.018
+$$
+
+quindi:
+
+% circuito amplificatore completo figura 5
+
+\begin{itemize}
+    \item $R_f = 2k\Omega$;
+    \item $R_{in} = 100k\Omega$;
+    \item $R_{pot} = 100\Omega$;
+    \item $R = 390\Omega$;
+\end{itemize}
+
+impostiamo i valori di $V_{HR}=+12V$ e $V_{LR}=0V$.
+
+
+%--------------------------------------------------------------------------------------------
+
+\subsection*{Risultati Pratici e Misure}
+
+%--------------------------------------------------------------------------------------------
+
+testo
+
+%--------------------------------------------------------------------------------------------
+
+\section{Somma di più Ingressi}
+
+%--------------------------------------------------------------------------------------------
+
+testo
+
+%--------------------------------------------------------------------------------------------
+
+\section{Clipper}
+
+%--------------------------------------------------------------------------------------------
+
+testo
+
+%--------------------------------------------------------------------------------------------
+
+\subsection*{Risultati Pratici e Misure}
+
+%--------------------------------------------------------------------------------------------

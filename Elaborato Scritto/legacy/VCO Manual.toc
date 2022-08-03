@@ -1,0 +1,7 @@
+\contentsline {chapter}{\numberline {1}Itroduction to the VCO}{4}{}%
+\contentsline {chapter}{\numberline {2}Interface Definition}{5}{}%
+\contentsline {section}{\numberline {2.1}Interface Definition: Input}{5}{}%
+\contentsline {section}{\numberline {2.2}Interface Definition: Output}{6}{}%
+\contentsline {section}{\numberline {2.3}Module Block Diagram}{6}{}%
+\contentsline {chapter}{\numberline {3}Blocks Design}{8}{}%
+\contentsline {section}{\numberline {3.1}Frequency Modulation}{8}{}%

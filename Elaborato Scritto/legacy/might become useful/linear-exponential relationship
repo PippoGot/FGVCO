@@ -1,0 +1,60 @@
+
+There are 2 major types of relationships between the control voltage and the audio output:
+
+\begin{itemize}
+    \item
+          Linear to exponential relationship: a linear voltage produces and exponential
+          change in the signal frequency, for example
+
+          \begin{table}[ht]
+              \centering
+
+              \begin{tabular}{| c | c |}
+                  \hline
+                  CV in & Frequency out \\
+                  \hline
+                  $1 V$ & $55 Hz$       \\
+                  $2 V$ & $110 Hz$      \\
+                  $3 V$ & $220 Hz$      \\
+                  $4 V$ & $440 Hz$      \\
+                  $5 V$ & $880 Hz$      \\
+                  $6 V$ & $1760 Hz$     \\
+                  \hline
+              \end{tabular}
+
+              \caption{Exponential relationship}
+              \label{exponential-relationship}
+          \end{table}
+
+          where an increment of $1 Volt$ doubles the output frequency.
+    \item
+          Linear to linear relationship: a linear voltage produces a linear change in the
+          signal frequency, for example
+
+          \begin{table}[ht]
+              \centering
+
+              \begin{tabular}{| c | c |}
+                  \hline
+                  CV in & Frequency out \\
+                  \hline
+                  $1 V$ & $55 Hz$       \\
+                  $2 V$ & $110 Hz$      \\
+                  $3 V$ & $165 Hz$      \\
+                  $4 V$ & $220 Hz$      \\
+                  $5 V$ & $275 Hz$      \\
+                  $6 V$ & $330 Hz$      \\
+                  \hline
+              \end{tabular}
+
+              \caption{Linear relationship}
+              \label{linear-relationship}
+          \end{table}
+
+          where an increment of $1 Volt$ moves the output frequency of the fixed value of
+          $55Hz$.
+\end{itemize}
+
+Since the human ear perceives sound logarithmicly, we will choose a linear to exponential
+relationship, more precisely, the frequency should double with a $1 V$ input increment
+as seen in Table \ref{exponential-relationship}.

@@ -1,0 +1,77 @@
+% --- BLOCKS STYLES ---
+% title block of the module
+\tikzstyle{nameblock} = [
+rectangle,
+minimum height = 5mm,
+minimum width = 30mm,
+text width = 20mm,
+text centered,
+draw = black,
+ultra thick
+]
+
+% body block of the module
+\tikzstyle{block} = [
+rectangle,
+minimum height = 15mm,
+minimum width = 30mm,
+text width = 20mm,
+text centered,
+draw = black,
+ultra thick
+]
+
+% block diagram unit
+\tikzstyle{thinblock} = [
+rectangle,
+minimum height = 15mm,
+minimum width = 30mm,
+text width = 20mm,
+text centered,
+draw = black
+]
+
+% empty block for external interfaces
+\tikzstyle{emptyblock} = [
+rectangle,
+minimum size = 10mm,
+text width = 20mm,
+text centered
+]
+
+% --- ARROWS ---
+% simple black arrow
+\tikzstyle{arrow} = [
+->,
+> = stealth
+]
+
+% control voltage arrow
+\tikzstyle{cv-arrow} = [
+ultra thick,
+->,
+draw = cyan
+]
+
+% digital signal arrow
+\tikzstyle{digital-arrow} = [
+ultra thick,
+->,
+draw = orange
+]
+
+% audio signal arrow
+\tikzstyle{audio-arrow} = [
+ultra thick,
+->,
+draw = magenta
+]
+
+% --- CUSTOM BLOCKS COMMANDS ---
+% module block
+\newcommand{\synthmodule}[3]{
+    \node(module)[block]{};
+    \node(modulename)[nameblock, above of = module]{#2};
+    \node(input)[emptyblock, left of = module, xshift = -3cm]{#1};
+    \node(output)[emptyblock, right of = module, xshift = 3cm]{#3};
+}

@@ -1,0 +1,82 @@
+\chapter{Interface Definition}
+
+%-----------------------------------------------------------------------------------------
+
+\section{Interface Definition: Input}
+
+\subsection*{Frequency modulation}
+
+First thing first, we need a way to control the frequency of the VCO.
+This can of course be achieved through simple knobs or sliders, however a more
+interesting feature is an LFO or CV control input.
+
+We will then take an hybrid approach by having:
+
+\begin{itemize}
+    \item Frequency modulation knobs, coarse and fine to adjust and tune the frequency
+          as we please;
+
+    \item Frequency LFO/CV gate input and attenuator knob to have a for dinamic control;
+\end{itemize}
+
+As the human ear perceives music and sound in a logarithmic fashion, we will also need
+a linear to exponential converter, since an exponential voltage would be hard to manually
+control.
+
+\subsection*{Mode selection}
+
+A VCO can be used either as a sound generator (VCO) or as a modulator (LFO), simply by
+changing the range of frequencies it can outputs, therefore we can add a switch to choose
+the device's functioning mode.
+
+%-----------------------------------------------------------------------------------------
+
+\section{Interface Definition: Output}
+
+\subsection*{Waveforms}
+
+As we've already discussed, a VCO could theoretically give us almost any waveform,
+if designed to do so, obviously. However we will limit the outputs to the five fundamentals
+wave shapes:
+
+\begin{itemize}
+    \item Sine wave;
+    \item Triangle wave;
+    \item Square wave;
+    \item Ramp wave;
+    \item Sawtooth wave;
+\end{itemize}
+
+With those five basic waveforms we can then get really far with all the available effects
+and modulations that other modules can offer.
+
+We would like parallel aoutputs (although you can certainly get an analog multiplexer
+to have only one output channel instead of five), and that all of our waves have the same
+frequency.
+
+Also we would like all of our outputs to have an attenuator just to give us the possibility
+to adjust the amplitude of the signal before going inside another module.
+
+\subsection*{Other miscellaneous outputs}
+
+A sync pulse may come in handy to trigger effects or with a PLL module. We can also add
+an LED to see the state of the pulse.
+
+LEDs showing the current function mode can also come in handy to quickly see how the
+module is behaving.
+
+%-----------------------------------------------------------------------------------------
+
+\section{Module Block Diagram}
+
+Summing all of the requirements described in the previous chapters we can now draw a
+preliminary block diagram to better understand how we need to tie everything together.
+
+\begin{figure}[ht]
+    \centering
+    \def\svgwidth{\columnwidth}
+    \input{img/full-block-diagram.pdf_tex}
+
+    \caption{Full Module Block Diagram}
+    \label{full-diagram}
+\end{figure}

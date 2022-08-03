@@ -1,0 +1,81 @@
+\chapter*{Before you read!}
+
+%-----------------------------------------------------------------------------------------
+
+\section*{What is this manual about?}
+
+The purpose of this manual is to explain in every aspect the design of different diy
+eurorack modules, more specifically, every design choice and how every circuit works.
+Ultimately the reader will be able to understand how the circuits are built, how they work
+and how they can be replicated and/or modified as needed.
+
+The reader is assumed to already have a basic understanding of electronics and electronic
+components.
+
+Finally, almost every module could be easily built with digital microcontrollers or DSPs,
+although the challenge here is to take as much as possible an analog approach.
+
+%-----------------------------------------------------------------------------------------
+
+\section*{Notation and Terminology}
+
+In order to better comprehend what is going on, there are going to be a lot of drawings,
+schematics and diagrams in this manual, so here are some tips on how to interpret what you
+see:
+
+\begin{itemize}
+      \item
+            \textbf{\textcolor{magenta}{Audio signal}}: a signal that can be fed into an
+            amplifier. Ultimately almost every synth module is built to create and modify
+            this kind of signals (with a few exceptions);
+      \item
+            \textbf{\textcolor{orange}{Digital signal}}: a signal is either logically high
+            (higher than a fixed value), or logically low (lower than a fixed value).
+            These kind of signals are used to control various different modules functions,
+            such as gates for envelope generators, clocks for step sequencers and so on;
+      \item
+            \textbf{\textcolor{cyan}{Control voltage}}: an analog signal that can assume
+            every value between two different fixed references, often $\pm V_{cc}$. Much
+            like a digital signal, a control voltage is used to control modules' functions,
+            but it can controls a specific parameter with a much higher flexibility and with
+            particular relationships (such as linear or exponential).
+\end{itemize}
+
+Usually the colors will be used in block diagram's arrows to show what kind of signal they
+bring, like this:
+
+\begin{tikzpicture}
+      \synthmodule{This is the Input}{MODULE}{This is the Output};
+
+      \draw[cv-arrow] (input) -- (module);
+      \draw[audio-arrow] (module) -- (output);
+\end{tikzpicture}
+
+As for the terminology:
+
+\begin{itemize}
+      \item
+            \textbf{Interface}: it refers to the front panel components such as knobs,
+            connectors, LEDs and everything that can be manipulated from the final user.
+      \item
+            \textbf{Core}: it refers to all the circuitry that makes the magic happens. It
+            is usually kept behind the interface board.
+\end{itemize}
+
+%-----------------------------------------------------------------------------------------
+
+\section*{Structure}
+
+Every module will be treated as follows:
+
+\begin{enumerate}
+      \item
+            General introduction and presentation of the module (I/O configuration,
+            function principle and possible variants);
+      \item
+            Project specifics and general block diagram of the module;
+      \item
+            General blocks analysis and implementation;
+      \item
+            Final choice of the circuit, final complete block diagram and front panel design;
+\end{enumerate}

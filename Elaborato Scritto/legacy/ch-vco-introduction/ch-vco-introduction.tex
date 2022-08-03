@@ -1,0 +1,17 @@
+\chapter{Itroduction to the VCO}
+
+A \textbf{voltage controlled oscillator} (or \textbf{VCO} for short), is a module capable of
+turning a given \textbf{\textcolor{cyan}{control voltage}} to a specific waveform
+\textbf{\textcolor{magenta}{audio signal}} at a certain frequency, proportional to the
+value of the input voltage.
+
+\medskip
+
+\begin{center}
+    \begin{tikzpicture}
+        \synthmodule{CV}{VCO}{Waveform};
+
+        \draw[cv-arrow] (input) -- (module);
+        \draw[audio-arrow] (module) -- (output);
+    \end{tikzpicture}
+\end{center}

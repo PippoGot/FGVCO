@@ -1,0 +1,117 @@
+\documentclass[twoside, 12pt]{report}
+
+% --- PACCHETTI ---
+
+% titolo capitoli e sezioni personalizzato
+\usepackage{titlesec}
+
+\titleformat{\chapter}
+{\normalfont\LARGE\bfseries}{\thechapter.}{10pt}{\LARGE}
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+
+\titleformat{\section}
+{\normalfont\large\bfseries}{\thesection}{10pt}{\large}
+\titlespacing*{\section}{0pt}{0pt}{10pt}
+
+% include pdfs
+\usepackage{pdfpages}
+
+% grafiche
+\usepackage{graphicx}
+\usepackage{calc}
+
+\graphicspath{{images/}}
+
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\pgfplotsset{compat = newest}
+
+\usepackage{subcaption}
+
+% numerazione capitoli in italiano
+\usepackage[italian]{babel}
+
+% spaziatura
+\usepackage{parskip}
+
+% impaginazione
+\usepackage{setspace} %for doublespacing
+
+\doublespacing
+
+\usepackage{geometry}
+
+\geometry{a4paper, top = 2cm, bottom = 2cm, outer = 2cm, inner = 3cm, heightrounded}
+
+% font
+\usepackage{times}
+
+% bibliografia
+\usepackage{csquotes}
+\usepackage{biblatex}
+
+\addbibresource{bibliography.bib}
+
+% salta pagine bianche
+\usepackage{afterpage}
+
+\newcommand\emptypage{
+    \newpage
+    \thispagestyle{empty}
+    \mbox{}
+    \newpage
+}
+
+% riempimento testo dummy per prova
+\usepackage{lipsum}
+
+% interlinea
+\linespread{1.5}
+
+% comandi per aggiungere chapter, section e subsection non numerate al toc
+\newcommand\unchapter[1]{
+    \chapter*{#1}
+    \addcontentsline{toc}{chapter}{#1}}
+
+\newcommand\unsection[1]{
+    \section*{#1}
+    \addcontentsline{toc}{section}{#1}}
+
+\newcommand\unsubsection[1]{
+        \subsection*{#1}
+        \addcontentsline{toc}{subsection}{#1}}
+
+% --- DOCUMENTO PRINCIPALE ---
+
+% inizio del documento
+\begin{document}
+
+% --- FRONTESPIZIO ---
+% DA MODIFICARE DATA DI LAUREA !!!
+\includepdf{frontespizio/frontespizio_tesi_02.pdf}
+\emptypage
+
+% --- INDICE ---
+
+\tableofcontents
+
+% --- CAPITOLI ---
+
+\include{chapters/ch00-introduzione.tex}
+\include{chapters/ch01-contatori_dac.tex}
+\include{chapters/ch02-vfc.tex}
+\include{chapters/ch03-lin_exp.tex}
+\include{chapters/ch04-selezione_modalità.tex}
+\include{chapters/ch05-segnali_secondari.tex}
+\include{chapters/ch06-stadi_uscita.tex}
+\include{chapters/ch07-efuse.tex}
+\include{chapters/ch08-suddivisione_schede.tex}
+\include{chapters/ch09-conclusioni.tex}
+
+% bibliografia
+\printbibliography
+\addcontentsline{toc}{chapter}{Bibliografia}
+
+% fine del documento
+\end{document}

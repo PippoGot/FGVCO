@@ -1,0 +1,75 @@
+%% Creator: Inkscape 1.0 (4035a4fb49, 2020-05-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'full-block-diagram.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{67.65002051bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.2793791)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{full-block-diagram.pdf}}%
+    \put(0.11130021,0.21423495){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Device Mode\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{full-block-diagram.pdf}}%
+    \put(0.11175992,0.06873628){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Frequency\\Modulation\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{full-block-diagram.pdf}}%
+    \put(0.38880096,0.1935032){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Voltage\\to\\Frequency\\Converter\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{full-block-diagram.pdf}}%
+    \put(0.77691014,0.21417956){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Sine\end{tabular}}}}%
+    \put(0.61113416,0.21657424){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Triangle\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{full-block-diagram.pdf}}%
+    \put(0.94320721,0.21666287){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Square\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{full-block-diagram.pdf}}%
+    \put(0.61043277,0.05047673){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Ramp\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{full-block-diagram.pdf}}%
+    \put(0.77666558,0.0478825){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Saw\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{full-block-diagram.pdf}}%
+    \put(0.94278587,0.04794899){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Pulse\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{full-block-diagram.pdf}}%
+  \end{picture}%
+\endgroup%
