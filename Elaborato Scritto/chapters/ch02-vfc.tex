@@ -19,16 +19,16 @@ ottenute dal capitolo precedente, ovvero:
 %--------------------------------------------------------------------------------------------
 
 Ciò di cui abbiamo bisogno è un circuito in grado di convertire una tensione in un segnale
-a onda quadra con frequenza proporzionale alla tensione stessa, ovvero un convertitore
+a onda rettangolare con frequenza proporzionale alla tensione stessa, ovvero un convertitore
 tensione-frequenza.
 
-In commercio è possibile trovare chip in grado di svolgere questa funzione con l'aggiunta
-di una manciata di componenti di contorno, anche se la maggior parte di questi non
+In commercio è possibile trovare chip in grado di svolgere questa funzione semplicemente
+aggiungendo una manciata di componenti di contorno, anche se la maggior parte di questi non
 arriva a coprire l'intero range di funzionamento di cui abbiamo bisogno (come ad esempio
 il noto LM331 \cite{lm331}). Nel nostro caso si utilizza un VFC110 \cite{vfc110},
-circuito integrato che vanta un'ottima linearità e in grado di arrivare a fornire una
-frequenza in uscita di $4MHz$ in corrispondenza di una tensione di ingresso di $10V$,
-esattamente ciò che la nostra applicazione richiede.
+circuito integrato che vanta un'ottima linearità e in grado di fornire una frequenza in
+uscita di $4MHz$ in corrispondenza di una tensione di ingresso di $10V$, esattamente ciò
+che la nostra applicazione richiede.
 \medskip
 
 \begin{figure}[ht]
@@ -38,16 +38,19 @@ esattamente ciò che la nostra applicazione richiede.
     \label{vfc100_internal}
 \end{figure}
 
-Il circuito fa uso di un integratore, la quale uscita è proporzionale alla carica immagazzinata
-in $C_{int}$. Una tensione in ingresso $V_{in}$ sviluppa una corrente $I_{in}=\frac{V_{in}}{R_{in}}$
-e che viene forzata in $C_{int}$, caricandolo e causando l'uscita dell'integratore a diminuire
-linearmente. Non appena l'uscita dell'integratore arriva a $0V$, il comparatore scatta, attivando
-il timer one-shot. Quindi un generatore di corrente $I_{ref}$ (circa $1mA$) viene connesso
-all'uscita dell'integratore durante il periodo del timer $T_{OS}$ causando l'uscita dell'integratore
-a crescere linearmente fino alla fine di $T_{OS}$. Successivamente il ciclo ricomincia.
+Il cuore del circuito consiste in un operazionale configurato come integratore, con tensione
+di uscita proporzionale alla carica immagazzinata nella sua capacità di feedback $C_{int}$.
+Una tensione in ingresso $V_{in}$ sviluppa una corrente $I_{in}=\frac{V_{in}}{R_{in}}$
+che viene forzata in $C_{int}$, causando quindi un andamento a rampa decrescente in uscita.
+Arrivati a $0V$ il comparatore scatta, attivando il timer one-shot. Quindi un generatore
+di corrente $I_{ref}$ (dal valore di circa $1mA$) viene connesso all'ingresso dell'integratore
+per un periodo pari a $T_{OS}$, causando un andamento a rampa crescente in uscita
+all'integratore. Infine il ciclo ricomincia.
 
-L'oscillazione è regolata dall'equilibrio tra corrente in ingresso $I_{in}$ e la corrente di
-reset media.
+Per uno studio più approfondito sul funzionamento del VFC110 si consiglia la lettura del
+datasheet del componente, dal quale si ricava anche la configurazione del circuito utilizzato
+per sfruttare l'intero range offerto, modificando però i valori di alimentazione con
+quelli dello standard scelto ($\pm 12V$).
 \medskip
 
 \begin{figure}[ht]
@@ -57,30 +60,26 @@ reset media.
     \label{VFC_circuit}
 \end{figure}
 
-Per uno studio più approfondito sul funzionamento del componente si rimanda al datasheet
-del componente, dal quale si ricava anche la configurazione del circuito da utilizzare
-per sfruttare l'intero range offerto, modificando però i valori di alimentazione con
-quelli dello standard scelto ($\pm 12V$).
-\medskip
-
-% schema elettrico
-
 Si noti che gli unici componenti aggiunti sono condensatori di filtro e un resistore di
 pull-up per l'uscita a collettore aperto.
 
 Le relazioni tra le grandezze in gioco sono le seguenti:
 
-$$
+\begin{displaymath}
     I_{in}=I_{ref}\cdot\delta
+    \qquad
     \rightarrow
+    \qquad
     \delta=\frac{I_{in}}{I_{ref}}=\frac{V_{in}}{R_{in}\cdot I_{ref}}
-$$
+\end{displaymath}
 
-$$
+\begin{displaymath}
     \frac{V_{in}}{R_{in}}=I_{ref}\cdot f_{out}\cdot T_{OS}
+    \qquad
     \rightarrow
+    \qquad
     f_{out}=\frac{V_{in}}{R_{in}\cdot I_{ref}\cdot T_{OS}}=\frac{\delta}{T_{OS}}
-$$
+\end{displaymath}
 
 %--------------------------------------------------------------------------------------------
 
@@ -88,16 +87,41 @@ $$
 
 %--------------------------------------------------------------------------------------------
 
+Si procede quindi alla verifica del corretto funzionamento del circuito. Il setup di
+misura utilizzato viene riportato in figura:
+
 % grafica setup di misura
+
+Possiamo innanzitutto notare che il comportamento dell'integratore è esattamente quello
+descritto al paragrafo precedente:
 
 \begin{figure}[ht]
     \centering
-    \includegraphics{misc/oscilloscope_placeholder.png}
-    \caption{Acquisizione dell'uscita dell'integratore (pin 12) e $f_{out}$ corrispondente}
+
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{misc/oscilloscope_placeholder.png}
+        \caption{$V_{in}=1V$}
+        \label{acq_vfc110_1v}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{misc/oscilloscope_placeholder.png}
+        \caption{$V_{in}=5V$}
+        \label{acq_vfc110_5v}
+    \end{subfigure}
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{misc/oscilloscope_placeholder.png}
+        \caption{$V_{in}=10V$}
+        \label{acq_vfc110_10v}
+    \end{subfigure}
+
+    \caption{Acquisizioni dell'uscita dell'integratore (pin 12) e $f_{out}$ corrispondente
+        per diversi valori di $V_{in}$}
     \label{acq_vfc110}
 \end{figure}
 
-% misura di Tos
+Ora si raccolgono i dati per tracciare la transcaratteristica del circuito:
 
-% grafico V_in/duty (misurato e teorico) e tabella valori
-% grafico V_in/f_out (misurato e teorico) e tabella valori
+% tabella valori & transcaratteristica (grafico vin/duty/fout)

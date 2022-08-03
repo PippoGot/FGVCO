@@ -57,7 +57,9 @@ aumentare.
 
 Vale quindi la seguente relazione:
 
-$$f_{signal}=\frac{f_{clk}}{2^n}$$
+\begin{displaymath}
+    f_{signal}=\frac{f_{clk}}{2^n}
+\end{displaymath}
 
 poichè il contatore deve effettuare un conteggio completo in un periodo del segnale in uscita.
 Questo implica un limite massimo al numero di bit del contatore.
@@ -66,7 +68,10 @@ Un valore ottimale per il numero di bit è $8$, valore che ci consente infatti d
 al $MHz$ la frequenza do clock, contare fino a $255$ e dividere l'intervallo di tensione
 d'uscita in altrettanti livelli, ottenendo quindi una variazione di
 
-$$V_{step}=\frac{2V_{ref}}{2^n}=\frac{10V}{256}\approx39mV$$
+\begin{displaymath}
+    V_{step}=\frac{2V_{ref}}{2^n}=\frac{10V}{256}\approx39mV
+\end{displaymath}
+
 
 per ogni singolo bit (scegliendo $V_{ref}=+5V$).
 
@@ -125,7 +130,9 @@ Il DAC eroga una corrente $I_{out}$ proporzionale all'ingresso binario $x$, la q
 convertita in una tensione con un operazionale, in questo modo la tensione d'uscita sarà
 legata al valore digitale in ingresso secondo la seguente relazione:
 
-$$V_{out}=V_{ref}\left(\frac{2x-255}{256}\right)=5\left(\frac{2x-255}{256}\right)[V]$$
+\begin{displaymath}
+    V_{out}=V_{ref}\left(\frac{2x-255}{256}\right)=5\left(\frac{2x-255}{256}\right)[V]
+\end{displaymath}
 
 Il contatore invece viene collegato nel seguente modo:
 \medskip
@@ -148,6 +155,17 @@ un gradino di tensione di circa $40mV$ come calcolato precendentemente.
 %--------------------------------------------------------------------------------------------
 
 \subsection*{Risultati Pratici}
+
+%--------------------------------------------------------------------------------------------
+
+Andiamo ora a verificare la correttezza del circuito realizzato. Il setup di misura è il
+seguente:
+\medskip
+
+% immagine setup misure rampa
+
+Si osservano le seguenti forme d'onda:
+\medskip
 
 \begin{figure}[ht]
     \centering
@@ -266,6 +284,17 @@ una soluzione circuitale meglio descritta nella sezione successiva.
 
 \subsection*{Risultati Pratici}
 
+%--------------------------------------------------------------------------------------------
+
+Andiamo ora a verificare la correttezza del circuito realizzato. Il setup di misura è il
+seguente:
+\medskip
+
+% immagine setup misure rampa
+
+Si osservano le seguenti forme d'onda:
+\medskip
+
 \begin{figure}[ht]
     \centering
 
@@ -289,6 +318,8 @@ una soluzione circuitale meglio descritta nella sezione successiva.
 %--------------------------------------------------------------------------------------------
 
 \section{Adattamento dei Segnali di Clock}
+
+%--------------------------------------------------------------------------------------------
 
 Si è visto come, per avere la stessa frequenza di segnale d'uscita, il contatore per il segnale
 a triangolo deve avere una frequenza di clock doppia rispetto a quella del contatore per il
@@ -346,7 +377,7 @@ proporzionale a quella del segnale di clock in ingresso.
 \begin{figure}[ht]
     \centering
     \includegraphics{block_diagrams/main_signals_block_diagam.png}
-    \caption{Schema a blocchi del capitolo}
+    \caption{Schema a blocchi del nucleo segnali}
     \label{main_signals_block_diagram}
 \end{figure}
 
