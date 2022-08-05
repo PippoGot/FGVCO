@@ -2,8 +2,8 @@
 
 %--------------------------------------------------------------------------------------------
 
-Si vuole ora progettare la sezione per la generazione del segnale di clock, con le specifiche
-ottenute dal capitolo precedente, ovvero:
+Si vuole ora progettare il circuito per la generazione del segnale di clock, con le
+specifiche ottenute dal capitolo precedente, ovvero:
 
 \begin{itemize}
     \item Frequenza minima: $\approx 14kHz$;
@@ -22,13 +22,13 @@ Ciò di cui abbiamo bisogno è un circuito in grado di convertire una tensione i
 a onda rettangolare con frequenza proporzionale alla tensione stessa, ovvero un convertitore
 tensione-frequenza.
 
-In commercio è possibile trovare chip in grado di svolgere questa funzione semplicemente
-aggiungendo una manciata di componenti di contorno, anche se la maggior parte di questi non
-arriva a coprire l'intero range di funzionamento di cui abbiamo bisogno (come ad esempio
-il noto LM331 \cite{lm331}). Nel nostro caso si utilizza un VFC110 \cite{vfc110},
-circuito integrato che vanta un'ottima linearità e in grado di fornire una frequenza in
-uscita di $4MHz$ in corrispondenza di una tensione di ingresso di $10V$, esattamente ciò
-che la nostra applicazione richiede.
+In commercio è possibile trovare diversi chip in grado di svolgere questa funzione
+semplicemente aggiungendo una manciata di componenti di contorno, anche se la maggior
+parte di questi non arriva a coprire l'intero range di funzionamento di cui abbiamo bisogno
+(come ad esempio il noto LM331 \cite{lm331}). Nel nostro caso si utilizza un VFC110
+\cite{vfc110}, circuito integrato che vanta un'ottima linearità e capace di fornire una
+frequenza di $4MHz$ in uscita con una corrispondente tensione in ingresso di $10V$,
+esattamente ciò che la nostra applicazione richiede.
 \medskip
 
 \begin{figure}[ht]
@@ -44,12 +44,14 @@ Una tensione in ingresso $V_{in}$ sviluppa una corrente $I_{in}=\frac{V_{in}}{R_
 che viene forzata in $C_{int}$, causando quindi un andamento a rampa decrescente in uscita.
 Arrivati a $0V$ il comparatore scatta, attivando il timer one-shot. Quindi un generatore
 di corrente $I_{ref}$ (dal valore di circa $1mA$) viene connesso all'ingresso dell'integratore
-per un periodo pari a $T_{OS}$, causando un andamento a rampa crescente in uscita
+per un periodo di durata pari a $T_{OS}$, causando un andamento a rampa crescente in uscita
 all'integratore. Infine il ciclo ricomincia.
+
+% immagine rampa e fout teoriche
 
 Per uno studio più approfondito sul funzionamento del VFC110 si consiglia la lettura del
 datasheet del componente, dal quale si ricava anche la configurazione del circuito utilizzato
-per sfruttare l'intero range offerto, modificando però i valori di alimentazione con
+per sfruttare l'intero range offerto. Si modificano però i valori di alimentazione con
 quelli dello standard scelto ($\pm 12V$).
 \medskip
 
@@ -92,35 +94,38 @@ misura utilizzato viene riportato in figura:
 
 % grafica setup di misura
 
-Possiamo innanzitutto notare che il comportamento dell'integratore è esattamente quello
-descritto al paragrafo precedente:
+Possiamo innanzitutto controllare il comportamento dell'integratore descritto al
+paragrafo precedente:
 
 \begin{figure}[ht]
     \centering
 
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics{misc/oscilloscope_placeholder.png}
+        \includegraphics[scale = 0.2]{acquisitions/VFC_1V.png}
         \caption{$V_{in}=1V$}
         \label{acq_vfc110_1v}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics{misc/oscilloscope_placeholder.png}
+        \includegraphics[scale = 0.2]{acquisitions/VFC_5V.png}
         \caption{$V_{in}=5V$}
         \label{acq_vfc110_5v}
     \end{subfigure}
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics{misc/oscilloscope_placeholder.png}
+        \includegraphics[scale = 0.2]{acquisitions/VFC_10V.png}
         \caption{$V_{in}=10V$}
         \label{acq_vfc110_10v}
     \end{subfigure}
 
-    \caption{Acquisizioni dell'uscita dell'integratore (pin 12) e $f_{out}$ corrispondente
-        per diversi valori di $V_{in}$}
+    \caption{Acquisizioni dell'uscita dell'integratore (pin 12, ch.2) e $f_{out}$
+        corrispondente (ch.1) per diversi valori di $V_{in}$}
     \label{acq_vfc110}
 \end{figure}
+
+Si nota che la durata del periodo basso di $f_{out}$ si setende lungo il tratto di rampa
+crescente, come in figura.
 
 Ora si raccolgono i dati per tracciare la transcaratteristica del circuito:
 

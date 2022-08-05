@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.22)  3 AUG 2022 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.22)  5 AUG 2022 19:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -828,205 +828,181 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [3
 
-{C:/Users/gotta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/gotta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [4]
 \openout2 = `chapters/ch00-introduzione.aux'.
 
  (chapters/ch00-introduzione.tex
-
-LaTeX Warning: Citation 'eurorack' on page 4 undefined on input line 6.
-
-<images//graphs/functioning_range.png, id=58, 313.8927pt x 66.2475pt>
+<images//graphs/functioning_range.png, id=61, 313.8927pt x 66.2475pt>
 File: images//graphs/functioning_range.png Graphic file (type png)
 <use images//graphs/functioning_range.png>
 Package pdftex.def Info: images//graphs/functioning_range.png  used on input line 21.
 (pdftex.def)             Requested size: 313.89192pt x 66.24733pt.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 34.
-(C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [4
+) [5
 
 
  <./images//graphs/functioning_range.png>]
-<images//misc/panel_explained.png, id=66, 351.59355pt x 366.52934pt>
+<images//misc/panel_explained.png, id=69, 351.59355pt x 366.52934pt>
 File: images//misc/panel_explained.png Graphic file (type png)
 <use images//misc/panel_explained.png>
-Package pdftex.def Info: images//misc/panel_explained.png  used on input line 76.
+Package pdftex.def Info: images//misc/panel_explained.png  used on input line 72.
 (pdftex.def)             Requested size: 351.59268pt x 366.52844pt.
-) [5] [6 <./images//misc/panel_explained.png>]
+) [6] [7 <./images//misc/panel_explained.png>]
 \openout2 = `chapters/ch01-contatori_dac.aux'.
 
  (chapters/ch01-contatori_dac.tex
 Capitolo 1.
-<images//block_diagrams/counter_block_diagram.png, id=75, 165.37785pt x 45.89145pt>
+<images//block_diagrams/counter_block_diagram.png, id=79, 148.03305pt x 45.89145pt>
 File: images//block_diagrams/counter_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/counter_block_diagram.png>
 Package pdftex.def Info: images//block_diagrams/counter_block_diagram.png  used on input line 12.
-(pdftex.def)             Requested size: 165.37744pt x 45.89133pt.
-<images//graphs/low_res_ramp.png, id=76, 181.6386pt x 67.2111pt>
+(pdftex.def)             Requested size: 148.03267pt x 45.89133pt.
+<images//graphs/low_res_ramp.png, id=80, 181.6386pt x 67.2111pt>
 File: images//graphs/low_res_ramp.png Graphic file (type png)
 <use images//graphs/low_res_ramp.png>
 Package pdftex.def Info: images//graphs/low_res_ramp.png  used on input line 39.
 (pdftex.def)             Requested size: 181.63814pt x 67.21094pt.
-<images//graphs/high_res_ramp.png, id=77, 181.6386pt x 70.70415pt>
+<images//graphs/high_res_ramp.png, id=81, 181.6386pt x 73.11314pt>
 File: images//graphs/high_res_ramp.png Graphic file (type png)
 <use images//graphs/high_res_ramp.png>
 Package pdftex.def Info: images//graphs/high_res_ramp.png  used on input line 45.
-(pdftex.def)             Requested size: 181.63814pt x 70.70396pt.
-[7
+(pdftex.def)             Requested size: 181.63814pt x 73.11296pt.
+[8
 
 
 
 
  <./images//block_diagrams/counter_block_diagram.png> <./images//graphs/low_res_ramp.png> <./images//graphs/high_res_ramp.png>]
-<images//block_diagrams/ramp_block_diagram.png, id=86, 165.0165pt x 45.89145pt>
+<images//block_diagrams/ramp_block_diagram.png, id=89, 150.44205pt x 45.89145pt>
 File: images//block_diagrams/ramp_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/ramp_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/ramp_block_diagram.png  used on input line 83.
-(pdftex.def)             Requested size: 165.01607pt x 45.89133pt.
-
-
-LaTeX Warning: Citation '74hc590' on page 8 undefined on input line 109.
-
-
-LaTeX Warning: Citation 'dac0800' on page 8 undefined on input line 110.
-
-
-LaTeX Warning: Citation 'tl074' on page 8 undefined on input line 116.
-
-<images//circuits/DAC_circuit.png, id=87, 268.6035pt x 115.3911pt>
+Package pdftex.def Info: images//block_diagrams/ramp_block_diagram.png  used on input line 81.
+(pdftex.def)             Requested size: 150.44167pt x 45.89133pt.
+<images//circuits/DAC_circuit.png, id=90, 264.62865pt x 119.36595pt>
 File: images//circuits/DAC_circuit.png Graphic file (type png)
 <use images//circuits/DAC_circuit.png>
-Package pdftex.def Info: images//circuits/DAC_circuit.png  used on input line 124.
-(pdftex.def)             Requested size: 268.60284pt x 115.39081pt.
-[8 <./images//block_diagrams/ramp_block_diagram.png>]
-<images//circuits/ramp_counter_circuit.png, id=93, 132.13365pt x 161.52345pt>
+Package pdftex.def Info: images//circuits/DAC_circuit.png  used on input line 122.
+(pdftex.def)             Requested size: 264.62799pt x 119.36565pt.
+ [9 <./images//block_diagrams/ramp_block_diagram.png>]
+<images//circuits/ramp_counter_circuit.png, id=96, 125.9907pt x 162.1257pt>
 File: images//circuits/ramp_counter_circuit.png Graphic file (type png)
 <use images//circuits/ramp_counter_circuit.png>
-Package pdftex.def Info: images//circuits/ramp_counter_circuit.png  used on input line 142.
-(pdftex.def)             Requested size: 132.13332pt x 161.52304pt.
- [9 <./images//circuits/DAC_circuit.png> <./images//circuits/ramp_counter_circuit.png>]
-<images//misc/oscilloscope_placeholder.png, id=100, 171.5208pt x 137.43346pt>
+Package pdftex.def Info: images//circuits/ramp_counter_circuit.png  used on input line 140.
+(pdftex.def)             Requested size: 125.99039pt x 162.1253pt.
+<images//acquisitions/ramp_wave.png, id=97, 1027.84pt x 770.88pt>
+File: images//acquisitions/ramp_wave.png Graphic file (type png)
+<use images//acquisitions/ramp_wave.png>
+Package pdftex.def Info: images//acquisitions/ramp_wave.png  used on input line 173.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+<images//misc/oscilloscope_placeholder.png, id=98, 171.5208pt x 137.43346pt>
 File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
 <use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 175.
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 179.
 (pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 181.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-<images//block_diagrams/triangle_block_diagram.png, id=101, 165.0165pt x 62.99535pt>
+ [10 <./images//circuits/DAC_circuit.png> <./images//circuits/ramp_counter_circuit.png>]
+<images//block_diagrams/triangle_block_diagram.png, id=105, 151.0443pt x 62.75446pt>
 File: images//block_diagrams/triangle_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/triangle_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/triangle_block_diagram.png  used on input line 207.
-(pdftex.def)             Requested size: 165.01607pt x 62.99518pt.
-<images//graphs/low_res_triangle.png, id=102, 181.6386pt x 67.2111pt>
+Package pdftex.def Info: images//block_diagrams/triangle_block_diagram.png  used on input line 205.
+(pdftex.def)             Requested size: 151.04391pt x 62.75429pt.
+<images//graphs/low_res_triangle.png, id=106, 181.6386pt x 69.6201pt>
 File: images//graphs/low_res_triangle.png Graphic file (type png)
 <use images//graphs/low_res_triangle.png>
-Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 217.
-(pdftex.def)             Requested size: 181.63814pt x 67.21094pt.
-<images//graphs/high_res_triangle.png, id=103, 181.6386pt x 70.70415pt>
+Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 215.
+(pdftex.def)             Requested size: 181.63814pt x 69.61992pt.
+<images//graphs/high_res_triangle.png, id=107, 181.6386pt x 73.11314pt>
 File: images//graphs/high_res_triangle.png Graphic file (type png)
 <use images//graphs/high_res_triangle.png>
-Package pdftex.def Info: images//graphs/high_res_triangle.png  used on input line 223.
-(pdftex.def)             Requested size: 181.63814pt x 70.70396pt.
- [10 <./images//misc/oscilloscope_placeholder.png> <./images//block_diagrams/triangle_block_diagram.png> <./images//graphs/low_res_triangle.png> <./images//graphs/high_res_triangle.png>]
+Package pdftex.def Info: images//graphs/high_res_triangle.png  used on input line 221.
+(pdftex.def)             Requested size: 181.63814pt x 73.11296pt.
 File: images//graphs/low_res_ramp.png Graphic file (type png)
 <use images//graphs/low_res_ramp.png>
-Package pdftex.def Info: images//graphs/low_res_ramp.png  used on input line 248.
+Package pdftex.def Info: images//graphs/low_res_ramp.png  used on input line 244.
 (pdftex.def)             Requested size: 181.63814pt x 67.21094pt.
 File: images//graphs/low_res_triangle.png Graphic file (type png)
 <use images//graphs/low_res_triangle.png>
-Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 253.
-(pdftex.def)             Requested size: 181.63814pt x 67.21094pt.
-
-
-LaTeX Warning: Citation '74ls169' on page 11 undefined on input line 266.
-
-<images//circuits/triangle_counter_circuit.png, id=111, 279.08266pt x 138.9993pt>
+Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 249.
+(pdftex.def)             Requested size: 181.63814pt x 69.61992pt.
+ [11 <./images//acquisitions/ramp_wave.png (PNG copy)> <./images//misc/oscilloscope_placeholder.png> <./images//block_diagrams/triangle_block_diagram.png> <./images//graphs/low_res_triangle.png> <./images//graphs/high_res_triangle.png>]
+<images//circuits/triangle_counter_circuit.png, id=115, 273.54195pt x 138.9993pt>
 File: images//circuits/triangle_counter_circuit.png Graphic file (type png)
 <use images//circuits/triangle_counter_circuit.png>
-Package pdftex.def Info: images//circuits/triangle_counter_circuit.png  used on input line 272.
-(pdftex.def)             Requested size: 279.08195pt x 138.99895pt.
+Package pdftex.def Info: images//circuits/triangle_counter_circuit.png  used on input line 268.
+(pdftex.def)             Requested size: 273.54128pt x 138.99895pt.
 File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
 <use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 303.
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 298.
 (pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
 File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
 <use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 309.
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 304.
 (pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-[11 <./images//circuits/triangle_counter_circuit.png>]
-<images//block_diagrams/freq_divider_block_diagram.png, id=116, 111.17535pt x 51.0708pt>
+<images//block_diagrams/freq_divider_block_diagram.png, id=116, 107.2005pt x 29.26935pt>
 File: images//block_diagrams/freq_divider_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/freq_divider_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/freq_divider_block_diagram.png  used on input line 332.
-(pdftex.def)             Requested size: 111.17508pt x 51.07066pt.
-<images//block_diagrams/UD_block_diagram.png, id=117, 141.8901pt x 32.16016pt>
+Package pdftex.def Info: images//block_diagrams/freq_divider_block_diagram.png  used on input line 327.
+(pdftex.def)             Requested size: 107.20023pt x 29.26927pt.
+ [12 <./images//circuits/triangle_counter_circuit.png>]
+<images//block_diagrams/UD_block_diagram.png, id=121, 138.7584pt x 32.16016pt>
 File: images//block_diagrams/UD_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/UD_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/UD_block_diagram.png  used on input line 347.
-(pdftex.def)             Requested size: 141.88974pt x 32.16006pt.
-
-
-LaTeX Warning: Citation '74hc73' on page 12 undefined on input line 355.
-
-
-LaTeX Warning: Citation '2n7000' on page 12 undefined on input line 356.
-
-[12 <./images//block_diagrams/freq_divider_block_diagram.png> <./images//block_diagrams/UD_block_diagram.png>]
-<images//circuits/inverter_circuit.png, id=123, 105.0324pt x 108.04366pt>
+Package pdftex.def Info: images//block_diagrams/UD_block_diagram.png  used on input line 342.
+(pdftex.def)             Requested size: 138.75806pt x 32.16006pt.
+<images//circuits/inverter_circuit.png, id=122, 102.02115pt x 108.04366pt>
 File: images//circuits/inverter_circuit.png Graphic file (type png)
 <use images//circuits/inverter_circuit.png>
-Package pdftex.def Info: images//circuits/inverter_circuit.png  used on input line 367.
-(pdftex.def)             Requested size: 105.03214pt x 108.04338pt.
-<images//block_diagrams/main_signals_block_diagam.png, id=124, 249.0906pt x 142.6128pt>
+Package pdftex.def Info: images//circuits/inverter_circuit.png  used on input line 362.
+(pdftex.def)             Requested size: 102.02087pt x 108.04338pt.
+<images//block_diagrams/main_signals_block_diagam.png, id=123, 247.1634pt x 131.7723pt>
 File: images//block_diagrams/main_signals_block_diagam.png Graphic file (type png)
 <use images//block_diagrams/main_signals_block_diagam.png>
-Package pdftex.def Info: images//block_diagrams/main_signals_block_diagam.png  used on input line 379.
-(pdftex.def)             Requested size: 249.08998pt x 142.61243pt.
-) [13 <./images//circuits/inverter_circuit.png> <./images//block_diagrams/main_signals_block_diagam.png>]
+Package pdftex.def Info: images//block_diagrams/main_signals_block_diagam.png  used on input line 374.
+(pdftex.def)             Requested size: 247.16278pt x 131.77196pt.
+) [13 <./images//block_diagrams/freq_divider_block_diagram.png> <./images//block_diagrams/UD_block_diagram.png>] [14 <./images//circuits/inverter_circuit.png> <./images//block_diagrams/main_signals_block_diagam.png>]
 \openout2 = `chapters/ch02-vfc.aux'.
 
  (chapters/ch02-vfc.tex
 Capitolo 2.
-
-LaTeX Warning: Citation 'lm331' on page 14 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'vfc110' on page 14 undefined on input line 28.
-
-<images//circuits/vfc110_internal.png, id=131, 287.99596pt x 175.1343pt>
+<images//circuits/vfc110_internal.png, id=135, 299.80005pt x 174.05025pt>
 File: images//circuits/vfc110_internal.png Graphic file (type png)
 <use images//circuits/vfc110_internal.png>
 Package pdftex.def Info: images//circuits/vfc110_internal.png  used on input line 36.
-(pdftex.def)             Requested size: 287.99524pt x 175.13387pt.
-[14
+(pdftex.def)             Requested size: 299.7993pt x 174.0498pt.
+[15
 
 
 
 
-]
-<images//circuits/VFC_circuit.png, id=136, 161.04166pt x 147.9126pt>
+ <./images//circuits/vfc110_internal.png>]
+<images//circuits/VFC_circuit.png, id=140, 148.99664pt x 147.9126pt>
 File: images//circuits/VFC_circuit.png Graphic file (type png)
 <use images//circuits/VFC_circuit.png>
-Package pdftex.def Info: images//circuits/VFC_circuit.png  used on input line 58.
-(pdftex.def)             Requested size: 161.04124pt x 147.91223pt.
- [15 <./images//circuits/vfc110_internal.png> <./images//circuits/VFC_circuit.png>]
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 103.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
+Package pdftex.def Info: images//circuits/VFC_circuit.png  used on input line 60.
+(pdftex.def)             Requested size: 148.99626pt x 147.91223pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16 <./images//circuits/VFC_circuit.png>]
+<images//acquisitions/VFC_1V.png, id=146, 1027.84pt x 770.88pt>
+File: images//acquisitions/VFC_1V.png Graphic file (type png)
+<use images//acquisitions/VFC_1V.png>
+Package pdftex.def Info: images//acquisitions/VFC_1V.png  used on input line 105.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 104.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 109.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 115.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-) [16]
+(Font)              <10.95> on input line 106.
+<images//acquisitions/VFC_5V.png, id=147, 1027.84pt x 770.88pt>
+File: images//acquisitions/VFC_5V.png Graphic file (type png)
+<use images//acquisitions/VFC_5V.png>
+Package pdftex.def Info: images//acquisitions/VFC_5V.png  used on input line 111.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+<images//acquisitions/VFC_10V.png, id=148, 1027.84pt x 770.88pt>
+File: images//acquisitions/VFC_10V.png Graphic file (type png)
+<use images//acquisitions/VFC_10V.png>
+Package pdftex.def Info: images//acquisitions/VFC_10V.png  used on input line 117.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+) [17 <./images//acquisitions/VFC_1V.png (PNG copy)> <./images//acquisitions/VFC_5V.png (PNG copy)> <./images//acquisitions/VFC_10V.png (PNG copy)>]
 \openout2 = `chapters/ch03-lin_exp.aux'.
 
  (chapters/ch03-lin_exp.tex
@@ -1036,33 +1012,33 @@ Overfull \hbox (0.20334pt too wide) in paragraph at lines 9--12
 \OT1/ptm/m/n/12 Vogliamo ora ana-liz-za-re la se-zio-ne di cir-cu-to che sod-di-sfa la spe-ci-fi-ca sul-la mo-da-lit[]a $\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 V=Octave$
  []
 
-<images//circuits/single_transistor_circuit.png, id=147, 50.22765pt x 52.0344pt>
+<images//circuits/single_transistor_circuit.png, id=154, 49.50494pt x 52.0344pt>
 File: images//circuits/single_transistor_circuit.png Graphic file (type png)
 <use images//circuits/single_transistor_circuit.png>
-Package pdftex.def Info: images//circuits/single_transistor_circuit.png  used on input line 29.
-(pdftex.def)             Requested size: 50.22751pt x 52.03426pt.
-<images//circuits/differential_pair_circuit.png, id=148, 88.6512pt x 52.0344pt>
+Package pdftex.def Info: images//circuits/single_transistor_circuit.png  used on input line 33.
+(pdftex.def)             Requested size: 49.5048pt x 52.03426pt.
+<images//circuits/differential_pair_circuit.png, id=155, 86.4831pt x 52.0344pt>
 File: images//circuits/differential_pair_circuit.png Graphic file (type png)
 <use images//circuits/differential_pair_circuit.png>
-Package pdftex.def Info: images//circuits/differential_pair_circuit.png  used on input line 45.
-(pdftex.def)             Requested size: 88.65097pt x 52.03426pt.
-[17
+Package pdftex.def Info: images//circuits/differential_pair_circuit.png  used on input line 49.
+(pdftex.def)             Requested size: 86.48286pt x 52.03426pt.
+[18
 
 
 
 
  <./images//circuits/single_transistor_circuit.png> <./images//circuits/differential_pair_circuit.png>]
-<images//circuits/exponential_converter_circuit.png, id=157, 264.38776pt x 187.6611pt>
+<images//circuits/exponential_converter_circuit.png, id=162, 258.84705pt x 185.2521pt>
 File: images//circuits/exponential_converter_circuit.png Graphic file (type png)
 <use images//circuits/exponential_converter_circuit.png>
-Package pdftex.def Info: images//circuits/exponential_converter_circuit.png  used on input line 66.
-(pdftex.def)             Requested size: 264.3871pt x 187.66064pt.
- [18 <./images//circuits/exponential_converter_circuit.png>] [19]) [20]
+Package pdftex.def Info: images//circuits/exponential_converter_circuit.png  used on input line 71.
+(pdftex.def)             Requested size: 258.8464pt x 185.25165pt.
+ [19 <./images//circuits/exponential_converter_circuit.png>] [20]) [21]
 \openout2 = `chapters/ch04-selezione_modalità.aux'.
 
  (chapters/ch04-selezione_modalità.tex
 Capitolo 4.
-) [21
+) [22
 
 
 
@@ -1072,20 +1048,20 @@ Capitolo 4.
 
  (chapters/ch05-segnali_secondari.tex
 Capitolo 5.
-[22
+[23
 
 
 
 
-] [23])
+] [24])
 Underfull \vbox (badness 1616) has occurred while \output is active []
 
- [24] [25]
+ [25] [26]
 \openout2 = `chapters/ch06-stadi_uscita.aux'.
 
  (chapters/ch06-stadi_uscita.tex
 Capitolo 6.
-) [26
+) [27
 
 
 
@@ -1095,7 +1071,7 @@ Capitolo 6.
 
  (chapters/ch07-efuse.tex
 Capitolo 7.
-) [27
+) [28
 
 
 
@@ -1105,7 +1081,7 @@ Capitolo 7.
 
  (chapters/ch08-suddivisione_schede.tex
 Capitolo 8.
-) [28
+) [29
 
 
 
@@ -1113,40 +1089,46 @@ Capitolo 8.
 ]
 \openout2 = `chapters/ch09-conclusioni.aux'.
 
- (chapters/ch09-conclusioni.tex) [29
+ (chapters/ch09-conclusioni.tex) [30
 
 
 
 
 ]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 114.
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (19.17757pt too wide) in paragraph at lines 115--115
+[]\OT1/ptm/m/it/12 Precision voltage-to-frequency con-ver-ter with 1-Hz to 100-kHz full sca-le fre-quen-cy\OT1/ptm/m/n/12 . LMx31x.
+ []
 
-LaTeX Warning: Empty bibliography on input line 113.
 
-(main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-contatori_dac.aux) (chapters/ch02-vfc.aux) (chapters/ch03-lin_exp.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-stadi_uscita.aux) (chapters/ch07-efuse.aux) (chapters/ch08-suddivisione_schede.aux) (chapters/ch09-conclusioni.aux))
+Overfull \hbox (4.20448pt too wide) in paragraph at lines 115--115
+\OT1/ptm/m/n/12 SN74S169. Te-xas In-stru-men-ts. 1Mar 1988. \OT1/ptm/m/sc/12 url\OT1/ptm/m/n/12 : $\OT1/pcr/m/n/12 https : / / www . ti . com / product /
+ []
 
-LaTeX Warning: There were undefined references.
+[31
 
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
 
+] (main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-contatori_dac.aux) (chapters/ch02-vfc.aux) (chapters/ch03-lin_exp.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-stadi_uscita.aux) (chapters/ch07-efuse.aux) (chapters/ch08-suddivisione_schede.aux) (chapters/ch09-conclusioni.aux))
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35470 strings out of 478552
- 867184 string characters out of 2841938
- 1723487 words of memory out of 3000000
- 53075 multiletter control sequences out of 15000+600000
- 482287 words of font info for 53 fonts, out of 8000000 for 9000
+ 35606 strings out of 478552
+ 870705 string characters out of 2841938
+ 1724803 words of memory out of 3000000
+ 53197 multiletter control sequences out of 15000+600000
+ 486210 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,17n,84p,1256b,1310s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (29 pages, 1526882 bytes).
+{C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (31 pages, 1675447 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
+ 277 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 

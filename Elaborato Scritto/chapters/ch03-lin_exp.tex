@@ -10,6 +10,10 @@ Vogliamo ora analizzare la sezione di circuto che soddisfa la specifica sulla mo
 $1V/Octave$ dell'ingresso, ovvero il circuito in grado di convertire una tensione
 lineare in una esponenziale.
 
+Il circuito utilizzato è molto diffuso in questo tipo di applicazioni, si può infatti
+trovare in molti siti di DIY come quello di René Schmitz \cite{expo_converter}, personaggio
+molto noto tra gli appassionati di sintetizzatori musicali fai-da-te.
+
 %--------------------------------------------------------------------------------------------
 
 \subsection*{Analisi del Circuito}
@@ -20,8 +24,8 @@ Per l'applicazione si sfrutta la caratteristica esponenziale intrinseca del tran
 bipolare:
 
 \begin{displaymath}
-    i_e\approx i_c=I_se^{\left(\frac{v_{be}}{V_T}-1\right)}
-    \approx I_se^{\left(\frac{v_{be}}{V_T}\right)}
+    I_e\approx I_c=I_se^{\left(\frac{V_{be}}{V_T}-1\right)}
+    \approx I_se^{\left(\frac{V_{be}}{V_T}\right)}
 \end{displaymath}
 
 \begin{figure}[ht]
@@ -32,12 +36,12 @@ bipolare:
 \end{figure}
 
 dove $V_T$ (o potenziale termico) e $I_s$ (o corrente di saturazione) sono variabili in
-funzione della temperatura, ad ogni modo nella nostra analisi considereremo $V_T$ costante
-a $26mV$.
+funzione della temperatura, anche se nella nostra analisi $V_T$ verrà considerato di
+valore costante pari a $26mV$.
 
-Per rimuovere dall'equazione $I_s$ invece, si collegano 2 transistor (idealmente nello
-stesso chip, in modo che siano il più possibile simili tra loro e termicamente accoppiati)
-in configurazione a coppia differenziale:
+Per rimuovere dall'equazione $I_s$, che invece risulta molto più problematico, si collega
+una coppia di transistor (idealmente nello stesso chip, in modo che siano il più possibile
+simili tra loro e termicamente accoppiati) in configurazione differenziale:
 \medskip
 
 \begin{figure}[ht]
@@ -47,48 +51,48 @@ in configurazione a coppia differenziale:
     \label{differential_pair_circuit}
 \end{figure}
 
-per la quale vale la seguente relazione:
+per la quale possiamo scrivere la seguente relazione:
 
 \begin{displaymath}
-    \frac{i_{c2}}{i_{c1}}=\frac{I_s e^{\left(\frac{v_{be2}}{V_T}\right)}}{I_s e^{\left(\frac{v_{be1}}{V_T}\right)}}
+    \frac{I_{c2}}{I_{c1}}=\frac{I_s e^{\left(\frac{V_{be2}}{V_T}\right)}}{I_s e^{\left(\frac{V_{be1}}{V_T}\right)}}
     \qquad
     \rightarrow
     \qquad
-    i_{c2}=i_{c1}e^{\left(\frac{v_{be2}-v_{be1}}{V_T}\right)}=i_{c1}e^{\left(\frac{v_{b2}-v_{b1}}{V_T}\right)}
+    I_{c2}=I_{c1}e^{\left(\frac{V_{be2}-V_{be1}}{V_T}\right)}=I_{c1}e^{\left(\frac{V_{b2}-V_{b1}}{V_T}\right)}
 \end{displaymath}
 
-dove risulta evidente che la dipendenza da $I_s$ viene completamente rimossa.
+in cui risulta evidente che la dipendenza da $I_s$ viene completamente rimossa.
 
-A questo punto, apportiamo alcune modifiche al circuito:
+A questo punto, apportiamo alcune modifiche al circuito, ottenendo dunque il seguente:
+\medskip
 
 \begin{figure}[ht]
     \centering
     \includegraphics{circuits/exponential_converter_circuit.png}
-    \caption{Convertitore tensione lineare - corrente esponenziale}
+    \caption{Schema elettrico di un convertitore tensione lineare - corrente esponenziale}
     \label{exponential_converter_circuit}
 \end{figure}
 
-dove l'operazionale di sinistra si occupa di invertire il segno della tensione di ingresso
-per avere un valore positivo all'esponente, mentre quello di destra si occupa di mantenere
-costante la corrente di riferimento $I_{ref}$.
-
-Valgono quindi:
+che ci permette di legare ingresso e uscita tramite le relazioni
 
 \begin{displaymath}
-    i_{freq}=I_{ref}e^{-\frac{v_{b1}}{V_T}}
+    i_{freq}=I_{ref}e^{\left(-\frac{v_{b1}}{V_T}\right)}
 \end{displaymath}
 
 \begin{displaymath}
     I_{ref}=\frac{V_{HR}-V_{LR}}{R_{ref}}
 \end{displaymath}
 
-Ora per completare il tutto basta aggiungere un convertitore corrente-tensione al collettore
-di $Q_2$, legando cosi $V_{in}$ a $V_{out}$ con la seguente relazione:
+L'operazionale di sinistra (rappresentato in figura \ref{exponential_converter_circuit})
+si occupa di invertire il segno della tensione di ingresso e portarla in un rage appropriato
+per la base del transistor, questo consente di avere un valore positivo all'esponente. Quello
+di destra invece, si occupa di mantenere costante la corrente di riferimento $I_{ref}$.
+
+Si aggiunge ora un semplice convertitore corrente-tensione al collettore di $Q_2$, quindi:
 
 \begin{displaymath}
     V_{out}=R_f\cdot i_{freq}=
-    R_f\cdot I_{ref}e^{-\frac{v_{b1}}{V_T}}=
-    R_f\cdot \frac{V_{HR}-V_{LR}}{R_{ref}}e^{-\frac{s\cdot V_{in}}{V_T}}
+    R_f\cdot \frac{V_{HR}-V_{LR}}{R_{ref}}e^{\left(-\frac{s\cdot V_{in}}{V_T}\right)}
 \end{displaymath}
 
 % circuito completo con IVC figura 4

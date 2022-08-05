@@ -9,8 +9,8 @@ controllato in tensione (Voltage Controlled Oscillator, o VCO in breve). In ques
 applicando dei segnali variabili nel tempo in ingresso al modulo, si è in grado di variare
 dinamicamente la frequenza dei segnali in uscita.
 
-Il range scelto per tale variazione comprende la fascia di frequenze utili nello spettro
-audio, quindi da poche decine di $Hz$ a circa $7kHz$. Si desidera inoltre, la possibilità di
+Il range scelto per tale variazione comprende la fascia di frequenze dello spettro audio,
+quindi da poche decine di $Hz$ a circa $7kHz$. Si desidera inoltre, la possibilità di
 convertire a piacere il funzionamento del modulo in oscillatore a bassa frequenza (Low Frequency
 Oscillator, o LFO), spostando quindi il range di frequenze disponibili da frazioni di
 $Hz$ a qualche decina di $Hz$.
@@ -19,14 +19,14 @@ $Hz$ a qualche decina di $Hz$.
 \begin{figure}[ht]
     \centering
     \includegraphics{graphs/functioning_range.png}
-    \caption{Range di funzionamento in scala logaritmica}
+    \caption{Range di funzionamento approssimato, in scala logaritmica}
     \label{functioning_range}
 \end{figure}
 
 In modalità VCO quindi, il modulo produrrà dei segnali che attraverso un adeguato sistema
 potranno essere ascoltati, mentre in modalità LFO il circuito produrrà dei segnali lentamente
-variabili nel tempo, utili per la modulazione e il controllo di parametri in altri moduli
-eventualmente presenti nel sistema.
+variabili nel tempo, utili per la modulazione e il controllo di diversi parametri in altri
+moduli eventualmente presenti nel sistema.
 
 Le forme d'onda desiderate sono quelle base, ovvero:
 
@@ -41,8 +41,8 @@ Le forme d'onda desiderate sono quelle base, ovvero:
 \end{itemize}
 
 inoltre, come verrà illustrato più avanti, risulta piuttosto semplice anche estrarre un
-segnale a impulso, rigorosamente alla stessa frequenza di quelli già generati. Tale segnale
-può essere utilizzato per scopi simili a quelli dei segnali in uscita in modalità LFO.
+segnale a impulso, anch'esso alla stessa frequenza di quelli già generati, per il controllo
+di altri moduli o parametri.
 \smallskip
 
 Per quanto riguarda le specifiche sui livelli di tensione, si vogliono imporre i seguenti
@@ -58,15 +58,11 @@ intervalli di valori:
 
 Le specifiche sopra riportate sono prese dallo standard Eurorack.
 
-Altre caratteristiche volute sono:
+Si desidera inoltre aggiungere delle manopole per il controllo del "volume" dei segnali
+in ingresso e uscita, (ad eccezione dell'impulso) e delle manopole per il controllo
+manuale della frequenza.
 
-\begin{itemize}
-    \item Manopole per il controllo del "volume" di segnali in ingresso e uscita, ad eccezione
-          dell'impulso;
-    \item Manopole per il controllo manuale della frequenza;
-\end{itemize}
-
-Raccogliendo tutti questi dettagli possiamo iniziare a pensare ad una interfaccia utente,
+Mettendo assieme tutti questi dettagli possiamo abbozzare una interfaccia utente,
 riportata in figura \ref{panel_explained}, in modo da rendere più chiaro al lettore il
 prodotto finale.
 \medskip
@@ -80,9 +76,8 @@ prodotto finale.
 
 Si decide di realizzare l'intero circuito senza l'utilizzo di microcontrollori o sistemi
 programmabili. Tale scelta viene presa per mettere alla prova più competenze possibili tra
-quelle acquisite durante gli anni di studio. Si potrebbe infatti realizzare il tutto con un
-microcontrollore dotato di forme d'onda densamente campionate salvate in memoria.
-Altro motivo per il quale si sceglie questa strada è per avere ogni segnale su un canale
-a sè in modo da poter usufruire di ognuno contemporaneamente.
+quelle acquisite durante gli anni di studio. Una soluzione possibile sarebbe infatti
+impiegare un microcontrollore con dei campioni digitali molto fitti delle forme d'onda
+desiderate.
 
 %--------------------------------------------------------------------------------------------

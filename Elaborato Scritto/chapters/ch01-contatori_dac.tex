@@ -2,7 +2,7 @@
 
 %--------------------------------------------------------------------------------------------
 
-Per la realizzazione del segnale a rampa e a triangolo si decide di procedere in ogni caso
+Per la generazione dei segnali a rampa e a triangolo si decide di procedere in ogni caso
 per via digitale, utilizzando dei contatori binari abbinati ad un convertitore
 digitale-analogico.
 \medskip
@@ -10,7 +10,7 @@ digitale-analogico.
 \begin{figure}[ht]
     \centering
     \includegraphics{block_diagrams/counter_block_diagram.png}
-    \caption{Schema a blocchigenerale di un generatore di segnale}
+    \caption{Schema a blocchi generale di un generatore di segnale}
     \label{counter_block_diagram}
 \end{figure}
 
@@ -24,11 +24,11 @@ digitale-analogico.
 
 %--------------------------------------------------------------------------------------------
 
-Per la generazione del segnale a rampa, si fa uso di un contatore unidirezionale, ovvero in
-grado di contare automaticamente da $0$ a $2^n$, dove $n$ corrisponde al numero di bit,
-semplicemente fornendo un segnale di clock adeguatamente dimensionato. Maggiore il numero di
-bit $n$, maggiore sarà la precisione del nostro segnale e quindi minore l'intensità del rumore
-generato.
+Per il segnale a rampa si fa uso di un contatore unidirezionale, ovvero un dispositivo
+in grado di contare automaticamente da $0$ a $2^n$, dove $n$ corrisponde al numero di bit,
+semplicemente fornendo un segnale di clock adeguatamente dimensionato. Maggiore il numero
+di bit $n$, maggiore sarà la precisione del nostro segnale, quindi minore l'intensità del
+rumore generato.
 \medskip
 
 \begin{figure}[ht]
@@ -37,13 +37,13 @@ generato.
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{graphs/low_res_ramp.png}
-        \caption{Rampa ottenuta utilizzando 2 bit}
+        \caption{Rampa ottenuta con un contatore a 2 bit}
         \label{low_res_ramp}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{graphs/high_res_ramp.png}
-        \caption{Rampa ottenuta utilizzando 8 bit}
+        \caption{Rampa ottenuta con un contatore a 8 bit}
         \label{high_res_ramp}
     \end{subfigure}
 
@@ -51,21 +51,21 @@ generato.
     \label{ramps}
 \end{figure}
 
-Tuttavia aumentando il numero di bit del contatore, è facile intuire che, a parità di
+Tuttavia aumentando il numero di bit del contatore è facile intuire che, a parità di
 frequenza del segnale in uscita, la frequenza del segnale di clock debba necessariamente
 aumentare.
 
-Vale quindi la seguente relazione:
+Vale infatti la seguente relazione:
 
 \begin{displaymath}
-    f_{signal}=\frac{f_{clk}}{2^n}
+    f_{signal}=\frac{f_{clk}}{2^n}[Hz]
 \end{displaymath}
 
-poichè il contatore deve effettuare un conteggio completo in un periodo del segnale in uscita.
-Questo implica un limite massimo al numero di bit del contatore.
+poichè il contatore deve effettuare un conteggio completo durante un periodo del segnale
+in uscita. Questo implica dunque un limite massimo al numero di bit del contatore.
 
-Un valore ottimale per il numero di bit è $8$, valore che ci consente infatti di limitare
-al $MHz$ la frequenza do clock, contare fino a $255$ e dividere l'intervallo di tensione
+La quantità di bit utilizzati per l'applicazione è $8$, valore che ci consente di limitare
+al $MHz$ la frequenza di clock, contare fino a $255$ e dividere l'intervallo di tensione
 d'uscita in altrettanti livelli, ottenendo quindi una variazione di
 
 \begin{displaymath}
@@ -74,8 +74,6 @@ d'uscita in altrettanti livelli, ottenendo quindi una variazione di
 
 
 per ogni singolo bit (scegliendo $V_{ref}=+5V$).
-
-Lo schema a blocchi diventa quindi il seguente:
 \medskip
 
 \begin{figure}[ht]
@@ -85,8 +83,8 @@ Lo schema a blocchi diventa quindi il seguente:
     \label{ramp_block_diagram}
 \end{figure}
 
-A questo punto possiamo calcolare le frequenze del segnale di clock da generare,
-andando a vedere quali sono le frequenze desiderate:
+A questo punto possiamo calcolare le speccifiche del segnale di clock da generare,
+andando a vedere quali sono le frequenze desiderate per i segnali audio:
 
 \begin{itemize}
     \item Valore minimo (nota A0): $f_{signal-min}=27.5Hz\rightarrow f_{clk-min}\approx7kHz$
@@ -95,7 +93,7 @@ andando a vedere quali sono le frequenze desiderate:
           a cui corrisponderà un ingresso di $8V$;
 \end{itemize}
 
-estendendo quindi il range di funzionamento lungo 8 ottave.
+ovvero un range di funzionamento esteso lungo 8 ottave.
 
 %--------------------------------------------------------------------------------------------
 
@@ -112,10 +110,10 @@ Si passa ora alla scelta dei componenti per la realizzazione del blocco circuita
 
 Per il circuito DAC si utilizza lo schema a pg.10 del relativo datasheet del componente.
 Tale configurazione ci permette infatti di convertire il dato binario in un valore compreso
-nell'intervallo $\pm V_{ref}= \pm 5V$ e $-V_{ref}= -5V$, tuttavia si utilizzano un amplificatore
+nell'intervallo $\pm V_{ref}= \pm 5V$, tuttavia si utilizzano un amplificatore
 operazionale e dei resistori di valore differente (rispettivamente TL074 \cite{tl074} e
-$R_L=\bar{R_L}=R_{ref}=3.3k\Omega$). Si noti che anche $V_{ref}$ viene scelta diversa rispetto
-allo schema nel datasheet ($+5V$), in modo da garantire le specifiche di progetto sul segnale
+$R_L=\bar{R_L}=3.3k\Omega$). Si noti che anche $V_{ref}$ viene scelta diversa rispetto allo
+schema nel datasheet ($+5V$), in modo da garantire le specifiche di progetto sul segnale
 in uscita.
 \medskip
 
@@ -126,9 +124,9 @@ in uscita.
     \label{DAC_circuit}
 \end{figure}
 
-Il DAC eroga una corrente $I_{out}$ proporzionale all'ingresso binario $x$, la quale viene poi
-convertita in una tensione con un operazionale, in questo modo la tensione d'uscita sarà
-legata al valore digitale in ingresso secondo la seguente relazione:
+Il DAC eroga una corrente $I_{out}$ proporzionale all'ingresso digitale $x$, che viene poi
+convertita in una tensione con un operazionale. Le due grandezze sono legate dalla seguente
+relazione:
 
 \begin{displaymath}
     V_{out}=V_{ref}\left(\frac{2x-255}{256}\right)=5\left(\frac{2x-255}{256}\right)[V]
@@ -145,12 +143,12 @@ Il contatore invece viene collegato nel seguente modo:
 \end{figure}
 
 Si noti l'uscita "Pulse" in figura \ref{ramp_counter_circuit} dalla quale viene prelevato
-il segnale a impulso precedentemente accennato, di cui si parlerà più in dettaglio nei
-successivi capitoli.
+il segnale a impulso precedentemente accennato, discusso più in dettaglio nel capitolo.
+%\ref{ch_impulso}.
 
-Collegando i due blocchi insieme quindi, l'andamento della tensione $V_{out}$ sarà simile a
-quello rappresentato in figura \ref{high_res_ramp} e ad ogni impulso di clock corrisponderà
-un gradino di tensione di circa $40mV$ come calcolato precendentemente.
+Collegando i due blocchi insieme quindi, l'andamento di $V_{out}$ sarà simile a quello
+rappresentato in figura \ref{high_res_ramp} e ad ogni impulso di clock corrisponderà un
+gradino di tensione di circa $40mV$ come calcolato precendentemente.
 
 %--------------------------------------------------------------------------------------------
 
@@ -172,14 +170,14 @@ Si osservano le seguenti forme d'onda:
 
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics{misc/oscilloscope_placeholder.png}
+        \includegraphics[scale = 0.2]{acquisitions/ramp_wave.png}
         \caption{Acquisizione del segnale a rampa reale}
         \label{acq_ramp}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{misc/oscilloscope_placeholder.png}
-        \caption{Zoom degli step della rampa acquisita + clock}
+        \caption{Zoom degli step della rampa acquisita e clock}
         \label{acq_ramp_steps}
     \end{subfigure}
 
@@ -197,9 +195,9 @@ Si osservano le seguenti forme d'onda:
 
 %--------------------------------------------------------------------------------------------
 
-Il principio di funzionamento è del tutto analogo a quello del contatore per il segnale a
-rampa, tuttavia in questo caso, il contatore utilizzato è bidirezionale e necessita di un
-segnale che determini la direzione di conteggio (up o down).
+Il ragionamento è del tutto analogo a quello del contatore per la rampa, tuttavia in questo
+caso il contatore utilizzato è bidirezionale e necessita di un segnale che determini la
+direzione di conteggio (up o down).
 \medskip
 
 \begin{figure}[ht]
@@ -215,13 +213,13 @@ segnale che determini la direzione di conteggio (up o down).
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{graphs/low_res_triangle.png}
-        \caption{Triangolo ottenuto utilizzando 2 bit}
+        \caption{Triangolo ottenuto con un contatore a 2 bit}
         \label{low_res_triangle}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{graphs/high_res_triangle.png}
-        \caption{Triangolo ottenuto utilizzando 8 bit}
+        \caption{Triangolo ottenuto con un contatore a 8 bit}
         \label{high_res_triangle}
     \end{subfigure}
 
@@ -229,15 +227,13 @@ segnale che determini la direzione di conteggio (up o down).
     \label{triangles}
 \end{figure}
 
-Anche la configurazione del DAC rimane quella rappresentata in figura \ref{DAC_circuit},
-utilizzata per la rampa.
-
-Va tuttavia fatta notare una importante differenza, poichè in questo caso il numero di cicli
-di clock per il conteggio è doppio rispetto a quello del contatore per la rampa. Infatti
+La configurazione del DAC rimane quella utilizzata per la rampa, rappresentata in figura
+\ref{DAC_circuit}, va tuttavia fatta notare una importante differenza, ovvero che in questo
+caso il numero di cicli di clock utilizzati è doppio rispetto a quello per la rampa. Infatti
 dovranno essere eseguiti 256 conteggi verso l'alto e 256 conteggi verso il basso per effettuare
-un singolo periodo di onda triangolare. Ne consegue quindi che la frequenza di clock in ingresso
-a questo sottosistema dovrà essere doppia rispetto a quella della sezione per la rampa, come
-risulta evidente in figura \ref{steps}.
+un singolo periodo di onda triangolare. Ne consegue quindi che anche la frequenza di clock
+in ingresso a questo sottosistema dovrà essere doppia rispetto alla rampa, come risulta
+evidente in figura \ref{steps}.
 \medskip
 
 \begin{figure}[ht]
@@ -246,12 +242,12 @@ risulta evidente in figura \ref{steps}.
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{graphs/low_res_ramp.png}
-        \caption{Rampa ottenuta utilizzando 2 bit}
+        \caption{Rampa ottenuta con un contatore a 2 bit}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{graphs/low_res_triangle.png}
-        \caption{Triangolo ottenuto utilizzando 2 bit}
+        \caption{Triangolo ottenuto con un contatore a 2 bit}
     \end{subfigure}
 
     \caption{Confronto del conteggio tra contatori unidirezionali e bidirezionali}
@@ -262,9 +258,9 @@ risulta evidente in figura \ref{steps}.
 
 \subsection*{Componenti Utilizzati e Schemi Elettrici}
 
-L'unico componente diverso rispetto al circuito per la rampa è il contatore, che come detto
-deve essere bidirezionale. Si utilizzano due 74LS169 \cite{74ls169} in cascata, con la seguente
-configurazione:
+L'unico componente diverso rispetto al circuito per la rampa è il contatore, che come già
+detto deve essere bidirezionale. Si utilizzano due 74LS169 \cite{74ls169} in cascata con
+la seguente configurazione:
 \medskip
 
 \begin{figure}[ht]
@@ -277,8 +273,7 @@ configurazione:
 Il componente utilizzato presenta anche degli ingressi per il preset del numero di partenza
 (pin da 3 a 6), che però nel nostro caso non vengono utilizzati.
 
-L'uscita denominata $RCO2$ verrà utilizzata per pilotare il verso del conteggio, utilizzando
-una soluzione circuitale meglio descritta nella sezione successiva.
+L'uscita denominata $RCO2$ verrà utilizzata per pilotare il verso del conteggio.
 
 %--------------------------------------------------------------------------------------------
 
@@ -307,7 +302,7 @@ Si osservano le seguenti forme d'onda:
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{misc/oscilloscope_placeholder.png}
-        \caption{Zoom degli step del triangolo acquisito + clock}
+        \caption{Zoom degli step del triangolo acquisito e clock}
         \label{acq_triangle_steps}
     \end{subfigure}
 
@@ -321,9 +316,9 @@ Si osservano le seguenti forme d'onda:
 
 %--------------------------------------------------------------------------------------------
 
-Si è visto come, per avere la stessa frequenza di segnale d'uscita, il contatore per il segnale
-a triangolo deve avere una frequenza di clock doppia rispetto a quella del contatore per il
-segnale a rampa. Questo problema si risolve facilmente utilizzando un divisore di frequenza,
+Si è visto come, per avere la stessa frequenza di segnale d'uscita, il contatore del
+triangolo deve avere una frequenza di clock doppia rispetto a quella del contatore della
+rampa. Questo problema si risolve facilmente utilizzando un divisore di frequenza,
 ottenuto con un semplice toggle flip-flop (TFF).
 \medskip
 
@@ -338,8 +333,8 @@ Le specifiche sul segnale di clock ci impongono allora di generare un segnale a 
 con frequenza variabile tra $\approx14kHz$ e $\approx3.6MHz$.
 
 Invece, per fare in modo che il contatore del triangolo cambi effettivamente verso di conteggio
-è necessario utilizzare un altro TFF collegato al segnale $RCO2$ invertito, poichè attivo a
-livello logico basso, e all'ingresso $U/D$.
+è necessario utilizzare un altro TFF collegato al segnale $RCO2$ invertito (poichè attivo a
+livello logico basso) e all'ingresso $U/D$.
 \medskip
 
 \begin{figure}[ht]
@@ -356,10 +351,10 @@ I componenti utilizzati per questo scopo sono:
     \item MOSFET: 2N7000 \cite{2n7000};
 \end{itemize}
 
-Il chip utilizzato per i flip-flop fornisce esattamente le 2 unità necessarie al nostro scopo.
-
-Lo schema elettrico per l'inverter è rappresentato in figura \ref{inverter_circuit}, dove il
-MOSFET utilizzato è compatibile con le tensioni logiche presenti nel circuito.
+Il chip utilizzato per i flip-flop fornisce esattamente le 2 unità necessarie al nostro
+scopo, mentre lo schema elettrico per l'inverter è rappresentato in figura
+\ref{inverter_circuit}, dove il MOSFET utilizzato è compatibile con le tensioni logiche
+presenti nel circuito.
 \medskip
 
 \begin{figure}[ht]
@@ -370,8 +365,8 @@ MOSFET utilizzato è compatibile con le tensioni logiche presenti nel circuito.
 \end{figure}
 
 A questo punto collegando tutti i pezzi discussi finora, otteniamo il nucleo fondamentale
-del modulo,che ci permette di ottenere rampa e triangolo (e anche impulso) ad una frequenza
-proporzionale a quella del segnale di clock in ingresso.
+del modulo, che ci permette di ottenere rampa e triangolo ad una frequenza proporzionale
+a quella del clock in ingresso.
 \medskip
 
 \begin{figure}[ht]

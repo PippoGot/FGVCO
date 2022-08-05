@@ -2353,15 +2353,17 @@
     <bcf:citekey order="7">2n7000</bcf:citekey>
     <bcf:citekey order="8">lm331</bcf:citekey>
     <bcf:citekey order="9">vfc110</bcf:citekey>
-    <bcf:citekey order="10">eurorack</bcf:citekey>
-    <bcf:citekey order="11">74hc590</bcf:citekey>
-    <bcf:citekey order="12">dac0800</bcf:citekey>
-    <bcf:citekey order="13">tl074</bcf:citekey>
-    <bcf:citekey order="14">74ls169</bcf:citekey>
-    <bcf:citekey order="15">74hc73</bcf:citekey>
-    <bcf:citekey order="16">2n7000</bcf:citekey>
-    <bcf:citekey order="17">lm331</bcf:citekey>
-    <bcf:citekey order="18">vfc110</bcf:citekey>
+    <bcf:citekey order="10">expo_converter</bcf:citekey>
+    <bcf:citekey order="11">eurorack</bcf:citekey>
+    <bcf:citekey order="12">74hc590</bcf:citekey>
+    <bcf:citekey order="13">dac0800</bcf:citekey>
+    <bcf:citekey order="14">tl074</bcf:citekey>
+    <bcf:citekey order="15">74ls169</bcf:citekey>
+    <bcf:citekey order="16">74hc73</bcf:citekey>
+    <bcf:citekey order="17">2n7000</bcf:citekey>
+    <bcf:citekey order="18">lm331</bcf:citekey>
+    <bcf:citekey order="19">vfc110</bcf:citekey>
+    <bcf:citekey order="20">expo_converter</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

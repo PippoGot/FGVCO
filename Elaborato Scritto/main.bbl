@@ -1,0 +1,218 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{74hc590}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. F}
+      \field{number}{SN54HC590A, SN74HC590A}
+      \field{title}{8-Bit Binary Counter With 3-State Output Registers}
+      \field{year}{15 Sep 2003}
+      \verb{urlraw}
+      \verb https://www.ti.com/product/SN74HC590A?keyMatch=74HC590#tech-docs
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/product/SN74HC590A?keyMatch=74HC590#tech-docs
+      \endverb
+    \endentry
+    \entry{dac0800}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. C}
+      \field{number}{DAC0800/DAC0802}
+      \field{title}{8-Bit Digital-to-Analog Converters}
+      \field{year}{19 Feb 2013}
+      \verb{urlraw}
+      \verb https://www.ti.com/product/DAC0800?keyMatch=DAC0800#tech-docs
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/product/DAC0800?keyMatch=DAC0800#tech-docs
+      \endverb
+    \endentry
+    \entry{vfc110}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. A}
+      \field{number}{VFC110}
+      \field{title}{High Frequency Voltage-to-Frequency Converter}
+      \field{year}{25 Apr 2007}
+      \verb{urlraw}
+      \verb https://www.ti.com/product/VFC110?keyMatch=VFC110
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/product/VFC110?keyMatch=VFC110
+      \endverb
+    \endentry
+    \entry{74hc73}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeltitlesource}{title}
+      \field{number}{CDx4HC73, CD74HCT73}
+      \field{title}{High Speed CMOS Logic Dual Negative-Edge-Triggered J-K Flip-Flops with Reset}
+      \field{year}{31 Jan 2022}
+      \verb{urlraw}
+      \verb https://www.ti.com/product/CD74HC73?keyMatch=CD74HC73&tisearch=search-everything&usecase=GPN
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/product/CD74HC73?keyMatch=CD74HC73&tisearch=search-everything&usecase=GPN
+      \endverb
+    \endentry
+    \entry{tl074}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. T}
+      \field{number}{TL07xx}
+      \field{title}{Low-Noise FET-Input Operational Amplifiers}
+      \field{year}{13 Dec 2021}
+      \verb{urlraw}
+      \verb https://www.ti.com/product/TL074A?keyMatch=&tisearch=search-everything&usecase=partmatches
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/product/TL074A?keyMatch=&tisearch=search-everything&usecase=partmatches
+      \endverb
+    \endentry
+    \entry{2n7000}{manual}{}
+      \list{organization}{1}{%
+        {ON Semiconductor}%
+      }
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. 7}
+      \field{number}{2N7000, 2N7002, NDS7002A}
+      \field{title}{N-Channel Enhancement Mode Field Effect Transistor 60V, 200mA, 5 ohm}
+      \field{year}{July 2022}
+      \verb{urlraw}
+      \verb https://www.onsemi.com/products/discrete-power-modules/mosfets/2n7000
+      \endverb
+      \verb{url}
+      \verb https://www.onsemi.com/products/discrete-power-modules/mosfets/2n7000
+      \endverb
+    \endentry
+    \entry{lm331}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. C}
+      \field{number}{LMx31x}
+      \field{title}{Precision voltage-to-frequency converter with 1-Hz to 100-kHz full scale frequency}
+      \field{year}{29 Sep 2015}
+      \verb{urlraw}
+      \verb https://www.ti.com/product/LM331?keyMatch=LM331
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/product/LM331?keyMatch=LM331
+      \endverb
+    \endentry
+    \entry{expo_converter}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a79c6660484a1f7e6f77f74fe74080e0}{%
+           family={Schmitz},
+           familyi={S\bibinitperiod},
+           given={René},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a79c6660484a1f7e6f77f74fe74080e0}
+      \strng{fullhash}{a79c6660484a1f7e6f77f74fe74080e0}
+      \strng{bibnamehash}{a79c6660484a1f7e6f77f74fe74080e0}
+      \strng{authorbibnamehash}{a79c6660484a1f7e6f77f74fe74080e0}
+      \strng{authornamehash}{a79c6660484a1f7e6f77f74fe74080e0}
+      \strng{authorfullhash}{a79c6660484a1f7e6f77f74fe74080e0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Voltage controlled oscillators}
+      \field{year}{March 1999}
+      \verb{urlraw}
+      \verb https://www.schmitzbits.de/vco2.html
+      \endverb
+      \verb{url}
+      \verb https://www.schmitzbits.de/vco2.html
+      \endverb
+    \endentry
+    \entry{74ls169}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{number}{SN54LS169B, SN54S169, SN74LS169B, SN74S169}
+      \field{title}{Synchronous 4-Bit Up/Down Binary Counters}
+      \field{year}{01 Mar 1988}
+      \verb{urlraw}
+      \verb https://www.ti.com/product/SN74LS169B?keyMatch=SN74LS169B&tisearch=search-everything&usecase=GPN
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/product/SN74LS169B?keyMatch=SN74LS169B&tisearch=search-everything&usecase=GPN
+      \endverb
+    \endentry
+    \entry{eurorack}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Eurorack}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Eurorack
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Eurorack
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
