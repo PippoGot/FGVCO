@@ -1918,9 +1918,6 @@
     (path "/391f4484-21da-4b9e-9703-45ee1e6e4287/d592a9fc-2fe3-4eab-a889-fe96a95dc8b6"
       (reference "#PWR0134") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/391f4484-21da-4b9e-9703-45ee1e6e4287/c6cf4cb6-dd4a-4964-8dbe-2962dee4c7ca"
-      (reference "#PWR0135") (unit 1) (value "GNDD") (footprint "")
-    )
     (path "/09d04886-c3d4-4882-8a68-e34ed8ffa988/b2d90219-fe83-424d-8686-c8734876f5c9"
       (reference "#PWR0136") (unit 1) (value "GNDD") (footprint "")
     )
@@ -1995,9 +1992,6 @@
     )
     (path "/391f4484-21da-4b9e-9703-45ee1e6e4287/a3c5de03-8fa3-4ffd-971b-98336b98600b"
       (reference "C7") (unit 1) (value "100n") (footprint "Custom Footprints:C_Disc_P2.54mm")
-    )
-    (path "/391f4484-21da-4b9e-9703-45ee1e6e4287/ca73acb3-255a-4495-a4b4-bd926fd3ecae"
-      (reference "C8") (unit 1) (value "10n") (footprint "Custom Footprints:C_Disc_P2.54mm")
     )
     (path "/09d04886-c3d4-4882-8a68-e34ed8ffa988/77e8f020-49ef-471e-b5d8-0ea33889f3d8"
       (reference "C9") (unit 1) (value "10n") (footprint "Custom Footprints:C_Disc_P2.54mm")
@@ -2079,6 +2073,9 @@
     )
     (path "/4684bd5c-d6ff-4a61-939e-8734e6c74c3a"
       (reference "J10") (unit 1) (value "conn_signals_in_3") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+    )
+    (path "/391f4484-21da-4b9e-9703-45ee1e6e4287/6dc8acaa-780d-4db5-bba1-01fb564368e3"
+      (reference "J15") (unit 1) (value "VFC out") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/ce7637f0-8c63-418b-9dd1-b1044f21e773/4b107b66-d787-4860-b874-476bbaba370f"
       (reference "Q1") (unit 1) (value "MPQ3904") (footprint "Custom Footprints:DIP-14_central_caps")
@@ -2174,7 +2171,7 @@
       (reference "R27") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/8b32abfb-3940-460b-9046-e5faad1aedba/fd9d6f82-5647-44e8-b0c3-5a03c15cb6be"
-      (reference "RV1") (unit 1) (value "1k-offset_adj") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering")
+      (reference "RV1") (unit 1) (value "1k-offset_adj") (footprint "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical")
     )
     (path "/8b32abfb-3940-460b-9046-e5faad1aedba/608e2280-43a3-4446-986d-034448446119"
       (reference "RV2") (unit 1) (value "1k-gain_adj") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
