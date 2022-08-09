@@ -147,7 +147,7 @@ il segnale a impulso precedentemente accennato, discusso più in dettaglio nel c
 %\ref{ch_impulso}.
 
 Collegando i due blocchi insieme quindi, l'andamento di $V_{out}$ sarà simile a quello
-rappresentato in figura \ref{high_res_ramp} e ad ogni impulso di clock corrisponderà un
+rappresentato in figura \ref{high_res_ramp}, e ad ogni impulso di clock corrisponderà un
 gradino di tensione di circa $40mV$ come calcolato precendentemente.
 
 %--------------------------------------------------------------------------------------------
@@ -160,7 +160,12 @@ Andiamo ora a verificare la correttezza del circuito realizzato. Il setup di mis
 seguente:
 \medskip
 
-% immagine setup misure rampa
+\begin{figure}[ht]
+    \centering
+    \includegraphics{block_diagrams/mis_ramp.png}
+    \caption{Circuito di misura del segnale rampa}
+    \label{mis_ramp}
+\end{figure}
 
 Si osservano le seguenti forme d'onda:
 \medskip
@@ -258,6 +263,8 @@ evidente in figura \ref{steps}.
 
 \subsection*{Componenti Utilizzati e Schemi Elettrici}
 
+%--------------------------------------------------------------------------------------------
+
 L'unico componente diverso rispetto al circuito per la rampa è il contatore, che come già
 detto deve essere bidirezionale. Si utilizzano due 74LS169 \cite{74ls169} in cascata con
 la seguente configurazione:
@@ -285,7 +292,12 @@ Andiamo ora a verificare la correttezza del circuito realizzato. Il setup di mis
 seguente:
 \medskip
 
-% immagine setup misure rampa
+\begin{figure}[ht]
+    \centering
+    \includegraphics{block_diagrams/mis_triangle.png}
+    \caption{Circuito di misura del segnale triangolo}
+    \label{mis_triangle}
+\end{figure}
 
 Si osservano le seguenti forme d'onda:
 \medskip
@@ -364,16 +376,51 @@ presenti nel circuito.
     \label{inverter_circuit}
 \end{figure}
 
-A questo punto collegando tutti i pezzi discussi finora, otteniamo il nucleo fondamentale
-del modulo, che ci permette di ottenere rampa e triangolo ad una frequenza proporzionale
-a quella del clock in ingresso.
+%--------------------------------------------------------------------------------------------
+
+\subsection*{Risultati Pratici}
+
+%--------------------------------------------------------------------------------------------
+
+Si verifica la correttezza dei circuiti:
 \medskip
 
 \begin{figure}[ht]
     \centering
-    \includegraphics{block_diagrams/main_signals_block_diagam.png}
-    \caption{Schema a blocchi del nucleo segnali}
-    \label{main_signals_block_diagram}
+
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{block_diagrams/mis_clock_divider.png}
+        \caption{Circuito di misura del divisore di frequenza}
+        \label{mis_clock_divider}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{misc/oscilloscope_placeholder.png}
+        \caption{Acquisizione dei segnali $f_{clk}$ e $f_{clk}/2$}
+        \label{acq_clock_divider}
+    \end{subfigure}
+
+    \caption{Correttezza del circuito divisore di frequenza}
+    \label{clock_divider}
 \end{figure}
 
-%--------------------------------------------------------------------------------------------
+\begin{figure}[ht]
+    \centering
+
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{block_diagrams/mis_UD.png}
+        \caption{Circuito di misura del segnale $U/D$}
+        \label{mis_UD}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{misc/oscilloscope_placeholder.png}
+        \caption{Acquisizione dei segnali $RCO2$ e $U/D$}
+        \label{acq_UD}
+    \end{subfigure}
+
+    \caption{Correttezza del circuito di pilotaggio del contatore up-down}
+    \label{UD}
+\end{figure}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.22)  5 AUG 2022 19:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.22)  10 AUG 2022 00:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,40 +23,107 @@ File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2022-07-23 v3.1.5 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen139
+\l__siunitx_angle_marker_box=\box50
+\l__siunitx_angle_unit_box=\box51
+\l__siunitx_compound_count_int=\count194
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count195
+) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_number_exponent_fixed_int=\count196
+\l__siunitx_number_min_decimal_int=\count197
+\l__siunitx_number_min_integer_int=\count198
+\l__siunitx_number_round_precision_int=\count199
+\l__siunitx_number_group_first_int=\count266
+\l__siunitx_number_group_size_int=\count267
+\l__siunitx_number_group_minimum_int=\count268
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen140
+))
+\l__siunitx_table_tmp_box=\box52
+\l__siunitx_table_tmp_dim=\dimen141
+\l__siunitx_table_column_width_dim=\dimen142
+\l__siunitx_table_integer_box=\box53
+\l__siunitx_table_decimal_box=\box54
+\l__siunitx_table_before_box=\box55
+\l__siunitx_table_after_box=\box56
+\l__siunitx_table_before_dim=\dimen143
+\l__siunitx_table_carry_dim=\dimen144
+\l__siunitx_unit_tmp_int=\count269
+\l__siunitx_unit_position_int=\count270
+\l__siunitx_unit_total_int=\count271
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-04-10 L3 programming layer (loader) 
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count272
+\l__pdf_internal_box=\box57
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen145
+\ar@mcellbox=\box58
+\extrarowheight=\dimen146
+\NC@list=\toks17
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box59
+)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box50
-\beforetitleunit=\skip49
-\aftertitleunit=\skip50
-\ttl@plus=\dimen139
-\ttl@minus=\dimen140
-\ttl@toksa=\toks16
-\titlewidth=\dimen141
-\titlewidthlast=\dimen142
-\titlewidthfirst=\dimen143
+\ttl@box=\box60
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen147
+\ttl@minus=\dimen148
+\ttl@toksa=\toks18
+\titlewidth=\dimen149
+\titlewidthlast=\dimen150
+\titlewidthfirst=\dimen151
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2022/05/22 v0.5v Insert pages of external PDF documents (AM)
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count194
-\calc@Bcount=\count195
-\calc@Adimen=\dimen144
-\calc@Bdimen=\dimen145
-\calc@Askip=\skip51
-\calc@Bskip=\skip52
+\calc@Acount=\count273
+\calc@Bcount=\count274
+\calc@Adimen=\dimen152
+\calc@Bdimen=\dimen153
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count196
-\calc@Cskip=\skip53
+\calc@Ccount=\count275
+\calc@Cskip=\skip55
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen146
-\ESO@tempdimb=\dimen147
+\ESO@tempdima=\dimen154
+\ESO@tempdimb=\dimen155
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+\KV@toks@=\toks19
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
@@ -86,28 +153,28 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen148
-\Gin@req@width=\dimen149
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
 )
-\AM@pagewidth=\dimen150
-\AM@pageheight=\dimen151
-\AM@fboxrule=\dimen152
+\AM@pagewidth=\dimen158
+\AM@pageheight=\dimen159
+\AM@fboxrule=\dimen160
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2022/05/22 v0.5v Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count197
-\AM@pagebox=\box51
-\AM@global@opts=\toks18
-\AM@pagecnt=\count198
-\AM@toc@title=\toks19
-\c@AM@survey=\count199
-\AM@templatesizebox=\box52
+\pdfpages@includegraphics@status=\count276
+\AM@pagebox=\box61
+\AM@global@opts=\toks20
+\AM@pagecnt=\count277
+\AM@toc@title=\toks21
+\c@AM@survey=\count278
+\AM@templatesizebox=\box62
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks20
-\pgfutil@tempdima=\dimen153
-\pgfutil@tempdimb=\dimen154
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen161
+\pgfutil@tempdimb=\dimen162
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box53
+\pgfutil@abb=\box63
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
@@ -115,31 +182,31 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks21
-\pgfkeys@temptoks=\toks22
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks23
+\pgfkeys@tmptoks=\toks25
 ))
-\pgf@x=\dimen155
-\pgf@y=\dimen156
-\pgf@xa=\dimen157
-\pgf@ya=\dimen158
-\pgf@xb=\dimen159
-\pgf@yb=\dimen160
-\pgf@xc=\dimen161
-\pgf@yc=\dimen162
-\pgf@xd=\dimen163
-\pgf@yd=\dimen164
+\pgf@x=\dimen163
+\pgf@y=\dimen164
+\pgf@xa=\dimen165
+\pgf@ya=\dimen166
+\pgf@xb=\dimen167
+\pgf@yb=\dimen168
+\pgf@xc=\dimen169
+\pgf@yc=\dimen170
+\pgf@xd=\dimen171
+\pgf@yd=\dimen172
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count266
-\c@pgf@countb=\count267
-\c@pgf@countc=\count268
-\c@pgf@countd=\count269
-\t@pgf@toka=\toks24
-\t@pgf@tokb=\toks25
-\t@pgf@tokc=\toks26
-\pgf@sys@id@count=\count270
+\c@pgf@counta=\count279
+\c@pgf@countb=\count280
+\c@pgf@countc=\count281
+\c@pgf@countd=\count282
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count283
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -150,59 +217,59 @@ File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count271
-\pgfsyssoftpath@bigbuffer@items=\count272
+\pgfsyssoftpath@smallbuffer@items=\count284
+\pgfsyssoftpath@bigbuffer@items=\count285
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen165
-\pgfmath@count=\count273
-\pgfmath@box=\box54
-\pgfmath@toks=\toks27
-\pgfmath@stack@operand=\toks28
-\pgfmath@stack@operation=\toks29
+\pgfmath@dimen=\dimen173
+\pgfmath@count=\count286
+\pgfmath@box=\box64
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count274
+\c@pgfmathroundto@lastzeros=\count287
 )) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen166
-\pgf@picmaxx=\dimen167
-\pgf@picminy=\dimen168
-\pgf@picmaxy=\dimen169
-\pgf@pathminx=\dimen170
-\pgf@pathmaxx=\dimen171
-\pgf@pathminy=\dimen172
-\pgf@pathmaxy=\dimen173
-\pgf@xx=\dimen174
-\pgf@xy=\dimen175
-\pgf@yx=\dimen176
-\pgf@yy=\dimen177
-\pgf@zx=\dimen178
-\pgf@zy=\dimen179
+\pgf@picminx=\dimen174
+\pgf@picmaxx=\dimen175
+\pgf@picminy=\dimen176
+\pgf@picmaxy=\dimen177
+\pgf@pathminx=\dimen178
+\pgf@pathmaxx=\dimen179
+\pgf@pathminy=\dimen180
+\pgf@pathmaxy=\dimen181
+\pgf@xx=\dimen182
+\pgf@xy=\dimen183
+\pgf@yx=\dimen184
+\pgf@yy=\dimen185
+\pgf@zx=\dimen186
+\pgf@zy=\dimen187
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen180
-\pgf@path@lasty=\dimen181
+\pgf@path@lastx=\dimen188
+\pgf@path@lasty=\dimen189
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen182
-\pgf@shorten@start@additional=\dimen183
+\pgf@shorten@end@additional=\dimen190
+\pgf@shorten@start@additional=\dimen191
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box55
-\pgf@hbox=\box56
-\pgf@layerbox@main=\box57
-\pgf@picture@serial@count=\count275
+\pgfpic=\box65
+\pgf@hbox=\box66
+\pgf@layerbox@main=\box67
+\pgf@picture@serial@count=\count288
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen184
+\pgflinewidth=\dimen192
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen185
-\pgf@pt@y=\dimen186
-\pgf@pt@temp=\dimen187
+\pgf@pt@x=\dimen193
+\pgf@pt@y=\dimen194
+\pgf@pt@temp=\dimen195
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -211,17 +278,17 @@ File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen188
+\pgfarrowsep=\dimen196
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen189
-\pgf@sys@shading@range@num=\count276
-\pgf@shadingcount=\count277
+\pgf@max=\dimen197
+\pgf@sys@shading@range@num=\count289
+\pgf@shadingcount=\count290
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box58
+\pgfexternal@startupbox=\box68
 )) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
@@ -232,123 +299,142 @@ File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box59
+\pgfnodeparttextbox=\box69
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen190
-\pgf@nodesepend=\dimen191
+\pgf@nodesepstart=\dimen198
+\pgf@nodesepend=\dimen199
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
-\pgffor@iter=\dimen192
-\pgffor@skip=\dimen193
-\pgffor@stack=\toks30
-\pgffor@toks=\toks31
+\pgffor@iter=\dimen256
+\pgffor@skip=\dimen257
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
 )) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count278
-\pgfplotmarksize=\dimen194
+\pgf@plot@mark@count=\count291
+\pgfplotmarksize=\dimen258
 )
-\tikz@lastx=\dimen195
-\tikz@lasty=\dimen196
-\tikz@lastxsaved=\dimen197
-\tikz@lastysaved=\dimen198
-\tikz@lastmovetox=\dimen199
-\tikz@lastmovetoy=\dimen256
-\tikzleveldistance=\dimen257
-\tikzsiblingdistance=\dimen258
-\tikz@figbox=\box60
-\tikz@figbox@bg=\box61
-\tikz@tempbox=\box62
-\tikz@tempbox@bg=\box63
-\tikztreelevel=\count279
-\tikznumberofchildren=\count280
-\tikznumberofcurrentchild=\count281
-\tikz@fig@count=\count282
+\tikz@lastx=\dimen259
+\tikz@lasty=\dimen260
+\tikz@lastxsaved=\dimen261
+\tikz@lastysaved=\dimen262
+\tikz@lastmovetox=\dimen263
+\tikz@lastmovetoy=\dimen264
+\tikzleveldistance=\dimen265
+\tikzsiblingdistance=\dimen266
+\tikz@figbox=\box70
+\tikz@figbox@bg=\box71
+\tikz@tempbox=\box72
+\tikz@tempbox@bg=\box73
+\tikztreelevel=\count292
+\tikznumberofchildren=\count293
+\tikznumberofcurrentchild=\count294
+\tikz@fig@count=\count295
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count283
-\pgfmatrixcurrentcolumn=\count284
-\pgf@matrix@numberofcolumns=\count285
+\pgfmatrixcurrentrow=\count296
+\pgfmatrixcurrentcolumn=\count297
+\pgf@matrix@numberofcolumns=\count298
 )
-\tikz@expandcount=\count286
+\tikz@expandcount=\count299
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
-\t@pgfplots@toka=\toks32
-\t@pgfplots@tokb=\toks33
-\t@pgfplots@tokc=\toks34
-\pgfplots@tmpa=\dimen259
-\c@pgfplots@coordindex=\count287
-\c@pgfplots@scanlineindex=\count288
+\t@pgfplots@toka=\toks34
+\t@pgfplots@tokb=\toks35
+\t@pgfplots@tokc=\toks36
+\pgfplots@tmpa=\dimen267
+\c@pgfplots@coordindex=\count300
+\c@pgfplots@scanlineindex=\count301
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count289
+\c@pgfplotsarray@tmp=\count302
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count290
-\t@pgfplotstable@a=\toks35
-) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count291
- (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex
-(C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen260
-\pgfdecoratedremainingdistance=\dimen261
-\pgfdecoratedinputsegmentcompleteddistance=\dimen262
-\pgfdecoratedinputsegmentremainingdistance=\dimen263
-\pgf@decorate@distancetomove=\dimen264
-\pgf@decorate@repeatstate=\count292
-\pgfdecorationsegmentamplitude=\dimen265
-\pgfdecorationsegmentlength=\dimen266
+\c@pgfplotstable@counta=\count303
+\t@pgfplotstable@a=\toks37
+) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex)
+(C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count304
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen268
+\pgfdecoratedremainingdistance=\dimen269
+\pgfdecoratedinputsegmentcompleteddistance=\dimen270
+\pgfdecoratedinputsegmentremainingdistance=\dimen271
+\pgf@decorate@distancetomove=\dimen272
+\pgf@decorate@repeatstate=\count305
+\pgfdecorationsegmentamplitude=\dimen273
+\pgfdecorationsegmentlength=\dimen274
 )
-\tikz@lib@dec@box=\box64
+\tikz@lib@dec@box=\box74
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count293
-\pgfplots@xmin@reg=\dimen267
-\pgfplots@xmax@reg=\dimen268
-\pgfplots@ymin@reg=\dimen269
-\pgfplots@ymax@reg=\dimen270
-\pgfplots@zmin@reg=\dimen271
-\pgfplots@zmax@reg=\dimen272
+\pgfplots@numplots=\count306
+\pgfplots@xmin@reg=\dimen275
+\pgfplots@xmax@reg=\dimen276
+\pgfplots@ymin@reg=\dimen277
+\pgfplots@ymax@reg=\dimen278
+\pgfplots@zmin@reg=\dimen279
+\pgfplots@zmax@reg=\dimen280
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplotstable.sty (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
+Package: pgfplotstable 2021/05/15 v1.18.1 Table typesetting and Pretty-printing (1.18.1)
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstable.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstable.coltype.code.tex))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.units.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks38
+\minrowclearance=\skip56
+) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen273
-\captionmargin=\dimen274
-\caption@leftmargin=\dimen275
-\caption@rightmargin=\dimen276
-\caption@width=\dimen277
-\caption@indent=\dimen278
-\caption@parindent=\dimen279
-\caption@hangindent=\dimen280
+\caption@tempdima=\dimen281
+\captionmargin=\dimen282
+\caption@leftmargin=\dimen283
+\caption@rightmargin=\dimen284
+\caption@width=\dimen285
+\caption@indent=\dimen286
+\caption@parindent=\dimen287
+\caption@hangindent=\dimen288
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count294
-\c@continuedfloat=\count295
+\c@caption@flags=\count307
+\c@continuedfloat=\count308
 )
-\c@subfigure=\count296
-\c@subtable=\count297
+\c@subfigure=\count309
+\c@subtable=\count310
+) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/csvsimple\csvsimple.sty
+Package: csvsimple 2022/06/21 v2.3.1 LaTeX CSV file processing
+) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/csvsimple\csvsimple-legacy.sty
+Package: csvsimple-legacy 2022/06/21 version 2.3.1 LaTeX2e CSV file processing
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\csv@file=\read3
+\c@csvinputline=\count311
+\c@csvrow=\count312
+\c@csvcol=\count313
+\csv@out=\write4
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2022/02/26 3.73 The Babel package
-\babel@savecnt=\count298
-\U@D=\dimen281
+\babel@savecnt=\count314
+\U@D=\dimen289
 \l@unhyphenated=\language79
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
-\bbl@readstream=\read3
-\bbl@dirlevel=\count299
+\bbl@readstream=\read4
+\bbl@dirlevel=\count315
 
 *************************************
 * Local config file bblopts.cfg used
@@ -357,19 +443,14 @@ Package: babel 2022/02/26 3.73 The Babel package
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.ldf
 Language: italian 2022/03/27 v.1.4.07 Italian support for the babel system
-\it@lettering=\count300
-\it@doublequoteactive=\count301
-\it@ISOcompliance=\count302
-)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count303
-) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
+\it@lettering=\count316
+\it@doublequoteactive=\count317
+\it@ISOcompliance=\count318
+)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
- (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -377,32 +458,30 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-))
-\Gm@cnth=\count304
-\Gm@cntv=\count305
-\c@Gm@tempcnt=\count306
-\Gm@bindingoffset=\dimen282
-\Gm@wd@mp=\dimen283
-\Gm@odd@mp=\dimen284
-\Gm@even@mp=\dimen285
-\Gm@layoutwidth=\dimen286
-\Gm@layoutheight=\dimen287
-\Gm@layouthoffset=\dimen288
-\Gm@layoutvoffset=\dimen289
-\Gm@dimlist=\toks36
+)
+\Gm@cnth=\count319
+\Gm@cntv=\count320
+\c@Gm@tempcnt=\count321
+\Gm@bindingoffset=\dimen290
+\Gm@wd@mp=\dimen291
+\Gm@odd@mp=\dimen292
+\Gm@even@mp=\dimen293
+\Gm@layoutwidth=\dimen294
+\Gm@layoutheight=\dimen295
+\Gm@layouthoffset=\dimen296
+\Gm@layoutvoffset=\dimen297
+\Gm@dimlist=\toks39
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count307
-\csq@gtype=\count308
-\csq@glevel=\count309
-\csq@qlevel=\count310
-\csq@maxlvl=\count311
-\csq@tshold=\count312
-\csq@ltx@everypar=\toks37
+\csq@reset=\count322
+\csq@gtype=\count323
+\csq@glevel=\count324
+\csq@qlevel=\count325
+\csq@maxlvl=\count326
+\csq@tshold=\count327
+\csq@ltx@everypar=\toks40
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
 )
@@ -412,79 +491,71 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 )) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
- (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count313
+\lrq@indent=\count328
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count314
-\c@listtotal=\count315
-\c@listcount=\count316
-\c@liststart=\count317
-\c@liststop=\count318
-\c@citecount=\count319
-\c@citetotal=\count320
-\c@multicitecount=\count321
-\c@multicitetotal=\count322
-\c@instcount=\count323
-\c@maxnames=\count324
-\c@minnames=\count325
-\c@maxitems=\count326
-\c@minitems=\count327
-\c@citecounter=\count328
-\c@maxcitecounter=\count329
-\c@savedcitecounter=\count330
-\c@uniquelist=\count331
-\c@uniquename=\count332
-\c@refsection=\count333
-\c@refsegment=\count334
-\c@maxextratitle=\count335
-\c@maxextratitleyear=\count336
-\c@maxextraname=\count337
-\c@maxextradate=\count338
-\c@maxextraalpha=\count339
-\c@abbrvpenalty=\count340
-\c@highnamepenalty=\count341
-\c@lownamepenalty=\count342
-\c@maxparens=\count343
-\c@parenlevel=\count344
-\blx@tempcnta=\count345
-\blx@tempcntb=\count346
-\blx@tempcntc=\count347
-\c@blx@maxsection=\count348
-\c@blx@maxsegment@0=\count349
-\blx@notetype=\count350
-\blx@parenlevel@text=\count351
-\blx@parenlevel@foot=\count352
-\c@blx@sectionciteorder@0=\count353
-\blx@entrysetcounter=\count354
-\blx@biblioinstance=\count355
-\labelnumberwidth=\skip54
-\labelalphawidth=\skip55
-\biblabelsep=\skip56
-\bibitemsep=\skip57
-\bibnamesep=\skip58
-\bibinitsep=\skip59
-\bibparsep=\skip60
-\bibhang=\skip61
-\blx@bcfin=\read4
-\blx@bcfout=\write4
+\c@tabx@nest=\count329
+\c@listtotal=\count330
+\c@listcount=\count331
+\c@liststart=\count332
+\c@liststop=\count333
+\c@citecount=\count334
+\c@citetotal=\count335
+\c@multicitecount=\count336
+\c@multicitetotal=\count337
+\c@instcount=\count338
+\c@maxnames=\count339
+\c@minnames=\count340
+\c@maxitems=\count341
+\c@minitems=\count342
+\c@citecounter=\count343
+\c@maxcitecounter=\count344
+\c@savedcitecounter=\count345
+\c@uniquelist=\count346
+\c@uniquename=\count347
+\c@refsection=\count348
+\c@refsegment=\count349
+\c@maxextratitle=\count350
+\c@maxextratitleyear=\count351
+\c@maxextraname=\count352
+\c@maxextradate=\count353
+\c@maxextraalpha=\count354
+\c@abbrvpenalty=\count355
+\c@highnamepenalty=\count356
+\c@lownamepenalty=\count357
+\c@maxparens=\count358
+\c@parenlevel=\count359
+\blx@tempcnta=\count360
+\blx@tempcntb=\count361
+\blx@tempcntc=\count362
+\c@blx@maxsection=\count363
+\c@blx@maxsegment@0=\count364
+\blx@notetype=\count365
+\blx@parenlevel@text=\count366
+\blx@parenlevel@foot=\count367
+\c@blx@sectionciteorder@0=\count368
+\blx@entrysetcounter=\count369
+\blx@biblioinstance=\count370
+\labelnumberwidth=\skip57
+\labelalphawidth=\skip58
+\biblabelsep=\skip59
+\bibitemsep=\skip60
+\bibnamesep=\skip61
+\bibinitsep=\skip62
+\bibparsep=\skip63
+\bibhang=\skip64
+\blx@bcfin=\read5
+\blx@bcfout=\write5
 \blx@langwohyphens=\language80
-\c@mincomprange=\count356
-\c@maxcomprange=\count357
-\c@mincompwidth=\count358
+\c@mincomprange=\count371
+\c@maxcomprange=\count372
+\c@mincompwidth=\count373
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -492,88 +563,88 @@ File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count359
-\c@savedafterword=\count360
-\c@annotator=\count361
-\c@savedannotator=\count362
-\c@author=\count363
-\c@savedauthor=\count364
-\c@bookauthor=\count365
-\c@savedbookauthor=\count366
-\c@commentator=\count367
-\c@savedcommentator=\count368
-\c@editor=\count369
-\c@savededitor=\count370
-\c@editora=\count371
-\c@savededitora=\count372
-\c@editorb=\count373
-\c@savededitorb=\count374
-\c@editorc=\count375
-\c@savededitorc=\count376
-\c@foreword=\count377
-\c@savedforeword=\count378
-\c@holder=\count379
-\c@savedholder=\count380
-\c@introduction=\count381
-\c@savedintroduction=\count382
-\c@namea=\count383
-\c@savednamea=\count384
-\c@nameb=\count385
-\c@savednameb=\count386
-\c@namec=\count387
-\c@savednamec=\count388
-\c@translator=\count389
-\c@savedtranslator=\count390
-\c@shortauthor=\count391
-\c@savedshortauthor=\count392
-\c@shorteditor=\count393
-\c@savedshorteditor=\count394
-\c@labelname=\count395
-\c@savedlabelname=\count396
-\c@institution=\count397
-\c@savedinstitution=\count398
-\c@lista=\count399
-\c@savedlista=\count400
-\c@listb=\count401
-\c@savedlistb=\count402
-\c@listc=\count403
-\c@savedlistc=\count404
-\c@listd=\count405
-\c@savedlistd=\count406
-\c@liste=\count407
-\c@savedliste=\count408
-\c@listf=\count409
-\c@savedlistf=\count410
-\c@location=\count411
-\c@savedlocation=\count412
-\c@organization=\count413
-\c@savedorganization=\count414
-\c@origlocation=\count415
-\c@savedoriglocation=\count416
-\c@origpublisher=\count417
-\c@savedorigpublisher=\count418
-\c@publisher=\count419
-\c@savedpublisher=\count420
-\c@language=\count421
-\c@savedlanguage=\count422
-\c@origlanguage=\count423
-\c@savedoriglanguage=\count424
-\c@pageref=\count425
-\c@savedpageref=\count426
-\shorthandwidth=\skip62
-\shortjournalwidth=\skip63
-\shortserieswidth=\skip64
-\shorttitlewidth=\skip65
-\shortauthorwidth=\skip66
-\shorteditorwidth=\skip67
-\locallabelnumberwidth=\skip68
-\locallabelalphawidth=\skip69
-\localshorthandwidth=\skip70
-\localshortjournalwidth=\skip71
-\localshortserieswidth=\skip72
-\localshorttitlewidth=\skip73
-\localshortauthorwidth=\skip74
-\localshorteditorwidth=\skip75
+\c@afterword=\count374
+\c@savedafterword=\count375
+\c@annotator=\count376
+\c@savedannotator=\count377
+\c@author=\count378
+\c@savedauthor=\count379
+\c@bookauthor=\count380
+\c@savedbookauthor=\count381
+\c@commentator=\count382
+\c@savedcommentator=\count383
+\c@editor=\count384
+\c@savededitor=\count385
+\c@editora=\count386
+\c@savededitora=\count387
+\c@editorb=\count388
+\c@savededitorb=\count389
+\c@editorc=\count390
+\c@savededitorc=\count391
+\c@foreword=\count392
+\c@savedforeword=\count393
+\c@holder=\count394
+\c@savedholder=\count395
+\c@introduction=\count396
+\c@savedintroduction=\count397
+\c@namea=\count398
+\c@savednamea=\count399
+\c@nameb=\count400
+\c@savednameb=\count401
+\c@namec=\count402
+\c@savednamec=\count403
+\c@translator=\count404
+\c@savedtranslator=\count405
+\c@shortauthor=\count406
+\c@savedshortauthor=\count407
+\c@shorteditor=\count408
+\c@savedshorteditor=\count409
+\c@labelname=\count410
+\c@savedlabelname=\count411
+\c@institution=\count412
+\c@savedinstitution=\count413
+\c@lista=\count414
+\c@savedlista=\count415
+\c@listb=\count416
+\c@savedlistb=\count417
+\c@listc=\count418
+\c@savedlistc=\count419
+\c@listd=\count420
+\c@savedlistd=\count421
+\c@liste=\count422
+\c@savedliste=\count423
+\c@listf=\count424
+\c@savedlistf=\count425
+\c@location=\count426
+\c@savedlocation=\count427
+\c@organization=\count428
+\c@savedorganization=\count429
+\c@origlocation=\count430
+\c@savedoriglocation=\count431
+\c@origpublisher=\count432
+\c@savedorigpublisher=\count433
+\c@publisher=\count434
+\c@savedpublisher=\count435
+\c@language=\count436
+\c@savedlanguage=\count437
+\c@origlanguage=\count438
+\c@savedoriglanguage=\count439
+\c@pageref=\count440
+\c@savedpageref=\count441
+\shorthandwidth=\skip65
+\shortjournalwidth=\skip66
+\shortserieswidth=\skip67
+\shorttitlewidth=\skip68
+\shortauthorwidth=\skip69
+\shorteditorwidth=\skip70
+\locallabelnumberwidth=\skip71
+\locallabelalphawidth=\skip72
+\localshorthandwidth=\skip73
+\localshortjournalwidth=\skip74
+\localshortserieswidth=\skip75
+\localshorttitlewidth=\skip76
+\localshortauthorwidth=\skip77
+\localshorteditorwidth=\skip78
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -583,19 +654,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count427
-\c@textcitetotal=\count428
-\c@textcitemaxnames=\count429
-\c@biburlbigbreakpenalty=\count430
-\c@biburlbreakpenalty=\count431
-\c@biburlnumpenalty=\count432
-\c@biburlucpenalty=\count433
-\c@biburllcpenalty=\count434
+\c@textcitecount=\count442
+\c@textcitetotal=\count443
+\c@textcitemaxnames=\count444
+\c@biburlbigbreakpenalty=\count445
+\c@biburlbreakpenalty=\count446
+\c@biburlnumpenalty=\count447
+\c@biburlucpenalty=\count448
+\c@biburllcpenalty=\count449
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count435
+\c@smartand=\count450
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -605,8 +676,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count436
-\c@bbx:relatedtotal=\count437
+\c@bbx:relatedcount=\count451
+\c@bbx:relatedtotal=\count452
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -631,13 +702,6 @@ File: biblatex.cfg
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
- (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2022-04-10 L3 programming layer (loader) 
- (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count438
-\l__pdf_internal_box=\box65
-))
 Package biblatex Info: ... and expl3
 (biblatex)             2022-04-10 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
@@ -646,56 +710,59 @@ Package biblatex Info: ... and expl3
 Package: xparse 2022-01-12 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
-)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+
+xurl: Set penalties for biblatex
+) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks38
-\AP@partial=\box66
-\AP@footins=\box67
-) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
-)
+\AP@output=\toks41
+\AP@partial=\box75
+\AP@footins=\box76
+) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count439
-\l__lipsum_a_int=\count440
-\l__lipsum_b_int=\count441
+\g__lipsum_par_int=\count453
+\l__lipsum_a_int=\count454
+\l__lipsum_b_int=\count455
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'italian'.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 88.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 135.
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-contatori_dac.aux) (chapters/ch02-vfc.aux) (chapters/ch03-lin_exp.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-stadi_uscita.aux) (chapters/ch07-efuse.aux) (chapters/ch08-suddivisione_schede.aux) (chapters/ch09-conclusioni.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 135.
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count442
-\scratchdimen=\dimen290
-\scratchbox=\box68
-\nofMPsegments=\count443
-\nofMParguments=\count444
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count445
-\MPscratchDim=\dimen291
-\MPnumerator=\count446
-\makeMPintoPDFobject=\count447
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count456
+\scratchdimen=\dimen298
+\scratchbox=\box77
+\nofMPsegments=\count457
+\nofMParguments=\count458
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count459
+\MPscratchDim=\dimen299
+\MPnumerator=\count460
+\makeMPintoPDFobject=\count461
+\everyMPtoPDFconversion=\toks43
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -712,15 +779,15 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \it@ocap on input line 88.
-LaTeX Info: Redefining \it@ccap on input line 88.
+LaTeX Info: Redefining \it@ocap on input line 135.
+LaTeX Info: Redefining \it@ccap on input line 135.
 
 File italian.ldf warning: 
 italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 88.
+italian.ldf    on input line 135.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -764,58 +831,58 @@ File: italian.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `main.bcf'.
+\openout5 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 88.
-Package biblatex Info: Reference segment=0 on input line 88.
+Package biblatex Info: Reference section=0 on input line 135.
+Package biblatex Info: Reference segment=0 on input line 135.
 
 
-pdfTeX warning: pdflatex (file ./frontespizio/frontespizio_tesi_02.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<frontespizio/frontespizio_tesi_02.pdf, id=4, 597.55246pt x 845.07718pt>
-File: frontespizio/frontespizio_tesi_02.pdf Graphic file (type pdf)
-<use frontespizio/frontespizio_tesi_02.pdf>
-Package pdftex.def Info: frontespizio/frontespizio_tesi_02.pdf  used on input line 92.
+pdfTeX warning: pdflatex (file ./pdfs/frontespizio/frontespizio_tesi.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdfs/frontespizio/frontespizio_tesi.pdf, id=4, 597.55246pt x 845.07718pt>
+File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
+<use pdfs/frontespizio/frontespizio_tesi.pdf>
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf  used on input line 139.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
-pdfTeX warning: pdflatex (file ./frontespizio/frontespizio_tesi_02.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-File: frontespizio/frontespizio_tesi_02.pdf Graphic file (type pdf)
-<use frontespizio/frontespizio_tesi_02.pdf>
-Package pdftex.def Info: frontespizio/frontespizio_tesi_02.pdf  used on input line 92.
+pdfTeX warning: pdflatex (file ./pdfs/frontespizio/frontespizio_tesi.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
+<use pdfs/frontespizio/frontespizio_tesi.pdf>
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf  used on input line 139.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
-pdfTeX warning: pdflatex (file ./frontespizio/frontespizio_tesi_02.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file ./pdfs/frontespizio/frontespizio_tesi.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 
-pdfTeX warning: pdflatex (file ./frontespizio/frontespizio_tesi_02.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<frontespizio/frontespizio_tesi_02.pdf, id=7, page=1, 597.55246pt x 845.07718pt>
-File: frontespizio/frontespizio_tesi_02.pdf Graphic file (type pdf)
-<use frontespizio/frontespizio_tesi_02.pdf, page 1>
-Package pdftex.def Info: frontespizio/frontespizio_tesi_02.pdf , page1 used on input line 92.
+pdfTeX warning: pdflatex (file ./pdfs/frontespizio/frontespizio_tesi.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdfs/frontespizio/frontespizio_tesi.pdf, id=7, page=1, 597.55246pt x 845.07718pt>
+File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
+<use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 139.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: frontespizio/frontespizio_tesi_02.pdf Graphic file (type pdf)
-<use frontespizio/frontespizio_tesi_02.pdf, page 1>
-Package pdftex.def Info: frontespizio/frontespizio_tesi_02.pdf , page1 used on input line 92.
+File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
+<use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 139.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: frontespizio/frontespizio_tesi_02.pdf Graphic file (type pdf)
-<use frontespizio/frontespizio_tesi_02.pdf, page 1>
-Package pdftex.def Info: frontespizio/frontespizio_tesi_02.pdf , page1 used on input line 92.
+File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
+<use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 139.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: frontespizio/frontespizio_tesi_02.pdf Graphic file (type pdf)
-<use frontespizio/frontespizio_tesi_02.pdf, page 1>
-Package pdftex.def Info: frontespizio/frontespizio_tesi_02.pdf , page1 used on input line 92.
+File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
+<use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 139.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: frontespizio/frontespizio_tesi_02.pdf Graphic file (type pdf)
-<use frontespizio/frontespizio_tesi_02.pdf, page 1>
-Package pdftex.def Info: frontespizio/frontespizio_tesi_02.pdf , page1 used on input line 92.
+File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
+<use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 139.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [1
 
- <./frontespizio/frontespizio_tesi_02.pdf>] [2] (main.toc
+ <./pdfs/frontespizio/frontespizio_tesi.pdf>] [2] (main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -823,8 +890,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 5.
 )
-\tf@toc=\write5
-\openout5 = `main.toc'.
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
  [3
 
@@ -847,7 +914,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 <images//misc/panel_explained.png, id=69, 351.59355pt x 366.52934pt>
 File: images//misc/panel_explained.png Graphic file (type png)
 <use images//misc/panel_explained.png>
-Package pdftex.def Info: images//misc/panel_explained.png  used on input line 72.
+Package pdftex.def Info: images//misc/panel_explained.png  used on input line 73.
 (pdftex.def)             Requested size: 351.59268pt x 366.52844pt.
 ) [6] [7 <./images//misc/panel_explained.png>]
 \openout2 = `chapters/ch01-contatori_dac.aux'.
@@ -891,118 +958,154 @@ File: images//circuits/ramp_counter_circuit.png Graphic file (type png)
 <use images//circuits/ramp_counter_circuit.png>
 Package pdftex.def Info: images//circuits/ramp_counter_circuit.png  used on input line 140.
 (pdftex.def)             Requested size: 125.99039pt x 162.1253pt.
-<images//acquisitions/ramp_wave.png, id=97, 1027.84pt x 770.88pt>
+<images//block_diagrams/mis_ramp.png, id=97, 407.3619pt x 91.0602pt>
+File: images//block_diagrams/mis_ramp.png Graphic file (type png)
+<use images//block_diagrams/mis_ramp.png>
+Package pdftex.def Info: images//block_diagrams/mis_ramp.png  used on input line 165.
+(pdftex.def)             Requested size: 407.36089pt x 91.05997pt.
+<images//acquisitions/ramp_wave.png, id=98, 1027.84pt x 770.88pt>
 File: images//acquisitions/ramp_wave.png Graphic file (type png)
 <use images//acquisitions/ramp_wave.png>
-Package pdftex.def Info: images//acquisitions/ramp_wave.png  used on input line 173.
+Package pdftex.def Info: images//acquisitions/ramp_wave.png  used on input line 178.
 (pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
-<images//misc/oscilloscope_placeholder.png, id=98, 171.5208pt x 137.43346pt>
+<images//misc/oscilloscope_placeholder.png, id=99, 171.5208pt x 137.43346pt>
 File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
 <use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 179.
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 184.
 (pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
  [10 <./images//circuits/DAC_circuit.png> <./images//circuits/ramp_counter_circuit.png>]
-<images//block_diagrams/triangle_block_diagram.png, id=105, 151.0443pt x 62.75446pt>
+<images//block_diagrams/triangle_block_diagram.png, id=106, 151.0443pt x 62.75446pt>
 File: images//block_diagrams/triangle_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/triangle_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/triangle_block_diagram.png  used on input line 205.
+Package pdftex.def Info: images//block_diagrams/triangle_block_diagram.png  used on input line 210.
 (pdftex.def)             Requested size: 151.04391pt x 62.75429pt.
-<images//graphs/low_res_triangle.png, id=106, 181.6386pt x 69.6201pt>
+<images//graphs/low_res_triangle.png, id=107, 181.6386pt x 69.6201pt>
 File: images//graphs/low_res_triangle.png Graphic file (type png)
 <use images//graphs/low_res_triangle.png>
-Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 215.
+Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 220.
 (pdftex.def)             Requested size: 181.63814pt x 69.61992pt.
-<images//graphs/high_res_triangle.png, id=107, 181.6386pt x 73.11314pt>
+<images//graphs/high_res_triangle.png, id=108, 181.6386pt x 73.11314pt>
 File: images//graphs/high_res_triangle.png Graphic file (type png)
 <use images//graphs/high_res_triangle.png>
-Package pdftex.def Info: images//graphs/high_res_triangle.png  used on input line 221.
+Package pdftex.def Info: images//graphs/high_res_triangle.png  used on input line 226.
 (pdftex.def)             Requested size: 181.63814pt x 73.11296pt.
 File: images//graphs/low_res_ramp.png Graphic file (type png)
 <use images//graphs/low_res_ramp.png>
-Package pdftex.def Info: images//graphs/low_res_ramp.png  used on input line 244.
+Package pdftex.def Info: images//graphs/low_res_ramp.png  used on input line 249.
 (pdftex.def)             Requested size: 181.63814pt x 67.21094pt.
 File: images//graphs/low_res_triangle.png Graphic file (type png)
 <use images//graphs/low_res_triangle.png>
-Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 249.
+Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 254.
 (pdftex.def)             Requested size: 181.63814pt x 69.61992pt.
- [11 <./images//acquisitions/ramp_wave.png (PNG copy)> <./images//misc/oscilloscope_placeholder.png> <./images//block_diagrams/triangle_block_diagram.png> <./images//graphs/low_res_triangle.png> <./images//graphs/high_res_triangle.png>]
+ [11 <./images//block_diagrams/mis_ramp.png> <./images//acquisitions/ramp_wave.png (PNG copy)> <./images//misc/oscilloscope_placeholder.png> <./images//block_diagrams/triangle_block_diagram.png>]
 <images//circuits/triangle_counter_circuit.png, id=115, 273.54195pt x 138.9993pt>
 File: images//circuits/triangle_counter_circuit.png Graphic file (type png)
 <use images//circuits/triangle_counter_circuit.png>
-Package pdftex.def Info: images//circuits/triangle_counter_circuit.png  used on input line 268.
+Package pdftex.def Info: images//circuits/triangle_counter_circuit.png  used on input line 275.
 (pdftex.def)             Requested size: 273.54128pt x 138.99895pt.
+<images//block_diagrams/mis_triangle.png, id=116, 407.3619pt x 91.0602pt>
+File: images//block_diagrams/mis_triangle.png Graphic file (type png)
+<use images//block_diagrams/mis_triangle.png>
+Package pdftex.def Info: images//block_diagrams/mis_triangle.png  used on input line 297.
+(pdftex.def)             Requested size: 407.36089pt x 91.05997pt.
 File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
 <use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 298.
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 310.
 (pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
 File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
 <use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 304.
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 316.
 (pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-<images//block_diagrams/freq_divider_block_diagram.png, id=116, 107.2005pt x 29.26935pt>
+ [12 <./images//graphs/low_res_triangle.png> <./images//graphs/high_res_triangle.png> <./images//circuits/triangle_counter_circuit.png>]
+<images//block_diagrams/freq_divider_block_diagram.png, id=123, 107.2005pt x 29.26935pt>
 File: images//block_diagrams/freq_divider_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/freq_divider_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/freq_divider_block_diagram.png  used on input line 327.
+Package pdftex.def Info: images//block_diagrams/freq_divider_block_diagram.png  used on input line 339.
 (pdftex.def)             Requested size: 107.20023pt x 29.26927pt.
- [12 <./images//circuits/triangle_counter_circuit.png>]
-<images//block_diagrams/UD_block_diagram.png, id=121, 138.7584pt x 32.16016pt>
+<images//block_diagrams/UD_block_diagram.png, id=124, 138.7584pt x 32.16016pt>
 File: images//block_diagrams/UD_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/UD_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/UD_block_diagram.png  used on input line 342.
+Package pdftex.def Info: images//block_diagrams/UD_block_diagram.png  used on input line 354.
 (pdftex.def)             Requested size: 138.75806pt x 32.16006pt.
-<images//circuits/inverter_circuit.png, id=122, 102.02115pt x 108.04366pt>
+ [13 <./images//block_diagrams/mis_triangle.png> <./images//block_diagrams/freq_divider_block_diagram.png>]
+<images//circuits/inverter_circuit.png, id=131, 102.02115pt x 108.04366pt>
 File: images//circuits/inverter_circuit.png Graphic file (type png)
 <use images//circuits/inverter_circuit.png>
-Package pdftex.def Info: images//circuits/inverter_circuit.png  used on input line 362.
+Package pdftex.def Info: images//circuits/inverter_circuit.png  used on input line 374.
 (pdftex.def)             Requested size: 102.02087pt x 108.04338pt.
-<images//block_diagrams/main_signals_block_diagam.png, id=123, 247.1634pt x 131.7723pt>
-File: images//block_diagrams/main_signals_block_diagam.png Graphic file (type png)
-<use images//block_diagrams/main_signals_block_diagam.png>
-Package pdftex.def Info: images//block_diagrams/main_signals_block_diagam.png  used on input line 374.
-(pdftex.def)             Requested size: 247.16278pt x 131.77196pt.
-) [13 <./images//block_diagrams/freq_divider_block_diagram.png> <./images//block_diagrams/UD_block_diagram.png>] [14 <./images//circuits/inverter_circuit.png> <./images//block_diagrams/main_signals_block_diagam.png>]
+<images//block_diagrams/mis_clock_divider.png, id=132, 136.71075pt x 91.0602pt>
+File: images//block_diagrams/mis_clock_divider.png Graphic file (type png)
+<use images//block_diagrams/mis_clock_divider.png>
+Package pdftex.def Info: images//block_diagrams/mis_clock_divider.png  used on input line 393.
+(pdftex.def)             Requested size: 136.7104pt x 91.05997pt.
+File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
+<use images//misc/oscilloscope_placeholder.png>
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 399.
+(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 400.
+<images//block_diagrams/mis_UD.png, id=133, 181.3977pt x 91.0602pt>
+File: images//block_diagrams/mis_UD.png Graphic file (type png)
+<use images//block_diagrams/mis_UD.png>
+Package pdftex.def Info: images//block_diagrams/mis_UD.png  used on input line 413.
+(pdftex.def)             Requested size: 181.39725pt x 91.05997pt.
+File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
+<use images//misc/oscilloscope_placeholder.png>
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 419.
+(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
+) [14 <./images//block_diagrams/UD_block_diagram.png> <./images//circuits/inverter_circuit.png> <./images//block_diagrams/mis_clock_divider.png>] [15 <./images//block_diagrams/mis_UD.png>]
 \openout2 = `chapters/ch02-vfc.aux'.
 
  (chapters/ch02-vfc.tex
 Capitolo 2.
-<images//circuits/vfc110_internal.png, id=135, 299.80005pt x 174.05025pt>
+<images//circuits/vfc110_internal.png, id=146, 299.80005pt x 174.05025pt>
 File: images//circuits/vfc110_internal.png Graphic file (type png)
 <use images//circuits/vfc110_internal.png>
 Package pdftex.def Info: images//circuits/vfc110_internal.png  used on input line 36.
 (pdftex.def)             Requested size: 299.7993pt x 174.0498pt.
-[15
+[16
 
 
 
 
  <./images//circuits/vfc110_internal.png>]
-<images//circuits/VFC_circuit.png, id=140, 148.99664pt x 147.9126pt>
+<images//graphs/integrator_behaviour.png, id=151, 179.9523pt x 173.448pt>
+File: images//graphs/integrator_behaviour.png Graphic file (type png)
+<use images//graphs/integrator_behaviour.png>
+Package pdftex.def Info: images//graphs/integrator_behaviour.png  used on input line 52.
+(pdftex.def)             Requested size: 179.95184pt x 173.44757pt.
+<images//circuits/VFC_circuit.png, id=152, 148.99664pt x 147.9126pt>
 File: images//circuits/VFC_circuit.png Graphic file (type png)
 <use images//circuits/VFC_circuit.png>
-Package pdftex.def Info: images//circuits/VFC_circuit.png  used on input line 60.
+Package pdftex.def Info: images//circuits/VFC_circuit.png  used on input line 65.
 (pdftex.def)             Requested size: 148.99626pt x 147.91223pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16 <./images//circuits/VFC_circuit.png>]
-<images//acquisitions/VFC_1V.png, id=146, 1027.84pt x 770.88pt>
+ [17 <./images//graphs/integrator_behaviour.png> <./images//circuits/VFC_circuit.png>]
+<images//block_diagrams/mis_VFC.png, id=159, 137.19255pt x 108.1641pt>
+File: images//block_diagrams/mis_VFC.png Graphic file (type png)
+<use images//block_diagrams/mis_VFC.png>
+Package pdftex.def Info: images//block_diagrams/mis_VFC.png  used on input line 102.
+(pdftex.def)             Requested size: 137.1922pt x 108.16382pt.
+<images//acquisitions/VFC_1V.png, id=160, 1027.84pt x 770.88pt>
 File: images//acquisitions/VFC_1V.png Graphic file (type png)
 <use images//acquisitions/VFC_1V.png>
-Package pdftex.def Info: images//acquisitions/VFC_1V.png  used on input line 105.
+Package pdftex.def Info: images//acquisitions/VFC_1V.png  used on input line 115.
 (pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 106.
-<images//acquisitions/VFC_5V.png, id=147, 1027.84pt x 770.88pt>
+<images//acquisitions/VFC_5V.png, id=161, 1027.84pt x 770.88pt>
 File: images//acquisitions/VFC_5V.png Graphic file (type png)
 <use images//acquisitions/VFC_5V.png>
-Package pdftex.def Info: images//acquisitions/VFC_5V.png  used on input line 111.
+Package pdftex.def Info: images//acquisitions/VFC_5V.png  used on input line 121.
 (pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
-<images//acquisitions/VFC_10V.png, id=148, 1027.84pt x 770.88pt>
+<images//acquisitions/VFC_10V.png, id=162, 1027.84pt x 770.88pt>
 File: images//acquisitions/VFC_10V.png Graphic file (type png)
 <use images//acquisitions/VFC_10V.png>
-Package pdftex.def Info: images//acquisitions/VFC_10V.png  used on input line 117.
+Package pdftex.def Info: images//acquisitions/VFC_10V.png  used on input line 127.
 (pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
-) [17 <./images//acquisitions/VFC_1V.png (PNG copy)> <./images//acquisitions/VFC_5V.png (PNG copy)> <./images//acquisitions/VFC_10V.png (PNG copy)>]
+PGFPlots: reading {data/misure_vfc.csv}
+PGFPlots: reading {./data/misure_vfc.csv}
+PGFPlots: reading {./data/misure_vfc.csv}
+PGFPlots: reading {./data/misure_vfc.csv}
+PGFPlots: reading {./data/misure_vfc.csv}
+) [18 <./images//block_diagrams/mis_VFC.png>] [19 <./images//acquisitions/VFC_1V.png (PNG copy)> <./images//acquisitions/VFC_5V.png (PNG copy)> <./images//acquisitions/VFC_10V.png (PNG copy)>] [20]
 \openout2 = `chapters/ch03-lin_exp.aux'.
 
  (chapters/ch03-lin_exp.tex
@@ -1012,33 +1115,33 @@ Overfull \hbox (0.20334pt too wide) in paragraph at lines 9--12
 \OT1/ptm/m/n/12 Vogliamo ora ana-liz-za-re la se-zio-ne di cir-cu-to che sod-di-sfa la spe-ci-fi-ca sul-la mo-da-lit[]a $\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 V=Octave$
  []
 
-<images//circuits/single_transistor_circuit.png, id=154, 49.50494pt x 52.0344pt>
+<images//circuits/single_transistor_circuit.png, id=174, 49.50494pt x 52.0344pt>
 File: images//circuits/single_transistor_circuit.png Graphic file (type png)
 <use images//circuits/single_transistor_circuit.png>
 Package pdftex.def Info: images//circuits/single_transistor_circuit.png  used on input line 33.
 (pdftex.def)             Requested size: 49.5048pt x 52.03426pt.
-<images//circuits/differential_pair_circuit.png, id=155, 86.4831pt x 52.0344pt>
+<images//circuits/differential_pair_circuit.png, id=175, 86.4831pt x 52.0344pt>
 File: images//circuits/differential_pair_circuit.png Graphic file (type png)
 <use images//circuits/differential_pair_circuit.png>
 Package pdftex.def Info: images//circuits/differential_pair_circuit.png  used on input line 49.
 (pdftex.def)             Requested size: 86.48286pt x 52.03426pt.
-[18
+[21
 
 
 
 
  <./images//circuits/single_transistor_circuit.png> <./images//circuits/differential_pair_circuit.png>]
-<images//circuits/exponential_converter_circuit.png, id=162, 258.84705pt x 185.2521pt>
+<images//circuits/exponential_converter_circuit.png, id=182, 258.84705pt x 185.2521pt>
 File: images//circuits/exponential_converter_circuit.png Graphic file (type png)
 <use images//circuits/exponential_converter_circuit.png>
 Package pdftex.def Info: images//circuits/exponential_converter_circuit.png  used on input line 71.
 (pdftex.def)             Requested size: 258.8464pt x 185.25165pt.
- [19 <./images//circuits/exponential_converter_circuit.png>] [20]) [21]
+ [22 <./images//circuits/exponential_converter_circuit.png>] [23]) [24]
 \openout2 = `chapters/ch04-selezione_modalità.aux'.
 
  (chapters/ch04-selezione_modalità.tex
 Capitolo 4.
-) [22
+) [25
 
 
 
@@ -1048,20 +1151,20 @@ Capitolo 4.
 
  (chapters/ch05-segnali_secondari.tex
 Capitolo 5.
-[23
+[26
 
 
 
 
-] [24])
+] [27])
 Underfull \vbox (badness 1616) has occurred while \output is active []
 
- [25] [26]
+ [28] [29]
 \openout2 = `chapters/ch06-stadi_uscita.aux'.
 
  (chapters/ch06-stadi_uscita.tex
 Capitolo 6.
-) [27
+) [30
 
 
 
@@ -1071,7 +1174,7 @@ Capitolo 6.
 
  (chapters/ch07-efuse.tex
 Capitolo 7.
-) [28
+) [31
 
 
 
@@ -1081,7 +1184,7 @@ Capitolo 7.
 
  (chapters/ch08-suddivisione_schede.tex
 Capitolo 8.
-) [29
+) [32
 
 
 
@@ -1089,46 +1192,32 @@ Capitolo 8.
 ]
 \openout2 = `chapters/ch09-conclusioni.aux'.
 
- (chapters/ch09-conclusioni.tex) [30
+ (chapters/ch09-conclusioni.tex) [33
 
 
 
 
-]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 114.
- (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Overfull \hbox (19.17757pt too wide) in paragraph at lines 115--115
-[]\OT1/ptm/m/it/12 Precision voltage-to-frequency con-ver-ter with 1-Hz to 100-kHz full sca-le fre-quen-cy\OT1/ptm/m/n/12 . LMx31x.
- []
-
-
-Overfull \hbox (4.20448pt too wide) in paragraph at lines 115--115
-\OT1/ptm/m/n/12 SN74S169. Te-xas In-stru-men-ts. 1Mar 1988. \OT1/ptm/m/sc/12 url\OT1/ptm/m/n/12 : $\OT1/pcr/m/n/12 https : / / www . ti . com / product /
- []
-
-[31
+] [34
 
 
 
-] (main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-contatori_dac.aux) (chapters/ch02-vfc.aux) (chapters/ch03-lin_exp.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-stadi_uscita.aux) (chapters/ch07-efuse.aux) (chapters/ch08-suddivisione_schede.aux) (chapters/ch09-conclusioni.aux))
+] [35] (main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-contatori_dac.aux) (chapters/ch02-vfc.aux) (chapters/ch03-lin_exp.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-stadi_uscita.aux) (chapters/ch07-efuse.aux) (chapters/ch08-suddivisione_schede.aux) (chapters/ch09-conclusioni.aux))
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35606 strings out of 478552
- 870705 string characters out of 2841938
- 1724803 words of memory out of 3000000
- 53197 multiletter control sequences out of 15000+600000
- 486210 words of font info for 59 fonts, out of 8000000 for 9000
+ 40978 strings out of 478552
+ 1032860 string characters out of 2841938
+ 1880794 words of memory out of 3000000
+ 58515 multiletter control sequences out of 15000+600000
+ 486709 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,17n,84p,1256b,1310s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (31 pages, 1675447 bytes).
+ 84i,21n,84p,1256b,2404s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (35 pages, 1819297 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
+ 294 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 188 words of extra memory for PDF output out of 10000 (max. 10000000)
 

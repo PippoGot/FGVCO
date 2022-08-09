@@ -2,6 +2,9 @@
 
 % --- PACCHETTI ---
 
+% unità di misura
+\usepackage{siunitx}
+
 % titolo capitoli e sezioni personalizzato
 \usepackage{titlesec}
 
@@ -16,7 +19,7 @@
 % include pdfs
 \usepackage{pdfpages}
 
-% grafiche
+% grafiche e tabelle
 \usepackage{graphicx}
 \usepackage{calc}
 
@@ -24,10 +27,48 @@
 
 \usepackage{tikz}
 \usepackage{pgfplots}
+\usepackage{pgfplotstable}
 
 \pgfplotsset{compat = newest}
+\usepgfplotslibrary{units}
+
+\pgfplotstableset{% global config
+    col sep = comma,
+    string type,
+    every last row/.style = {after row = \hline},
+    every even row/.style = {
+        before row = \hline\rowcolor{myLightBlue},
+        after row = \hline,
+    },
+}
+
+% colori personalizzati
+\usepackage{colortbl}
+\usepackage{xcolor}
+
+% normali
+\definecolor{myBlue}{RGB}{1, 187, 235}
+\definecolor{myRed}{RGB}{255, 43, 43}
+\definecolor{myYellow}{RGB}{255, 221, 86}
+\definecolor{myBlack}{RGB}{28, 28, 28}
+\definecolor{myGrey}{RGB}{134, 134, 134}
+% chiari
+\definecolor{myLightBlue}{RGB}{177, 239, 255}
+\definecolor{myLightRed}{RGB}{255, 177, 177}
+\definecolor{myLightYellow}{RGB}{255, 240, 180}
+\definecolor{myLightGrey}{RGB}{218, 218, 218}
+
+\pgfplotscreateplotcyclelist{modular}{
+        {myBlue},
+        {myRed},
+        {myYellow},
+        {myBlack},
+        {myGray},
+      }
 
 \usepackage{subcaption}
+
+\usepackage{csvsimple}
 
 % numerazione capitoli in italiano
 \usepackage[italian]{babel}
@@ -36,7 +77,7 @@
 \usepackage{parskip}
 
 % impaginazione
-\usepackage{setspace} %for doublespacing
+\usepackage{setspace} % For doublespacing
 
 \doublespacing
 
@@ -52,6 +93,12 @@
 \usepackage{biblatex}
 
 \addbibresource{bibliography.bib}
+
+\usepackage{xurl} % evita che la bibliografia esca dal margine
+\usepackage{url}
+
+\urlstyle{same}
+\appto{\bibsetup}{\raggedright}
 
 % salta pagine bianche
 \usepackage{afterpage}
@@ -89,7 +136,7 @@
 
 % --- FRONTESPIZIO ---
 % DA MODIFICARE DATA DI LAUREA !!!
-\includepdf{frontespizio/frontespizio_tesi_02.pdf}
+\includepdf{pdfs/frontespizio/frontespizio_tesi.pdf}
 \emptypage
 
 % --- INDICE ---
@@ -109,6 +156,8 @@
 \include{chapters/ch07-efuse.tex}
 \include{chapters/ch08-suddivisione_schede.tex}
 \include{chapters/ch09-conclusioni.tex}
+
+% aggiungere appendice con schemi elettrici
 
 % bibliografia
 \printbibliography
