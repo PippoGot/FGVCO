@@ -2,14 +2,14 @@
 
 %--------------------------------------------------------------------------------------------
 
-Si vuole ora progettare il circuito per la generazione del segnale di clock, con le
+Si vuole ora progettare il circuito per la generazione del segnale $f_{clk}$, con le
 specifiche ottenute dal capitolo precedente, ovvero:
 
 \begin{itemize}
-    \item Frequenza minima: $\approx 14kHz$;
-    \item Frequenza massima: $\approx 3.6MHz$;
-    \item Livello logico basso: $0V$;
-    \item Livello logico alto: $+5V$;
+    \item Frequenza minima: $\approx 14\ kHz$;
+    \item Frequenza massima: $\approx 3.6\ MHz$;
+    \item Livello logico basso: $0\ V$;
+    \item Livello logico alto: $+5\ V$;
 \end{itemize}
 
 %--------------------------------------------------------------------------------------------
@@ -27,40 +27,38 @@ semplicemente aggiungendo una manciata di componenti di contorno, anche se la ma
 parte di questi non arriva a coprire l'intero range di funzionamento di cui abbiamo bisogno
 (come ad esempio il noto LM331 \cite{lm331}). Nel nostro caso si utilizza un VFC110
 \cite{vfc110}, circuito integrato che vanta un'ottima linearità e capace di fornire una
-frequenza di $4MHz$ in uscita con una corrispondente tensione in ingresso di $10V$,
+frequenza di $4\ MHz$ in uscita con una corrispondente tensione in ingresso di $10\ V$,
 esattamente ciò che la nostra applicazione richiede.
-\medskip
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics{circuits/vfc110_internal.png}
-    \caption{Estratto della struttura interna di un VFC110}
-    \label{vfc100_internal}
+    \caption{Estratto utile della struttura interna di un VFC110}
+    \label{vfc110_internal}
 \end{figure}
 
-Il cuore del circuito consiste in un operazionale configurato come integratore, con tensione
-di uscita proporzionale alla carica immagazzinata nella sua capacità di feedback $C_{int}$.
-Una tensione in ingresso $V_{in}$ sviluppa una corrente $I_{in}=\frac{V_{in}}{R_{in}}$
-che viene forzata in $C_{int}$, causando quindi un andamento a rampa decrescente in uscita.
-Arrivati a $0V$ il comparatore scatta, attivando il timer one-shot. Quindi un generatore
-di corrente $I_{ref}$ (dal valore di circa $1mA$) viene connesso all'ingresso dell'integratore
-per un periodo di durata pari a $T_{OS}$, causando un andamento a rampa crescente in uscita
-all'integratore. Infine il ciclo ricomincia.
+Il cuore del circuito (figura \ref{vfc110_internal}) consiste in un operazionale configurato
+come integratore, con tensione di uscita proporzionale alla carica immagazzinata nella sua
+capacità di feedback $C_{int}$. Una tensione in ingresso $V_{in}$ sviluppa una corrente
+$I_{in}=\frac{V_{in}}{R_{in}}$ che viene forzata in $C_{int}$, causando quindi una rampa
+decrescente in uscita. Arrivati a $0\ V$ il comparatore scatta, attivando il timer one-shot.
+Quindi un generatore di corrente $I_{ref}$ (dal valore di circa $1\ mA$) viene connesso
+all'ingresso dell'integratore per un periodo di durata pari a $T_{OS}$, causando una rampa
+crescente in uscita. Infine il ciclo ricomincia.
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics{graphs/integrator_behaviour.png}
     \caption{Forme d'onda teoriche del VFC110}
-    \label{integrator behaviour}
+    \label{integrator_behaviour}
 \end{figure}
 
 Per uno studio più approfondito sul funzionamento del VFC110 si consiglia la lettura del
 datasheet del componente, dal quale si ricava anche la configurazione del circuito utilizzato
-per sfruttare l'intero range offerto. Si modificano però i valori di alimentazione con
-quelli dello standard scelto ($\pm 12V$).
-\medskip
+per sfruttare l'intero range offerto (figura \ref{VFC_circuit}). Si modificano solo i valori
+di alimentazione, sostituendoli con quelli dello standard scelto ($\pm 12\ V$).
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics{circuits/VFC_circuit.png}
     \caption{Schema elettrico del VFC110 utilizzato}
@@ -70,22 +68,22 @@ quelli dello standard scelto ($\pm 12V$).
 Si noti che gli unici componenti aggiunti sono condensatori di filtro e un resistore di
 pull-up per l'uscita a collettore aperto.
 
-Le relazioni tra le grandezze in gioco sono le seguenti:
+Si riportano le relazioni tra le grandezze in gioco:
 
 \begin{displaymath}
-    I_{in}=I_{ref}\cdot\delta
+    I_{in}=I_{ref}\cdot\delta\ [A]
     \qquad
     \rightarrow
     \qquad
-    \delta=\frac{I_{in}}{I_{ref}}=\frac{V_{in}}{R_{in}\cdot I_{ref}}
+    \delta=\frac{I_{in}}{I_{ref}}=\frac{V_{in}}{R_{in}\cdot I_{ref}}\ [\%]
 \end{displaymath}
 
 \begin{displaymath}
-    \frac{V_{in}}{R_{in}}=I_{ref}\cdot f_{out}\cdot T_{OS}
+    \frac{V_{in}}{R_{in}}=I_{ref}\cdot f_{out}\cdot T_{OS}\ [A]
     \qquad
     \rightarrow
     \qquad
-    f_{out}=\frac{V_{in}}{R_{in}\cdot I_{ref}\cdot T_{OS}}=\frac{\delta}{T_{OS}}
+    f_{out}=\frac{V_{in}}{R_{in}\cdot I_{ref}\cdot T_{OS}}=\frac{\delta}{T_{OS}}\ [Hz]
 \end{displaymath}
 
 %--------------------------------------------------------------------------------------------
@@ -95,37 +93,38 @@ Le relazioni tra le grandezze in gioco sono le seguenti:
 %--------------------------------------------------------------------------------------------
 
 Si procede quindi alla verifica del corretto funzionamento del circuito. Il setup di
-misura utilizzato viene riportato in figura:
+misura utilizzato viene riportato in figura \ref{mis_VFC}.
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics{block_diagrams/mis_VFC.png}
     \caption{Circuito di misura del VFC}
     \label{mis_VFC}
 \end{figure}
 
-Possiamo innanzitutto controllare il comportamento dell'integratoreche corrisponde
-a quello descritto nel paragrafo precedente:
+Possiamo innanzitutto verificare che il comportamento dell'integratore corrisponde a quello
+descritto nel paragrafo precedente, e si nota che la durata del periodo basso di $f_{out}$
+si estende lungo il tratto di rampa crescente, come in figura \ref{integrator_behaviour}.
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
 
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics[scale = 0.2]{acquisitions/VFC_1V.png}
-        \caption{$V_{in}=1V$}
+        \caption{$V_{in}=1\ V$}
         \label{acq_vfc110_1v}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics[scale = 0.2]{acquisitions/VFC_5V.png}
-        \caption{$V_{in}=5V$}
+        \caption{$V_{in}=5\ V$}
         \label{acq_vfc110_5v}
     \end{subfigure}
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics[scale = 0.2]{acquisitions/VFC_10V.png}
-        \caption{$V_{in}=10V$}
+        \caption{$V_{in}=10\ V$}
         \label{acq_vfc110_10v}
     \end{subfigure}
 
@@ -134,12 +133,10 @@ a quello descritto nel paragrafo precedente:
     \label{acq_vfc110}
 \end{figure}
 
-Si nota che la durata del periodo basso di $f_{out}$ si estende lungo il tratto di rampa
-crescente, come in figura \ref{integrator behaviour}.
+Vengono ora riportati nella tabella \ref{vfc_table} e a grafico (figura \ref{vfc_graphs})
+i dati raccolti:
 
-Ora si raccolgono i dati per tracciare la transcaratteristica del circuito:
-
-\begin{table}[ht]
+\begin{table}[H]
     \begin{center}
         \pgfplotstabletypeset[
             display columns/0/.style = {
@@ -173,13 +170,14 @@ Ora si raccolgono i dati per tracciare la transcaratteristica del circuito:
     \end{center}
 \end{table}
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
 
     \begin{subfigure}{.5\textwidth}
         \centering
         \begin{tikzpicture}[scale = 0.85]
             \begin{axis}[
+                    title = Duty Cycle,             % title
                     no marks,
                     xmin = 0, xmax = 12,            % limit values
                     ymin = 0, ymax = 50,
@@ -198,7 +196,7 @@ Ora si raccolgono i dati per tracciare la transcaratteristica del circuito:
                 \addplot
                 table[x = vin, y = duty misurato, col sep = comma]{./data/misure_vfc.csv};
 
-                \legend{Atteso, Misurato}
+                \legend{Calcolato, Misurato}
             \end{axis}
         \end{tikzpicture}
 
@@ -208,6 +206,7 @@ Ora si raccolgono i dati per tracciare la transcaratteristica del circuito:
         \centering
         \begin{tikzpicture}[scale = 0.85]
             \begin{axis}[
+                    title = Frequenza,              % title
                     no marks,
                     xmin = 0, xmax = 12,            % limit values
                     ymin = 0, ymax = 5000,
@@ -226,7 +225,7 @@ Ora si raccolgono i dati per tracciare la transcaratteristica del circuito:
                 \addplot
                 table[x = vin, y = fout misurata, col sep = comma]{./data/misure_vfc.csv};
 
-                \legend{Attesa, Misurata}
+                \legend{Calcolata, Misurata}
             \end{axis}
         \end{tikzpicture}
 
@@ -236,3 +235,5 @@ Ora si raccolgono i dati per tracciare la transcaratteristica del circuito:
     \caption{Grafici delle grandezze riportate in tabella \ref{vfc_table}}
     \label{vfc_graphs}
 \end{figure}
+
+%--------------------------------------------------------------------------------------------

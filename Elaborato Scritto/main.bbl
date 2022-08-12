@@ -301,6 +301,39 @@
       \verb https://www.schmitzbits.de/vco2.html
       \endverb
     \endentry
+    \entry{mpq3904}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=1689b54ea7d76aa7ac17626ee2a1511e}{%
+           family={Semiconductor},
+           familyi={S\bibinitperiod},
+           given={Central},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1689b54ea7d76aa7ac17626ee2a1511e}
+      \strng{fullhash}{1689b54ea7d76aa7ac17626ee2a1511e}
+      \strng{bibnamehash}{1689b54ea7d76aa7ac17626ee2a1511e}
+      \strng{authorbibnamehash}{1689b54ea7d76aa7ac17626ee2a1511e}
+      \strng{authornamehash}{1689b54ea7d76aa7ac17626ee2a1511e}
+      \strng{authorfullhash}{1689b54ea7d76aa7ac17626ee2a1511e}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. 2}
+      \field{number}{MPQ3904}
+      \field{title}{SILICON NPN QUAD TRANSISTOR}
+      \field{year}{25 September 2018}
+      \verb{file}
+      \verb PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://my.centralsemi.com/datasheets/MPQ3904.PDF
+      \endverb
+      \verb{url}
+      \verb https://my.centralsemi.com/datasheets/MPQ3904.PDF
+      \endverb
+    \endentry
     \entry{2n7000}{manual}{}
       \name{author}{1}{}{%
         {{hash=f50ffd6a590ec3946c122f340c694e54}{%
@@ -315,6 +348,7 @@
       \strng{authorbibnamehash}{f50ffd6a590ec3946c122f340c694e54}
       \strng{authornamehash}{f50ffd6a590ec3946c122f340c694e54}
       \strng{authorfullhash}{f50ffd6a590ec3946c122f340c694e54}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}

@@ -1,0 +1,100 @@
+% --- SINGLE FIGURE FROM FILE ---
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{}  % PATH
+    \caption{}          % CAPTION
+    \label{}            % LABEL FOR REFERENCES
+\end{figure}
+
+% --- DOUBLE FIGURE FROM FILE ---
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.1]{} % SCALE AND PATH
+        \caption{}                      % SUBCAPTION
+        \label{}                        % SUBLABEL FOR REFERENCES
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.1]{} % SCALE AND PATH
+        \caption{}                      % SUBCAPTION
+        \label{}                        % SUBLABEL FOR REFERENCES
+    \end{subfigure}
+
+    \caption{}                          % CAPTION
+    \label{}                            % LABEL FOR REFERENCES
+\end{figure}
+
+% --- TRIPLE FIGURE (2,1) FROM FILE ---
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.1]{} % SCALE AND PATH
+        \caption{}                      % SUBCAPTION
+        \label{}                        % SUBLABEL FOR REFERENCES
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.1]{} % SCALE AND PATH
+        \caption{}                      % SUBCAPTION
+        \label{}                        % SUBLABEL FOR REFERENCES
+    \end{subfigure}
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.1]{} % SCALE AND PATH
+        \caption{}                      % SUBCAPTION
+        \label{}                        % SUBLABEL FOR REFERENCES
+    \end{subfigure}
+
+    \caption{}                          % CAPTION
+    \label{}                            % LABEL FOR REFERENCES
+\end{figure}
+
+% --- CENTRAL FORMULA ---
+
+\begin{displaymath}
+
+\end{displaymath}
+
+% --- TABLE ---
+
+\begin{table}[H]
+    \begin{center}
+        \pgfplotstabletypeset[
+            display columns/0/.style = {% ROW 0
+                    column name = {},   % NAME
+                    column type = {|c},
+                },
+            display columns/1/.style = {% ROW 1
+                    column name = {},   % NAME
+                    column type = {|c},
+                },
+            display columns/2/.style = {% ROW 2
+                    column name = {},   % NAME
+                    column type = {|c},
+                },
+            display columns/3/.style = {% ROW 3
+                    column name = {},   % NAME
+                    column type = {|c},
+                },
+            display columns/4/.style = {% ROW 4
+                    column name = {},   % NAME
+                    column type = {|c|},
+                },
+            every head row/.style = {   % HEAD ROW STYLE
+                    before row = \hline\rowcolor{myLightRed},
+                    after row = \rowcolor{myLightRed}  \\\hline,
+                },
+        ]{}                             % PATH
+
+        \caption{}                      % CAPTION
+        \label{}                        % LABEL FOR REFERENCE
+    \end{center}
+\end{table}

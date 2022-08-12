@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.22)  10 AUG 2022 00:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.22)  11 AUG 2022 14:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -389,9 +389,16 @@ File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplotstable.sty (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplotstable 2021/05/15 v1.18.1 Table typesetting and Pretty-printing (1.18.1)
- (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstable.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstable.coltype.code.tex))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.units.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+ (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstable.code.tex (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstable.coltype.code.tex))) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.units.code.tex) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count307
+\float@exts=\toks38
+\float@box=\box75
+\@float@everytoks=\toks39
+\@floatcapt=\box76
+) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-\everycr=\toks38
+\everycr=\toks40
 \minrowclearance=\skip56
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
@@ -409,11 +416,12 @@ Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
 \caption@hangindent=\dimen288
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count307
-\c@continuedfloat=\count308
+\c@caption@flags=\count308
+\c@continuedfloat=\count309
+Package caption Info: float package is loaded.
 )
-\c@subfigure=\count309
-\c@subtable=\count310
+\c@subfigure=\count310
+\c@subtable=\count311
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/csvsimple\csvsimple.sty
 Package: csvsimple 2022/06/21 v2.3.1 LaTeX CSV file processing
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/csvsimple\csvsimple-legacy.sty
@@ -423,18 +431,18 @@ Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
 \csv@file=\read3
-\c@csvinputline=\count311
-\c@csvrow=\count312
-\c@csvcol=\count313
+\c@csvinputline=\count312
+\c@csvrow=\count313
+\c@csvcol=\count314
 \csv@out=\write4
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2022/02/26 3.73 The Babel package
-\babel@savecnt=\count314
+\babel@savecnt=\count315
 \U@D=\dimen289
 \l@unhyphenated=\language79
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read4
-\bbl@dirlevel=\count315
+\bbl@dirlevel=\count316
 
 *************************************
 * Local config file bblopts.cfg used
@@ -443,9 +451,9 @@ Package: babel 2022/02/26 3.73 The Babel package
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.ldf
 Language: italian 2022/03/27 v.1.4.07 Italian support for the babel system
-\it@lettering=\count316
-\it@doublequoteactive=\count317
-\it@ISOcompliance=\count318
+\it@lettering=\count317
+\it@doublequoteactive=\count318
+\it@ISOcompliance=\count319
 )) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
@@ -459,9 +467,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count319
-\Gm@cntv=\count320
-\c@Gm@tempcnt=\count321
+\Gm@cnth=\count320
+\Gm@cntv=\count321
+\c@Gm@tempcnt=\count322
 \Gm@bindingoffset=\dimen290
 \Gm@wd@mp=\dimen291
 \Gm@odd@mp=\dimen292
@@ -470,18 +478,18 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen295
 \Gm@layouthoffset=\dimen296
 \Gm@layoutvoffset=\dimen297
-\Gm@dimlist=\toks39
+\Gm@dimlist=\toks41
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count322
-\csq@gtype=\count323
-\csq@glevel=\count324
-\csq@qlevel=\count325
-\csq@maxlvl=\count326
-\csq@tshold=\count327
-\csq@ltx@everypar=\toks40
+\csq@reset=\count323
+\csq@gtype=\count324
+\csq@glevel=\count325
+\csq@qlevel=\count326
+\csq@maxlvl=\count327
+\csq@tshold=\count328
+\csq@ltx@everypar=\toks42
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
 )
@@ -493,55 +501,55 @@ File: csquotes.cfg
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count328
+\lrq@indent=\count329
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count329
-\c@listtotal=\count330
-\c@listcount=\count331
-\c@liststart=\count332
-\c@liststop=\count333
-\c@citecount=\count334
-\c@citetotal=\count335
-\c@multicitecount=\count336
-\c@multicitetotal=\count337
-\c@instcount=\count338
-\c@maxnames=\count339
-\c@minnames=\count340
-\c@maxitems=\count341
-\c@minitems=\count342
-\c@citecounter=\count343
-\c@maxcitecounter=\count344
-\c@savedcitecounter=\count345
-\c@uniquelist=\count346
-\c@uniquename=\count347
-\c@refsection=\count348
-\c@refsegment=\count349
-\c@maxextratitle=\count350
-\c@maxextratitleyear=\count351
-\c@maxextraname=\count352
-\c@maxextradate=\count353
-\c@maxextraalpha=\count354
-\c@abbrvpenalty=\count355
-\c@highnamepenalty=\count356
-\c@lownamepenalty=\count357
-\c@maxparens=\count358
-\c@parenlevel=\count359
-\blx@tempcnta=\count360
-\blx@tempcntb=\count361
-\blx@tempcntc=\count362
-\c@blx@maxsection=\count363
-\c@blx@maxsegment@0=\count364
-\blx@notetype=\count365
-\blx@parenlevel@text=\count366
-\blx@parenlevel@foot=\count367
-\c@blx@sectionciteorder@0=\count368
-\blx@entrysetcounter=\count369
-\blx@biblioinstance=\count370
+\c@tabx@nest=\count330
+\c@listtotal=\count331
+\c@listcount=\count332
+\c@liststart=\count333
+\c@liststop=\count334
+\c@citecount=\count335
+\c@citetotal=\count336
+\c@multicitecount=\count337
+\c@multicitetotal=\count338
+\c@instcount=\count339
+\c@maxnames=\count340
+\c@minnames=\count341
+\c@maxitems=\count342
+\c@minitems=\count343
+\c@citecounter=\count344
+\c@maxcitecounter=\count345
+\c@savedcitecounter=\count346
+\c@uniquelist=\count347
+\c@uniquename=\count348
+\c@refsection=\count349
+\c@refsegment=\count350
+\c@maxextratitle=\count351
+\c@maxextratitleyear=\count352
+\c@maxextraname=\count353
+\c@maxextradate=\count354
+\c@maxextraalpha=\count355
+\c@abbrvpenalty=\count356
+\c@highnamepenalty=\count357
+\c@lownamepenalty=\count358
+\c@maxparens=\count359
+\c@parenlevel=\count360
+\blx@tempcnta=\count361
+\blx@tempcntb=\count362
+\blx@tempcntc=\count363
+\c@blx@maxsection=\count364
+\c@blx@maxsegment@0=\count365
+\blx@notetype=\count366
+\blx@parenlevel@text=\count367
+\blx@parenlevel@foot=\count368
+\c@blx@sectionciteorder@0=\count369
+\blx@entrysetcounter=\count370
+\blx@biblioinstance=\count371
 \labelnumberwidth=\skip57
 \labelalphawidth=\skip58
 \biblabelsep=\skip59
@@ -553,9 +561,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read5
 \blx@bcfout=\write5
 \blx@langwohyphens=\language80
-\c@mincomprange=\count371
-\c@maxcomprange=\count372
-\c@mincompwidth=\count373
+\c@mincomprange=\count372
+\c@maxcomprange=\count373
+\c@mincompwidth=\count374
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -563,74 +571,74 @@ File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count374
-\c@savedafterword=\count375
-\c@annotator=\count376
-\c@savedannotator=\count377
-\c@author=\count378
-\c@savedauthor=\count379
-\c@bookauthor=\count380
-\c@savedbookauthor=\count381
-\c@commentator=\count382
-\c@savedcommentator=\count383
-\c@editor=\count384
-\c@savededitor=\count385
-\c@editora=\count386
-\c@savededitora=\count387
-\c@editorb=\count388
-\c@savededitorb=\count389
-\c@editorc=\count390
-\c@savededitorc=\count391
-\c@foreword=\count392
-\c@savedforeword=\count393
-\c@holder=\count394
-\c@savedholder=\count395
-\c@introduction=\count396
-\c@savedintroduction=\count397
-\c@namea=\count398
-\c@savednamea=\count399
-\c@nameb=\count400
-\c@savednameb=\count401
-\c@namec=\count402
-\c@savednamec=\count403
-\c@translator=\count404
-\c@savedtranslator=\count405
-\c@shortauthor=\count406
-\c@savedshortauthor=\count407
-\c@shorteditor=\count408
-\c@savedshorteditor=\count409
-\c@labelname=\count410
-\c@savedlabelname=\count411
-\c@institution=\count412
-\c@savedinstitution=\count413
-\c@lista=\count414
-\c@savedlista=\count415
-\c@listb=\count416
-\c@savedlistb=\count417
-\c@listc=\count418
-\c@savedlistc=\count419
-\c@listd=\count420
-\c@savedlistd=\count421
-\c@liste=\count422
-\c@savedliste=\count423
-\c@listf=\count424
-\c@savedlistf=\count425
-\c@location=\count426
-\c@savedlocation=\count427
-\c@organization=\count428
-\c@savedorganization=\count429
-\c@origlocation=\count430
-\c@savedoriglocation=\count431
-\c@origpublisher=\count432
-\c@savedorigpublisher=\count433
-\c@publisher=\count434
-\c@savedpublisher=\count435
-\c@language=\count436
-\c@savedlanguage=\count437
-\c@origlanguage=\count438
-\c@savedoriglanguage=\count439
-\c@pageref=\count440
-\c@savedpageref=\count441
+\c@afterword=\count375
+\c@savedafterword=\count376
+\c@annotator=\count377
+\c@savedannotator=\count378
+\c@author=\count379
+\c@savedauthor=\count380
+\c@bookauthor=\count381
+\c@savedbookauthor=\count382
+\c@commentator=\count383
+\c@savedcommentator=\count384
+\c@editor=\count385
+\c@savededitor=\count386
+\c@editora=\count387
+\c@savededitora=\count388
+\c@editorb=\count389
+\c@savededitorb=\count390
+\c@editorc=\count391
+\c@savededitorc=\count392
+\c@foreword=\count393
+\c@savedforeword=\count394
+\c@holder=\count395
+\c@savedholder=\count396
+\c@introduction=\count397
+\c@savedintroduction=\count398
+\c@namea=\count399
+\c@savednamea=\count400
+\c@nameb=\count401
+\c@savednameb=\count402
+\c@namec=\count403
+\c@savednamec=\count404
+\c@translator=\count405
+\c@savedtranslator=\count406
+\c@shortauthor=\count407
+\c@savedshortauthor=\count408
+\c@shorteditor=\count409
+\c@savedshorteditor=\count410
+\c@labelname=\count411
+\c@savedlabelname=\count412
+\c@institution=\count413
+\c@savedinstitution=\count414
+\c@lista=\count415
+\c@savedlista=\count416
+\c@listb=\count417
+\c@savedlistb=\count418
+\c@listc=\count419
+\c@savedlistc=\count420
+\c@listd=\count421
+\c@savedlistd=\count422
+\c@liste=\count423
+\c@savedliste=\count424
+\c@listf=\count425
+\c@savedlistf=\count426
+\c@location=\count427
+\c@savedlocation=\count428
+\c@organization=\count429
+\c@savedorganization=\count430
+\c@origlocation=\count431
+\c@savedoriglocation=\count432
+\c@origpublisher=\count433
+\c@savedorigpublisher=\count434
+\c@publisher=\count435
+\c@savedpublisher=\count436
+\c@language=\count437
+\c@savedlanguage=\count438
+\c@origlanguage=\count439
+\c@savedoriglanguage=\count440
+\c@pageref=\count441
+\c@savedpageref=\count442
 \shorthandwidth=\skip65
 \shortjournalwidth=\skip66
 \shortserieswidth=\skip67
@@ -654,19 +662,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count442
-\c@textcitetotal=\count443
-\c@textcitemaxnames=\count444
-\c@biburlbigbreakpenalty=\count445
-\c@biburlbreakpenalty=\count446
-\c@biburlnumpenalty=\count447
-\c@biburlucpenalty=\count448
-\c@biburllcpenalty=\count449
+\c@textcitecount=\count443
+\c@textcitetotal=\count444
+\c@textcitemaxnames=\count445
+\c@biburlbigbreakpenalty=\count446
+\c@biburlbreakpenalty=\count447
+\c@biburlnumpenalty=\count448
+\c@biburlucpenalty=\count449
+\c@biburllcpenalty=\count450
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count450
+\c@smartand=\count451
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -676,8 +684,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count451
-\c@bbx:relatedtotal=\count452
+\c@bbx:relatedcount=\count452
+\c@bbx:relatedtotal=\count453
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -716,53 +724,53 @@ Package: xurl 2022/01/09 v 0.10 modify URL breaks
 xurl: Set penalties for biblatex
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks41
-\AP@partial=\box75
-\AP@footins=\box76
+\AP@output=\toks43
+\AP@partial=\box77
+\AP@footins=\box78
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count453
-\l__lipsum_a_int=\count454
-\l__lipsum_b_int=\count455
+\g__lipsum_par_int=\count454
+\l__lipsum_a_int=\count455
+\l__lipsum_b_int=\count456
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'italian'.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 135.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 137.
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-contatori_dac.aux) (chapters/ch02-vfc.aux) (chapters/ch03-lin_exp.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-stadi_uscita.aux) (chapters/ch07-efuse.aux) (chapters/ch08-suddivisione_schede.aux) (chapters/ch09-conclusioni.aux))
+) (main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-segnali_principali.aux) (chapters/ch02-vfc.aux) (chapters/ch03-interfaccia_ingresso.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-interfaccia_uscita.aux) (chapters/ch07-protezione_circuito.aux) (chapters/ch08-suddivisione_schede.aux) (chapters/ch09-conclusioni.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 135.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 137.
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count456
+\scratchcounter=\count457
 \scratchdimen=\dimen298
-\scratchbox=\box77
-\nofMPsegments=\count457
-\nofMParguments=\count458
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count459
+\scratchbox=\box79
+\nofMPsegments=\count458
+\nofMParguments=\count459
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count460
 \MPscratchDim=\dimen299
-\MPnumerator=\count460
-\makeMPintoPDFobject=\count461
-\everyMPtoPDFconversion=\toks43
+\MPnumerator=\count461
+\makeMPintoPDFobject=\count462
+\everyMPtoPDFconversion=\toks45
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -779,15 +787,15 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \it@ocap on input line 135.
-LaTeX Info: Redefining \it@ccap on input line 135.
+LaTeX Info: Redefining \it@ocap on input line 137.
+LaTeX Info: Redefining \it@ccap on input line 137.
 
 File italian.ldf warning: 
 italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 135.
+italian.ldf    on input line 137.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -836,22 +844,22 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 135.
-Package biblatex Info: Reference segment=0 on input line 135.
+Package biblatex Info: Reference section=0 on input line 137.
+Package biblatex Info: Reference segment=0 on input line 137.
 
 
 pdfTeX warning: pdflatex (file ./pdfs/frontespizio/frontespizio_tesi.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <pdfs/frontespizio/frontespizio_tesi.pdf, id=4, 597.55246pt x 845.07718pt>
 File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
 <use pdfs/frontespizio/frontespizio_tesi.pdf>
-Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf  used on input line 139.
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf  used on input line 141.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
 pdfTeX warning: pdflatex (file ./pdfs/frontespizio/frontespizio_tesi.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
 <use pdfs/frontespizio/frontespizio_tesi.pdf>
-Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf  used on input line 139.
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf  used on input line 141.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -862,23 +870,23 @@ pdfTeX warning: pdflatex (file ./pdfs/frontespizio/frontespizio_tesi.pdf): PDF i
 <pdfs/frontespizio/frontespizio_tesi.pdf, id=7, page=1, 597.55246pt x 845.07718pt>
 File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
 <use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
-Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 139.
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 141.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
 <use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
-Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 139.
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 141.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
 <use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
-Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 139.
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 141.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
 <use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
-Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 139.
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 141.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
 <use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
-Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 139.
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 141.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [1
 
@@ -914,154 +922,153 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 <images//misc/panel_explained.png, id=69, 351.59355pt x 366.52934pt>
 File: images//misc/panel_explained.png Graphic file (type png)
 <use images//misc/panel_explained.png>
-Package pdftex.def Info: images//misc/panel_explained.png  used on input line 73.
+Package pdftex.def Info: images//misc/panel_explained.png  used on input line 70.
 (pdftex.def)             Requested size: 351.59268pt x 366.52844pt.
 ) [6] [7 <./images//misc/panel_explained.png>]
-\openout2 = `chapters/ch01-contatori_dac.aux'.
+\openout2 = `chapters/ch01-segnali_principali.aux'.
 
- (chapters/ch01-contatori_dac.tex
+ (chapters/ch01-segnali_principali.tex
 Capitolo 1.
-<images//block_diagrams/counter_block_diagram.png, id=79, 148.03305pt x 45.89145pt>
-File: images//block_diagrams/counter_block_diagram.png Graphic file (type png)
-<use images//block_diagrams/counter_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/counter_block_diagram.png  used on input line 12.
-(pdftex.def)             Requested size: 148.03267pt x 45.89133pt.
-<images//graphs/low_res_ramp.png, id=80, 181.6386pt x 67.2111pt>
+<images//graphs/low_res_ramp.png, id=79, 181.6386pt x 67.2111pt>
 File: images//graphs/low_res_ramp.png Graphic file (type png)
 <use images//graphs/low_res_ramp.png>
-Package pdftex.def Info: images//graphs/low_res_ramp.png  used on input line 39.
+Package pdftex.def Info: images//graphs/low_res_ramp.png  used on input line 29.
 (pdftex.def)             Requested size: 181.63814pt x 67.21094pt.
-<images//graphs/high_res_ramp.png, id=81, 181.6386pt x 73.11314pt>
+<images//graphs/high_res_ramp.png, id=80, 181.6386pt x 73.11314pt>
 File: images//graphs/high_res_ramp.png Graphic file (type png)
 <use images//graphs/high_res_ramp.png>
-Package pdftex.def Info: images//graphs/high_res_ramp.png  used on input line 45.
+Package pdftex.def Info: images//graphs/high_res_ramp.png  used on input line 35.
 (pdftex.def)             Requested size: 181.63814pt x 73.11296pt.
 [8
 
 
 
 
- <./images//block_diagrams/counter_block_diagram.png> <./images//graphs/low_res_ramp.png> <./images//graphs/high_res_ramp.png>]
-<images//block_diagrams/ramp_block_diagram.png, id=89, 150.44205pt x 45.89145pt>
+ <./images//graphs/low_res_ramp.png> <./images//graphs/high_res_ramp.png>]
+<images//block_diagrams/ramp_block_diagram.png, id=87, 265.11044pt x 62.99535pt>
 File: images//block_diagrams/ramp_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/ramp_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/ramp_block_diagram.png  used on input line 81.
-(pdftex.def)             Requested size: 150.44167pt x 45.89133pt.
-<images//circuits/DAC_circuit.png, id=90, 264.62865pt x 119.36595pt>
+Package pdftex.def Info: images//block_diagrams/ramp_block_diagram.png  used on input line 69.
+(pdftex.def)             Requested size: 265.10977pt x 62.99518pt.
+<images//circuits/DAC_circuit.png, id=88, 264.62865pt x 119.36595pt>
 File: images//circuits/DAC_circuit.png Graphic file (type png)
 <use images//circuits/DAC_circuit.png>
-Package pdftex.def Info: images//circuits/DAC_circuit.png  used on input line 122.
+Package pdftex.def Info: images//circuits/DAC_circuit.png  used on input line 108.
 (pdftex.def)             Requested size: 264.62799pt x 119.36565pt.
  [9 <./images//block_diagrams/ramp_block_diagram.png>]
-<images//circuits/ramp_counter_circuit.png, id=96, 125.9907pt x 162.1257pt>
+<images//circuits/ramp_counter_circuit.png, id=94, 125.9907pt x 162.1257pt>
 File: images//circuits/ramp_counter_circuit.png Graphic file (type png)
 <use images//circuits/ramp_counter_circuit.png>
-Package pdftex.def Info: images//circuits/ramp_counter_circuit.png  used on input line 140.
+Package pdftex.def Info: images//circuits/ramp_counter_circuit.png  used on input line 124.
 (pdftex.def)             Requested size: 125.99039pt x 162.1253pt.
-<images//block_diagrams/mis_ramp.png, id=97, 407.3619pt x 91.0602pt>
+<images//block_diagrams/mis_ramp.png, id=95, 134.30174pt x 91.0602pt>
 File: images//block_diagrams/mis_ramp.png Graphic file (type png)
 <use images//block_diagrams/mis_ramp.png>
-Package pdftex.def Info: images//block_diagrams/mis_ramp.png  used on input line 165.
-(pdftex.def)             Requested size: 407.36089pt x 91.05997pt.
-<images//acquisitions/ramp_wave.png, id=98, 1027.84pt x 770.88pt>
+Package pdftex.def Info: images//block_diagrams/mis_ramp.png  used on input line 148.
+(pdftex.def)             Requested size: 134.3014pt x 91.05997pt.
+ [10 <./images//circuits/DAC_circuit.png> <./images//circuits/ramp_counter_circuit.png>]
+<images//acquisitions/ramp_wave.png, id=102, 1027.84pt x 770.88pt>
 File: images//acquisitions/ramp_wave.png Graphic file (type png)
 <use images//acquisitions/ramp_wave.png>
-Package pdftex.def Info: images//acquisitions/ramp_wave.png  used on input line 178.
+Package pdftex.def Info: images//acquisitions/ramp_wave.png  used on input line 162.
 (pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
-<images//misc/oscilloscope_placeholder.png, id=99, 171.5208pt x 137.43346pt>
+<images//misc/oscilloscope_placeholder.png, id=103, 171.5208pt x 137.43346pt>
 File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
 <use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 184.
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 168.
 (pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
- [10 <./images//circuits/DAC_circuit.png> <./images//circuits/ramp_counter_circuit.png>]
-<images//block_diagrams/triangle_block_diagram.png, id=106, 151.0443pt x 62.75446pt>
+<images//block_diagrams/triangle_block_diagram.png, id=104, 265.11044pt x 63.23625pt>
 File: images//block_diagrams/triangle_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/triangle_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/triangle_block_diagram.png  used on input line 210.
-(pdftex.def)             Requested size: 151.04391pt x 62.75429pt.
-<images//graphs/low_res_triangle.png, id=107, 181.6386pt x 69.6201pt>
+Package pdftex.def Info: images//block_diagrams/triangle_block_diagram.png  used on input line 193.
+(pdftex.def)             Requested size: 265.10977pt x 63.23608pt.
+<images//graphs/low_res_triangle.png, id=105, 181.6386pt x 69.6201pt>
 File: images//graphs/low_res_triangle.png Graphic file (type png)
 <use images//graphs/low_res_triangle.png>
-Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 220.
+Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 203.
 (pdftex.def)             Requested size: 181.63814pt x 69.61992pt.
-<images//graphs/high_res_triangle.png, id=108, 181.6386pt x 73.11314pt>
+<images//graphs/high_res_triangle.png, id=106, 181.6386pt x 73.11314pt>
 File: images//graphs/high_res_triangle.png Graphic file (type png)
 <use images//graphs/high_res_triangle.png>
-Package pdftex.def Info: images//graphs/high_res_triangle.png  used on input line 226.
+Package pdftex.def Info: images//graphs/high_res_triangle.png  used on input line 209.
 (pdftex.def)             Requested size: 181.63814pt x 73.11296pt.
+
+Underfull \vbox (badness 1253) has occurred while \output is active []
+
+ [11 <./images//block_diagrams/mis_ramp.png> <./images//acquisitions/ramp_wave.png (PNG copy)> <./images//misc/oscilloscope_placeholder.png> <./images//block_diagrams/triangle_block_diagram.png>]
 File: images//graphs/low_res_ramp.png Graphic file (type png)
 <use images//graphs/low_res_ramp.png>
-Package pdftex.def Info: images//graphs/low_res_ramp.png  used on input line 249.
+Package pdftex.def Info: images//graphs/low_res_ramp.png  used on input line 230.
 (pdftex.def)             Requested size: 181.63814pt x 67.21094pt.
 File: images//graphs/low_res_triangle.png Graphic file (type png)
 <use images//graphs/low_res_triangle.png>
-Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 254.
+Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 235.
 (pdftex.def)             Requested size: 181.63814pt x 69.61992pt.
- [11 <./images//block_diagrams/mis_ramp.png> <./images//acquisitions/ramp_wave.png (PNG copy)> <./images//misc/oscilloscope_placeholder.png> <./images//block_diagrams/triangle_block_diagram.png>]
-<images//circuits/triangle_counter_circuit.png, id=115, 273.54195pt x 138.9993pt>
+<images//circuits/triangle_counter_circuit.png, id=113, 273.54195pt x 138.9993pt>
 File: images//circuits/triangle_counter_circuit.png Graphic file (type png)
 <use images//circuits/triangle_counter_circuit.png>
-Package pdftex.def Info: images//circuits/triangle_counter_circuit.png  used on input line 275.
+Package pdftex.def Info: images//circuits/triangle_counter_circuit.png  used on input line 255.
 (pdftex.def)             Requested size: 273.54128pt x 138.99895pt.
-<images//block_diagrams/mis_triangle.png, id=116, 407.3619pt x 91.0602pt>
+ [12 <./images//graphs/low_res_triangle.png> <./images//graphs/high_res_triangle.png> <./images//circuits/triangle_counter_circuit.png>]
+<images//block_diagrams/mis_triangle.png, id=120, 134.30174pt x 91.0602pt>
 File: images//block_diagrams/mis_triangle.png Graphic file (type png)
 <use images//block_diagrams/mis_triangle.png>
-Package pdftex.def Info: images//block_diagrams/mis_triangle.png  used on input line 297.
-(pdftex.def)             Requested size: 407.36089pt x 91.05997pt.
+Package pdftex.def Info: images//block_diagrams/mis_triangle.png  used on input line 277.
+(pdftex.def)             Requested size: 134.3014pt x 91.05997pt.
 File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
 <use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 310.
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 289.
 (pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
 File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
 <use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 316.
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 295.
 (pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
- [12 <./images//graphs/low_res_triangle.png> <./images//graphs/high_res_triangle.png> <./images//circuits/triangle_counter_circuit.png>]
-<images//block_diagrams/freq_divider_block_diagram.png, id=123, 107.2005pt x 29.26935pt>
+<images//block_diagrams/freq_divider_block_diagram.png, id=121, 107.2005pt x 29.26935pt>
 File: images//block_diagrams/freq_divider_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/freq_divider_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/freq_divider_block_diagram.png  used on input line 339.
+Package pdftex.def Info: images//block_diagrams/freq_divider_block_diagram.png  used on input line 317.
 (pdftex.def)             Requested size: 107.20023pt x 29.26927pt.
-<images//block_diagrams/UD_block_diagram.png, id=124, 138.7584pt x 32.16016pt>
+ [13 <./images//block_diagrams/mis_triangle.png>]
+<images//block_diagrams/UD_block_diagram.png, id=127, 138.7584pt x 32.16016pt>
 File: images//block_diagrams/UD_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/UD_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/UD_block_diagram.png  used on input line 354.
+Package pdftex.def Info: images//block_diagrams/UD_block_diagram.png  used on input line 332.
 (pdftex.def)             Requested size: 138.75806pt x 32.16006pt.
- [13 <./images//block_diagrams/mis_triangle.png> <./images//block_diagrams/freq_divider_block_diagram.png>]
-<images//circuits/inverter_circuit.png, id=131, 102.02115pt x 108.04366pt>
+<images//circuits/inverter_circuit.png, id=128, 102.02115pt x 108.04366pt>
 File: images//circuits/inverter_circuit.png Graphic file (type png)
 <use images//circuits/inverter_circuit.png>
-Package pdftex.def Info: images//circuits/inverter_circuit.png  used on input line 374.
+Package pdftex.def Info: images//circuits/inverter_circuit.png  used on input line 349.
 (pdftex.def)             Requested size: 102.02087pt x 108.04338pt.
-<images//block_diagrams/mis_clock_divider.png, id=132, 136.71075pt x 91.0602pt>
+<images//block_diagrams/mis_clock_divider.png, id=129, 136.71075pt x 91.0602pt>
 File: images//block_diagrams/mis_clock_divider.png Graphic file (type png)
 <use images//block_diagrams/mis_clock_divider.png>
-Package pdftex.def Info: images//block_diagrams/mis_clock_divider.png  used on input line 393.
+Package pdftex.def Info: images//block_diagrams/mis_clock_divider.png  used on input line 367.
 (pdftex.def)             Requested size: 136.7104pt x 91.05997pt.
 File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
 <use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 399.
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 373.
 (pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 400.
-<images//block_diagrams/mis_UD.png, id=133, 181.3977pt x 91.0602pt>
+(Font)              <10.95> on input line 374.
+ [14 <./images//block_diagrams/freq_divider_block_diagram.png> <./images//block_diagrams/UD_block_diagram.png> <./images//circuits/inverter_circuit.png>]
+<images//block_diagrams/mis_UD.png, id=136, 181.3977pt x 91.0602pt>
 File: images//block_diagrams/mis_UD.png Graphic file (type png)
 <use images//block_diagrams/mis_UD.png>
-Package pdftex.def Info: images//block_diagrams/mis_UD.png  used on input line 413.
+Package pdftex.def Info: images//block_diagrams/mis_UD.png  used on input line 387.
 (pdftex.def)             Requested size: 181.39725pt x 91.05997pt.
 File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
 <use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 419.
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 393.
 (pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-) [14 <./images//block_diagrams/UD_block_diagram.png> <./images//circuits/inverter_circuit.png> <./images//block_diagrams/mis_clock_divider.png>] [15 <./images//block_diagrams/mis_UD.png>]
+) [15 <./images//block_diagrams/mis_clock_divider.png> <./images//block_diagrams/mis_UD.png>]
 \openout2 = `chapters/ch02-vfc.aux'.
 
  (chapters/ch02-vfc.tex
 Capitolo 2.
-<images//circuits/vfc110_internal.png, id=146, 299.80005pt x 174.05025pt>
+<images//circuits/vfc110_internal.png, id=144, 299.80005pt x 174.05025pt>
 File: images//circuits/vfc110_internal.png Graphic file (type png)
 <use images//circuits/vfc110_internal.png>
-Package pdftex.def Info: images//circuits/vfc110_internal.png  used on input line 36.
+Package pdftex.def Info: images//circuits/vfc110_internal.png  used on input line 35.
 (pdftex.def)             Requested size: 299.7993pt x 174.0498pt.
 [16
 
@@ -1069,61 +1076,63 @@ Package pdftex.def Info: images//circuits/vfc110_internal.png  used on input lin
 
 
  <./images//circuits/vfc110_internal.png>]
-<images//graphs/integrator_behaviour.png, id=151, 179.9523pt x 173.448pt>
+<images//graphs/integrator_behaviour.png, id=149, 179.9523pt x 173.448pt>
 File: images//graphs/integrator_behaviour.png Graphic file (type png)
 <use images//graphs/integrator_behaviour.png>
-Package pdftex.def Info: images//graphs/integrator_behaviour.png  used on input line 52.
+Package pdftex.def Info: images//graphs/integrator_behaviour.png  used on input line 51.
 (pdftex.def)             Requested size: 179.95184pt x 173.44757pt.
-<images//circuits/VFC_circuit.png, id=152, 148.99664pt x 147.9126pt>
+<images//circuits/VFC_circuit.png, id=150, 148.99664pt x 147.9126pt>
 File: images//circuits/VFC_circuit.png Graphic file (type png)
 <use images//circuits/VFC_circuit.png>
-Package pdftex.def Info: images//circuits/VFC_circuit.png  used on input line 65.
+Package pdftex.def Info: images//circuits/VFC_circuit.png  used on input line 63.
 (pdftex.def)             Requested size: 148.99626pt x 147.91223pt.
  [17 <./images//graphs/integrator_behaviour.png> <./images//circuits/VFC_circuit.png>]
-<images//block_diagrams/mis_VFC.png, id=159, 137.19255pt x 108.1641pt>
+<images//block_diagrams/mis_VFC.png, id=157, 137.19255pt x 108.1641pt>
 File: images//block_diagrams/mis_VFC.png Graphic file (type png)
 <use images//block_diagrams/mis_VFC.png>
-Package pdftex.def Info: images//block_diagrams/mis_VFC.png  used on input line 102.
+Package pdftex.def Info: images//block_diagrams/mis_VFC.png  used on input line 100.
 (pdftex.def)             Requested size: 137.1922pt x 108.16382pt.
-<images//acquisitions/VFC_1V.png, id=160, 1027.84pt x 770.88pt>
+<images//acquisitions/VFC_1V.png, id=158, 1027.84pt x 770.88pt>
 File: images//acquisitions/VFC_1V.png Graphic file (type png)
 <use images//acquisitions/VFC_1V.png>
-Package pdftex.def Info: images//acquisitions/VFC_1V.png  used on input line 115.
+Package pdftex.def Info: images//acquisitions/VFC_1V.png  used on input line 114.
 (pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
-<images//acquisitions/VFC_5V.png, id=161, 1027.84pt x 770.88pt>
+<images//acquisitions/VFC_5V.png, id=159, 1027.84pt x 770.88pt>
 File: images//acquisitions/VFC_5V.png Graphic file (type png)
 <use images//acquisitions/VFC_5V.png>
-Package pdftex.def Info: images//acquisitions/VFC_5V.png  used on input line 121.
+Package pdftex.def Info: images//acquisitions/VFC_5V.png  used on input line 120.
 (pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
-<images//acquisitions/VFC_10V.png, id=162, 1027.84pt x 770.88pt>
+<images//acquisitions/VFC_10V.png, id=160, 1027.84pt x 770.88pt>
 File: images//acquisitions/VFC_10V.png Graphic file (type png)
 <use images//acquisitions/VFC_10V.png>
-Package pdftex.def Info: images//acquisitions/VFC_10V.png  used on input line 127.
+Package pdftex.def Info: images//acquisitions/VFC_10V.png  used on input line 126.
 (pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./images//block_diagrams/mis_VFC.png>]
 PGFPlots: reading {data/misure_vfc.csv}
 PGFPlots: reading {./data/misure_vfc.csv}
 PGFPlots: reading {./data/misure_vfc.csv}
 PGFPlots: reading {./data/misure_vfc.csv}
 PGFPlots: reading {./data/misure_vfc.csv}
-) [18 <./images//block_diagrams/mis_VFC.png>] [19 <./images//acquisitions/VFC_1V.png (PNG copy)> <./images//acquisitions/VFC_5V.png (PNG copy)> <./images//acquisitions/VFC_10V.png (PNG copy)>] [20]
-\openout2 = `chapters/ch03-lin_exp.aux'.
 
- (chapters/ch03-lin_exp.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19 <./images//acquisitions/VFC_1V.png (PNG copy)> <./images//acquisitions/VFC_5V.png (PNG copy)> <./images//acquisitions/VFC_10V.png (PNG copy)>]) [20]
+\openout2 = `chapters/ch03-interfaccia_ingresso.aux'.
+
+ (chapters/ch03-interfaccia_ingresso.tex
 Capitolo 3.
-
-Overfull \hbox (0.20334pt too wide) in paragraph at lines 9--12
-\OT1/ptm/m/n/12 Vogliamo ora ana-liz-za-re la se-zio-ne di cir-cu-to che sod-di-sfa la spe-ci-fi-ca sul-la mo-da-lit[]a $\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 V=Octave$
- []
-
-<images//circuits/single_transistor_circuit.png, id=174, 49.50494pt x 52.0344pt>
+<images//circuits/single_transistor_circuit.png, id=172, 49.50494pt x 52.0344pt>
 File: images//circuits/single_transistor_circuit.png Graphic file (type png)
 <use images//circuits/single_transistor_circuit.png>
 Package pdftex.def Info: images//circuits/single_transistor_circuit.png  used on input line 33.
 (pdftex.def)             Requested size: 49.5048pt x 52.03426pt.
-<images//circuits/differential_pair_circuit.png, id=175, 86.4831pt x 52.0344pt>
+<images//circuits/differential_pair_circuit.png, id=173, 86.4831pt x 52.0344pt>
 File: images//circuits/differential_pair_circuit.png Graphic file (type png)
 <use images//circuits/differential_pair_circuit.png>
-Package pdftex.def Info: images//circuits/differential_pair_circuit.png  used on input line 49.
+Package pdftex.def Info: images//circuits/differential_pair_circuit.png  used on input line 48.
 (pdftex.def)             Requested size: 86.48286pt x 52.03426pt.
 [21
 
@@ -1131,17 +1140,34 @@ Package pdftex.def Info: images//circuits/differential_pair_circuit.png  used on
 
 
  <./images//circuits/single_transistor_circuit.png> <./images//circuits/differential_pair_circuit.png>]
-<images//circuits/exponential_converter_circuit.png, id=182, 258.84705pt x 185.2521pt>
+<images//circuits/exponential_converter_circuit.png, id=180, 347.98006pt x 185.2521pt>
 File: images//circuits/exponential_converter_circuit.png Graphic file (type png)
 <use images//circuits/exponential_converter_circuit.png>
-Package pdftex.def Info: images//circuits/exponential_converter_circuit.png  used on input line 71.
-(pdftex.def)             Requested size: 258.8464pt x 185.25165pt.
- [22 <./images//circuits/exponential_converter_circuit.png>] [23]) [24]
+Package pdftex.def Info: images//circuits/exponential_converter_circuit.png  used on input line 96.
+(pdftex.def)             Requested size: 347.97919pt x 185.25165pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22] [23 <./images//circuits/exponential_converter_circuit.png>]
+<images//circuits/expo_converter_transistor_circuit.png, id=190, 140.80605pt x 185.2521pt>
+File: images//circuits/expo_converter_transistor_circuit.png Graphic file (type png)
+<use images//circuits/expo_converter_transistor_circuit.png>
+Package pdftex.def Info: images//circuits/expo_converter_transistor_circuit.png  used on input line 193.
+(pdftex.def)             Requested size: 140.8057pt x 185.25165pt.
+<images//circuits/expo_converter_diode_circuit.png, id=191, 140.80605pt x 185.2521pt>
+File: images//circuits/expo_converter_diode_circuit.png Graphic file (type png)
+<use images//circuits/expo_converter_diode_circuit.png>
+Package pdftex.def Info: images//circuits/expo_converter_diode_circuit.png  used on input line 199.
+(pdftex.def)             Requested size: 140.8057pt x 185.25165pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]) [25 <./images//circuits/expo_converter_transistor_circuit.png> <./images//circuits/expo_converter_diode_circuit.png>]
 \openout2 = `chapters/ch04-selezione_modalità.aux'.
 
  (chapters/ch04-selezione_modalità.tex
 Capitolo 4.
-) [25
+) [26
 
 
 
@@ -1151,30 +1177,27 @@ Capitolo 4.
 
  (chapters/ch05-segnali_secondari.tex
 Capitolo 5.
-[26
-
-
-
-
-] [27])
-Underfull \vbox (badness 1616) has occurred while \output is active []
-
- [28] [29]
-\openout2 = `chapters/ch06-stadi_uscita.aux'.
-
- (chapters/ch06-stadi_uscita.tex
-Capitolo 6.
-) [30
+) [27
 
 
 
 
 ]
-\openout2 = `chapters/ch07-efuse.aux'.
+\openout2 = `chapters/ch06-interfaccia_uscita.aux'.
 
- (chapters/ch07-efuse.tex
+ (chapters/ch06-interfaccia_uscita.tex
+Capitolo 6.
+) [28
+
+
+
+
+]
+\openout2 = `chapters/ch07-protezione_circuito.aux'.
+
+ (chapters/ch07-protezione_circuito.tex
 Capitolo 7.
-) [31
+) [29
 
 
 
@@ -1184,7 +1207,7 @@ Capitolo 7.
 
  (chapters/ch08-suddivisione_schede.tex
 Capitolo 8.
-) [32
+) [30
 
 
 
@@ -1192,32 +1215,32 @@ Capitolo 8.
 ]
 \openout2 = `chapters/ch09-conclusioni.aux'.
 
- (chapters/ch09-conclusioni.tex) [33
+ (chapters/ch09-conclusioni.tex) [31
 
 
 
 
-] [34
+] [32
 
 
 
-] [35] (main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-contatori_dac.aux) (chapters/ch02-vfc.aux) (chapters/ch03-lin_exp.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-stadi_uscita.aux) (chapters/ch07-efuse.aux) (chapters/ch08-suddivisione_schede.aux) (chapters/ch09-conclusioni.aux))
+] [33] (main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-segnali_principali.aux) (chapters/ch02-vfc.aux) (chapters/ch03-interfaccia_ingresso.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-interfaccia_uscita.aux) (chapters/ch07-protezione_circuito.aux) (chapters/ch08-suddivisione_schede.aux) (chapters/ch09-conclusioni.aux))
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40978 strings out of 478552
- 1032860 string characters out of 2841938
- 1880794 words of memory out of 3000000
- 58515 multiletter control sequences out of 15000+600000
- 486709 words of font info for 59 fonts, out of 8000000 for 9000
+ 41057 strings out of 478552
+ 1035780 string characters out of 2841938
+ 1882579 words of memory out of 3000000
+ 58589 multiletter control sequences out of 15000+600000
+ 487023 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,21n,84p,1256b,2404s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (35 pages, 1819297 bytes).
+Output written on main.pdf (33 pages, 1868787 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
+ 290 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 188 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
