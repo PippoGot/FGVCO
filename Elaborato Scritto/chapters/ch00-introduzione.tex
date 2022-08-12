@@ -10,7 +10,7 @@ applicando dei segnali variabili nel tempo in ingresso al modulo, si è in grado
 dinamicamente la frequenza dei segnali in uscita.
 
 Il range scelto per tale variazione comprende la fascia di frequenze dello spettro audio,
-quindi da poche decine di $Hz$ a circa $7\ kHz$. Si desidera inoltre, la possibilità di
+quindi da poche decine di $Hz$ a circa $7\ kHz$. Si desidera inoltre la possibilità di
 convertire a piacere il funzionamento del modulo in oscillatore a bassa frequenza (Low Frequency
 Oscillator, o LFO), spostando quindi il range di frequenze disponibili da frazioni di
 $Hz$ a qualche decina di $Hz$.
@@ -48,9 +48,9 @@ intervalli di valori:
 
 \begin{itemize}
     \item Segnali audio (le 5 forme d'onda elencate poco sopra): $\pm5\ V$;
-    \item Segnali logici (impulso): $(0\ V,5\ V)$;
-    \item Segnali di controllo (ingresso): $(0\ V,8\ V)$ in modalità $1\ V/Octave$, ovvero
-          facendo in modo che ad un incremento di $1V$ in ingresso corrisponda un raddoppio
+    \item Segnali logici (impulso): $(0\ V\div+5\ V)$;
+    \item Segnali di controllo (ingresso): $(0\ V\div+8\ V)$ in modalità $1\ V/Octave$, ovvero
+          facendo in modo che ad un incremento di $1\ V$ in ingresso corrisponda un raddoppio
           di frequenza in uscita, cioè un'ottava;
     \item Alimentazioni: $\pm12\ V$ e $+5\ V$;
 \end{itemize}
@@ -61,8 +61,8 @@ Si desidera inoltre aggiungere delle manopole per il controllo del "volume" dei 
 in ingresso e uscita (ad eccezione dell'impulso), e delle manopole per il controllo
 manuale della frequenza.
 
-Mettendo assieme tutti questi dettagli possiamo dunque abbozzare una interfaccia utente,
-riportata in figura \ref{panel_explained}, in modo da rendere più chiaro al lettore il
+Mettendo assieme tutti questi dettagli possiamo dunque abbozzare una interfaccia utente
+(riportata in figura \ref{panel_explained}), in modo da rendere più chiaro al lettore il
 risultato finale voluto.
 
 \begin{figure}[ht]
@@ -74,8 +74,8 @@ risultato finale voluto.
 
 Si decide di realizzare l'intero circuito senza l'utilizzo di microcontrollori o sistemi
 programmabili, scelta che viene presa per mettere alla prova il maggior numero di competenze
-tra quelle acquisite durante gli anni di studio. Una soluzione più rapida e semplice sarebbe
+tra quelle acquisite durante gli anni di studio. Una soluzione più rapida e semplice
 consisterebbe infatti nell'impiegare un microcontrollore con dei campioni digitali molto
-fitti delle forme d'onda desiderate.
+densi delle forme d'onda desiderate.
 
 %--------------------------------------------------------------------------------------------

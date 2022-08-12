@@ -4,20 +4,19 @@
 \contentsline {chapter}{\numberline {1}Generazione dei Segnali Principali}{8}{}%
 \contentsline {section}{\numberline {1.1}Rampa}{8}{}%
 \contentsline {section}{\numberline {1.2}Triangolo}{11}{}%
-\contentsline {section}{\numberline {1.3}Adattamento dei Segnali di Clock e Pilotaggio}{13}{}%
-\contentsline {chapter}{\numberline {2}Convertitore Tensione-Frequenza}{16}{}%
-\contentsline {chapter}{\numberline {3}Condizionamento dell'Ingresso}{21}{}%
-\contentsline {section}{\numberline {3.1}Convertitore Lineare-Esponenziale}{21}{}%
-\contentsline {section}{\numberline {3.2}Somma di più Ingressi}{25}{}%
-\contentsline {section}{\numberline {3.3}Clipper}{25}{}%
-\contentsline {chapter}{\numberline {4}Modalità di Funzionamento}{26}{}%
-\contentsline {chapter}{\numberline {5}Generazione dei Segnali Secondari}{27}{}%
-\contentsline {section}{\numberline {5.1}Onda Quadra}{27}{}%
-\contentsline {section}{\numberline {5.2}Dente di Sega}{27}{}%
-\contentsline {section}{\numberline {5.3}Sinusoide}{27}{}%
-\contentsline {section}{\numberline {5.4}Impulso}{27}{}%
-\contentsline {chapter}{\numberline {6}Stadi di Uscita}{28}{}%
-\contentsline {chapter}{\numberline {7}Protezione del Circuito}{29}{}%
-\contentsline {chapter}{\numberline {8}Composizione delle Schede}{30}{}%
-\contentsline {chapter}{Considerazioni Finali e Conclusioni}{31}{}%
-\contentsline {chapter}{Bibliografia}{33}{}%
+\contentsline {section}{\numberline {1.3}Adattamento dei Segnali di Clock e Pilotaggio}{14}{}%
+\contentsline {chapter}{\numberline {2}Convertitore Tensione-Frequenza}{17}{}%
+\contentsline {chapter}{\numberline {3}Condizionamento dell'Ingresso}{22}{}%
+\contentsline {section}{\numberline {3.1}Convertitore Lineare-Esponenziale}{22}{}%
+\contentsline {section}{\numberline {3.2}Somma di più Ingressi}{27}{}%
+\contentsline {section}{\numberline {3.3}Clipper}{27}{}%
+\contentsline {chapter}{\numberline {4}Modalità di Funzionamento}{28}{}%
+\contentsline {chapter}{\numberline {5}Generazione dei Segnali Secondari}{29}{}%
+\contentsline {section}{\numberline {5.1}Onda Quadra}{29}{}%
+\contentsline {section}{\numberline {5.2}Dente di Sega}{29}{}%
+\contentsline {section}{\numberline {5.3}Sinusoide}{29}{}%
+\contentsline {section}{\numberline {5.4}Impulso}{29}{}%
+\contentsline {chapter}{\numberline {6}Stadi di Uscita}{30}{}%
+\contentsline {chapter}{\numberline {7}Protezione del Circuito}{31}{}%
+\contentsline {chapter}{\numberline {8}Composizione delle Schede}{32}{}%
+\contentsline {chapter}{Considerazioni Finali e Conclusioni}{33}{}%

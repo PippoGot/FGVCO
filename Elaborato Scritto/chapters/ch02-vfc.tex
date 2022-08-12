@@ -3,7 +3,7 @@
 %--------------------------------------------------------------------------------------------
 
 Si vuole ora progettare il circuito per la generazione del segnale $f_{clk}$, con le
-specifiche ottenute dal capitolo precedente, ovvero:
+specifiche ottenute dai capitoli precedenti, ovvero:
 
 \begin{itemize}
     \item Frequenza minima: $\approx 14\ kHz$;
@@ -26,9 +26,9 @@ In commercio è possibile trovare diversi chip in grado di svolgere questa funzi
 semplicemente aggiungendo una manciata di componenti di contorno, anche se la maggior
 parte di questi non arriva a coprire l'intero range di funzionamento di cui abbiamo bisogno
 (come ad esempio il noto LM331 \cite{lm331}). Nel nostro caso si utilizza un VFC110
-\cite{vfc110}, circuito integrato che vanta un'ottima linearità e capace di fornire una
-frequenza di $4\ MHz$ in uscita con una corrispondente tensione in ingresso di $10\ V$,
-esattamente ciò che la nostra applicazione richiede.
+\cite{vfc110}, circuito integrato specializzato che vanta un'ottima linearità e la capacità
+di fornire una frequenza di $4\ MHz$ in uscita con una corrispondente tensione in ingresso
+di $+10\ V$, esattamente ciò che la nostra applicazione richiede.
 
 \begin{figure}[H]
     \centering
@@ -56,12 +56,12 @@ crescente in uscita. Infine il ciclo ricomincia.
 Per uno studio più approfondito sul funzionamento del VFC110 si consiglia la lettura del
 datasheet del componente, dal quale si ricava anche la configurazione del circuito utilizzato
 per sfruttare l'intero range offerto (figura \ref{VFC_circuit}). Si modificano solo i valori
-di alimentazione, sostituendoli con quelli dello standard scelto ($\pm 12\ V$).
+di alimentazione, sostituendoli con quelli dello standard scelto.
 
 \begin{figure}[H]
     \centering
     \includegraphics{circuits/VFC_circuit.png}
-    \caption{Schema elettrico del VFC110 utilizzato}
+    \caption{Schema elettrico del VFC110 utilizzato ($\pm V_{cc}=\pm 12\ V$)}
     \label{VFC_circuit}
 \end{figure}
 
@@ -92,7 +92,7 @@ Si riportano le relazioni tra le grandezze in gioco:
 
 %--------------------------------------------------------------------------------------------
 
-Si procede quindi alla verifica del corretto funzionamento del circuito. Il setup di
+Si procede allora alla verifica del corretto funzionamento del circuito. Il setup di
 misura utilizzato viene riportato in figura \ref{mis_VFC}.
 
 \begin{figure}[H]
@@ -102,9 +102,13 @@ misura utilizzato viene riportato in figura \ref{mis_VFC}.
     \label{mis_VFC}
 \end{figure}
 
-Possiamo innanzitutto verificare che il comportamento dell'integratore corrisponde a quello
+Possiamo anzitutto verificare che il comportamento dell'integratore corrisponde a quello
 descritto nel paragrafo precedente, e si nota che la durata del periodo basso di $f_{out}$
-si estende lungo il tratto di rampa crescente, come in figura \ref{integrator_behaviour}.
+si estende lungo il tratto di rampa crescente come in figura \ref{integrator_behaviour},
+ovvero durante il periodo in cui il timer risulta attivo.
+
+possiamo anche notare che la durata di $T_{OS}$ non varia in funzione di $V_{in}$ o $f_{out}$,
+ma rimane pressoché costante.
 
 \begin{figure}[H]
     \centering
@@ -134,7 +138,7 @@ si estende lungo il tratto di rampa crescente, come in figura \ref{integrator_be
 \end{figure}
 
 Vengono ora riportati nella tabella \ref{vfc_table} e a grafico (figura \ref{vfc_graphs})
-i dati raccolti:
+i dati raccolti dallo studio del circuito:
 
 \begin{table}[H]
     \begin{center}
@@ -199,8 +203,6 @@ i dati raccolti:
                 \legend{Calcolato, Misurato}
             \end{axis}
         \end{tikzpicture}
-
-        \label{duty_vin}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
@@ -228,12 +230,16 @@ i dati raccolti:
                 \legend{Calcolata, Misurata}
             \end{axis}
         \end{tikzpicture}
-
-        \label{fout_vin}
     \end{subfigure}
 
     \caption{Grafici delle grandezze riportate in tabella \ref{vfc_table}}
     \label{vfc_graphs}
 \end{figure}
+
+Si nota che l'andamento del duty cycle si distacca leggermente dalla teoria, pur avendo
+comunque un comportamento lineare. Questo è dovuto probabilmente a causa di diverse
+non-idealità del componente, tuttavia il parametro di maggiore interesse in questo caso è
+$f_{out}$, che invece risulta quasi uguale ai valori calcolati, come evidente in figura
+\ref{vfc_graphs}b.
 
 %--------------------------------------------------------------------------------------------

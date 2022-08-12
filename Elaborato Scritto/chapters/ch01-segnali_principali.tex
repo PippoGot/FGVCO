@@ -52,17 +52,15 @@ aumentare, vale infatti la seguente relazione:
 poichè il contatore deve effettuare un conteggio completo durante un periodo del segnale
 in uscita. Questo implica dunque un limite massimo al numero di bit del contatore.
 
-La quantità di bit utilizzati per l'applicazione è $8$, valore che ci consente di limitare
-al $MHz$ la frequenza di clock, contare fino a $255$ e dividere l'intervallo di tensione
-d'uscita in altrettanti livelli, ottenendo quindi una variazione di
+Il numero di bit utilizzati per la nostra applicazione è pari a $8$, valore che ci consente
+di limitare al $MHz$ la frequenza di clock, contare fino a $255$ e dividere l'intervallo di
+tensione d'uscita in altrettanti livelli, ottenendo quindi una variazione di
 
 \begin{displaymath}
     V_{step}=\frac{2\cdot V_{ref}}{2^n}=\frac{10}{256}\approx39\ mV
 \end{displaymath}
 
-
 per ogni singolo bit (scegliendo $V_{ref}=+5\ V$).
-\medskip
 
 \begin{figure}[H]
     \centering
@@ -71,14 +69,14 @@ per ogni singolo bit (scegliendo $V_{ref}=+5\ V$).
     \label{ramp_block_diagram}
 \end{figure}
 
-A questo punto possiamo calcolare le speccifiche del segnale di clock da generare,
+A questo punto possiamo calcolare le specifiche del segnale di clock da generare,
 andando a vedere quali sono le frequenze desiderate per i segnali audio:
 
 \begin{itemize}
     \item Valore minimo (nota A0): $f_{signal-min}=27.5\ Hz\rightarrow f_{clk-min}\approx7\ kHz$
           a cui corrisponderà un ingresso di $0\ V$;
     \item Valore massimo (nota A8): $f_{signal-max}\approx7\ kHz\rightarrow f_{clk-max}\approx1.8\ MHz$
-          a cui corrisponderà un ingresso di $8\ V$;
+          a cui corrisponderà un ingresso di $+8\ V$;
 \end{itemize}
 
 quindi un range di funzionamento esteso lungo 8 ottave.
@@ -106,7 +104,7 @@ Si noti che anche $V_{ref}$ viene scelta diversa rispetto allo schema nel datash
 \begin{figure}[H]
     \centering
     \includegraphics{circuits/DAC_circuit.png}
-    \caption{Schema elettrico del DAC, $\pm V_{cc}=\pm 12\ V$}
+    \caption{Schema elettrico del DAC ($\pm V_{cc}=\pm 12\ V$)}
     \label{DAC_circuit}
 \end{figure}
 
@@ -127,8 +125,8 @@ Il contatore invece viene collegato nel seguente modo:
 \end{figure}
 
 Si noti l'uscita "Pulse" in figura \ref{ramp_counter_circuit} dalla quale viene prelevato
-il segnale a impulso precedentemente accennato, discusso più in dettaglio nel capitolo.
-%\ref{ch_impulso}.
+il segnale a impulso precedentemente accennato, discusso più in dettaglio nel capitolo
+\ref{segnali_secondari}.
 
 Infine, collegando i due blocchi insieme, l'andamento di $V_{out}$ sarà simile a quello
 rappresentato in figura \ref{high_res_ramp}, e ad ogni impulso di clock corrisponderà un
@@ -140,8 +138,7 @@ gradino di tensione di circa $40\ mV$ come calcolato precendentemente.
 
 %--------------------------------------------------------------------------------------------
 
-Andiamo ora a verificare la correttezza del circuito realizzato con il seguente setup di
-misura:
+Verifichiamo quindi la correttezza del circuito realizzato con il seguente setup di misura:
 
 \begin{figure}[H]
     \centering
@@ -173,6 +170,9 @@ Si osservano le seguenti forme d'onda:
     \caption{Correttezza del circuito per il segnale a rampa}
     \label{acq_ramp_signals}
 \end{figure}
+
+Si apprezza come l'onda generata abbia esattamente la forma voluta e il comportamento del
+contatore in abbinamento al DAC sia come descritto nel principio di funzionamento.
 
 %--------------------------------------------------------------------------------------------
 
@@ -253,7 +253,7 @@ seguente configurazione:
 \begin{figure}[H]
     \centering
     \includegraphics{circuits/triangle_counter_circuit.png}
-    \caption{Schema elettrico dei contatori per l'onda triangolare, $V_{dd}=+5\ V$}
+    \caption{Schema elettrico dei contatori per l'onda triangolare ($V_{dd}=+5\ V$)}
     \label{triangle_counter_circuit}
 \end{figure}
 
@@ -263,6 +263,13 @@ Il componente utilizzato presenta anche degli ingressi per il preset del numero 
 L'uscita denominata $RCO2$ verrà utilizzata per pilotare il verso del conteggio, essa infatti
 commuta durante il ciclo di clock corrispondente al conteggio precedente all'overflow, ovvero
 $255$ in modalità "Up" e $0$ in modalità "Down".
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{graphs/RCO2_behaviour.png}
+    \caption{Andamento teorico del segnale $RCO2$ in funzione del conteggio}
+    \label{RCO2_behaviour}
+\end{figure}
 
 %--------------------------------------------------------------------------------------------
 
@@ -279,7 +286,7 @@ Si verifica ora la correttezza del circuito realizzato utilizzando il setup di m
     \label{mis_triangle}
 \end{figure}
 
-Si osservano le seguenti forme d'onda:
+e si osservano le seguenti forme d'onda:
 
 \begin{figure}[H]
     \centering
@@ -293,13 +300,16 @@ Si osservano le seguenti forme d'onda:
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{misc/oscilloscope_placeholder.png}
-        \caption{Zoom degli step del triangolo acquisito e clock}
+        \caption{Zoom degli step del triangolo e clock}
         \label{acq_triangle_steps}
     \end{subfigure}
 
     \caption{Correttezza del circuito per il segnale a triangolo}
     \label{acq_triangle_signals}
 \end{figure}
+
+Ancora una volta si apprezza che quanto discusso finora corrisponde al reale comportamento
+del circuito.
 
 %--------------------------------------------------------------------------------------------
 
@@ -319,12 +329,19 @@ un divisore di frequenza, ottenuto con un semplice toggle flip-flop (TFF).
     \label{freq_divider_block_diagram}
 \end{figure}
 
-Le specifiche sul segnale di clock ci impongono allora di generare un segnale a onda quadra
-con frequenza variabile nel range $(14\ kHz,3.6\ MHz)$, in modo che ½$f_{clk}$ abbia
-i valori di frequenza precedentemente calcolati.
+\begin{figure}[H]
+    \centering
+    \includegraphics{graphs/clock_divider_behaviour.png}
+    \caption{$f_{clk}$ e ½$f_{clk}$ nel divisore di frequenza}
+    \label{clock_divider_behaviour}
+\end{figure}
+
+Le specifiche sul segnale di clock ci impongono allora di generare un segnale a onda rettangolare
+con frequenza variabile nel range $(14\ kHz\div3.6\ MHz)$, in modo che ½$f_{clk}$ abbia
+i valori di frequenza inizialmente calcolati.
 
 Invece, per fare in modo che il contatore del triangolo cambi effettivamente verso di conteggio
-è necessario utilizzare un altro TFF utilizzando come ingresso $\overline{RCO2}$ (poichè
+è necessario impiegare un altro TFF utilizzando come ingresso $\overline{RCO2}$ (poichè
 attivo a livello logico basso) e connesso all'ingresso $U/D$ del contatore.
 
 \begin{figure}[H]
@@ -347,7 +364,7 @@ il MOSFET utilizzato è compatibile con le tensioni logiche presenti nel circuit
 \begin{figure}[H]
     \centering
     \includegraphics{circuits/inverter_circuit.png}
-    \caption{Schema elettrico dell'inverter logico, $V_{dd}=+5\ V$}
+    \caption{Schema elettrico dell'inverter logico ($V_{dd}=+5\ V$)}
     \label{inverter_circuit}
 \end{figure}
 
