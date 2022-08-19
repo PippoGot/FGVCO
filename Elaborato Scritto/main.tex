@@ -3,8 +3,7 @@
 % --- PACCHETTI ---
 
 % unità di misura e matematica
-\usepackage{siunitx}
-\usepackage{amsmath}
+\usepackage{siunitx, amsmath}
 
 % titolo capitoli e sezioni personalizzato
 \usepackage{titlesec}
@@ -21,33 +20,24 @@
 \usepackage{pdfpages}
 
 % grafiche e tabelle
-\usepackage{graphicx}
-\usepackage{calc}
+\usepackage{graphicx, calc}
 
 \graphicspath{{images/}}
 
-\usepackage{tikz}
-\usepackage{pgfplots}
-\usepackage{pgfplotstable}
+\usepackage{tikz, pgfplots, pgfplotstable}
 
 \pgfplotsset{compat = newest}
 \usepgfplotslibrary{units}
 
-\pgfplotstableset{% global config
-    col sep = comma,
-    string type,
-    every last row/.style = {after row = \hline},
-    every even row/.style = {
-        before row = \hline\rowcolor{myLightBlue},
-        after row = \hline,
-    },
-}
+\usepackage{array, csvsimple}
+
+\newcolumntype{C}{>{\centering}m{2cm}}
+\newcolumntype{L}{>{\centering\arraybackslash}m{2cm}}
 
 \usepackage{float}
 
 % colori personalizzati
-\usepackage{colortbl}
-\usepackage{xcolor}
+\usepackage{colortbl, xcolor}
 
 % normali
 \definecolor{myBlue}{RGB}{1, 187, 235}
@@ -71,8 +61,6 @@
 
 \usepackage{subcaption, caption}
 
-\usepackage{csvsimple}
-
 % numerazione capitoli in italiano
 \usepackage[italian]{babel}
 
@@ -92,13 +80,10 @@
 \usepackage{times}
 
 % bibliografia
-\usepackage{csquotes}
-\usepackage{biblatex}
-
+\usepackage{csquotes, biblatex}
 \addbibresource{bibliography.bib}
 
-\usepackage{xurl} % evita che la bibliografia esca dal margine
-\usepackage{url}
+\usepackage{xurl, url} % evita che la bibliografia esca dal margine
 
 \urlstyle{same}
 \appto{\bibsetup}{\raggedright}

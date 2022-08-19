@@ -70,21 +70,21 @@ pull-up per l'uscita a collettore aperto.
 
 Si riportano le relazioni tra le grandezze in gioco:
 
-\begin{displaymath}
+\begin{equation}\label{duty_cycle}
     I_{in}=I_{ref}\cdot\delta\ [A]
     \qquad
     \rightarrow
     \qquad
     \delta=\frac{I_{in}}{I_{ref}}=\frac{V_{in}}{R_{in}\cdot I_{ref}}\ [\%]
-\end{displaymath}
+\end{equation}
 
-\begin{displaymath}
+\begin{equation}\label{fout}
     \frac{V_{in}}{R_{in}}=I_{ref}\cdot f_{out}\cdot T_{OS}\ [A]
     \qquad
     \rightarrow
     \qquad
     f_{out}=\frac{V_{in}}{R_{in}\cdot I_{ref}\cdot T_{OS}}=\frac{\delta}{T_{OS}}\ [Hz]
-\end{displaymath}
+\end{equation}
 
 %--------------------------------------------------------------------------------------------
 
@@ -107,7 +107,7 @@ descritto nel paragrafo precedente, e si nota che la durata del periodo basso di
 si estende lungo il tratto di rampa crescente come in figura \ref{integrator_behaviour},
 ovvero durante il periodo in cui il timer risulta attivo.
 
-possiamo anche notare che la durata di $T_{OS}$ non varia in funzione di $V_{in}$ o $f_{out}$,
+Possiamo anche notare che la durata di $T_{OS}$ non varia in funzione di $V_{in}$ o $f_{out}$,
 ma rimane pressoché costante.
 
 \begin{figure}[H]
@@ -141,37 +141,16 @@ Vengono ora riportati nella tabella \ref{vfc_table} e a grafico (figura \ref{vfc
 i dati raccolti dallo studio del circuito:
 
 \begin{table}[H]
-    \begin{center}
-        \pgfplotstabletypeset[
-            display columns/0/.style = {
-                    column name = {$V_{in}$},
-                    column type = {|c},
-                },
-            display columns/1/.style = {
-                    column name = {$\delta$ calcolato},
-                    column type = {|c},
-                },
-            display columns/2/.style = {
-                    column name = {$\delta$ misurato},
-                    column type = {|c},
-                },
-            display columns/3/.style = {
-                    column name = {$f_{out}$ calcolata},
-                    column type = {|c},
-                },
-            display columns/4/.style = {
-                    column name = {$f_{out}$ misurata},
-                    column type = {|c|},
-                },
-            every head row/.style = {
-                    before row = \hline\rowcolor{myLightRed},
-                    after row = \rowcolor{myLightRed} $[V]$ & $[\%]$ & $[\%]$ & $[kHz]$ & $[kHz]$ \\\hline,
-                },
-        ]{data/misure_vfc.csv}
-
-        \caption{Valori calcolati e misurati del blocco VFC}
-        \label{vfc_table}
-    \end{center}
+    \centering
+    \csvreader[
+    tabular = |C||C|L|,
+    table head = {\hline \rowcolor{myLightGrey} $V_{in}\ [V]$ & $\delta\ [\%]$ & $f_{out}\ [kHz]$ \\\hline},
+    late after line = \\\hline,
+    ]{data/misure_vfc.csv}{}{
+    \csvcoli & \csvcoliii & \csvcolv
+    }
+    \caption{Valori misurati del blocco VFC}
+    \label{vfc_table}
 \end{table}
 
 \begin{figure}[H]
@@ -200,7 +179,7 @@ i dati raccolti dallo studio del circuito:
                 \addplot
                 table[x = vin, y = duty misurato, col sep = comma]{./data/misure_vfc.csv};
 
-                \legend{Calcolato, Misurato}
+                \legend{Formula \ref{duty_cycle}, Valori misurati}
             \end{axis}
         \end{tikzpicture}
     \end{subfigure}%
@@ -227,7 +206,7 @@ i dati raccolti dallo studio del circuito:
                 \addplot
                 table[x = vin, y = fout misurata, col sep = comma]{./data/misure_vfc.csv};
 
-                \legend{Calcolata, Misurata}
+                \legend{Formula \ref{fout}, Valori misurati}
             \end{axis}
         \end{tikzpicture}
     \end{subfigure}

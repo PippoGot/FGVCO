@@ -1,0 +1,404 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{eurorack}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e055ca493d0f48b38712a44989fb41b3}{%
+           family={Doepfer},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e055ca493d0f48b38712a44989fb41b3}
+      \strng{fullhash}{e055ca493d0f48b38712a44989fb41b3}
+      \strng{bibnamehash}{e055ca493d0f48b38712a44989fb41b3}
+      \strng{authorbibnamehash}{e055ca493d0f48b38712a44989fb41b3}
+      \strng{authornamehash}{e055ca493d0f48b38712a44989fb41b3}
+      \strng{authorfullhash}{e055ca493d0f48b38712a44989fb41b3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Ultimo accesso: 10 agosto 2022}
+      \field{title}{Technical Details A-100}
+      \verb{urlraw}
+      \verb https://doepfer.de/a100_man/a100t_e.htm
+      \endverb
+      \verb{url}
+      \verb https://doepfer.de/a100_man/a100t_e.htm
+      \endverb
+    \endentry
+    \entry{74hc590}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. F}
+      \field{number}{SN54HC590A, SN74HC590A}
+      \field{title}{8-Bit Binary Counter With 3-State Output Registers}
+      \field{year}{15 Sep 2003}
+      \verb{file}
+      \verb PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/sn74hc590a.pdf?ts=1660052021803&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HC590A%253FDCM%253Dyes%2526utm_source%253Dsupplyframe%2526utm_medium%253DSEP%2526utm_campaign%253Dnot_alldatasheet%2526dclid%253DCjkKEQjwi8iXBhCH4qTo0eHB5a4BEiQAcEheL4orR2IcXezk9QUTg0VBEO06AO8X78kbvVsHNjYh-K7w_wcB
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/sn74hc590a.pdf?ts=1660052021803&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HC590A%253FDCM%253Dyes%2526utm_source%253Dsupplyframe%2526utm_medium%253DSEP%2526utm_campaign%253Dnot_alldatasheet%2526dclid%253DCjkKEQjwi8iXBhCH4qTo0eHB5a4BEiQAcEheL4orR2IcXezk9QUTg0VBEO06AO8X78kbvVsHNjYh-K7w_wcB
+      \endverb
+    \endentry
+    \entry{dac0800}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. C}
+      \field{number}{DAC0800/DAC0802}
+      \field{title}{8-Bit Digital-to-Analog Converters}
+      \field{year}{19 Feb 2013}
+      \verb{file}
+      \verb PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/dac0800.pdf?ts=1660056823024&ref_url=https%253A%252F%252Fwww.google.com%252F
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/dac0800.pdf?ts=1660056823024&ref_url=https%253A%252F%252Fwww.google.com%252F
+      \endverb
+    \endentry
+    \entry{vfc110}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{extraname}{3}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. A}
+      \field{number}{VFC110}
+      \field{title}{High Frequency Voltage-to-Frequency Converter}
+      \field{year}{25 Apr 2007}
+      \verb{file}
+      \verb PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/vfc110.pdf?ts=1660083698490&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FVFC110%253FkeyMatch%253DVFC110
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/vfc110.pdf?ts=1660083698490&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FVFC110%253FkeyMatch%253DVFC110
+      \endverb
+    \endentry
+    \entry{74hc73}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{extraname}{4}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{CDx4HC73, CD74HCT73}
+      \field{title}{High Speed CMOS Logic Dual Negative-Edge-Triggered J-K Flip-Flops with Reset}
+      \field{year}{31 Jan 2022}
+      \verb{file}
+      \verb PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/cd74hc73.pdf?ts=1660083349727&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD74HC73%253FkeyMatch%253DCD74HC73%2526tisearch%253Dsearch-everything%2526usecase%253DGPN
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/cd74hc73.pdf?ts=1660083349727&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD74HC73%253FkeyMatch%253DCD74HC73%2526tisearch%253Dsearch-everything%2526usecase%253DGPN
+      \endverb
+    \endentry
+    \entry{tl074}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{extraname}{5}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. T}
+      \field{number}{TL07xx}
+      \field{title}{Low-Noise FET-Input Operational Amplifiers}
+      \field{year}{13 Dec 2021}
+      \verb{file}
+      \verb PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/tl074a.pdf?ts=1660083674764&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074A%253FkeyMatch%253D%2526tisearch%253Dsearch-everything%2526usecase%253Dpartmatches
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/tl074a.pdf?ts=1660083674764&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074A%253FkeyMatch%253D%2526tisearch%253Dsearch-everything%2526usecase%253Dpartmatches
+      \endverb
+    \endentry
+    \entry{lm331}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{extraname}{6}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. C}
+      \field{number}{LMx31x}
+      \field{title}{Precision voltage-to-frequency converter with 1-Hz to 100-kHz full scale frequency}
+      \field{year}{29 Sep 2015}
+      \verb{file}
+      \verb PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/lm331.pdf?ts=1660083454622&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM331%253FkeyMatch%253DLM331
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/lm331.pdf?ts=1660083454622&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM331%253FkeyMatch%253DLM331
+      \endverb
+    \endentry
+    \entry{74ls169}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{extraname}{7}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{SN54LS169B, SN54S169, SN74LS169B, SN74S169}
+      \field{title}{Synchronous 4-Bit Up/Down Binary Counters}
+      \field{year}{01 Mar 1988}
+      \verb{file}
+      \verb PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/sn74ls169b.pdf?ts=1660083375741&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74LS169B%253FkeyMatch%253DSN74LS169B%2526tisearch%253Dsearch-everything%2526usecase%253DGPN
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/sn74ls169b.pdf?ts=1660083375741&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74LS169B%253FkeyMatch%253DSN74LS169B%2526tisearch%253Dsearch-everything%2526usecase%253DGPN
+      \endverb
+    \endentry
+    \entry{expo_converter}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d8c64e965a95b1a75a4c563e33447f98}{%
+           family={René},
+           familyi={R\bibinitperiod},
+           given={Schmitz},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8c64e965a95b1a75a4c563e33447f98}
+      \strng{fullhash}{d8c64e965a95b1a75a4c563e33447f98}
+      \strng{bibnamehash}{d8c64e965a95b1a75a4c563e33447f98}
+      \strng{authorbibnamehash}{d8c64e965a95b1a75a4c563e33447f98}
+      \strng{authornamehash}{d8c64e965a95b1a75a4c563e33447f98}
+      \strng{authorfullhash}{d8c64e965a95b1a75a4c563e33447f98}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Ultimo accesso: 10 agosto 2022}
+      \field{title}{Voltage controlled oscillators}
+      \field{year}{March 1999}
+      \verb{urlraw}
+      \verb https://www.schmitzbits.de/vco2.html
+      \endverb
+      \verb{url}
+      \verb https://www.schmitzbits.de/vco2.html
+      \endverb
+    \endentry
+    \entry{mpq3904}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=1689b54ea7d76aa7ac17626ee2a1511e}{%
+           family={Semiconductor},
+           familyi={S\bibinitperiod},
+           given={Central},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1689b54ea7d76aa7ac17626ee2a1511e}
+      \strng{fullhash}{1689b54ea7d76aa7ac17626ee2a1511e}
+      \strng{bibnamehash}{1689b54ea7d76aa7ac17626ee2a1511e}
+      \strng{authorbibnamehash}{1689b54ea7d76aa7ac17626ee2a1511e}
+      \strng{authornamehash}{1689b54ea7d76aa7ac17626ee2a1511e}
+      \strng{authorfullhash}{1689b54ea7d76aa7ac17626ee2a1511e}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. 2}
+      \field{number}{MPQ3904}
+      \field{title}{SILICON NPN QUAD TRANSISTOR}
+      \field{year}{25 September 2018}
+      \verb{file}
+      \verb PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://my.centralsemi.com/datasheets/MPQ3904.PDF
+      \endverb
+      \verb{url}
+      \verb https://my.centralsemi.com/datasheets/MPQ3904.PDF
+      \endverb
+    \endentry
+    \entry{2n7000}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=f50ffd6a590ec3946c122f340c694e54}{%
+           family={Semiconductor},
+           familyi={S\bibinitperiod},
+           given={ON},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{fullhash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{bibnamehash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{authorbibnamehash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{authornamehash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{authorfullhash}{f50ffd6a590ec3946c122f340c694e54}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. 7}
+      \field{number}{2N7000, 2N7002, NDS7002A}
+      \field{title}{N-Channel Enhancement Mode Field Effect Transistor 60V, 200mA, 5 ohm}
+      \field{year}{July 2022}
+      \verb{file}
+      \verb PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.onsemi.com/pdf/datasheet/nds7002a-d.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.onsemi.com/pdf/datasheet/nds7002a-d.pdf
+      \endverb
+    \endentry
+    \entry{1n4148}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=bdd95750033c6d1e71751acaf3c3d8de}{%
+           family={Semiconductors},
+           familyi={S\bibinitperiod},
+           given={NXP},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdd95750033c6d1e71751acaf3c3d8de}
+      \strng{fullhash}{bdd95750033c6d1e71751acaf3c3d8de}
+      \strng{bibnamehash}{bdd95750033c6d1e71751acaf3c3d8de}
+      \strng{authorbibnamehash}{bdd95750033c6d1e71751acaf3c3d8de}
+      \strng{authornamehash}{bdd95750033c6d1e71751acaf3c3d8de}
+      \strng{authorfullhash}{bdd95750033c6d1e71751acaf3c3d8de}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{1N4148; 1N4448}
+      \field{title}{High-speed diodes}
+      \field{year}{2004 Aug 10}
+      \verb{file}
+      \verb PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+      \endverb
+      \verb{url}
+      \verb https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

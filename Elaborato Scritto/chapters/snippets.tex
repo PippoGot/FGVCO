@@ -66,35 +66,14 @@
 % --- TABLE ---
 
 \begin{table}[H]
-    \begin{center}
-        \pgfplotstabletypeset[
-            display columns/0/.style = {% ROW 0
-                    column name = {},   % NAME
-                    column type = {|c},
-                },
-            display columns/1/.style = {% ROW 1
-                    column name = {},   % NAME
-                    column type = {|c},
-                },
-            display columns/2/.style = {% ROW 2
-                    column name = {},   % NAME
-                    column type = {|c},
-                },
-            display columns/3/.style = {% ROW 3
-                    column name = {},   % NAME
-                    column type = {|c},
-                },
-            display columns/4/.style = {% ROW 4
-                    column name = {},   % NAME
-                    column type = {|c|},
-                },
-            every head row/.style = {   % HEAD ROW STYLE
-                    before row = \hline\rowcolor{myLightRed},
-                    after row = \rowcolor{myLightRed}  \\\hline,
-                },
-        ]{}                             % PATH
-
-        \caption{}                      % CAPTION
-        \label{}                        % LABEL FOR REFERENCE
-    \end{center}
+    \centering
+    \csvreader[
+    tabular = |C||C|L|,                                                                 % C for all columns, L for last column
+    table head = {\hline \rowcolor{myLightGrey} $V_{in}\ [V]$ & $\delta\ [\%]$ & $f_{out}\ [kHz]$ \\\hline},   % head row inside curly brackets
+    late after line = \\\hline,
+    ]{data/misure_vfc.csv}{}{                                                           % file path
+    \csvcoli & \csvcoliii & \csvcolv                                                    % wanted columns
+    }
+    \caption{Valori misurati del blocco VFC}                                            % caption
+    \label{vfc_table}                                                                   % label for reference
 \end{table}

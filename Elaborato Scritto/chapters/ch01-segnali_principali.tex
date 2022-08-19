@@ -45,9 +45,9 @@ Tuttavia aumentando il numero di bit del contatore è facile intuire che, a pari
 frequenza del segnale in uscita, la frequenza del segnale di clock debba necessariamente
 aumentare, vale infatti la seguente relazione:
 
-\begin{displaymath}
+\begin{equation}\label{fsignal}
     f_{signal}=\frac{f_{clk}}{2^n}\ [Hz]
-\end{displaymath}
+\end{equation}
 
 poichè il contatore deve effettuare un conteggio completo durante un periodo del segnale
 in uscita. Questo implica dunque un limite massimo al numero di bit del contatore.
@@ -56,9 +56,9 @@ Il numero di bit utilizzati per la nostra applicazione è pari a $8$, valore che
 di limitare al $MHz$ la frequenza di clock, contare fino a $255$ e dividere l'intervallo di
 tensione d'uscita in altrettanti livelli, ottenendo quindi una variazione di
 
-\begin{displaymath}
+\begin{equation}\label{vstep}
     V_{step}=\frac{2\cdot V_{ref}}{2^n}=\frac{10}{256}\approx39\ mV
-\end{displaymath}
+\end{equation}
 
 per ogni singolo bit (scegliendo $V_{ref}=+5\ V$).
 
@@ -111,9 +111,9 @@ Si noti che anche $V_{ref}$ viene scelta diversa rispetto allo schema nel datash
 Il DAC eroga una corrente $I_{out}$ proporzionale all'ingresso digitale $x$, che viene poi
 convertita in una tensione con un operazionale. Le due grandezze sono legate dalla relazione:
 
-\begin{displaymath}
+\begin{equation}\label{vout_dac}
     V_{out}=V_{ref}\left(\frac{2x-255}{256}\right)=5\left(\frac{2x-255}{256}\right)\ [V]
-\end{displaymath}
+\end{equation}
 
 Il contatore invece viene collegato nel seguente modo:
 
@@ -130,7 +130,7 @@ il segnale a impulso precedentemente accennato, discusso più in dettaglio nel c
 
 Infine, collegando i due blocchi insieme, l'andamento di $V_{out}$ sarà simile a quello
 rappresentato in figura \ref{high_res_ramp}, e ad ogni impulso di clock corrisponderà un
-gradino di tensione di circa $40\ mV$ come calcolato precendentemente.
+gradino di tensione di circa $40\ mV$ come calcolato con la formula \ref{vstep}.
 
 %--------------------------------------------------------------------------------------------
 

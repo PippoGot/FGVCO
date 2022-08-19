@@ -23,10 +23,10 @@ molto noto tra gli appassionati di sintetizzatori musicali fai-da-te.
 Per l'applicazione si sfrutta la caratteristica esponenziale intrinseca del transistor
 bipolare, ovvero:
 
-\begin{displaymath}
+\begin{equation}\label{transistor_current}
     I_e\approx I_c=I_se^{\left(\frac{V_{be}}{V_T}-1\right)}
     \approx I_se^{\left(\frac{V_{be}}{V_T}\right)}\ [A]
-\end{displaymath}
+\end{equation}
 
 \begin{figure}[H]
     \centering
@@ -50,19 +50,19 @@ termicamente accoppiati) in configurazione differenziale:
 
 per la quale possiamo scrivere la seguente relazione:
 
-\begin{displaymath}
+\begin{equation}\label{differential_pair}
     \frac{I_{c2}}{I_{c1}}=\frac{I_s e^{\left(\frac{V_{be2}}{V_T}\right)}}{I_s e^{\left(\frac{V_{be1}}{V_T}\right)}}
     \qquad
     \rightarrow
     \qquad
     I_{c2}=I_{c1}e^{\left(\frac{V_{be2}-V_{be1}}{V_T}\right)}=I_{c1}e^{\left(\frac{V_{b2}-V_{b1}}{V_T}\right)}\ [A]
-\end{displaymath}
+\end{equation}
 
 in cui risulta evidente che la dipendenza da $I_s$ viene completamente rimossa.
 
 A questo punto, rinominiamo le grandezze come segue:
 
-\begin{equation*}
+\begin{equation}\label{renamed_differential_pair}
     \left\{ \begin{aligned}
         I_{c2} & = I_{freq} \\
         I_{c2} & = I_{ref}
@@ -71,27 +71,27 @@ A questo punto, rinominiamo le grandezze come segue:
     \rightarrow
     \qquad
     I_{freq}=I_{ref}e^{\left(-\frac{V_{b1}}{V_T}\right)}\ [A]
-\end{equation*}
+\end{equation}
 
 e aggiungiamo al circuito
 
 \begin{itemize}
     \item un amplificatore invertente per portare $V_{in}$ in un range appropriato alla base
           di $Q_1$ (operazionale di sinistra, figura \ref{exponential_converter_circuit})
-          \begin{displaymath}
+          \begin{equation}\label{amplifier}
               V_{b1}=-V_{in}\cdot s=
               -V_{in}\cdot\frac{R_f}{R_{in}}\cdot\frac{\%R_{pot}+R}{R_{pot}+R}\ [V]
-          \end{displaymath}
+          \end{equation}
     \item un anello di controllo per mantenere la corrente di riferimento $I_{ref}$ costante
           (operazionale centrale, figura \ref{exponential_converter_circuit})
-          \begin{displaymath}
+          \begin{equation}\label{iref}
               I_{ref}=\frac{V_{HR}-V_{LR}}{R_{ref}}\ [A]
-          \end{displaymath}
+          \end{equation}
     \item un convertitore corrente-tensione al collettore di $Q_2$ (operazionale di destra,
           figura \ref{exponential_converter_circuit})
-          \begin{displaymath}
+          \begin{equation}\label{ivconv}
               V_{exp}=I_{freq}\cdot R_{conv}\ [V]
-          \end{displaymath}
+          \end{equation}
 \end{itemize}
 
 ottenendo quindi il seguente circuito con la relativa relazione ingresso/uscita:
@@ -103,9 +103,9 @@ ottenendo quindi il seguente circuito con la relativa relazione ingresso/uscita:
     \label{exponential_converter_circuit}
 \end{figure}
 
-\begin{displaymath}
+\begin{equation}\label{expo_converter}
     V_{exp}=R_{conv}\cdot \frac{V_{HR}-V_{LR}}{R_{ref}}e^{\left(\frac{s\cdot V_{in}}{V_T}\right)}\ [V]
-\end{displaymath}
+\end{equation}
 
 %--------------------------------------------------------------------------------------------
 
@@ -119,18 +119,18 @@ comportamento voluto.
 Come prima cosa calcoliamo il valore del guadagno $s$ dell'amplificatore invertente.
 Si vuole:
 
-\begin{displaymath}
+\begin{equation}\label{iref_doubling}
     I_{freq}=I_{ref}e^{\left(\frac{s\cdot V_{in}}{V_T}\right)}
     \qquad
     \xrightarrow{+\Delta V_{in}}
     \qquad
     2I_{freq}=I_{ref}e^{\left(\frac{s\cdot(V_{in}+\Delta V_{in})}{V_T}\right)}
-\end{displaymath}
+\end{equation}
 
 qundi un raddoppio della corrente $I_{freq}$ per ogni variazione $\Delta V_{in}=1\ V$.
 Allora possiamo riscrivere la relazione nel seguente modo:
 
-\begin{displaymath}
+\begin{equation}\label{s1}
     \frac{2I_{freq}}{I_{freq}}=
     \frac{I_{ref}e^{\left(\frac{s\cdot(V_{in}+\Delta V_{in})}{V_T}\right)}}
     {I_{ref}e^{\left(\frac{s\cdot V_{in}}{V_T}\right)}}
@@ -146,17 +146,17 @@ Allora possiamo riscrivere la relazione nel seguente modo:
     \rightarrow
     \
     s=\frac{V_T\cdot ln(2)}{\Delta V_{in}}
-\end{displaymath}
+\end{equation}
 
-\begin{displaymath}
+\begin{equation}\label{s2}
     s=\frac{26\ mV\cdot 0.6931}{1\ V}\approx0.018\approx\frac{1}{55.5}
-\end{displaymath}
+\end{equation}
 
-\begin{displaymath}
+\begin{equation}\label{s3}
     s=\frac{R_f}{R_{in}}\cdot\frac{\%R_{pot}+R}{R_{pot}+R}
     =\frac{2\ k\Omega}{100\ k\Omega}\cdot\frac{440\ \Omega}{490\ \Omega}
     \approx 0.018
-\end{displaymath}
+\end{equation}
 
 quindi:
 
@@ -172,17 +172,17 @@ $I_{freq} = 3\ mA$ ($V_{exp}\approx+10\ V$ in uscita dal convertitore corrente-t
 in corrispondenza di una tensione di ingresso $V_{in}=+8\ V$. Da qui possiamo quindi calcolare
 il valore di $I_{ref}$:
 
-\begin{displaymath}
+\begin{equation}\label{iref_calc}
     I_{ref}=I_{freq}e^{\left(-\frac{s\cdot V_{in}}{V_T}\right)}
     =0.003e^{\left(-\frac{0.018\cdot8}{0.026}\right)}
     \approx11.8\ \mu A
-\end{displaymath}
+\end{equation}
 
 Impostando quindi $V_{HR}=+12\ V$ e $V_{LR}=0\ V$ calcoliamo $R_{ref}$:
 
-\begin{displaymath}
+\begin{equation}\label{rref_calc}
     R_{ref}=\frac{V_{HR}}{I_{ref}}=\frac{12}{11.8\cdot10^{-6}}\approx 1\ M\Omega
-\end{displaymath}
+\end{equation}
 
 Ora, poichè la corrente massima a scorrere in $R_e$ vale $I_{ref}+I_{freq}\approx3\ mA$
 potremmo scegliere anche $R_e=R_{conv}=3.3\ k\Omega$. In questo modo sommando le cadute di
@@ -192,9 +192,9 @@ di alimentazione, ottenendo $\approx 22.2\ V\ < 24\ V= 2V_{cc}$.
 Se però andiamo a calcolare la caduta di potenziale ai capi di $R_e$ corrispondente a $V_{in}=0\ V$,
 ovvero:
 
-\begin{displaymath}
+\begin{equation}\label{vre}
     V_{R_e}=R_e(I_{ref}+I_{freq})=3.3\cdot10^3\cdot23.6\cdot10^{-6}\approx77.9\ mV
-\end{displaymath}
+\end{equation}
 
 notiamo che un valore di resistenza maggiore aumenterebbe la linearità del circuito per bassi
 livelli di $V_{in}$, in quanto la caduta di potenziale sul resistore ha modulo maggiore e
@@ -215,7 +215,7 @@ Come resistori possiamo scegliere qualsiasi valore, purchè non comporti la satu
 dell'operazionale e si aggiri comunque attorno al $k\Omega$. Si scelgono $R_e'=10\ k\Omega$
 e $R_e''=1.2\ k\Omega$.
 
-\begin{equation*}
+\begin{equation}\label{rtot}
     R_{tot} =
     \left\{
     \begin{array}{lr}
@@ -223,7 +223,7 @@ e $R_e''=1.2\ k\Omega$.
         R_e'//R_e'' & \text{con diodo acceso, ovvero } I_{ref}+I_{freq}>\frac{V_d}{R_e'}
     \end{array}
     \right.
-\end{equation*}
+\end{equation}
 
 Per quanto riguarda i componenti, ancora una volta gli amplificatori operazionali utilizzati
 sono dei TL074, mentre si sceglie un MPQ3904 \cite{mpq3904} per i transistor, chip che
@@ -245,86 +245,7 @@ sostituito con uno dei 4 transistor del chip configurato come diodo.
 
 Analizziamo ora il comportamento del circuito.
 
-\begin{minipage}[H]{0.3\textwidth}
-    \begin{table}[H]
-        \centering
-        \csvreader[
-            before reading = \footnotesize\sisetup{round-mode = places,}
-            \setlength{\tabcolsep}{2.5pt},
-            tabular = |c|c|c|c|,
-            table head = \hline $V_{in}$ & $V_{attesa}$ & $V_{exp}$ & $V_{opamp}$ \\\hline,
-            late after line = \\\hline,
-        ]{data/misure_Re_low_gain.csv}{}{
-            \csvcoli & \csvcolii & \csvcoliii & \csvcoliv
-        }
-        \caption{test}
-        \label{expo1}
-    \end{table}
-\end{minipage}
-\begin{minipage}[H]{0.35\textwidth}
-    \begin{figure}[H]
-        \centering
-        \begin{tikzpicture}[scale = 0.65]
-            \begin{semilogyaxis}[
-                    title = Transcaratteristica,             % title
-                    no marks,
-                    xmin = 0, xmax = 12,            % limit values
-                    ymin = 0.01, ymax = 50,
-                    grid = major,                   % grid
-                    grid style = {dashed, gray!30},
-                    xlabel = $V_{in}$,              % axis titles and units
-                    ylabel = $V_{exp}$,
-                    x unit = \si{\V}, y unit = \si{\V},
-                    legend style = {at = {(0.5, -0.25)}, anchor = north},
-                    cycle list name = modular,
-                ]
-
-                \addplot
-                table[x = vin, y = vattesa, col sep = comma]{./data/misure_Re_low_gain.csv};
-
-                \addplot
-                table[x = vin, y = vexpo, col sep = comma]{./data/misure_Re_low_gain.csv};
-
-                \legend{Calcolato, Misurato}
-            \end{semilogyaxis}
-        \end{tikzpicture}
-
-        \caption{test}
-        \label{testgraph}
-    \end{figure}
-\end{minipage}
-\begin{minipage}[H]{0.35\textwidth}
-    \begin{figure}[H]
-        \centering
-        \begin{tikzpicture}[scale = 0.65]
-            \begin{semilogyaxis}[
-                    title = Transcaratteristica,             % title
-                    no marks,
-                    xmin = 0, xmax = 12,            % limit values
-                    ymin = 0.01, ymax = 50,
-                    grid = major,                   % grid
-                    grid style = {dashed, gray!30},
-                    xlabel = $V_{in}$,              % axis titles and units
-                    ylabel = $V_{exp}$,
-                    x unit = \si{\V}, y unit = \si{\V},
-                    legend style = {at = {(0.5, -0.25)}, anchor = north},
-                    cycle list name = modular,
-                ]
-
-                \addplot
-                table[x = vin, y = vattesa, col sep = comma]{./data/misure_Re_low_gain.csv};
-
-                \addplot
-                table[x = vin, y = vexpo, col sep = comma]{./data/misure_Re_low_gain.csv};
-
-                \legend{Calcolato, Misurato}
-            \end{semilogyaxis}
-        \end{tikzpicture}
-
-        \caption{test}
-        \label{testgraph2}
-    \end{figure}
-\end{minipage}
+% dati, tabelle e grafici
 
 %--------------------------------------------------------------------------------------------
 
@@ -332,7 +253,18 @@ Analizziamo ora il comportamento del circuito.
 
 %--------------------------------------------------------------------------------------------
 
-TODO descrizione sommatore
+Per fare in modo che possa essere utilizzato un segnale in tensione come modulante (ingresso
+LFO), si aggiunge un resistore uguale a $R_{in}$ all'ingresso invertente dell'amplificatore,
+modificando quindi la relazione \ref{amplifier} nel seguente modo:
+
+\begin{equation}
+    V_{b1}=-s\cdot\sum_0^n{V_{n}}\ [V]
+\end{equation}
+
+% figura
+
+rendendo quindi l'amplificatore un sommatore invertente. Si noti che non c'è un limite al
+numero di ingressi che è possibile aggiungere.
 
 %--------------------------------------------------------------------------------------------
 
@@ -340,7 +272,31 @@ TODO descrizione sommatore
 
 %--------------------------------------------------------------------------------------------
 
-TODO descrizione clipper
+Come visto dalla formula \ref{expo_converter}, la tensione in ingresso $V_{in}$ deve essere di
+valore positivo per avere una tensione in uscita positiva, e volendo inserire nel circuito
+un nodo sommatore per avere la possibilità di utilizzare un segnale in tensione come modulante,
+dobbiamo assicurarci che $V_{b1}$ non diventi mai positiva (il segno viene invertito
+dall'amplificatore). Si aggiunge quindi un blocco raddrizzatore, realizzato con un diodo e
+un operazionale, che compenserà per la caduta di tensione sul diodo. Lo schema utilizzato
+viene riportato in figura %\ref{}.
+
+% figura
+
+Quindi in uscita si avrà la stessa tensione in ingresso se negativa, mentre un valore molto
+prossimo a $0$ se positiva.
+
+\begin{equation}\label{clipper}
+    V_{out} =
+    \left\{
+    \begin{array}{lr}
+        V_{in} & \text{con} V_{in}\le0 \\
+        0      & \text{con} V_{in}>0
+    \end{array}
+    \right.
+\end{equation}
+
+Il diodo utilizzato per lo scopo è un 1N4148 \cite{1n4148}, un comunissimo diodo per piccoli
+segnali, e l'operazionale sempre un TL074.
 
 %--------------------------------------------------------------------------------------------
 
@@ -348,6 +304,8 @@ TODO descrizione clipper
 
 %--------------------------------------------------------------------------------------------
 
-TODO misure e acquisizioni clipper
+Verificando il circuito appena discusso vediamo che si comporta esattamente come desiderato.
+
+% immagini grafici e tabelle
 
 %--------------------------------------------------------------------------------------------
