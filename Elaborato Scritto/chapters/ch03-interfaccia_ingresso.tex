@@ -10,7 +10,7 @@ Vogliamo ora analizzare il circuto che soddisfa la specifica sulla modalità $1\
 dell'ingresso, ovvero il circuito in grado di convertire una tensione lineare in una
 esponenziale.
 
-Il circuito utilizzato è molto diffuso in questo tipo di applicazioni, si può infatti
+La soluzione utilizzata è molto diffusa in questo tipo di applicazioni, si può infatti
 trovare in molti siti di DIY come quello di René Schmitz \cite{expo_converter}, personaggio
 molto noto tra gli appassionati di sintetizzatori musicali fai-da-te.
 
@@ -38,13 +38,13 @@ bipolare, ovvero:
 dove $V_T$ (o potenziale termico) e $I_s$ (o corrente di saturazione) sono variabili in
 funzione della temperatura. Nella nostra analisi $V_T$ verrà considerato di valore costante
 pari a $26\ mV$, mentre si rimuove dall'equazione $I_s$ collegando una coppia di transistor
-(idealmente nello stesso chip, in modo che siano il più possibile simili tra loro e ù
+(idealmente nello stesso chip, in modo che siano il più possibile simili tra loro e
 termicamente accoppiati) in configurazione differenziale:
 
 \begin{figure}[H]
     \centering
     \includegraphics{circuits/differential_pair_circuit.png}
-    \caption{Coppia differenziale a BJT}
+    \caption{BJT a coppia differenziale}
     \label{differential_pair_circuit}
 \end{figure}
 
@@ -70,7 +70,7 @@ A questo punto, rinominiamo le grandezze come segue:
     \qquad
     \rightarrow
     \qquad
-    I_{freq}=I_{ref}e^{\left(-\frac{V_{b1}}{V_T}\right)}\ [A]
+    I_{freq}=I_{ref}e^{\left(\frac{V_{b2}-V_{b1}}{V_T}\right)}\ [A]
 \end{equation}
 
 e aggiungiamo al circuito
@@ -198,16 +198,16 @@ ovvero:
 
 notiamo che un valore di resistenza maggiore aumenterebbe la linearità del circuito per bassi
 livelli di $V_{in}$, in quanto la caduta di potenziale sul resistore ha modulo maggiore e
-risulta meno influenzata dal rumore. Si modifica allora il circuito cosicché che la
-resistenza di emettitore sia variabile in modo non-lineare, a seconda della corrente
-richiesta in uscita. Questo è reso possibile sostituendo ad $R_e$ un parallelo tra due resistori
-di diverso valore, di cui quello più piccolo collegato in serie ad un diodo, l'elemento che
-si occuperà effettivamente di modificare il valore di resistenza.
+risulta meno influenzata dal rumore. Si modifica allora il circuito cosicché la resistenza
+di emettitore sia variabile in modo non-lineare, a seconda della corrente richiesta in uscita.
+Questo è reso possibile sostituendo ad $R_e$ un parallelo tra due resistori di diverso valore,
+di cui quello più piccolo collegato in serie ad un diodo, l'elemento che si occuperà
+effettivamente di modificare il valore di resistenza.
 
 \begin{figure}[H]
     \centering
     \includegraphics{circuits/Rtot_circuit.png}
-    \caption{Schema elettrico del resistore variabile}
+    \caption{Schema elettrico del resistore di emettitore equivalente}
     \label{Rtot_circuit}
 \end{figure}
 
@@ -245,7 +245,128 @@ sostituito con uno dei 4 transistor del chip configurato come diodo.
 
 Analizziamo ora il comportamento del circuito.
 
-% dati, tabelle e grafici
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{block_diagrams/mis_expo_oscilloscope.png}
+        \caption{Circuito di misura}
+        \label{mis_expo_oscilloscope}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{misc/oscilloscope_placeholder.png}
+        \caption{Transcaratteristica}
+        \label{expo_transcharacteristic}
+    \end{subfigure}
+
+    \caption{Misura della transcaratteristica con oscilloscopio}
+\end{figure}
+
+\begin{minipage}{0.49\textwidth}
+    \centering
+    \includegraphics{block_diagrams/mis_expo.png}
+    \captionof{figure}{Circuito di misura}
+    \label{mis_expo}
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+    \centering
+    \begin{table}[H]
+        \centering
+        \csvreader[
+        tabular = |C||L|,
+        table head = {\hline \rowcolor{myLightGrey} $V_{in}\ [V]$ & $V_{exp}\ [V]$ \\\hline},
+        late after line = \\\hline,
+        ]{data/misure_expo.csv}{}{
+        \csvcoli & \csvcolii
+        }
+        \caption{Misure del convertitore}
+        \label{expo_table}
+    \end{table}
+\end{minipage}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \begin{tikzpicture}[scale = 0.85]
+            \begin{semilogyaxis}[
+                    title = Transcaratteristica in scala logaritmica,
+                    no marks,
+                    xmin = 0, xmax = 12,
+                    ymin = 0.01, ymax = 100,
+                    grid = major,
+                    grid style = {dashed, gray!30},
+                    xlabel = $V_{in}$,
+                    ylabel = $V_{exp}$,
+                    x unit = \si{\V}, y unit = \si{\V},
+                    legend style = {at = {(0.5, -0.25)}, anchor = north},
+                    cycle list name = modular,
+                ]
+
+                \addplot
+                table[x = vin, y = vexp formula, col sep = comma]{./data/misure_expo.csv};
+
+                \addplot
+                table[x = vin, y = vexp attesa, col sep = comma]{./data/misure_expo.csv};
+
+                \addplot
+                table[x = vin, y = vexp misura, col sep = comma]{./data/misure_expo.csv};
+
+                \legend{Formula \ref{expo_converter}, Valori attesi, Valori misurati}
+            \end{semilogyaxis}
+        \end{tikzpicture}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \begin{tikzpicture}[scale = 0.85]
+            \begin{axis}[
+                    title = Transcaratteristica in scala lineare,
+                    no marks,
+                    xmin = 0, xmax = 12,
+                    ymin = 0, ymax = 15,
+                    grid = major,
+                    grid style = {dashed, gray!30},
+                    xlabel = $V_{in}$,
+                    ylabel = $V_{exp}$,
+                    x unit = \si{\V}, y unit = \si{\V},
+                    legend style = {at = {(0.5, -0.25)}, anchor = north},
+                    cycle list name = modular,
+                ]
+
+                \addplot
+                table[x = vin, y = vexp formula, col sep = comma]{./data/misure_expo.csv};
+
+                \addplot
+                table[x = vin, y = vexp attesa, col sep = comma]{./data/misure_expo.csv};
+
+                \addplot
+                table[x = vin, y = vexp misura, col sep = comma]{./data/misure_expo.csv};
+
+                \legend{Formula \ref{expo_converter}, Valori attesi, Valori misurati}
+            \end{axis}
+        \end{tikzpicture}
+    \end{subfigure}
+
+    \caption{Grafici delle misure riportate in tabella \ref{expo_table}}
+    \label{expo_graphs}
+\end{figure}
+
+In azzurro possiamo vedere i valori calcolati tramite la formula \ref{expo_converter},
+in rosso invece i valori ottenuti moltiplicando il dato misurato a $0\ V$ per $2^{V_{in}}$
+e infine in nero i valori effettivamente misurati. Si vede che rispetto a quanto calcolato
+c'è un lieve discostamento dovuto con ogni probabilità alla tolleranza dei valori dei
+componenti utilizzati, tuttavia le misure risultano quasi coincidenti con la curva esponenziale
+di pendenza $2$.
+
+Il ginocchio presente subito dopo i $10\ V$ è dovuto alla saturazione dell'operazionale
+nel convertitore corrente-tensione, che con una alimentazione di $\pm12\ V$ presenta dei
+valori di $\pm V_{sat}\approx\pm10.5\ V$.
+
+Si verifica anche che la curva della transcaratteristica in scala lineare coincide con la
+transcaratteristica tracciata con l'oscilloscopio (figura \ref{expo_transcharacteristic}).
 
 %--------------------------------------------------------------------------------------------
 
@@ -261,14 +382,43 @@ modificando quindi la relazione \ref{amplifier} nel seguente modo:
     V_{b1}=-s\cdot\sum_0^n{V_{n}}\ [V]
 \end{equation}
 
-% figura
+\begin{figure}[H]
+    \centering
+    \includegraphics{circuits/summer_circuit.png}
+    \caption{Circuito sommatore invertente}
+    \label{summer_circuit}
+\end{figure}
 
-rendendo quindi l'amplificatore un sommatore invertente. Si noti che non c'è un limite al
+e rendendo quindi l'amplificatore un sommatore invertente. Si noti che non c'è un limite al
 numero di ingressi che è possibile aggiungere.
+
+Per la regolazione manuale si utilizzano due potenziometri, uno per una regolazione grossolana
+e uno per una più fine, e li si collega ad un ingresso del sommatore nel seguente modo:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{circuits/coarse_fine_circuit.png}
+    \caption{Circuito per la regolazione manuale della frequenza ($\pm V_{cc}=\pm12\ V$)}
+    \label{coarse_fine_circuit}
+\end{figure}
+
+questo circuito permette di sommare (o sottrarre) una tensione compresa nel range di
+alimentazione, inoltre la manopola "Fine" consente di regolare la tensione in modo più
+preciso attorno al punto selezionato con "Coarse".
+
+Infine, il segnale modulante d'ingresso viene portato ad un altro degli ingressi del sommatore,
+attraverso un potenziometro per la regolazione del volume.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{circuits/lfo_input_circuit.png}
+    \caption{Circuito di ingresso del segnale modulante}
+    \label{lfo_input_circuit}
+\end{figure}
 
 %--------------------------------------------------------------------------------------------
 
-\section{Clipper}
+\section{Raddrizzatore}
 
 %--------------------------------------------------------------------------------------------
 
@@ -278,25 +428,45 @@ un nodo sommatore per avere la possibilità di utilizzare un segnale in tensione
 dobbiamo assicurarci che $V_{b1}$ non diventi mai positiva (il segno viene invertito
 dall'amplificatore). Si aggiunge quindi un blocco raddrizzatore, realizzato con un diodo e
 un operazionale, che compenserà per la caduta di tensione sul diodo. Lo schema utilizzato
-viene riportato in figura %\ref{}.
+è il seguente:
 
-% figura
+\begin{figure}[H]
+    \centering
+    \includegraphics{circuits/clipper_circuit.png}
+    \caption{Circuito raddrizzatore}
+    \label{clipper_circuit}
+\end{figure}
 
 Quindi in uscita si avrà la stessa tensione in ingresso se negativa, mentre un valore molto
 prossimo a $0$ se positiva.
 
-\begin{equation}\label{clipper}
+\begin{equation}\label{clipper_out}
     V_{out} =
     \left\{
     \begin{array}{lr}
-        V_{in} & \text{con} V_{in}\le0 \\
-        0      & \text{con} V_{in}>0
+        V_{in} & \text{con } V_{in}\le0 \\
+        0      & \text{con } V_{in}>0
+    \end{array}
+    \right.
+\end{equation}
+
+Il resistore collegato a $V_{b1}'$ è necessario per il ricircolo della corrente di
+polarizzazione del diodo, che altrimenti non si accenderebbe mai. Viene inoltre aggiunto un
+LED per visualizzare quando il raddrizzatore è in funzione, in modo da permettere all'utente
+di correggere eventuali errori nel segnale modulante in ingresso.
+
+\begin{equation}\label{clipper_op}
+    V_{op} =
+    \left\{
+    \begin{array}{lr}
+        V_{in}+V_d & \text{con } V_{in}\le0\Rightarrow \text{LED spento} \\
+        +V_{sat}   & \text{con } V_{in}>0\Rightarrow \text{LED acceso}
     \end{array}
     \right.
 \end{equation}
 
 Il diodo utilizzato per lo scopo è un 1N4148 \cite{1n4148}, un comunissimo diodo per piccoli
-segnali, e l'operazionale sempre un TL074.
+segnali, mentre l'operazionale sempre un TL074.
 
 %--------------------------------------------------------------------------------------------
 
@@ -304,8 +474,107 @@ segnali, e l'operazionale sempre un TL074.
 
 %--------------------------------------------------------------------------------------------
 
-Verificando il circuito appena discusso vediamo che si comporta esattamente come desiderato.
+Verificando il circuito appena discusso vediamo che si comporta esattamente come desiderato,
+a meno della tensione di saturazione dell'operazionale, cosa certamente trascurabile in quanto
+permette comunque l'accensione del LED.
 
-% immagini grafici e tabelle
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{block_diagrams/mis_clipper_oscilloscope.png}
+        \caption{Circuito di misura}
+        \label{mis_clipper_oscilloscope}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{misc/oscilloscope_placeholder.png}
+        \caption{Transcaratteristica}
+        \label{clipper_transcharacteristic}
+    \end{subfigure}
+
+    \caption{Misura della transcaratteristica con oscilloscopio}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{block_diagrams/mis_clipper.png}
+    \caption{Circuito di misura}
+    \label{mis_clipper}
+\end{figure}
+
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \begin{table}[H]
+        \centering
+        \csvreader[
+        tabular = |C||C|L|,
+        table head = {\hline \rowcolor{myLightGrey} $V_{in}\ [V]$ & $V_{out}\ [V]$ & $V_{op}\ [V]$ \\\hline},
+        late after line = \\\hline,
+        ]{data/misure_clipper.csv}{}{
+        \csvcoli & \csvcoliii & \csvcolv
+        }
+        \caption{Tabella dei dati raccolti}
+        \label{clipper_table}
+    \end{table}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \begin{figure}[H]
+        \centering
+        \begin{tikzpicture}[scale = 0.85]
+            \begin{axis}[
+                    title = Transcaratteristica,
+                    no marks,
+                    xmin = -7, xmax = 7,
+                    ymin = -7, ymax = 7,
+                    grid = major,
+                    grid style = {dashed, gray!30},
+                    xlabel = $V_{in}$,
+                    ylabel = $V_{out}$,
+                    x unit = \si{\V}, y unit = \si{\V},
+                    legend style = {at = {(0.5, -0.25)}, anchor = north},
+                    cycle list name = modular,
+                ]
+
+                \addplot
+                table[x = vin, y = vout attesa, col sep = comma]{./data/misure_clipper.csv};
+
+                \addplot
+                table[x = vin, y = vout misura, col sep = comma]{./data/misure_clipper.csv};
+
+                \legend{Formula \ref{clipper_out}, Valori misurati}
+            \end{axis}
+        \end{tikzpicture}
+    \end{figure}
+
+    \begin{figure}[H]
+        \begin{tikzpicture}[scale = 0.85]
+            \begin{axis}[
+                    title = Uscita all'operazionale,
+                    no marks,
+                    xmin = -7, xmax = 7,
+                    ymin = -7, ymax = 12,
+                    grid = major,
+                    grid style = {dashed, gray!30},
+                    xlabel = $V_{in}$,
+                    ylabel = $V_{op}$,
+                    x unit = \si{\V}, y unit = \si{\V},
+                    legend style = {at = {(0.5, -0.25)}, anchor = north},
+                    cycle list name = modular,
+                ]
+
+                \addplot
+                table[x = vin, y = vop attesa, col sep = comma]{./data/misure_clipper.csv};
+
+                \addplot
+                table[x = vin, y = vop misura, col sep = comma]{./data/misure_clipper.csv};
+
+                \legend{Formula \ref{clipper_op}, Valori misurati}
+            \end{axis}
+        \end{tikzpicture}
+    \end{figure}
+\end{minipage}
 
 %--------------------------------------------------------------------------------------------

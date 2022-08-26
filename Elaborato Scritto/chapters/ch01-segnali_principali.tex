@@ -1,4 +1,4 @@
-\chapter{Generazione dei Segnali Principali}
+\chapter{Generazione dei Segnali Principali}\label{segnali_principali}
 
 %--------------------------------------------------------------------------------------------
 
@@ -138,41 +138,30 @@ gradino di tensione di circa $40\ mV$ come calcolato con la formula \ref{vstep}.
 
 %--------------------------------------------------------------------------------------------
 
-Verifichiamo quindi la correttezza del circuito realizzato con il seguente setup di misura:
-
-\begin{figure}[H]
-    \centering
-    \includegraphics{block_diagrams/mis_ramp.png}
-    \caption{Circuito di misura del segnale rampa}
-    \label{mis_ramp}
-\end{figure}
-
-\vspace{2cm}
-
-Si osservano le seguenti forme d'onda:
+Verifichiamo quindi la correttezza del circuito realizzato.
 
 \begin{figure}[H]
     \centering
 
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics[scale = 0.2]{acquisitions/ramp_wave.png}
-        \caption{Acquisizione del segnale a rampa ottenuto}
-        \label{acq_ramp}
+        \includegraphics{block_diagrams/mis_ramp.png}
+        \caption{Circuito di misura}
+        \label{mis_ramp}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics{misc/oscilloscope_placeholder.png}
-        \caption{Zoom degli step della rampa e clock}
-        \label{acq_ramp_steps}
+        \includegraphics[scale = 0.2]{acquisitions/ramp_wave.png}
+        \caption{Segnale rampa ottenuto}
+        \label{acq_ramp}
     \end{subfigure}
 
     \caption{Correttezza del circuito per il segnale a rampa}
     \label{acq_ramp_signals}
 \end{figure}
 
-Si apprezza come l'onda generata abbia esattamente la forma voluta e il comportamento del
-contatore in abbinamento al DAC sia come descritto nel principio di funzionamento.
+Si apprezza come l'onda generata abbia esattamente la forma voluta, come descritto nel
+principio di funzionamento.
 
 %--------------------------------------------------------------------------------------------
 
@@ -277,31 +266,22 @@ $255$ in modalità "Up" e $0$ in modalità "Down".
 
 %--------------------------------------------------------------------------------------------
 
-Si verifica ora la correttezza del circuito realizzato utilizzando il setup di misura seguente:
-
-\begin{figure}[H]
-    \centering
-    \includegraphics{block_diagrams/mis_triangle.png}
-    \caption{Circuito di misura del segnale triangolo}
-    \label{mis_triangle}
-\end{figure}
-
-e si osservano le seguenti forme d'onda:
+Si verifica ora la correttezza del circuito realizzato.
 
 \begin{figure}[H]
     \centering
 
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics{misc/oscilloscope_placeholder.png}
-        \caption{Acquisizione del segnale a triangolo ottenuto}
-        \label{acq_triangle}
+        \includegraphics{block_diagrams/mis_triangle.png}
+        \caption{Circuito di misura}
+        \label{mis_triangle}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{misc/oscilloscope_placeholder.png}
-        \caption{Zoom degli step del triangolo e clock}
-        \label{acq_triangle_steps}
+        \caption{Segnali triangolo e $RCO2$ ottenuti}
+        \label{acq_triangle}
     \end{subfigure}
 
     \caption{Correttezza del circuito per il segnale a triangolo}
@@ -324,16 +304,21 @@ un divisore di frequenza, ottenuto con un semplice toggle flip-flop (TFF).
 
 \begin{figure}[H]
     \centering
-    \includegraphics{block_diagrams/freq_divider_block_diagram.png}
-    \caption{Schema a blocchi del divisore di frequenza}
-    \label{freq_divider_block_diagram}
-\end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics{graphs/clock_divider_behaviour.png}
-    \caption{$f_{clk}$ e ½$f_{clk}$ nel divisore di frequenza}
-    \label{clock_divider_behaviour}
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{block_diagrams/freq_divider_block_diagram.png}
+        \caption{Schema a blocchi}
+        \label{freq_divider_block_diagram}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{graphs/clock_divider_behaviour.png}
+        \caption{Andamento dei segnali previsto}
+        \label{clock_divider_behaviour}
+    \end{subfigure}
+
+    \caption{Divisore di frequenza}
 \end{figure}
 
 Le specifiche sul segnale di clock ci impongono allora di generare un segnale a onda rettangolare
@@ -346,9 +331,21 @@ attivo a livello logico basso) e connesso all'ingresso $U/D$ del contatore.
 
 \begin{figure}[H]
     \centering
-    \includegraphics{block_diagrams/UD_block_diagram.png}
-    \caption{Schema a blocchi del sistema per il segnale di pilotaggio}
-    \label{UD_block_diagram}
+
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{block_diagrams/UD_block_diagram.png}
+        \caption{Schema a blocchi}
+        \label{UD_block_diagram}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{graphs/UD_behaviour.png}
+        \caption{Andamento dei segnali previsto}
+        \label{UD_behaviour}
+    \end{subfigure}
+
+    \caption{Pilotaggio del contatore}
 \end{figure}
 
 I componenti utilizzati per questo scopo sono:
@@ -382,7 +379,7 @@ Si verifica la correttezza dei circuiti:
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{block_diagrams/mis_clock_divider.png}
-        \caption{Circuito di misura del divisore di frequenza}
+        \caption{Circuito di misura}
         \label{mis_clock_divider}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
@@ -396,13 +393,15 @@ Si verifica la correttezza dei circuiti:
     \label{clock_divider}
 \end{figure}
 
+Il comportamento coincide con quanto descritto in figura \ref{clock_divider_behaviour}.
+
 \begin{figure}[H]
     \centering
 
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{block_diagrams/mis_UD.png}
-        \caption{Circuito di misura del segnale $U/D$}
+        \caption{Circuito di misura}
         \label{mis_UD}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
@@ -415,5 +414,7 @@ Si verifica la correttezza dei circuiti:
     \caption{Correttezza del circuito di pilotaggio del contatore up-down}
     \label{UD}
 \end{figure}
+
+Il comportamento coincide con quanto descritto in figura \ref{UD_behaviour}.
 
 %--------------------------------------------------------------------------------------------

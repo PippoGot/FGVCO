@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.22)  19 AUG 2022 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.22)  26 AUG 2022 14:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -775,49 +775,44 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks47
 \AP@partial=\box79
 \AP@footins=\box80
-) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
-Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count466
-\l__lipsum_a_int=\count467
-\l__lipsum_b_int=\count468
- (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'italian'.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 123.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 120.
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-segnali_principali.aux) (chapters/ch02-vfc.aux) (chapters/ch03-interfaccia_ingresso.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-interfaccia_uscita.aux) (chapters/ch07-protezione_circuito.aux) (chapters/ch08-suddivisione_schede.aux) (chapters/ch09-conclusioni.aux))
+) (main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-segnali_principali.aux) (chapters/ch02-vfc.aux) (chapters/ch03-interfaccia_ingresso.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-interfaccia_uscita.aux) (chapters/ch09-conclusioni.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 120.
  (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count469
+\scratchcounter=\count466
 \scratchdimen=\dimen306
 \scratchbox=\box81
-\nofMPsegments=\count470
-\nofMParguments=\count471
+\nofMPsegments=\count467
+\nofMParguments=\count468
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count472
+\MPscratchCnt=\count469
 \MPscratchDim=\dimen307
-\MPnumerator=\count473
-\makeMPintoPDFobject=\count474
+\MPnumerator=\count470
+\makeMPintoPDFobject=\count471
 \everyMPtoPDFconversion=\toks49
 ) (C:\Users\gotta\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -835,15 +830,15 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \it@ocap on input line 123.
-LaTeX Info: Redefining \it@ccap on input line 123.
+LaTeX Info: Redefining \it@ocap on input line 120.
+LaTeX Info: Redefining \it@ccap on input line 120.
 
 File italian.ldf warning: 
 italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 123.
+italian.ldf    on input line 120.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -892,22 +887,22 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 123.
-Package biblatex Info: Reference segment=0 on input line 123.
+Package biblatex Info: Reference section=0 on input line 120.
+Package biblatex Info: Reference segment=0 on input line 120.
 
 
 pdfTeX warning: pdflatex (file ./pdfs/frontespizio/frontespizio_tesi.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <pdfs/frontespizio/frontespizio_tesi.pdf, id=4, 597.55246pt x 845.07718pt>
 File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
 <use pdfs/frontespizio/frontespizio_tesi.pdf>
-Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf  used on input line 127.
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf  used on input line 124.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
 pdfTeX warning: pdflatex (file ./pdfs/frontespizio/frontespizio_tesi.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
 <use pdfs/frontespizio/frontespizio_tesi.pdf>
-Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf  used on input line 127.
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf  used on input line 124.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -918,23 +913,23 @@ pdfTeX warning: pdflatex (file ./pdfs/frontespizio/frontespizio_tesi.pdf): PDF i
 <pdfs/frontespizio/frontespizio_tesi.pdf, id=7, page=1, 597.55246pt x 845.07718pt>
 File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
 <use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
-Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 127.
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 124.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
 <use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
-Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 127.
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 124.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
 <use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
-Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 127.
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 124.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
 <use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
-Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 127.
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 124.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: pdfs/frontespizio/frontespizio_tesi.pdf Graphic file (type pdf)
 <use pdfs/frontespizio/frontespizio_tesi.pdf, page 1>
-Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 127.
+Package pdftex.def Info: pdfs/frontespizio/frontespizio_tesi.pdf , page1 used on input line 124.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [1
 
@@ -960,11 +955,11 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
  <./images//graphs/functioning_range.png>]
-<images//misc/panel_explained.png, id=69, 351.59355pt x 366.52934pt>
+<images//misc/panel_explained.png, id=69, 351.59355pt x 365.9271pt>
 File: images//misc/panel_explained.png Graphic file (type png)
 <use images//misc/panel_explained.png>
 Package pdftex.def Info: images//misc/panel_explained.png  used on input line 70.
-(pdftex.def)             Requested size: 351.59268pt x 366.52844pt.
+(pdftex.def)             Requested size: 351.59268pt x 365.9262pt.
 ) [6] [7 <./images//misc/panel_explained.png>]
 \openout2 = `chapters/ch01-segnali_principali.aux'.
 
@@ -1005,156 +1000,156 @@ File: images//circuits/ramp_counter_circuit.png Graphic file (type png)
 <use images//circuits/ramp_counter_circuit.png>
 Package pdftex.def Info: images//circuits/ramp_counter_circuit.png  used on input line 122.
 (pdftex.def)             Requested size: 125.99039pt x 162.1253pt.
-<images//block_diagrams/mis_ramp.png, id=95, 134.30174pt x 91.0602pt>
+<images//block_diagrams/mis_ramp.png, id=95, 170.67764pt x 136.5903pt>
 File: images//block_diagrams/mis_ramp.png Graphic file (type png)
 <use images//block_diagrams/mis_ramp.png>
-Package pdftex.def Info: images//block_diagrams/mis_ramp.png  used on input line 145.
-(pdftex.def)             Requested size: 134.3014pt x 91.05997pt.
- [10 <./images//circuits/DAC_circuit.png> <./images//circuits/ramp_counter_circuit.png>]
-<images//acquisitions/ramp_wave.png, id=102, 1027.84pt x 770.88pt>
+Package pdftex.def Info: images//block_diagrams/mis_ramp.png  used on input line 148.
+(pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
+<images//acquisitions/ramp_wave.png, id=96, 1027.84pt x 770.88pt>
 File: images//acquisitions/ramp_wave.png Graphic file (type png)
 <use images//acquisitions/ramp_wave.png>
-Package pdftex.def Info: images//acquisitions/ramp_wave.png  used on input line 159.
+Package pdftex.def Info: images//acquisitions/ramp_wave.png  used on input line 154.
 (pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
-<images//misc/oscilloscope_placeholder.png, id=103, 171.5208pt x 137.43346pt>
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 165.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-<images//block_diagrams/triangle_block_diagram.png, id=104, 265.11044pt x 63.23625pt>
+ [10 <./images//circuits/DAC_circuit.png> <./images//circuits/ramp_counter_circuit.png>]
+<images//block_diagrams/triangle_block_diagram.png, id=103, 265.11044pt x 63.23625pt>
 File: images//block_diagrams/triangle_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/triangle_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/triangle_block_diagram.png  used on input line 193.
+Package pdftex.def Info: images//block_diagrams/triangle_block_diagram.png  used on input line 182.
 (pdftex.def)             Requested size: 265.10977pt x 63.23608pt.
-<images//graphs/low_res_triangle.png, id=105, 181.6386pt x 69.6201pt>
+<images//graphs/low_res_triangle.png, id=104, 181.6386pt x 69.6201pt>
 File: images//graphs/low_res_triangle.png Graphic file (type png)
 <use images//graphs/low_res_triangle.png>
-Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 203.
+Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 192.
 (pdftex.def)             Requested size: 181.63814pt x 69.61992pt.
-<images//graphs/high_res_triangle.png, id=106, 181.6386pt x 73.11314pt>
+<images//graphs/high_res_triangle.png, id=105, 181.6386pt x 73.11314pt>
 File: images//graphs/high_res_triangle.png Graphic file (type png)
 <use images//graphs/high_res_triangle.png>
-Package pdftex.def Info: images//graphs/high_res_triangle.png  used on input line 209.
+Package pdftex.def Info: images//graphs/high_res_triangle.png  used on input line 198.
 (pdftex.def)             Requested size: 181.63814pt x 73.11296pt.
- [11 <./images//block_diagrams/mis_ramp.png> <./images//acquisitions/ramp_wave.png (PNG copy)> <./images//misc/oscilloscope_placeholder.png> <./images//block_diagrams/triangle_block_diagram.png>]
+ [11 <./images//block_diagrams/mis_ramp.png> <./images//acquisitions/ramp_wave.png (PNG copy)> <./images//block_diagrams/triangle_block_diagram.png> <./images//graphs/low_res_triangle.png> <./images//graphs/high_res_triangle.png>]
 File: images//graphs/low_res_ramp.png Graphic file (type png)
 <use images//graphs/low_res_ramp.png>
-Package pdftex.def Info: images//graphs/low_res_ramp.png  used on input line 230.
+Package pdftex.def Info: images//graphs/low_res_ramp.png  used on input line 219.
 (pdftex.def)             Requested size: 181.63814pt x 67.21094pt.
 File: images//graphs/low_res_triangle.png Graphic file (type png)
 <use images//graphs/low_res_triangle.png>
-Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 235.
+Package pdftex.def Info: images//graphs/low_res_triangle.png  used on input line 224.
 (pdftex.def)             Requested size: 181.63814pt x 69.61992pt.
 <images//circuits/triangle_counter_circuit.png, id=113, 273.54195pt x 138.9993pt>
 File: images//circuits/triangle_counter_circuit.png Graphic file (type png)
 <use images//circuits/triangle_counter_circuit.png>
-Package pdftex.def Info: images//circuits/triangle_counter_circuit.png  used on input line 255.
+Package pdftex.def Info: images//circuits/triangle_counter_circuit.png  used on input line 244.
 (pdftex.def)             Requested size: 273.54128pt x 138.99895pt.
- [12 <./images//graphs/low_res_triangle.png> <./images//graphs/high_res_triangle.png> <./images//circuits/triangle_counter_circuit.png>]
-<images//graphs/RCO2_behaviour.png, id=120, 179.9523pt x 163.45065pt>
+<images//graphs/RCO2_behaviour.png, id=114, 179.9523pt x 163.45065pt>
 File: images//graphs/RCO2_behaviour.png Graphic file (type png)
 <use images//graphs/RCO2_behaviour.png>
-Package pdftex.def Info: images//graphs/RCO2_behaviour.png  used on input line 269.
+Package pdftex.def Info: images//graphs/RCO2_behaviour.png  used on input line 258.
 (pdftex.def)             Requested size: 179.95184pt x 163.45024pt.
-<images//block_diagrams/mis_triangle.png, id=121, 134.30174pt x 91.0602pt>
-File: images//block_diagrams/mis_triangle.png Graphic file (type png)
-<use images//block_diagrams/mis_triangle.png>
-Package pdftex.def Info: images//block_diagrams/mis_triangle.png  used on input line 284.
-(pdftex.def)             Requested size: 134.3014pt x 91.05997pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 296.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 302.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <./images//graphs/RCO2_behaviour.png> <./images//block_diagrams/mis_triangle.png>]
-<images//block_diagrams/freq_divider_block_diagram.png, id=128, 99.37125pt x 29.26935pt>
+ [12 <./images//circuits/triangle_counter_circuit.png>]
+<images//block_diagrams/mis_triangle.png, id=119, 170.67764pt x 136.5903pt>
+File: images//block_diagrams/mis_triangle.png Graphic file (type png)
+<use images//block_diagrams/mis_triangle.png>
+Package pdftex.def Info: images//block_diagrams/mis_triangle.png  used on input line 276.
+(pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
+<images//misc/oscilloscope_placeholder.png, id=120, 171.5208pt x 137.43346pt>
+File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
+<use images//misc/oscilloscope_placeholder.png>
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 282.
+(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
+<images//block_diagrams/freq_divider_block_diagram.png, id=121, 170.67764pt x 136.5903pt>
 File: images//block_diagrams/freq_divider_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/freq_divider_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/freq_divider_block_diagram.png  used on input line 327.
-(pdftex.def)             Requested size: 99.371pt x 29.26927pt.
-<images//graphs/clock_divider_behaviour.png, id=129, 179.9523pt x 148.27396pt>
+Package pdftex.def Info: images//block_diagrams/freq_divider_block_diagram.png  used on input line 310.
+(pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
+<images//graphs/clock_divider_behaviour.png, id=122, 179.9523pt x 148.27396pt>
 File: images//graphs/clock_divider_behaviour.png Graphic file (type png)
 <use images//graphs/clock_divider_behaviour.png>
-Package pdftex.def Info: images//graphs/clock_divider_behaviour.png  used on input line 334.
+Package pdftex.def Info: images//graphs/clock_divider_behaviour.png  used on input line 316.
 (pdftex.def)             Requested size: 179.95184pt x 148.27357pt.
- [14 <./images//block_diagrams/freq_divider_block_diagram.png> <./images//graphs/clock_divider_behaviour.png>]
-<images//block_diagrams/UD_block_diagram.png, id=135, 138.7584pt x 32.16016pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./images//graphs/RCO2_behaviour.png> <./images//block_diagrams/mis_triangle.png> <./images//misc/oscilloscope_placeholder.png>]
+<images//block_diagrams/UD_block_diagram.png, id=132, 170.67764pt x 136.5903pt>
 File: images//block_diagrams/UD_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/UD_block_diagram.png>
-Package pdftex.def Info: images//block_diagrams/UD_block_diagram.png  used on input line 349.
-(pdftex.def)             Requested size: 138.75806pt x 32.16006pt.
-<images//circuits/inverter_circuit.png, id=136, 102.02115pt x 108.04366pt>
+Package pdftex.def Info: images//block_diagrams/UD_block_diagram.png  used on input line 337.
+(pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
+<images//graphs/UD_behaviour.png, id=133, 179.9523pt x 148.3944pt>
+File: images//graphs/UD_behaviour.png Graphic file (type png)
+<use images//graphs/UD_behaviour.png>
+Package pdftex.def Info: images//graphs/UD_behaviour.png  used on input line 343.
+(pdftex.def)             Requested size: 179.95184pt x 148.39403pt.
+<images//circuits/inverter_circuit.png, id=134, 102.02115pt x 108.04366pt>
 File: images//circuits/inverter_circuit.png Graphic file (type png)
 <use images//circuits/inverter_circuit.png>
-Package pdftex.def Info: images//circuits/inverter_circuit.png  used on input line 366.
+Package pdftex.def Info: images//circuits/inverter_circuit.png  used on input line 363.
 (pdftex.def)             Requested size: 102.02087pt x 108.04338pt.
-<images//block_diagrams/mis_clock_divider.png, id=137, 136.71075pt x 91.0602pt>
+ [14 <./images//block_diagrams/freq_divider_block_diagram.png> <./images//graphs/clock_divider_behaviour.png> <./images//block_diagrams/UD_block_diagram.png> <./images//graphs/UD_behaviour.png>]
+<images//block_diagrams/mis_clock_divider.png, id=142, 170.67764pt x 136.5903pt>
 File: images//block_diagrams/mis_clock_divider.png Graphic file (type png)
 <use images//block_diagrams/mis_clock_divider.png>
-Package pdftex.def Info: images//block_diagrams/mis_clock_divider.png  used on input line 384.
-(pdftex.def)             Requested size: 136.7104pt x 91.05997pt.
+Package pdftex.def Info: images//block_diagrams/mis_clock_divider.png  used on input line 381.
+(pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
 File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
 <use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 390.
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 387.
 (pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-<images//block_diagrams/mis_UD.png, id=138, 181.3977pt x 96.23955pt>
+<images//block_diagrams/mis_UD.png, id=143, 181.3977pt x 136.5903pt>
 File: images//block_diagrams/mis_UD.png Graphic file (type png)
 <use images//block_diagrams/mis_UD.png>
-Package pdftex.def Info: images//block_diagrams/mis_UD.png  used on input line 404.
-(pdftex.def)             Requested size: 181.39725pt x 96.2393pt.
+Package pdftex.def Info: images//block_diagrams/mis_UD.png  used on input line 403.
+(pdftex.def)             Requested size: 181.39725pt x 136.58995pt.
 File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
 <use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 410.
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 409.
 (pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
- [15 <./images//block_diagrams/UD_block_diagram.png> <./images//circuits/inverter_circuit.png> <./images//block_diagrams/mis_clock_divider.png>]) [16 <./images//block_diagrams/mis_UD.png>]
+) [15 <./images//circuits/inverter_circuit.png> <./images//block_diagrams/mis_clock_divider.png> <./images//block_diagrams/mis_UD.png>]
 \openout2 = `chapters/ch02-vfc.aux'.
 
  (chapters/ch02-vfc.tex
 Capitolo 2.
-<images//circuits/vfc110_internal.png, id=151, 299.80005pt x 174.05025pt>
+<images//circuits/vfc110_internal.png, id=150, 299.80005pt x 174.05025pt>
 File: images//circuits/vfc110_internal.png Graphic file (type png)
 <use images//circuits/vfc110_internal.png>
 Package pdftex.def Info: images//circuits/vfc110_internal.png  used on input line 35.
 (pdftex.def)             Requested size: 299.7993pt x 174.0498pt.
-[17
+[16
 
 
 
 
  <./images//circuits/vfc110_internal.png>]
-<images//graphs/integrator_behaviour.png, id=156, 179.9523pt x 173.448pt>
+<images//graphs/integrator_behaviour.png, id=155, 179.9523pt x 173.448pt>
 File: images//graphs/integrator_behaviour.png Graphic file (type png)
 <use images//graphs/integrator_behaviour.png>
 Package pdftex.def Info: images//graphs/integrator_behaviour.png  used on input line 51.
 (pdftex.def)             Requested size: 179.95184pt x 173.44757pt.
-<images//circuits/VFC_circuit.png, id=157, 148.99664pt x 147.9126pt>
+<images//circuits/VFC_circuit.png, id=156, 148.99664pt x 147.9126pt>
 File: images//circuits/VFC_circuit.png Graphic file (type png)
 <use images//circuits/VFC_circuit.png>
 Package pdftex.def Info: images//circuits/VFC_circuit.png  used on input line 63.
 (pdftex.def)             Requested size: 148.99626pt x 147.91223pt.
- [18 <./images//graphs/integrator_behaviour.png> <./images//circuits/VFC_circuit.png>]
-<images//block_diagrams/mis_VFC.png, id=164, 137.19255pt x 108.1641pt>
+ [17 <./images//graphs/integrator_behaviour.png> <./images//circuits/VFC_circuit.png>]
+<images//block_diagrams/mis_VFC.png, id=163, 137.19255pt x 108.1641pt>
 File: images//block_diagrams/mis_VFC.png Graphic file (type png)
 <use images//block_diagrams/mis_VFC.png>
 Package pdftex.def Info: images//block_diagrams/mis_VFC.png  used on input line 100.
 (pdftex.def)             Requested size: 137.1922pt x 108.16382pt.
-<images//acquisitions/VFC_1V.png, id=165, 1027.84pt x 770.88pt>
+<images//acquisitions/VFC_1V.png, id=164, 1027.84pt x 770.88pt>
 File: images//acquisitions/VFC_1V.png Graphic file (type png)
 <use images//acquisitions/VFC_1V.png>
 Package pdftex.def Info: images//acquisitions/VFC_1V.png  used on input line 118.
 (pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
-<images//acquisitions/VFC_5V.png, id=166, 1027.84pt x 770.88pt>
+<images//acquisitions/VFC_5V.png, id=165, 1027.84pt x 770.88pt>
 File: images//acquisitions/VFC_5V.png Graphic file (type png)
 <use images//acquisitions/VFC_5V.png>
 Package pdftex.def Info: images//acquisitions/VFC_5V.png  used on input line 124.
 (pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
-<images//acquisitions/VFC_10V.png, id=167, 1027.84pt x 770.88pt>
+<images//acquisitions/VFC_10V.png, id=166, 1027.84pt x 770.88pt>
 File: images//acquisitions/VFC_10V.png Graphic file (type png)
 <use images//acquisitions/VFC_10V.png>
 Package pdftex.def Info: images//acquisitions/VFC_10V.png  used on input line 130.
@@ -1162,7 +1157,7 @@ Package pdftex.def Info: images//acquisitions/VFC_10V.png  used on input line 13
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <./images//block_diagrams/mis_VFC.png>]
+ [18 <./images//block_diagrams/mis_VFC.png>]
 PGFPlots: reading {./data/misure_vfc.csv}
 PGFPlots: reading {./data/misure_vfc.csv}
 PGFPlots: reading {./data/misure_vfc.csv}
@@ -1170,28 +1165,28 @@ PGFPlots: reading {./data/misure_vfc.csv}
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 <./images//acquisitions/VFC_1V.png (PNG copy)> <./images//acquisitions/VFC_5V.png (PNG copy)> <./images//acquisitions/VFC_10V.png (PNG copy)>]) [21]
+ [19 <./images//acquisitions/VFC_1V.png (PNG copy)> <./images//acquisitions/VFC_5V.png (PNG copy)> <./images//acquisitions/VFC_10V.png (PNG copy)>]) [20]
 \openout2 = `chapters/ch03-interfaccia_ingresso.aux'.
 
  (chapters/ch03-interfaccia_ingresso.tex
 Capitolo 3.
-<images//circuits/single_transistor_circuit.png, id=179, 49.50494pt x 52.0344pt>
+<images//circuits/single_transistor_circuit.png, id=178, 49.50494pt x 52.0344pt>
 File: images//circuits/single_transistor_circuit.png Graphic file (type png)
 <use images//circuits/single_transistor_circuit.png>
 Package pdftex.def Info: images//circuits/single_transistor_circuit.png  used on input line 33.
 (pdftex.def)             Requested size: 49.5048pt x 52.03426pt.
-<images//circuits/differential_pair_circuit.png, id=180, 86.4831pt x 52.0344pt>
+<images//circuits/differential_pair_circuit.png, id=179, 86.4831pt x 52.0344pt>
 File: images//circuits/differential_pair_circuit.png Graphic file (type png)
 <use images//circuits/differential_pair_circuit.png>
 Package pdftex.def Info: images//circuits/differential_pair_circuit.png  used on input line 46.
 (pdftex.def)             Requested size: 86.48286pt x 52.03426pt.
-[22
+[21
 
 
 
 
  <./images//circuits/single_transistor_circuit.png> <./images//circuits/differential_pair_circuit.png>]
-<images//circuits/exponential_converter_circuit.png, id=188, 347.98006pt x 185.2521pt>
+<images//circuits/exponential_converter_circuit.png, id=187, 347.98006pt x 185.2521pt>
 File: images//circuits/exponential_converter_circuit.png Graphic file (type png)
 <use images//circuits/exponential_converter_circuit.png>
 Package pdftex.def Info: images//circuits/exponential_converter_circuit.png  used on input line 101.
@@ -1199,37 +1194,117 @@ Package pdftex.def Info: images//circuits/exponential_converter_circuit.png  use
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23] [24 <./images//circuits/exponential_converter_circuit.png>]
-<images//circuits/Rtot_circuit.png, id=198, 85.0377pt x 111.2958pt>
+ [22] [23 <./images//circuits/exponential_converter_circuit.png>]
+<images//circuits/Rtot_circuit.png, id=197, 85.0377pt x 111.2958pt>
 File: images//circuits/Rtot_circuit.png Graphic file (type png)
 <use images//circuits/Rtot_circuit.png>
 Package pdftex.def Info: images//circuits/Rtot_circuit.png  used on input line 209.
 (pdftex.def)             Requested size: 85.03748pt x 111.29552pt.
- [25]
-<images//circuits/complete_exponential_converter_circuit.png, id=203, 347.98006pt x 196.21304pt>
+ [24]
+<images//circuits/complete_exponential_converter_circuit.png, id=201, 347.98006pt x 196.21304pt>
 File: images//circuits/complete_exponential_converter_circuit.png Graphic file (type png)
 <use images//circuits/complete_exponential_converter_circuit.png>
 Package pdftex.def Info: images//circuits/complete_exponential_converter_circuit.png  used on input line 235.
 (pdftex.def)             Requested size: 347.97919pt x 196.21255pt.
+<images//block_diagrams/mis_expo_oscilloscope.png, id=202, 170.67764pt x 136.5903pt>
+File: images//block_diagrams/mis_expo_oscilloscope.png Graphic file (type png)
+<use images//block_diagrams/mis_expo_oscilloscope.png>
+Package pdftex.def Info: images//block_diagrams/mis_expo_oscilloscope.png  used on input line 253.
+(pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
+File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
+<use images//misc/oscilloscope_placeholder.png>
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 259.
+(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
 
 Underfull \vbox (badness 1371) has occurred while \output is active []
 
- [26 <./images//circuits/Rtot_circuit.png> <./images//circuits/complete_exponential_converter_circuit.png>]) [27]
+ [25 <./images//circuits/Rtot_circuit.png> <./images//circuits/complete_exponential_converter_circuit.png>]
+<images//block_diagrams/mis_expo.png, id=209, 170.67764pt x 136.5903pt>
+File: images//block_diagrams/mis_expo.png Graphic file (type png)
+<use images//block_diagrams/mis_expo.png>
+Package pdftex.def Info: images//block_diagrams/mis_expo.png  used on input line 269.
+(pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
+Package pgfplots info on input line 307: Using 'lua backend=false' for axis: ymode=log unsupported (yet).
+PGFPlots: reading {./data/misure_expo.csv}
+PGFPlots: reading {./data/misure_expo.csv}
+PGFPlots: reading {./data/misure_expo.csv}
+PGFPlots: reading {./data/misure_expo.csv}
+PGFPlots: reading {./data/misure_expo.csv}
+PGFPlots: reading {./data/misure_expo.csv}
+
+Underfull \vbox (badness 1259) has occurred while \output is active []
+
+ [26 <./images//block_diagrams/mis_expo_oscilloscope.png> <./images//block_diagrams/mis_expo.png>]
+<images//circuits/summer_circuit.png, id=215, 146.4672pt x 170.67764pt>
+File: images//circuits/summer_circuit.png Graphic file (type png)
+<use images//circuits/summer_circuit.png>
+Package pdftex.def Info: images//circuits/summer_circuit.png  used on input line 387.
+(pdftex.def)             Requested size: 146.46683pt x 170.6772pt.
+<images//circuits/coarse_fine_circuit.png, id=216, 139.60155pt x 90.93974pt>
+File: images//circuits/coarse_fine_circuit.png Graphic file (type png)
+<use images//circuits/coarse_fine_circuit.png>
+Package pdftex.def Info: images//circuits/coarse_fine_circuit.png  used on input line 400.
+(pdftex.def)             Requested size: 139.6012pt x 90.9395pt.
+ [27 <./images//circuits/summer_circuit.png>]
+<images//circuits/lfo_input_circuit.png, id=221, 38.3031pt x 65.40434pt>
+File: images//circuits/lfo_input_circuit.png Graphic file (type png)
+<use images//circuits/lfo_input_circuit.png>
+Package pdftex.def Info: images//circuits/lfo_input_circuit.png  used on input line 414.
+(pdftex.def)             Requested size: 38.303pt x 65.40416pt.
+<images//circuits/clipper_circuit.png, id=222, 156.8259pt x 114.1866pt>
+File: images//circuits/clipper_circuit.png Graphic file (type png)
+<use images//circuits/clipper_circuit.png>
+Package pdftex.def Info: images//circuits/clipper_circuit.png  used on input line 435.
+(pdftex.def)             Requested size: 156.8255pt x 114.18631pt.
+ [28 <./images//circuits/coarse_fine_circuit.png> <./images//circuits/lfo_input_circuit.png> <./images//circuits/clipper_circuit.png>]
+<images//block_diagrams/mis_clipper_oscilloscope.png, id=229, 170.67764pt x 136.5903pt>
+File: images//block_diagrams/mis_clipper_oscilloscope.png Graphic file (type png)
+<use images//block_diagrams/mis_clipper_oscilloscope.png>
+Package pdftex.def Info: images//block_diagrams/mis_clipper_oscilloscope.png  used on input line 486.
+(pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
+File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
+<use images//misc/oscilloscope_placeholder.png>
+Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 492.
+(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
+<images//block_diagrams/mis_clipper.png, id=230, 170.67764pt x 136.5903pt>
+File: images//block_diagrams/mis_clipper.png Graphic file (type png)
+<use images//block_diagrams/mis_clipper.png>
+Package pdftex.def Info: images//block_diagrams/mis_clipper.png  used on input line 502.
+(pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29 <./images//block_diagrams/mis_clipper_oscilloscope.png>]
+PGFPlots: reading {./data/misure_clipper.csv}
+PGFPlots: reading {./data/misure_clipper.csv}
+PGFPlots: reading {./data/misure_clipper.csv}
+PGFPlots: reading {./data/misure_clipper.csv}
+) [30 <./images//block_diagrams/mis_clipper.png>]
 \openout2 = `chapters/ch04-selezione_modalità.aux'.
 
  (chapters/ch04-selezione_modalità.tex
 Capitolo 4.
-) [28
+<images//block_diagrams/mode_selector_block_diagram.png, id=239, 148.51485pt x 77.69025pt>
+File: images//block_diagrams/mode_selector_block_diagram.png Graphic file (type png)
+<use images//block_diagrams/mode_selector_block_diagram.png>
+Package pdftex.def Info: images//block_diagrams/mode_selector_block_diagram.png  used on input line 13.
+(pdftex.def)             Requested size: 148.51447pt x 77.69003pt.
+<images//circuits/mode_selector_circuit.png, id=240, 317.0244pt x 210.42615pt>
+File: images//circuits/mode_selector_circuit.png Graphic file (type png)
+<use images//circuits/mode_selector_circuit.png>
+Package pdftex.def Info: images//circuits/mode_selector_circuit.png  used on input line 24.
+(pdftex.def)             Requested size: 317.02362pt x 210.42561pt.
+) [31
 
 
 
 
-]
+ <./images//block_diagrams/mode_selector_block_diagram.png> <./images//circuits/mode_selector_circuit.png>]
 \openout2 = `chapters/ch05-segnali_secondari.aux'.
 
  (chapters/ch05-segnali_secondari.tex
 Capitolo 5.
-) [29
+) [32
 
 
 
@@ -1239,27 +1314,7 @@ Capitolo 5.
 
  (chapters/ch06-interfaccia_uscita.tex
 Capitolo 6.
-) [30
-
-
-
-
-]
-\openout2 = `chapters/ch07-protezione_circuito.aux'.
-
- (chapters/ch07-protezione_circuito.tex
-Capitolo 7.
-) [31
-
-
-
-
-]
-\openout2 = `chapters/ch08-suddivisione_schede.aux'.
-
- (chapters/ch08-suddivisione_schede.tex
-Capitolo 8.
-) [32
+) [33
 
 
 
@@ -1267,32 +1322,32 @@ Capitolo 8.
 ]
 \openout2 = `chapters/ch09-conclusioni.aux'.
 
- (chapters/ch09-conclusioni.tex) [33
+ (chapters/ch09-conclusioni.tex) [34
 
 
 
 
-] [34
+] [35
 
 
 
-] [35] (main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-segnali_principali.aux) (chapters/ch02-vfc.aux) (chapters/ch03-interfaccia_ingresso.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-interfaccia_uscita.aux) (chapters/ch07-protezione_circuito.aux) (chapters/ch08-suddivisione_schede.aux) (chapters/ch09-conclusioni.aux))
+] [36] (main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-segnali_principali.aux) (chapters/ch02-vfc.aux) (chapters/ch03-interfaccia_ingresso.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-interfaccia_uscita.aux) (chapters/ch09-conclusioni.aux))
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41645 strings out of 478552
- 1041153 string characters out of 2841938
- 1893542 words of memory out of 3000000
- 59164 multiletter control sequences out of 15000+600000
+ 41417 strings out of 478552
+ 1035573 string characters out of 2841938
+ 1806452 words of memory out of 3000000
+ 58943 multiletter control sequences out of 15000+600000
  487921 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,21n,84p,1256b,2405s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (35 pages, 2032970 bytes).
+Output written on main.pdf (36 pages, 2501395 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
+ 330 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 203 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

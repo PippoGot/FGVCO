@@ -3,17 +3,34 @@
 %--------------------------------------------------------------------------------------------
 
 Per quanto riguarda la selezione della modalità di funzionamento, è facile intuire che basta
-dividere $f_{clk}$ ulteriormente per avere un range di frequenze diverso. Quindi aggiungiamo
-un blocco divisore di frequenza prima che il segnale arrivi ai contatori e facciamo in modo
-che la scelta sia determinata da un segnale logico alto o basso.
+dividere $f_{clk}$ ulteriormente per avere un range di frequenze diverso, come già visto nel
+capitolo \ref{segnali_principali}. Quindi aggiungiamo un blocco divisore di frequenza prima
+che il segnale arrivi ai contatori e facciamo in modo che la scelta sia determinata da un
+segnale logico.
 
-% figura schema a blocchi
+\begin{figure}[H]
+    \centering
+    \includegraphics{block_diagrams/mode_selector_block_diagram.png}
+    \caption{Schema a blocchi del sottosistema per la selezione della modalità}
+    \label{mode_selector_block_diagram}
+\end{figure}
 
-Lo schema a blocchi sopra riportato si traduce infine nel seguente circuito, in cui sono
-stati aggiunti dei LED per la visualizzazione della modalità attualmente selezionata, e $f_{clk}$
+Lo schema a blocchi sopra riportato si traduce dunque nel seguente circuito, in cui $f_{clk}$
 viene divisa per $256$, traslando il range di funzionamento nell'intervallo
 $(\approx0.11\ Hz\div27.5\ Hz)$.
 
-% circuito
+\begin{figure}[H]
+    \centering
+    \includegraphics{circuits/mode_selector_circuit.png}
+    \caption{Circuito per la selezione della modalità ($V_{dd}=V_{HR}=+5\ V$)}
+    \label{mode_selector_circuit}
+\end{figure}
+
+L'unico componente nuovo è un circuito integrato che ospita 4 porte logiche AND, il 74LS08
+\cite{74ls08}, utilizzate per il multiplexing del segnale di clock.
+
+Si aggiungono anche dei LED per la visualizzazione dello stato e delle resistenze di pull-down
+all'ingresso abilitante delle porte logiche (non rappresentati nello schema in figura
+\ref{mode_selector_circuit}).
 
 %--------------------------------------------------------------------------------------------
