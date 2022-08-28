@@ -11,8 +11,8 @@ dell'ingresso, ovvero il circuito in grado di convertire una tensione lineare in
 esponenziale.
 
 La soluzione utilizzata è molto diffusa in questo tipo di applicazioni, si può infatti
-trovare in molti siti di DIY come quello di René Schmitz \cite{expo_converter}, personaggio
-molto noto tra gli appassionati di sintetizzatori musicali fai-da-te.
+trovare in molti siti di DIY come ad esempio quello di René Schmitz \cite{expo_converter},
+personaggio molto noto tra gli appassionati di sintetizzatori musicali fai-da-te.
 
 %--------------------------------------------------------------------------------------------
 
@@ -35,7 +35,7 @@ bipolare, ovvero:
     \label{bjt}
 \end{figure}
 
-dove $V_T$ (o potenziale termico) e $I_s$ (o corrente di saturazione) sono variabili in
+dove $V_T$ (potenziale termico) e $I_s$ (corrente di saturazione) sono variabili in
 funzione della temperatura. Nella nostra analisi $V_T$ verrà considerato di valore costante
 pari a $26\ mV$, mentre si rimuove dall'equazione $I_s$ collegando una coppia di transistor
 (idealmente nello stesso chip, in modo che siano il più possibile simili tra loro e
@@ -48,7 +48,7 @@ termicamente accoppiati) in configurazione differenziale:
     \label{differential_pair_circuit}
 \end{figure}
 
-per la quale possiamo scrivere la seguente relazione:
+in questo modo possiamo scrivere la seguente relazione:
 
 \begin{equation}\label{differential_pair}
     \frac{I_{c2}}{I_{c1}}=\frac{I_s e^{\left(\frac{V_{be2}}{V_T}\right)}}{I_s e^{\left(\frac{V_{be1}}{V_T}\right)}}
@@ -58,7 +58,7 @@ per la quale possiamo scrivere la seguente relazione:
     I_{c2}=I_{c1}e^{\left(\frac{V_{be2}-V_{be1}}{V_T}\right)}=I_{c1}e^{\left(\frac{V_{b2}-V_{b1}}{V_T}\right)}\ [A]
 \end{equation}
 
-in cui risulta evidente che la dipendenza da $I_s$ viene completamente rimossa.
+dove risulta evidente che la dipendenza da $I_s$ viene completamente rimossa.
 
 A questo punto, rinominiamo le grandezze come segue:
 
@@ -167,10 +167,10 @@ quindi:
     \item $R = 390\ \Omega$;
 \end{itemize}
 
-Scegliamo anche $R_{conv}=3.3\ k\Omega$, per avere come massimo valore di corrente
-$I_{freq} = 3\ mA$ ($V_{exp}\approx+10\ V$ in uscita dal convertitore corrente-tensione),
-in corrispondenza di una tensione di ingresso $V_{in}=+8\ V$. Da qui possiamo quindi calcolare
-il valore di $I_{ref}$:
+Scegliamo poi $R_{conv}=3.3\ k\Omega$, per avere come massimo valore di corrente
+$I_{freq} = 3\ mA$ (ovvero $V_{exp}\approx+10\ V$ in uscita dal convertitore corrente-tensione),
+in corrispondenza di una tensione di ingresso $V_{in}=+8\ V$. Da qui possiamo calcolare il
+valore di $I_{ref}$:
 
 \begin{equation}\label{iref_calc}
     I_{ref}=I_{freq}e^{\left(-\frac{s\cdot V_{in}}{V_T}\right)}
@@ -178,31 +178,47 @@ il valore di $I_{ref}$:
     \approx11.8\ \mu A
 \end{equation}
 
-Impostando quindi $V_{HR}=+12\ V$ e $V_{LR}=0\ V$ calcoliamo $R_{ref}$:
+Poi impostando $V_{HR}=+12\ V$ e $V_{LR}=0\ V$ calcoliamo $R_{ref}$:
 
 \begin{equation}\label{rref_calc}
     R_{ref}=\frac{V_{HR}}{I_{ref}}=\frac{12}{11.8\cdot10^{-6}}\approx 1\ M\Omega
 \end{equation}
 
-Ora, poichè la corrente massima a scorrere in $R_e$ vale $I_{ref}+I_{freq}\approx3\ mA$
-potremmo scegliere anche $R_e=R_{conv}=3.3\ k\Omega$. In questo modo sommando le cadute di
-potenziale $V_{R_{ref}}$, $V_{ce\_sat\_1}$ e $V_{R_e}$, saremmo dentro il limite dei valori
-di alimentazione, ottenendo $\approx 22.2\ V\ < 24\ V= 2V_{cc}$.
+La scelta di $R_e$ sarebbe ora condizionata dalla tensione di saturazione dell'operazionale,
+poichè altrimenti il circuito smetterebbe di comportarsi come desiderato, cambiando il
+riferimento di $V_{LR}$ e quindi anche $I_{ref}$. Avendo collegato la base di $Q_2$ a massa
+il potenziale agli emettitori dovrà rimanere costante a circa $-V_{be}$ per qualsiasi valore
+di tensione in ingresso, quindi la tensione in uscita dall'operazionale avrà valore
+
+\begin{equation}
+    V_{op}=-V_{be}-R_e(I_{c1}+I_{c2})=%
+    -V_{be}-R_e\cdot I_{ref}\left(1+e^{\left(\frac{sV_{in}}{V_T}\right)}\right)\ [V]
+\end{equation}
+
+che assumerà il valore massimo a $V_{in}=+8\ V$, con una corrente di circa $3\ mA$  in $R_e$.
+Volendo imporre una tensione di saturazione di valore $-V_{sat}=-10.5\ V$ calcoliamo il valore
+di $R_e$.
+
+\begin{equation}
+    R_e=\frac{V_{op}+V_{be}}{-I_{ref}\left(1+e^{\left(\frac{sV_{in}}{V_T}\right)}\right)}=
+    \frac{-10.5+0.7}{-12\cdot10^{-6}\left(1+e^{\left(\frac{0.018\cdot8}{0.026}\right)}\right)}=
+    \frac{9.8}{0.003}\approx 3.3\ k\Omega
+\end{equation}
 
 Se però andiamo a calcolare la caduta di potenziale ai capi di $R_e$ corrispondente a $V_{in}=0\ V$,
 ovvero:
 
 \begin{equation}\label{vre}
-    V_{R_e}=R_e(I_{ref}+I_{freq})=3.3\cdot10^3\cdot23.6\cdot10^{-6}\approx77.9\ mV
+    V_{R_e}=2R_e\cdot I_{ref}=3.3\cdot10^3\cdot24\cdot10^{-6}\approx79.2\ mV
 \end{equation}
 
 notiamo che un valore di resistenza maggiore aumenterebbe la linearità del circuito per bassi
-livelli di $V_{in}$, in quanto la caduta di potenziale sul resistore ha modulo maggiore e
-risulta meno influenzata dal rumore. Si modifica allora il circuito cosicché la resistenza
-di emettitore sia variabile in modo non-lineare, a seconda della corrente richiesta in uscita.
-Questo è reso possibile sostituendo ad $R_e$ un parallelo tra due resistori di diverso valore,
-di cui quello più piccolo collegato in serie ad un diodo, l'elemento che si occuperà
-effettivamente di modificare il valore di resistenza.
+livelli di $V_{in}$, in quanto incrementerebbe la caduta di potenziale sul resistore,
+risultando quindi meno influenzata dal rumore. Si modifica allora il circuito cosicché la
+resistenza di emettitore sia variabile in modo non-lineare, a seconda della corrente richiesta
+in uscita. Questo è reso possibile sostituendo ad $R_e$ un parallelo tra due resistori di
+diverso valore, di cui quello più piccolo collegato in serie ad un diodo, l'elemento che si
+occuperà effettivamente di modificare il valore di resistenza.
 
 \begin{figure}[H]
     \centering
@@ -211,9 +227,7 @@ effettivamente di modificare il valore di resistenza.
     \label{Rtot_circuit}
 \end{figure}
 
-Come resistori possiamo scegliere qualsiasi valore, purchè non comporti la saturazione
-dell'operazionale e si aggiri comunque attorno al $k\Omega$. Si scelgono $R_e'=10\ k\Omega$
-e $R_e''=1.2\ k\Omega$.
+Si scelgono $R_e'=10\ k\Omega$ e $R_e''=1.2\ k\Omega$.
 
 \begin{equation}\label{rtot}
     R_{tot} =
@@ -227,13 +241,14 @@ e $R_e''=1.2\ k\Omega$.
 
 Per quanto riguarda i componenti, ancora una volta gli amplificatori operazionali utilizzati
 sono dei TL074, mentre si sceglie un MPQ3904 \cite{mpq3904} per i transistor, chip che
-ospita 4 unità al proprio interno, e vista la disponibilità, il diodo in figura viene
-sostituito con uno dei 4 transistor del chip configurato come diodo.
+ospita 4 unità molto simili tra loro e termicamente accoppiati, e vista la disponibilità, il
+diodo viene sostituito con uno dei 4 transistor del chip configurato come diodo, quindi
+collegando base e collettore assieme.
 
 \begin{figure}[H]
     \centering
     \includegraphics{circuits/complete_exponential_converter_circuit.png}
-    \caption{Schema elettrico del convertitore tensione lineare-esponenziale completo}
+    \caption{Schema elettrico completo del convertitore tensione lineare-esponenziale ($+V_{cc}=+12\ V$)}
     \label{complete_exponential_converter_circuit}
 \end{figure}
 
@@ -251,7 +266,7 @@ Analizziamo ora il comportamento del circuito.
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{block_diagrams/mis_expo_oscilloscope.png}
-        \caption{Circuito di misura}
+        \caption{Setup di misura}
         \label{mis_expo_oscilloscope}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
@@ -267,7 +282,7 @@ Analizziamo ora il comportamento del circuito.
 \begin{minipage}{0.49\textwidth}
     \centering
     \includegraphics{block_diagrams/mis_expo.png}
-    \captionof{figure}{Circuito di misura}
+    \captionof{figure}{Setup di misura}
     \label{mis_expo}
 \end{minipage}
 \begin{minipage}{0.49\textwidth}
@@ -275,13 +290,13 @@ Analizziamo ora il comportamento del circuito.
     \begin{table}[H]
         \centering
         \csvreader[
-        tabular = |C||L|,
-        table head = {\hline \rowcolor{myLightGrey} $V_{in}\ [V]$ & $V_{exp}\ [V]$ \\\hline},
+        tabular = |C||C|L|,
+        table head = {\hline \rowcolor{myLightGrey} $V_{in}\ [V]$ & $V_{exp}\ [V]$ & $2^{V_{in}}\ [V]$ \\\hline},
         late after line = \\\hline,
         ]{data/misure_expo.csv}{}{
-        \csvcoli & \csvcolii
+        \csvcoli & \csvcoliii & \csvcolii
         }
-        \caption{Misure del convertitore}
+        \caption{Valori misurati}
         \label{expo_table}
     \end{table}
 \end{minipage}
@@ -359,11 +374,11 @@ in rosso invece i valori ottenuti moltiplicando il dato misurato a $0\ V$ per $2
 e infine in nero i valori effettivamente misurati. Si vede che rispetto a quanto calcolato
 c'è un lieve discostamento dovuto con ogni probabilità alla tolleranza dei valori dei
 componenti utilizzati, tuttavia le misure risultano quasi coincidenti con la curva esponenziale
-di pendenza $2$.
+di pendenza $2$ (in rosso), quindi possiamo affermare che il circuito funziona come desiderato.
 
 Il ginocchio presente subito dopo i $10\ V$ è dovuto alla saturazione dell'operazionale
 nel convertitore corrente-tensione, che con una alimentazione di $\pm12\ V$ presenta dei
-valori di $\pm V_{sat}\approx\pm10.5\ V$.
+valori di saturazione di circa $\pm10.5\ V$.
 
 Si verifica anche che la curva della transcaratteristica in scala lineare coincide con la
 transcaratteristica tracciata con l'oscilloscopio (figura \ref{expo_transcharacteristic}).
@@ -392,8 +407,8 @@ modificando quindi la relazione \ref{amplifier} nel seguente modo:
 e rendendo quindi l'amplificatore un sommatore invertente. Si noti che non c'è un limite al
 numero di ingressi che è possibile aggiungere.
 
-Per la regolazione manuale si utilizzano due potenziometri, uno per una regolazione grossolana
-e uno per una più fine, e li si collega ad un ingresso del sommatore nel seguente modo:
+Per la modulazione manuale si utilizzano due potenziometri, uno per una regolazione grossolana
+e uno per una più fine, e li si collega ad uno degli ingressi del sommatore nel seguente modo:
 
 \begin{figure}[H]
     \centering
@@ -423,7 +438,7 @@ attraverso un potenziometro per la regolazione del volume.
 %--------------------------------------------------------------------------------------------
 
 Come visto dalla formula \ref{expo_converter}, la tensione in ingresso $V_{in}$ deve essere di
-valore positivo per avere una tensione in uscita positiva, e volendo inserire nel circuito
+valore positivo per polarizzare correttamente il transistor, e volendo inserire nel circuito
 un nodo sommatore per avere la possibilità di utilizzare un segnale in tensione come modulante,
 dobbiamo assicurarci che $V_{b1}$ non diventi mai positiva (il segno viene invertito
 dall'amplificatore). Si aggiunge quindi un blocco raddrizzatore, realizzato con un diodo e
@@ -436,6 +451,11 @@ un operazionale, che compenserà per la caduta di tensione sul diodo. Lo schema 
     \caption{Circuito raddrizzatore}
     \label{clipper_circuit}
 \end{figure}
+
+Il resistore collegato a $V_{b1}'$ è necessario per il ricircolo della corrente di
+polarizzazione del diodo, che altrimenti non si accenderebbe mai. Viene inoltre aggiunto un
+LED per visualizzare quando il raddrizzatore è in funzione, in modo da permettere all'utente
+di correggere eventuali errori nel segnale modulante in ingresso.
 
 Quindi in uscita si avrà la stessa tensione in ingresso se negativa, mentre un valore molto
 prossimo a $0$ se positiva.
@@ -450,11 +470,6 @@ prossimo a $0$ se positiva.
     \right.
 \end{equation}
 
-Il resistore collegato a $V_{b1}'$ è necessario per il ricircolo della corrente di
-polarizzazione del diodo, che altrimenti non si accenderebbe mai. Viene inoltre aggiunto un
-LED per visualizzare quando il raddrizzatore è in funzione, in modo da permettere all'utente
-di correggere eventuali errori nel segnale modulante in ingresso.
-
 \begin{equation}\label{clipper_op}
     V_{op} =
     \left\{
@@ -466,7 +481,7 @@ di correggere eventuali errori nel segnale modulante in ingresso.
 \end{equation}
 
 Il diodo utilizzato per lo scopo è un 1N4148 \cite{1n4148}, un comunissimo diodo per piccoli
-segnali, mentre l'operazionale sempre un TL074.
+segnali, mentre l'operazionale è sempre un TL074.
 
 %--------------------------------------------------------------------------------------------
 
@@ -484,7 +499,7 @@ permette comunque l'accensione del LED.
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{block_diagrams/mis_clipper_oscilloscope.png}
-        \caption{Circuito di misura}
+        \caption{Setup di misura}
         \label{mis_clipper_oscilloscope}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
@@ -500,7 +515,7 @@ permette comunque l'accensione del LED.
 \begin{figure}[H]
     \centering
     \includegraphics{block_diagrams/mis_clipper.png}
-    \caption{Circuito di misura}
+    \caption{Setup di misura}
     \label{mis_clipper}
 \end{figure}
 

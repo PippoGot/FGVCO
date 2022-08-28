@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "FGVCO - Core 2")
+    (date "2022-05-31")
+    (company "Gottardo Filippo")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:TL082" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 5.08 0)

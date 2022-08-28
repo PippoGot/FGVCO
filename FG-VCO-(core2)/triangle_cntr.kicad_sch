@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "FGVCO - Core 2")
+    (date "2022-05-31")
+    (company "Gottardo Filippo")
+  )
+
   (lib_symbols
     (symbol "74xx:74LS169" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 19.05 0)

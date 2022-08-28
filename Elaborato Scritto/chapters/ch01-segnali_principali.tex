@@ -87,19 +87,17 @@ quindi un range di funzionamento esteso lungo 8 ottave.
 
 %--------------------------------------------------------------------------------------------
 
-Si passa ora alla scelta dei componenti per la realizzazione del blocco circuitale.
-
-\begin{itemize}
-    \item Contatore: 74HC590 \cite{74hc590};
-    \item DAC: DAC0800 \cite{dac0800};
-\end{itemize}
+I componenti utilizzati per la realizzazione del circuito sono un 74HC590 \cite{74hc590},
+contatore binario a 8 bit, e un DAC0800 \cite{dac0800}, convertitore digitale-analogico sempre
+a 8 bit.
 
 Per il circuito DAC si utilizza lo schema a pg.10 del relativo datasheet del componente.
 Tale configurazione ci permette di convertire il dato binario in un valore compreso
 nell'intervallo $\pm V_{ref}$, tuttavia si utilizzano un amplificatore operazionale e dei
-resistori di valore differente (rispettivamente TL074 \cite{tl074} e $R_L=\bar{R_L}=3.3\ k\Omega$).
-Si noti che anche $V_{ref}$ viene scelta diversa rispetto allo schema nel datasheet
-(ovvero $+5\ V$), in modo da garantire le specifiche di progetto sul segnale in uscita.
+resistori di valore differente (rispettivamente TL074 \cite{tl074} e $R_L=\bar{R_L}=3.3\ k\Omega$)
+per questioni di disponibilità. Si noti che anche $V_{ref}$ viene scelta diversa rispetto
+allo schema nel datasheet (ovvero $+5\ V$), in modo da garantire le specifiche di progetto
+sul segnale in uscita.
 
 \begin{figure}[H]
     \centering
@@ -120,12 +118,12 @@ Il contatore invece viene collegato nel seguente modo:
 \begin{figure}[H]
     \centering
     \includegraphics{circuits/ramp_counter_circuit.png}
-    \caption{Schema elettrico del contatore per l'onda a rampa, $V_{dd}=+5\ V$}
+    \caption{Schema elettrico del contatore per l'onda a rampa ($+V_{dd}=+5\ V$)}
     \label{ramp_counter_circuit}
 \end{figure}
 
-Si noti l'uscita "Pulse" in figura \ref{ramp_counter_circuit} dalla quale viene prelevato
-il segnale a impulso precedentemente accennato, discusso più in dettaglio nel capitolo
+Si noti l'uscita $RCO$ in figura \ref{ramp_counter_circuit} dalla quale viene prelevato
+il segnale per la generazione dell'impulso, che verrà discusso più in dettaglio nel capitolo
 \ref{segnali_secondari}.
 
 Infine, collegando i due blocchi insieme, l'andamento di $V_{out}$ sarà simile a quello
@@ -146,17 +144,17 @@ Verifichiamo quindi la correttezza del circuito realizzato.
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{block_diagrams/mis_ramp.png}
-        \caption{Circuito di misura}
+        \caption{Setup di misura}
         \label{mis_ramp}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics[scale = 0.2]{acquisitions/ramp_wave.png}
-        \caption{Segnale rampa ottenuto}
+        \caption{Acquisizione del segnale ottenuto}
         \label{acq_ramp}
     \end{subfigure}
 
-    \caption{Correttezza del circuito per il segnale a rampa}
+    \caption{Funzionamento del circuito per il segnale a rampa}
     \label{acq_ramp_signals}
 \end{figure}
 
@@ -242,7 +240,7 @@ seguente configurazione:
 \begin{figure}[H]
     \centering
     \includegraphics{circuits/triangle_counter_circuit.png}
-    \caption{Schema elettrico dei contatori per l'onda triangolare ($V_{dd}=+5\ V$)}
+    \caption{Schema elettrico dei contatori per l'onda triangolare ($+V_{dd}=+5\ V$)}
     \label{triangle_counter_circuit}
 \end{figure}
 
@@ -274,17 +272,17 @@ Si verifica ora la correttezza del circuito realizzato.
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{block_diagrams/mis_triangle.png}
-        \caption{Circuito di misura}
+        \caption{Setup di misura}
         \label{mis_triangle}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{misc/oscilloscope_placeholder.png}
-        \caption{Segnali triangolo e $RCO2$ ottenuti}
+        \caption{Acquisizione dei segnali ottenuti}
         \label{acq_triangle}
     \end{subfigure}
 
-    \caption{Correttezza del circuito per il segnale a triangolo}
+    \caption{Funzionamento del circuito per il segnale a triangolo}
     \label{acq_triangle_signals}
 \end{figure}
 
@@ -348,20 +346,16 @@ attivo a livello logico basso) e connesso all'ingresso $U/D$ del contatore.
     \caption{Pilotaggio del contatore}
 \end{figure}
 
-I componenti utilizzati per questo scopo sono:
+I componenti utilizzati scopo sono un 74HC73 \cite{74hc73}, che fornisce i due flip-flop
+necessari, e un 2N7000 \cite{2n7000}, mosfet a canale N con tensioni di soglia compatibili
+ai livelli di tensione presenti nel circuito ($+5\ V$).
 
-\begin{itemize}
-    \item Flip-Flop: 74HC73 \cite{74hc73};
-    \item MOSFET: 2N7000 \cite{2n7000};
-\end{itemize}
-
-Lo schema elettrico per l'inverter è rappresentato in figura \ref{inverter_circuit}, dove
-il MOSFET utilizzato è compatibile con le tensioni logiche presenti nel circuito.
+Lo schema elettrico per l'inverter è rappresentato in figura \ref{inverter_circuit}.
 
 \begin{figure}[H]
     \centering
     \includegraphics{circuits/inverter_circuit.png}
-    \caption{Schema elettrico dell'inverter logico ($V_{dd}=+5\ V$)}
+    \caption{Schema elettrico dell'inverter logico ($+V_{dd}=+5\ V$)}
     \label{inverter_circuit}
 \end{figure}
 
@@ -379,7 +373,7 @@ Si verifica la correttezza dei circuiti:
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{block_diagrams/mis_clock_divider.png}
-        \caption{Circuito di misura}
+        \caption{Setup di misura}
         \label{mis_clock_divider}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
@@ -389,11 +383,9 @@ Si verifica la correttezza dei circuiti:
         \label{acq_clock_divider}
     \end{subfigure}
 
-    \caption{Correttezza del circuito divisore di frequenza}
+    \caption{Funzionamento del circuito divisore di frequenza}
     \label{clock_divider}
 \end{figure}
-
-Il comportamento coincide con quanto descritto in figura \ref{clock_divider_behaviour}.
 
 \begin{figure}[H]
     \centering
@@ -401,7 +393,7 @@ Il comportamento coincide con quanto descritto in figura \ref{clock_divider_beha
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics{block_diagrams/mis_UD.png}
-        \caption{Circuito di misura}
+        \caption{Setup di misura}
         \label{mis_UD}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
@@ -411,10 +403,11 @@ Il comportamento coincide con quanto descritto in figura \ref{clock_divider_beha
         \label{acq_UD}
     \end{subfigure}
 
-    \caption{Correttezza del circuito di pilotaggio del contatore up-down}
+    \caption{Funzionamento del circuito di pilotaggio del contatore up-down}
     \label{UD}
 \end{figure}
 
-Il comportamento coincide con quanto descritto in figura \ref{UD_behaviour}.
+I comportamenti coincidono con quanto descritto nelle figure \ref{clock_divider_behaviour} e
+\ref{UD_behaviour}.
 
 %--------------------------------------------------------------------------------------------

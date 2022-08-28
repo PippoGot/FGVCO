@@ -2357,19 +2357,21 @@
     <bcf:citekey order="11">mpq3904</bcf:citekey>
     <bcf:citekey order="12">1n4148</bcf:citekey>
     <bcf:citekey order="13">74ls08</bcf:citekey>
-    <bcf:citekey order="14">eurorack</bcf:citekey>
-    <bcf:citekey order="15">74hc590</bcf:citekey>
-    <bcf:citekey order="16">dac0800</bcf:citekey>
-    <bcf:citekey order="17">tl074</bcf:citekey>
-    <bcf:citekey order="18">74ls169</bcf:citekey>
-    <bcf:citekey order="19">74hc73</bcf:citekey>
-    <bcf:citekey order="20">2n7000</bcf:citekey>
-    <bcf:citekey order="21">lm331</bcf:citekey>
-    <bcf:citekey order="22">vfc110</bcf:citekey>
-    <bcf:citekey order="23">expo_converter</bcf:citekey>
-    <bcf:citekey order="24">mpq3904</bcf:citekey>
-    <bcf:citekey order="25">1n4148</bcf:citekey>
-    <bcf:citekey order="26">74ls08</bcf:citekey>
+    <bcf:citekey order="14">ne555</bcf:citekey>
+    <bcf:citekey order="15">eurorack</bcf:citekey>
+    <bcf:citekey order="16">74hc590</bcf:citekey>
+    <bcf:citekey order="17">dac0800</bcf:citekey>
+    <bcf:citekey order="18">tl074</bcf:citekey>
+    <bcf:citekey order="19">74ls169</bcf:citekey>
+    <bcf:citekey order="20">74hc73</bcf:citekey>
+    <bcf:citekey order="21">2n7000</bcf:citekey>
+    <bcf:citekey order="22">lm331</bcf:citekey>
+    <bcf:citekey order="23">vfc110</bcf:citekey>
+    <bcf:citekey order="24">expo_converter</bcf:citekey>
+    <bcf:citekey order="25">mpq3904</bcf:citekey>
+    <bcf:citekey order="26">1n4148</bcf:citekey>
+    <bcf:citekey order="27">74ls08</bcf:citekey>
+    <bcf:citekey order="28">ne555</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

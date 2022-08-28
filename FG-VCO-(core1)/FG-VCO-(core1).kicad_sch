@@ -1840,12 +1840,6 @@
     (path "/dd289411-3070-4776-b452-acca46951db2"
       (reference "#PWR0108") (unit 1) (value "+12V") (footprint "")
     )
-    (path "/8b32abfb-3940-460b-9046-e5faad1aedba/ada37f5c-ee5c-43d5-a57d-e0fd44ba78b0"
-      (reference "#PWR0109") (unit 1) (value "GNDD") (footprint "")
-    )
-    (path "/8b32abfb-3940-460b-9046-e5faad1aedba/50b48cbf-1e8e-4f14-815d-611a5dd4f797"
-      (reference "#PWR0110") (unit 1) (value "+12V") (footprint "")
-    )
     (path "/8b32abfb-3940-460b-9046-e5faad1aedba/d049a0da-db11-4d5d-8941-919ae30a0d0b"
       (reference "#PWR0111") (unit 1) (value "GNDD") (footprint "")
     )
@@ -2000,19 +1994,19 @@
       (reference "C10") (unit 1) (value "100p") (footprint "Custom Footprints:C_Disc_P2.54mm")
     )
     (path "/9844c5f7-d066-4b31-994d-13824325dc7b/ff4c4d5c-06c6-4778-9cc2-0f71e8d333e1"
-      (reference "C11") (unit 1) (value "47p") (footprint "Custom Footprints:C_Disc_P2.54mm")
+      (reference "C11") (unit 1) (value "30p") (footprint "Custom Footprints:C_Disc_P2.54mm")
     )
     (path "/9844c5f7-d066-4b31-994d-13824325dc7b/1ce3d4f1-bd4f-4cef-ad4b-d616d1793f50"
-      (reference "C12") (unit 1) (value "47p") (footprint "Custom Footprints:C_Disc_P2.54mm")
+      (reference "C12") (unit 1) (value "30p") (footprint "Custom Footprints:C_Disc_P2.54mm")
     )
     (path "/9844c5f7-d066-4b31-994d-13824325dc7b/cb5db011-cb93-4b45-a4d6-ab7fbd4c0cd2"
-      (reference "C13") (unit 1) (value "47p") (footprint "Custom Footprints:C_Disc_P2.54mm")
+      (reference "C13") (unit 1) (value "30p") (footprint "Custom Footprints:C_Disc_P2.54mm")
     )
     (path "/9844c5f7-d066-4b31-994d-13824325dc7b/95988e70-c5bf-44a8-9d94-9e907933ab0c"
-      (reference "C14") (unit 1) (value "47p") (footprint "Custom Footprints:C_Disc_P2.54mm")
+      (reference "C14") (unit 1) (value "30p") (footprint "Custom Footprints:C_Disc_P2.54mm")
     )
     (path "/9844c5f7-d066-4b31-994d-13824325dc7b/b43068ff-736e-4e7e-a7fb-564ef2e0d1be"
-      (reference "C15") (unit 1) (value "47p") (footprint "Custom Footprints:C_Disc_P2.54mm")
+      (reference "C15") (unit 1) (value "30p") (footprint "Custom Footprints:C_Disc_P2.54mm")
     )
     (path "/9844c5f7-d066-4b31-994d-13824325dc7b/ab4eb09b-1023-4fdc-a290-d631d5900338"
       (reference "C16") (unit 1) (value "4n7") (footprint "Custom Footprints:C_Disc_P2.54mm")
@@ -2095,9 +2089,6 @@
     (path "/8b32abfb-3940-460b-9046-e5faad1aedba/996e73ae-20c1-4755-9170-f1e973bc9946"
       (reference "R2") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
-    (path "/8b32abfb-3940-460b-9046-e5faad1aedba/66813107-0050-4afc-a837-e882306159b7"
-      (reference "R3") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
     (path "/8b32abfb-3940-460b-9046-e5faad1aedba/4abe7beb-82b6-4e0e-81de-786c9e812f9d"
       (reference "R4") (unit 1) (value "2k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
@@ -2105,10 +2096,10 @@
       (reference "R5") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/ce7637f0-8c63-418b-9dd1-b1044f21e773/b2e91115-7de4-41bc-979d-1eef96a431b4"
-      (reference "R6") (unit 1) (value "2M2") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R6") (unit 1) (value "1M") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/ce7637f0-8c63-418b-9dd1-b1044f21e773/76172e0f-b2e0-4b7a-8cc2-86952d501f68"
-      (reference "R7") (unit 1) (value "3k9") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R7") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/ce7637f0-8c63-418b-9dd1-b1044f21e773/6a8954c9-24cb-4dea-a8fd-fe81dc1514b6"
       (reference "R8") (unit 1) (value "3k3") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
@@ -2170,8 +2161,8 @@
     (path "/9844c5f7-d066-4b31-994d-13824325dc7b/0d544b53-f4f5-4f72-be03-0fb56cf4be50"
       (reference "R27") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
-    (path "/8b32abfb-3940-460b-9046-e5faad1aedba/fd9d6f82-5647-44e8-b0c3-5a03c15cb6be"
-      (reference "RV1") (unit 1) (value "1k-offset_adj") (footprint "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical")
+    (path "/ce7637f0-8c63-418b-9dd1-b1044f21e773/0ea1709b-d76e-463c-b8d6-d50cb8eb368b"
+      (reference "R?") (unit 1) (value "1k2") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/8b32abfb-3940-460b-9046-e5faad1aedba/608e2280-43a3-4446-986d-034448446119"
       (reference "RV2") (unit 1) (value "1k-gain_adj") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")

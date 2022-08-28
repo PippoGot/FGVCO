@@ -5,8 +5,8 @@
 Per quanto riguarda la selezione della modalità di funzionamento, è facile intuire che basta
 dividere $f_{clk}$ ulteriormente per avere un range di frequenze diverso, come già visto nel
 capitolo \ref{segnali_principali}. Quindi aggiungiamo un blocco divisore di frequenza prima
-che il segnale arrivi ai contatori e facciamo in modo che la scelta sia determinata da un
-segnale logico.
+che il segnale arrivi ai contatori e facciamo in modo che la scelta della frequenza di
+$f_{out}$ sia determinata da un segnale logico.
 
 \begin{figure}[H]
     \centering
@@ -15,14 +15,14 @@ segnale logico.
     \label{mode_selector_block_diagram}
 \end{figure}
 
-Lo schema a blocchi sopra riportato si traduce dunque nel seguente circuito, in cui $f_{clk}$
+Lo schema a blocchi sopra riportato si traduce nel seguente circuito, in cui $f_{clk}$
 viene divisa per $256$, traslando il range di funzionamento nell'intervallo
 $(\approx0.11\ Hz\div27.5\ Hz)$.
 
 \begin{figure}[H]
     \centering
     \includegraphics{circuits/mode_selector_circuit.png}
-    \caption{Circuito per la selezione della modalità ($V_{dd}=V_{HR}=+5\ V$)}
+    \caption{Circuito per la selezione della modalità ($+V_{dd}=V_{HR}=+5\ V$)}
     \label{mode_selector_circuit}
 \end{figure}
 

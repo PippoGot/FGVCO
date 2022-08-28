@@ -27,8 +27,8 @@ semplicemente aggiungendo una manciata di componenti di contorno, anche se la ma
 parte di questi non arriva a coprire l'intero range di funzionamento di cui abbiamo bisogno
 (come ad esempio il noto LM331 \cite{lm331}). Nel nostro caso si utilizza un VFC110
 \cite{vfc110}, circuito integrato specializzato che vanta un'ottima linearità e la capacità
-di fornire una frequenza di $4\ MHz$ in uscita con una corrispondente tensione in ingresso
-di $+10\ V$, esattamente ciò che la nostra applicazione richiede.
+di fornire una frequenza massima di $4\ MHz$ in uscita con una corrispondente tensione in
+ingresso di $+10\ V$, esattamente ciò che la nostra applicazione richiede.
 
 \begin{figure}[H]
     \centering
@@ -61,7 +61,7 @@ di alimentazione, sostituendoli con quelli dello standard scelto.
 \begin{figure}[H]
     \centering
     \includegraphics{circuits/VFC_circuit.png}
-    \caption{Schema elettrico del VFC110 utilizzato ($\pm V_{cc}=\pm 12\ V$)}
+    \caption{Schema elettrico del circuito utilizzato ($\pm V_{cc}=\pm 12\ V$, $+V_{}=+5\ V$)}
     \label{VFC_circuit}
 \end{figure}
 
@@ -75,7 +75,7 @@ Si riportano le relazioni tra le grandezze in gioco:
     \qquad
     \rightarrow
     \qquad
-    \delta=\frac{I_{in}}{I_{ref}}=\frac{V_{in}}{R_{in}\cdot I_{ref}}\ [\%]
+    \delta=\frac{I_{in}}{I_{ref}}=\frac{V_{in}}{R_{in}\cdot I_{ref}}
 \end{equation}
 
 \begin{equation}\label{fout}
@@ -98,7 +98,7 @@ misura utilizzato viene riportato in figura \ref{mis_VFC}.
 \begin{figure}[H]
     \centering
     \includegraphics{block_diagrams/mis_VFC.png}
-    \caption{Circuito di misura del VFC}
+    \caption{Setup di misura del VFC}
     \label{mis_VFC}
 \end{figure}
 
@@ -108,7 +108,7 @@ si estende lungo il tratto di rampa crescente come in figura \ref{integrator_beh
 ovvero durante il periodo in cui il timer risulta attivo.
 
 Possiamo anche notare che la durata di $T_{OS}$ non varia in funzione di $V_{in}$ o $f_{out}$,
-ma rimane pressoché costante.
+ma rimane pressoché costante a circa $100\ ns$.
 
 \begin{figure}[H]
     \centering
@@ -132,8 +132,7 @@ ma rimane pressoché costante.
         \label{acq_vfc110_10v}
     \end{subfigure}
 
-    \caption{Acquisizioni dell'uscita dell'integratore (pin 12, ch.2) e $f_{out}$
-        corrispondente (ch.1) per diversi valori di $V_{in}$}
+    \caption{Acquisizioni dei segnali di interesse per diversi valori di $V_{in}$}
     \label{acq_vfc110}
 \end{figure}
 

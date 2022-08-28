@@ -8,14 +8,15 @@
 \contentsline {chapter}{\numberline {2}Convertitore Tensione-Frequenza}{16}{}%
 \contentsline {chapter}{\numberline {3}Condizionamento dell'Ingresso}{21}{}%
 \contentsline {section}{\numberline {3.1}Convertitore Lineare-Esponenziale}{21}{}%
-\contentsline {section}{\numberline {3.2}Somma di più Ingressi}{27}{}%
-\contentsline {section}{\numberline {3.3}Raddrizzatore}{28}{}%
-\contentsline {chapter}{\numberline {4}Modalità di Funzionamento}{31}{}%
-\contentsline {chapter}{\numberline {5}Generazione dei Segnali Secondari}{32}{}%
-\contentsline {section}{\numberline {5.1}Onda Quadra}{32}{}%
-\contentsline {section}{\numberline {5.2}Dente di Sega}{32}{}%
-\contentsline {section}{\numberline {5.3}Sinusoide}{32}{}%
-\contentsline {section}{\numberline {5.4}Impulso}{32}{}%
-\contentsline {chapter}{\numberline {6}Stadi di Uscita}{33}{}%
-\contentsline {chapter}{Considerazioni Finali e Conclusioni}{34}{}%
-\contentsline {chapter}{Bibliografia}{36}{}%
+\contentsline {section}{\numberline {3.2}Somma di più Ingressi}{28}{}%
+\contentsline {section}{\numberline {3.3}Raddrizzatore}{29}{}%
+\contentsline {chapter}{\numberline {4}Modalità di Funzionamento}{32}{}%
+\contentsline {chapter}{\numberline {5}Generazione dei Segnali Secondari}{33}{}%
+\contentsline {section}{\numberline {5.1}Dente di Sega}{33}{}%
+\contentsline {section}{\numberline {5.2}Onda Quadra}{34}{}%
+\contentsline {section}{\numberline {5.3}Impulso}{35}{}%
+\contentsline {section}{\numberline {5.4}Sinusoide}{36}{}%
+\contentsline {chapter}{\numberline {6}Stadi di Uscita}{38}{}%
+\contentsline {chapter}{Considerazioni Finali e Conclusioni}{42}{}%
+\contentsline {chapter}{\numberline {A}Schemi Elettrici delle Schede}{43}{}%
+\contentsline {chapter}{Bibliografia}{62}{}%

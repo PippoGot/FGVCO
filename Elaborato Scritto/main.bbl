@@ -305,6 +305,39 @@
       \verb https://www.ti.com/lit/ds/symlink/sn74ls169b.pdf?ts=1660083375741&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74LS169B%253FkeyMatch%253DSN74LS169B%2526tisearch%253Dsearch-everything%2526usecase%253DGPN
       \endverb
     \endentry
+    \entry{ne555}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{extraname}{9}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev. I}
+      \field{number}{NA555, NE555, SA555, SE555}
+      \field{title}{xx555 Precision Timers}
+      \field{year}{15 Sep 2014}
+      \verb{file}
+      \verb PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/ne555.pdf?ts=1661442775145&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FNE555
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/ne555.pdf?ts=1661442775145&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FNE555
+      \endverb
+    \endentry
     \entry{expo_converter}{online}{}
       \name{author}{1}{}{%
         {{hash=d8c64e965a95b1a75a4c563e33447f98}{%
