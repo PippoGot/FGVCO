@@ -145,7 +145,16 @@
 % appendice schemi elettrici
 \appendix
 \chapter{Schemi Elettrici delle Schede}
-\includepdf[pages=-]{pdfs/schematics/FG-VCO-(complete).pdf}
+
+\includepdf[
+    width = \textwidth,
+    pagecommand = {\thispagestyle{plain}},
+    pages = -,
+    nup = 1x2,
+    offset = 5mm 0mm
+]{
+    pdfs/schematics/FG-VCO-(complete).pdf
+}
 
 % bibliografia
 \printbibliography

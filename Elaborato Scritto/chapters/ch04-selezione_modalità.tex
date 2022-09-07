@@ -5,8 +5,8 @@
 Per quanto riguarda la selezione della modalità di funzionamento, è facile intuire che basta
 dividere $f_{clk}$ ulteriormente per avere un range di frequenze diverso, come già visto nel
 capitolo \ref{segnali_principali}. Quindi aggiungiamo un blocco divisore di frequenza prima
-che il segnale arrivi ai contatori e facciamo in modo che la scelta della frequenza di
-$f_{out}$ sia determinata da un segnale logico.
+che il segnale arrivi ai contatori e facciamo in modo che la scelta del segnale di clock
+$f_{out}$ sia determinata da un comando logico.
 
 \begin{figure}[H]
     \centering
@@ -32,5 +32,30 @@ L'unico componente nuovo è un circuito integrato che ospita 4 porte logiche AND
 Si aggiungono anche dei LED per la visualizzazione dello stato e delle resistenze di pull-down
 all'ingresso abilitante delle porte logiche (non rappresentati nello schema in figura
 \ref{mode_selector_circuit}).
+
+Possiamo quindi verificare che il circuito divisore di frequenza funzioni correttamente:
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics{block_diagrams/mis_LFO_clock_divider.png}
+        \caption{Setup di misura}
+        \label{mis_LFO_clock_divider}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.2]{acquisitions/LFO_divider.png}
+        \caption{Acquisizione delle onde ottenute}
+        \label{LFO_divider}
+    \end{subfigure}
+
+    \caption{Funzionamento del divisore di frequenza}
+    \label{freq_divider}
+\end{figure}
+
+qui si può apprezzare come a 256 cicli di clock del segnale in ingresso ne corrisponda uno
+solo in uscita, quindi il circuito funziona come desiderato.
 
 %--------------------------------------------------------------------------------------------

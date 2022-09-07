@@ -38,14 +38,15 @@ oppure, dai valori misurati:
 La frequenza di taglio viene presa attorno ai $50\ kHz$ per conservare tutto lo spettro audio
 e rimuovere invece disturbi in alta frequenza dovuti ad esempio ai segnali di clock.
 Scegliendo $R_f=100\ k\Omega$ quindi, il valore del condensatore va preso di circa $30\ pF$,
-mentre $R_{in}$ deve avere valore pari a $R_f$, in questo modo si ha guadagno unitario e
+mentre $R_{in}$ deve avere valore pari a $R_f$. In questo modo si ottiene guadagno unitario e
 
 \begin{equation}
     f_{cut}=\frac{1}{2\pi\cdot100\cdot10^3\cdot30\cdot10^-12}\approx53\ kHz
 \end{equation}
 
-Misurando il valore del guadagno con il setup di misura riportato in figura \ref{mis_filter},
-vediamo che il comportamento del circuito teorico viene rispettato.
+Il setup di misura viene riportato in figura \ref{mis_filter}. Per la verifica del funzionamento
+si misura il $V_{rms}$ di un segnale sinusoidale in ingresso e in uscita al filtro, agendo
+sulla frequenza del suddetto segnale.
 
 \begin{figure}[H]
     \centering
@@ -53,6 +54,10 @@ vediamo che il comportamento del circuito teorico viene rispettato.
     \caption{Setup di misura}
     \label{mis_filter}
 \end{figure}
+
+Successivamente, con la formula \ref{gain2} si calcola il valore del guadagno. Infine i dati
+vengono raccolti in tabella, riportati in grafico e confrontati con i valori teorici calcolati
+con la formula \ref{gain1}.
 
 \begin{table}[H]
     \centering
@@ -103,25 +108,25 @@ vediamo che il comportamento del circuito teorico viene rispettato.
 
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics{misc/oscilloscope_placeholder.png}
+        \includegraphics[scale = 0.2]{acquisitions/filter_10kHz.png}
         \caption{$f_{in}=10\ kHz$}
         \label{acq_filter_10kHz}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics{misc/oscilloscope_placeholder.png}
+        \includegraphics[scale = 0.2]{acquisitions/filter_100kHz.png}
         \caption{$f_{in}=100\ kHz$}
         \label{acq_filter_100kHz}
     \end{subfigure}
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics{misc/oscilloscope_placeholder.png}
+        \includegraphics[scale = 0.2]{acquisitions/filter_500kHz.png}
         \caption{$f_{in}=500\ kHz$}
         \label{acq_filter_500kHz}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics{misc/oscilloscope_placeholder.png}
+        \includegraphics[scale = 0.2]{acquisitions/filter_1MHz.png}
         \caption{$f_{in}=1\ MHz$}
         \label{acq_filter_MHz}
     \end{subfigure}
@@ -132,12 +137,14 @@ vediamo che il comportamento del circuito teorico viene rispettato.
 
 In serie ai filtri per le onde a rampa e dente di sega viene anche collegato un amplificatore
 invertente con guadagno unitario, con schema uguale a quello rappresentato in figura \ref{inverting_amp_circuit}
-per riportare le onde alla loro forma originale, in quanto non sono simmetriche.
+per riportare le onde alla loro forma originale, in quanto non sono simmetriche, come lo sono
+invece le altre 3.
 
 Infine, in serie a tutte le uscite degli ultimi operazionali prima del connettore, si collegano
 delle resistenze di protezione, dal valore di circa $1\ k\Omega$ per limitare la corrente in
 uscita in caso di eventuali cortocircuiti, che potrebbero provocare danni agli amplificatori
-operazionali.
+operazionali, e in ingresso i segnali vengono collegati ad un potenziometro per la regolazione
+del volume in uscita.
 
 \begin{figure}[H]
     \centering

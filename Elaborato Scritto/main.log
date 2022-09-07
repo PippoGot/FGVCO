@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.22)  28 AUG 2022 18:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.22)  7 SEP 2022 14:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1054,11 +1054,11 @@ File: images//block_diagrams/mis_triangle.png Graphic file (type png)
 <use images//block_diagrams/mis_triangle.png>
 Package pdftex.def Info: images//block_diagrams/mis_triangle.png  used on input line 274.
 (pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
-<images//misc/oscilloscope_placeholder.png, id=120, 171.5208pt x 137.43346pt>
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 280.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
+<images//acquisitions/triangle_wave.png, id=120, 1027.84pt x 770.88pt>
+File: images//acquisitions/triangle_wave.png Graphic file (type png)
+<use images//acquisitions/triangle_wave.png>
+Package pdftex.def Info: images//acquisitions/triangle_wave.png  used on input line 280.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
 <images//block_diagrams/freq_divider_block_diagram.png, id=121, 170.67764pt x 136.5903pt>
 File: images//block_diagrams/freq_divider_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/freq_divider_block_diagram.png>
@@ -1070,20 +1070,20 @@ File: images//graphs/clock_divider_behaviour.png Graphic file (type png)
 Package pdftex.def Info: images//graphs/clock_divider_behaviour.png  used on input line 314.
 (pdftex.def)             Requested size: 179.95184pt x 148.27357pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5302) has occurred while \output is active []
 
- [13 <./images//graphs/RCO2_behaviour.png> <./images//block_diagrams/mis_triangle.png> <./images//misc/oscilloscope_placeholder.png>]
-<images//block_diagrams/UD_block_diagram.png, id=130, 170.67764pt x 136.5903pt>
+ [13 <./images//graphs/RCO2_behaviour.png> <./images//block_diagrams/mis_triangle.png> <./images//acquisitions/triangle_wave.png (PNG copy)>]
+<images//block_diagrams/UD_block_diagram.png, id=129, 170.67764pt x 136.5903pt>
 File: images//block_diagrams/UD_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/UD_block_diagram.png>
 Package pdftex.def Info: images//block_diagrams/UD_block_diagram.png  used on input line 335.
 (pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
-<images//graphs/UD_behaviour.png, id=131, 179.9523pt x 148.3944pt>
+<images//graphs/UD_behaviour.png, id=130, 179.9523pt x 148.3944pt>
 File: images//graphs/UD_behaviour.png Graphic file (type png)
 <use images//graphs/UD_behaviour.png>
 Package pdftex.def Info: images//graphs/UD_behaviour.png  used on input line 341.
 (pdftex.def)             Requested size: 179.95184pt x 148.39403pt.
-<images//circuits/inverter_circuit.png, id=132, 102.02115pt x 108.04366pt>
+<images//circuits/inverter_circuit.png, id=131, 102.02115pt x 108.04366pt>
 File: images//circuits/inverter_circuit.png Graphic file (type png)
 <use images//circuits/inverter_circuit.png>
 Package pdftex.def Info: images//circuits/inverter_circuit.png  used on input line 357.
@@ -1092,30 +1092,32 @@ Package pdftex.def Info: images//circuits/inverter_circuit.png  used on input li
 Underfull \vbox (badness 2027) has occurred while \output is active []
 
  [14 <./images//block_diagrams/freq_divider_block_diagram.png> <./images//graphs/clock_divider_behaviour.png> <./images//block_diagrams/UD_block_diagram.png> <./images//graphs/UD_behaviour.png>]
-<images//block_diagrams/mis_clock_divider.png, id=140, 170.67764pt x 136.5903pt>
+<images//block_diagrams/mis_clock_divider.png, id=139, 170.67764pt x 136.5903pt>
 File: images//block_diagrams/mis_clock_divider.png Graphic file (type png)
 <use images//block_diagrams/mis_clock_divider.png>
 Package pdftex.def Info: images//block_diagrams/mis_clock_divider.png  used on input line 375.
 (pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 381.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
+<images//acquisitions/clock_wave.png, id=140, 1027.84pt x 770.88pt>
+File: images//acquisitions/clock_wave.png Graphic file (type png)
+<use images//acquisitions/clock_wave.png>
+Package pdftex.def Info: images//acquisitions/clock_wave.png  used on input line 381.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
 <images//block_diagrams/mis_UD.png, id=141, 187.78156pt x 136.5903pt>
 File: images//block_diagrams/mis_UD.png Graphic file (type png)
 <use images//block_diagrams/mis_UD.png>
 Package pdftex.def Info: images//block_diagrams/mis_UD.png  used on input line 395.
 (pdftex.def)             Requested size: 187.78108pt x 136.58995pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 401.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-) [15 <./images//circuits/inverter_circuit.png> <./images//block_diagrams/mis_clock_divider.png> <./images//block_diagrams/mis_UD.png>]
+<images//acquisitions/UD_wave.png, id=142, 1027.84pt x 770.88pt>
+File: images//acquisitions/UD_wave.png Graphic file (type png)
+<use images//acquisitions/UD_wave.png>
+Package pdftex.def Info: images//acquisitions/UD_wave.png  used on input line 401.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+) [15 <./images//circuits/inverter_circuit.png> <./images//block_diagrams/mis_clock_divider.png> <./images//acquisitions/clock_wave.png (PNG copy)> <./images//block_diagrams/mis_UD.png> <./images//acquisitions/UD_wave.png (PNG copy)>]
 \openout2 = `chapters/ch02-vfc.aux'.
 
  (chapters/ch02-vfc.tex
 Capitolo 2.
-<images//circuits/vfc110_internal.png, id=150, 299.80005pt x 174.05025pt>
+<images//circuits/vfc110_internal.png, id=151, 299.80005pt x 174.05025pt>
 File: images//circuits/vfc110_internal.png Graphic file (type png)
 <use images//circuits/vfc110_internal.png>
 Package pdftex.def Info: images//circuits/vfc110_internal.png  used on input line 35.
@@ -1126,59 +1128,53 @@ Package pdftex.def Info: images//circuits/vfc110_internal.png  used on input lin
 
 
  <./images//circuits/vfc110_internal.png>]
-<images//graphs/integrator_behaviour.png, id=155, 179.9523pt x 173.448pt>
+<images//graphs/integrator_behaviour.png, id=156, 179.9523pt x 173.448pt>
 File: images//graphs/integrator_behaviour.png Graphic file (type png)
 <use images//graphs/integrator_behaviour.png>
 Package pdftex.def Info: images//graphs/integrator_behaviour.png  used on input line 51.
 (pdftex.def)             Requested size: 179.95184pt x 173.44757pt.
-<images//circuits/VFC_circuit.png, id=156, 148.99664pt x 147.9126pt>
+<images//circuits/VFC_circuit.png, id=157, 148.99664pt x 147.9126pt>
 File: images//circuits/VFC_circuit.png Graphic file (type png)
 <use images//circuits/VFC_circuit.png>
 Package pdftex.def Info: images//circuits/VFC_circuit.png  used on input line 63.
 (pdftex.def)             Requested size: 148.99626pt x 147.91223pt.
  [17 <./images//graphs/integrator_behaviour.png> <./images//circuits/VFC_circuit.png>]
-<images//block_diagrams/mis_VFC.png, id=163, 137.19255pt x 108.1641pt>
+<images//block_diagrams/mis_VFC.png, id=164, 137.19255pt x 108.1641pt>
 File: images//block_diagrams/mis_VFC.png Graphic file (type png)
 <use images//block_diagrams/mis_VFC.png>
 Package pdftex.def Info: images//block_diagrams/mis_VFC.png  used on input line 100.
 (pdftex.def)             Requested size: 137.1922pt x 108.16382pt.
-<images//acquisitions/VFC_1V.png, id=164, 1027.84pt x 770.88pt>
+ [18 <./images//block_diagrams/mis_VFC.png>]
+<images//acquisitions/VFC_1V.png, id=169, 1027.84pt x 770.88pt>
 File: images//acquisitions/VFC_1V.png Graphic file (type png)
 <use images//acquisitions/VFC_1V.png>
-Package pdftex.def Info: images//acquisitions/VFC_1V.png  used on input line 118.
+Package pdftex.def Info: images//acquisitions/VFC_1V.png  used on input line 133.
 (pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
-<images//acquisitions/VFC_5V.png, id=165, 1027.84pt x 770.88pt>
+<images//acquisitions/VFC_5V.png, id=170, 1027.84pt x 770.88pt>
 File: images//acquisitions/VFC_5V.png Graphic file (type png)
 <use images//acquisitions/VFC_5V.png>
-Package pdftex.def Info: images//acquisitions/VFC_5V.png  used on input line 124.
+Package pdftex.def Info: images//acquisitions/VFC_5V.png  used on input line 139.
 (pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
-<images//acquisitions/VFC_10V.png, id=166, 1027.84pt x 770.88pt>
+<images//acquisitions/VFC_10V.png, id=171, 1027.84pt x 770.88pt>
 File: images//acquisitions/VFC_10V.png Graphic file (type png)
 <use images//acquisitions/VFC_10V.png>
-Package pdftex.def Info: images//acquisitions/VFC_10V.png  used on input line 130.
+Package pdftex.def Info: images//acquisitions/VFC_10V.png  used on input line 145.
 (pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18 <./images//block_diagrams/mis_VFC.png>]
 PGFPlots: reading {./data/misure_vfc.csv}
 PGFPlots: reading {./data/misure_vfc.csv}
 PGFPlots: reading {./data/misure_vfc.csv}
 PGFPlots: reading {./data/misure_vfc.csv}
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [19 <./images//acquisitions/VFC_1V.png (PNG copy)> <./images//acquisitions/VFC_5V.png (PNG copy)> <./images//acquisitions/VFC_10V.png (PNG copy)>]) [20]
 \openout2 = `chapters/ch03-interfaccia_ingresso.aux'.
 
  (chapters/ch03-interfaccia_ingresso.tex
 Capitolo 3.
-<images//circuits/single_transistor_circuit.png, id=178, 49.50494pt x 52.0344pt>
+<images//circuits/single_transistor_circuit.png, id=179, 49.50494pt x 52.0344pt>
 File: images//circuits/single_transistor_circuit.png Graphic file (type png)
 <use images//circuits/single_transistor_circuit.png>
 Package pdftex.def Info: images//circuits/single_transistor_circuit.png  used on input line 33.
 (pdftex.def)             Requested size: 49.5048pt x 52.03426pt.
-<images//circuits/differential_pair_circuit.png, id=179, 86.4831pt x 52.0344pt>
+<images//circuits/differential_pair_circuit.png, id=180, 86.4831pt x 52.0344pt>
 File: images//circuits/differential_pair_circuit.png Graphic file (type png)
 <use images//circuits/differential_pair_circuit.png>
 Package pdftex.def Info: images//circuits/differential_pair_circuit.png  used on input line 46.
@@ -1189,7 +1185,7 @@ Package pdftex.def Info: images//circuits/differential_pair_circuit.png  used on
 
 
  <./images//circuits/single_transistor_circuit.png> <./images//circuits/differential_pair_circuit.png>]
-<images//circuits/exponential_converter_circuit.png, id=187, 347.98006pt x 185.2521pt>
+<images//circuits/exponential_converter_circuit.png, id=188, 347.98006pt x 185.2521pt>
 File: images//circuits/exponential_converter_circuit.png Graphic file (type png)
 <use images//circuits/exponential_converter_circuit.png>
 Package pdftex.def Info: images//circuits/exponential_converter_circuit.png  used on input line 101.
@@ -1198,545 +1194,604 @@ Package pdftex.def Info: images//circuits/exponential_converter_circuit.png  use
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22] [23 <./images//circuits/exponential_converter_circuit.png>] [24]
-<images//circuits/Rtot_circuit.png, id=200, 85.0377pt x 111.2958pt>
+<images//circuits/Rtot_circuit.png, id=201, 85.0377pt x 111.2958pt>
 File: images//circuits/Rtot_circuit.png Graphic file (type png)
 <use images//circuits/Rtot_circuit.png>
-Package pdftex.def Info: images//circuits/Rtot_circuit.png  used on input line 225.
+Package pdftex.def Info: images//circuits/Rtot_circuit.png  used on input line 224.
 (pdftex.def)             Requested size: 85.03748pt x 111.29552pt.
-<images//circuits/complete_exponential_converter_circuit.png, id=201, 347.98006pt x 196.21304pt>
+<images//circuits/complete_exponential_converter_circuit.png, id=202, 347.98006pt x 196.21304pt>
 File: images//circuits/complete_exponential_converter_circuit.png Graphic file (type png)
 <use images//circuits/complete_exponential_converter_circuit.png>
-Package pdftex.def Info: images//circuits/complete_exponential_converter_circuit.png  used on input line 250.
+Package pdftex.def Info: images//circuits/complete_exponential_converter_circuit.png  used on input line 259.
 (pdftex.def)             Requested size: 347.97919pt x 196.21255pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4341) has occurred while \output is active []
 
  [25 <./images//circuits/Rtot_circuit.png>]
-<images//block_diagrams/mis_expo_oscilloscope.png, id=207, 170.67764pt x 136.5903pt>
+<images//block_diagrams/mis_expo_oscilloscope.png, id=208, 170.67764pt x 136.5903pt>
 File: images//block_diagrams/mis_expo_oscilloscope.png Graphic file (type png)
 <use images//block_diagrams/mis_expo_oscilloscope.png>
-Package pdftex.def Info: images//block_diagrams/mis_expo_oscilloscope.png  used on input line 268.
+Package pdftex.def Info: images//block_diagrams/mis_expo_oscilloscope.png  used on input line 279.
 (pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 274.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-<images//block_diagrams/mis_expo.png, id=208, 170.67764pt x 136.5903pt>
+<images//acquisitions/trans_expo_cut.png, id=209, 390.70969pt x 404.26031pt>
+File: images//acquisitions/trans_expo_cut.png Graphic file (type png)
+<use images//acquisitions/trans_expo_cut.png>
+Package pdftex.def Info: images//acquisitions/trans_expo_cut.png  used on input line 285.
+(pdftex.def)             Requested size: 195.35435pt x 202.12965pt.
+ [26 <./images//circuits/complete_exponential_converter_circuit.png> <./images//block_diagrams/mis_expo_oscilloscope.png> <./images//acquisitions/trans_expo_cut.png>]
+<images//block_diagrams/mis_expo.png, id=215, 170.67764pt x 136.5903pt>
 File: images//block_diagrams/mis_expo.png Graphic file (type png)
 <use images//block_diagrams/mis_expo.png>
-Package pdftex.def Info: images//block_diagrams/mis_expo.png  used on input line 284.
+Package pdftex.def Info: images//block_diagrams/mis_expo.png  used on input line 302.
 (pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
-Package pgfplots info on input line 322: Using 'lua backend=false' for axis: ymode=log unsupported (yet).
+Package pgfplots info on input line 340: Using 'lua backend=false' for axis: ymode=log unsupported (yet).
 PGFPlots: reading {./data/misure_expo.csv}
 PGFPlots: reading {./data/misure_expo.csv}
 PGFPlots: reading {./data/misure_expo.csv}
 PGFPlots: reading {./data/misure_expo.csv}
 PGFPlots: reading {./data/misure_expo.csv}
 PGFPlots: reading {./data/misure_expo.csv}
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26 <./images//circuits/complete_exponential_converter_circuit.png> <./images//block_diagrams/mis_expo_oscilloscope.png>] [27 <./images//block_diagrams/mis_expo.png>]
-<images//circuits/summer_circuit.png, id=218, 146.4672pt x 170.67764pt>
+ [27 <./images//block_diagrams/mis_expo.png>]
+<images//circuits/summer_circuit.png, id=220, 146.4672pt x 170.67764pt>
 File: images//circuits/summer_circuit.png Graphic file (type png)
 <use images//circuits/summer_circuit.png>
-Package pdftex.def Info: images//circuits/summer_circuit.png  used on input line 402.
+Package pdftex.def Info: images//circuits/summer_circuit.png  used on input line 420.
 (pdftex.def)             Requested size: 146.46683pt x 170.6772pt.
-<images//circuits/coarse_fine_circuit.png, id=219, 139.60155pt x 90.93974pt>
+<images//circuits/coarse_fine_circuit.png, id=221, 139.60155pt x 90.93974pt>
 File: images//circuits/coarse_fine_circuit.png Graphic file (type png)
 <use images//circuits/coarse_fine_circuit.png>
-Package pdftex.def Info: images//circuits/coarse_fine_circuit.png  used on input line 415.
+Package pdftex.def Info: images//circuits/coarse_fine_circuit.png  used on input line 434.
 (pdftex.def)             Requested size: 139.6012pt x 90.9395pt.
  [28 <./images//circuits/summer_circuit.png> <./images//circuits/coarse_fine_circuit.png>]
-<images//circuits/lfo_input_circuit.png, id=225, 38.3031pt x 65.40434pt>
+<images//circuits/lfo_input_circuit.png, id=227, 67.57245pt x 65.40434pt>
 File: images//circuits/lfo_input_circuit.png Graphic file (type png)
 <use images//circuits/lfo_input_circuit.png>
-Package pdftex.def Info: images//circuits/lfo_input_circuit.png  used on input line 429.
-(pdftex.def)             Requested size: 38.303pt x 65.40416pt.
-<images//circuits/clipper_circuit.png, id=226, 156.8259pt x 114.1866pt>
+Package pdftex.def Info: images//circuits/lfo_input_circuit.png  used on input line 448.
+(pdftex.def)             Requested size: 67.57227pt x 65.40416pt.
+<images//circuits/clipper_circuit.png, id=228, 156.8259pt x 114.1866pt>
 File: images//circuits/clipper_circuit.png Graphic file (type png)
 <use images//circuits/clipper_circuit.png>
-Package pdftex.def Info: images//circuits/clipper_circuit.png  used on input line 450.
+Package pdftex.def Info: images//circuits/clipper_circuit.png  used on input line 469.
 (pdftex.def)             Requested size: 156.8255pt x 114.18631pt.
  [29 <./images//circuits/lfo_input_circuit.png> <./images//circuits/clipper_circuit.png>]
-<images//block_diagrams/mis_clipper_oscilloscope.png, id=232, 170.67764pt x 136.5903pt>
+<images//block_diagrams/mis_clipper_oscilloscope.png, id=234, 170.67764pt x 136.5903pt>
 File: images//block_diagrams/mis_clipper_oscilloscope.png Graphic file (type png)
 <use images//block_diagrams/mis_clipper_oscilloscope.png>
-Package pdftex.def Info: images//block_diagrams/mis_clipper_oscilloscope.png  used on input line 501.
+Package pdftex.def Info: images//block_diagrams/mis_clipper_oscilloscope.png  used on input line 519.
 (pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 507.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-<images//block_diagrams/mis_clipper.png, id=233, 170.67764pt x 136.5903pt>
+<images//acquisitions/trans_clipper_cut.png, id=235, 390.70969pt x 404.26031pt>
+File: images//acquisitions/trans_clipper_cut.png Graphic file (type png)
+<use images//acquisitions/trans_clipper_cut.png>
+Package pdftex.def Info: images//acquisitions/trans_clipper_cut.png  used on input line 525.
+(pdftex.def)             Requested size: 195.35435pt x 202.12965pt.
+<images//block_diagrams/mis_clipper.png, id=236, 170.67764pt x 136.5903pt>
 File: images//block_diagrams/mis_clipper.png Graphic file (type png)
 <use images//block_diagrams/mis_clipper.png>
-Package pdftex.def Info: images//block_diagrams/mis_clipper.png  used on input line 517.
+Package pdftex.def Info: images//block_diagrams/mis_clipper.png  used on input line 538.
 (pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
-PGFPlots: reading {./data/misure_clipper.csv}
-PGFPlots: reading {./data/misure_clipper.csv}
-PGFPlots: reading {./data/misure_clipper.csv}
-PGFPlots: reading {./data/misure_clipper.csv}
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30 <./images//block_diagrams/mis_clipper_oscilloscope.png> <./images//block_diagrams/mis_clipper.png>] [31]
+ [30 <./images//block_diagrams/mis_clipper_oscilloscope.png> <./images//acquisitions/trans_clipper_cut.png>]
+PGFPlots: reading {./data/misure_clipper.csv}
+PGFPlots: reading {./data/misure_clipper.csv}
+PGFPlots: reading {./data/misure_clipper.csv}
+PGFPlots: reading {./data/misure_clipper.csv}
+ [31 <./images//block_diagrams/mis_clipper.png>]) [32]
 \openout2 = `chapters/ch04-selezione_modalità.aux'.
 
  (chapters/ch04-selezione_modalità.tex
 Capitolo 4.
-<images//block_diagrams/mode_selector_block_diagram.png, id=243, 148.51485pt x 77.69025pt>
+<images//block_diagrams/mode_selector_block_diagram.png, id=249, 148.51485pt x 77.69025pt>
 File: images//block_diagrams/mode_selector_block_diagram.png Graphic file (type png)
 <use images//block_diagrams/mode_selector_block_diagram.png>
 Package pdftex.def Info: images//block_diagrams/mode_selector_block_diagram.png  used on input line 13.
 (pdftex.def)             Requested size: 148.51447pt x 77.69003pt.
-<images//circuits/mode_selector_circuit.png, id=244, 317.0244pt x 210.42615pt>
+<images//circuits/mode_selector_circuit.png, id=250, 317.0244pt x 210.42615pt>
 File: images//circuits/mode_selector_circuit.png Graphic file (type png)
 <use images//circuits/mode_selector_circuit.png>
 Package pdftex.def Info: images//circuits/mode_selector_circuit.png  used on input line 24.
 (pdftex.def)             Requested size: 317.02362pt x 210.42561pt.
-) [32
-
-
-
-
- <./images//block_diagrams/mode_selector_block_diagram.png> <./images//circuits/mode_selector_circuit.png>]
-\openout2 = `chapters/ch05-segnali_secondari.aux'.
-
- (chapters/ch05-segnali_secondari.tex
-Capitolo 5.
-<images//circuits/inverting_amp_circuit.png, id=250, 142.3719pt x 79.61745pt>
-File: images//circuits/inverting_amp_circuit.png Graphic file (type png)
-<use images//circuits/inverting_amp_circuit.png>
-Package pdftex.def Info: images//circuits/inverting_amp_circuit.png  used on input line 18.
-(pdftex.def)             Requested size: 142.37154pt x 79.61723pt.
-<images//block_diagrams/mis_saw.png, id=251, 170.67764pt x 136.5903pt>
-File: images//block_diagrams/mis_saw.png Graphic file (type png)
-<use images//block_diagrams/mis_saw.png>
-Package pdftex.def Info: images//block_diagrams/mis_saw.png  used on input line 39.
+<images//block_diagrams/mis_LFO_clock_divider.png, id=251, 170.67764pt x 136.5903pt>
+File: images//block_diagrams/mis_LFO_clock_divider.png Graphic file (type png)
+<use images//block_diagrams/mis_LFO_clock_divider.png>
+Package pdftex.def Info: images//block_diagrams/mis_LFO_clock_divider.png  used on input line 43.
 (pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 45.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
+<images//acquisitions/LFO_divider.png, id=252, 1027.84pt x 770.88pt>
+File: images//acquisitions/LFO_divider.png Graphic file (type png)
+<use images//acquisitions/LFO_divider.png>
+Package pdftex.def Info: images//acquisitions/LFO_divider.png  used on input line 49.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
 [33
 
 
 
 
- <./images//circuits/inverting_amp_circuit.png> <./images//block_diagrams/mis_saw.png>]
-<images//circuits/inverting_amp_offset_circuit.png, id=257, 156.1032pt x 96.72134pt>
+ <./images//block_diagrams/mode_selector_block_diagram.png> <./images//circuits/mode_selector_circuit.png>]) [34 <./images//block_diagrams/mis_LFO_clock_divider.png> <./images//acquisitions/LFO_divider.png (PNG copy)>]
+\openout2 = `chapters/ch05-segnali_secondari.aux'.
+
+ (chapters/ch05-segnali_secondari.tex
+Capitolo 5.
+<images//circuits/inverting_amp_circuit.png, id=262, 142.3719pt x 79.61745pt>
+File: images//circuits/inverting_amp_circuit.png Graphic file (type png)
+<use images//circuits/inverting_amp_circuit.png>
+Package pdftex.def Info: images//circuits/inverting_amp_circuit.png  used on input line 18.
+(pdftex.def)             Requested size: 142.37154pt x 79.61723pt.
+<images//block_diagrams/mis_saw.png, id=263, 170.67764pt x 136.5903pt>
+File: images//block_diagrams/mis_saw.png Graphic file (type png)
+<use images//block_diagrams/mis_saw.png>
+Package pdftex.def Info: images//block_diagrams/mis_saw.png  used on input line 39.
+(pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
+<images//acquisitions/saw_wave.png, id=264, 1027.84pt x 770.88pt>
+File: images//acquisitions/saw_wave.png Graphic file (type png)
+<use images//acquisitions/saw_wave.png>
+Package pdftex.def Info: images//acquisitions/saw_wave.png  used on input line 45.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+[35
+
+
+
+
+ <./images//circuits/inverting_amp_circuit.png> <./images//block_diagrams/mis_saw.png> <./images//acquisitions/saw_wave.png (PNG copy)>]
+<images//circuits/inverting_amp_offset_circuit.png, id=270, 156.1032pt x 96.72134pt>
 File: images//circuits/inverting_amp_offset_circuit.png Graphic file (type png)
 <use images//circuits/inverting_amp_offset_circuit.png>
 Package pdftex.def Info: images//circuits/inverting_amp_offset_circuit.png  used on input line 68.
 (pdftex.def)             Requested size: 156.1028pt x 96.7211pt.
-<images//block_diagrams/mis_square.png, id=258, 170.67764pt x 136.5903pt>
+<images//block_diagrams/mis_square.png, id=271, 170.67764pt x 136.5903pt>
 File: images//block_diagrams/mis_square.png Graphic file (type png)
 <use images//block_diagrams/mis_square.png>
 Package pdftex.def Info: images//block_diagrams/mis_square.png  used on input line 91.
 (pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 97.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-
-Underfull \vbox (badness 2165) has occurred while \output is active []
-
- [34 <./images//circuits/inverting_amp_offset_circuit.png> <./images//block_diagrams/mis_square.png>]
-<images//circuits/monostable_circuit.png, id=264, 164.7756pt x 119.36595pt>
+<images//acquisitions/square_wave.png, id=272, 1027.84pt x 770.88pt>
+File: images//acquisitions/square_wave.png Graphic file (type png)
+<use images//acquisitions/square_wave.png>
+Package pdftex.def Info: images//acquisitions/square_wave.png  used on input line 97.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+ [36 <./images//circuits/inverting_amp_offset_circuit.png> <./images//block_diagrams/mis_square.png> <./images//acquisitions/square_wave.png (PNG copy)>]
+<images//circuits/monostable_circuit.png, id=278, 164.7756pt x 119.36595pt>
 File: images//circuits/monostable_circuit.png Graphic file (type png)
 <use images//circuits/monostable_circuit.png>
-Package pdftex.def Info: images//circuits/monostable_circuit.png  used on input line 120.
+Package pdftex.def Info: images//circuits/monostable_circuit.png  used on input line 119.
 (pdftex.def)             Requested size: 164.77518pt x 119.36565pt.
-<images//block_diagrams/mis_monostable.png, id=265, 170.67764pt x 136.5903pt>
+<images//block_diagrams/mis_monostable.png, id=279, 170.67764pt x 136.5903pt>
 File: images//block_diagrams/mis_monostable.png Graphic file (type png)
 <use images//block_diagrams/mis_monostable.png>
-Package pdftex.def Info: images//block_diagrams/mis_monostable.png  used on input line 139.
+Package pdftex.def Info: images//block_diagrams/mis_monostable.png  used on input line 128.
 (pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 149.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 155.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
+<images//acquisitions/pulse_2V.png, id=280, 1027.84pt x 770.88pt>
+File: images//acquisitions/pulse_2V.png Graphic file (type png)
+<use images//acquisitions/pulse_2V.png>
+Package pdftex.def Info: images//acquisitions/pulse_2V.png  used on input line 138.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+<images//acquisitions/pulse_8V.png, id=281, 1027.84pt x 770.88pt>
+File: images//acquisitions/pulse_8V.png Graphic file (type png)
+<use images//acquisitions/pulse_8V.png>
+Package pdftex.def Info: images//acquisitions/pulse_8V.png  used on input line 144.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+ [37 <./images//circuits/monostable_circuit.png> <./images//block_diagrams/mis_monostable.png> <./images//acquisitions/pulse_2V.png (PNG copy)> <./images//acquisitions/pulse_8V.png (PNG copy)>]
+<images//circuits/sin_circuit.png, id=288, 159.4758pt x 182.96355pt>
+File: images//circuits/sin_circuit.png Graphic file (type png)
+<use images//circuits/sin_circuit.png>
+Package pdftex.def Info: images//circuits/sin_circuit.png  used on input line 174.
+(pdftex.def)             Requested size: 159.4754pt x 182.96309pt.
+<images//circuits/sin_case1_circuit.png, id=289, 142.3719pt x 79.13565pt>
+File: images//circuits/sin_case1_circuit.png Graphic file (type png)
+<use images//circuits/sin_case1_circuit.png>
+Package pdftex.def Info: images//circuits/sin_case1_circuit.png  used on input line 193.
+(pdftex.def)             Requested size: 142.37154pt x 79.13544pt.
+
+Underfull \vbox (badness 6758) has occurred while \output is active []
+
+ [38 <./images//circuits/sin_circuit.png>]
+<images//circuits/sin_case2_circuit.png, id=294, 159.4758pt x 119.36595pt>
+File: images//circuits/sin_case2_circuit.png Graphic file (type png)
+<use images//circuits/sin_case2_circuit.png>
+Package pdftex.def Info: images//circuits/sin_case2_circuit.png  used on input line 224.
+(pdftex.def)             Requested size: 159.4754pt x 119.36565pt.
+<images//circuits/sin_case3_circuit.png, id=295, 159.4758pt x 153.4533pt>
+File: images//circuits/sin_case3_circuit.png Graphic file (type png)
+<use images//circuits/sin_case3_circuit.png>
+Package pdftex.def Info: images//circuits/sin_case3_circuit.png  used on input line 255.
+(pdftex.def)             Requested size: 159.4754pt x 153.4529pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35 <./images//circuits/monostable_circuit.png> <./images//block_diagrams/mis_monostable.png>]
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 205.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 211.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 217.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 223.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-
+ [39 <./images//circuits/sin_case1_circuit.png> <./images//circuits/sin_case2_circuit.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 240.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-) [37]
+ [40 <./images//circuits/sin_case3_circuit.png>]
+<images//circuits/noninverting_amp_circuit.png, id=305, 108.28455pt x 82.99005pt>
+File: images//circuits/noninverting_amp_circuit.png Graphic file (type png)
+<use images//circuits/noninverting_amp_circuit.png>
+Package pdftex.def Info: images//circuits/noninverting_amp_circuit.png  used on input line 356.
+(pdftex.def)             Requested size: 108.28427pt x 82.98984pt.
+<images//block_diagrams/mis_sin_oscilloscope.png, id=306, 170.67764pt x 136.5903pt>
+File: images//block_diagrams/mis_sin_oscilloscope.png Graphic file (type png)
+<use images//block_diagrams/mis_sin_oscilloscope.png>
+Package pdftex.def Info: images//block_diagrams/mis_sin_oscilloscope.png  used on input line 365.
+(pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
+<images//acquisitions/sine_wave_2V.png, id=307, 1027.84pt x 770.88pt>
+File: images//acquisitions/sine_wave_2V.png Graphic file (type png)
+<use images//acquisitions/sine_wave_2V.png>
+Package pdftex.def Info: images//acquisitions/sine_wave_2V.png  used on input line 375.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+<images//acquisitions/sine_wave_8V.png, id=308, 1027.84pt x 770.88pt>
+File: images//acquisitions/sine_wave_8V.png Graphic file (type png)
+<use images//acquisitions/sine_wave_8V.png>
+Package pdftex.def Info: images//acquisitions/sine_wave_8V.png  used on input line 381.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+<images//acquisitions/sine_spectrum_2V.png, id=309, 1027.84pt x 770.88pt>
+File: images//acquisitions/sine_spectrum_2V.png Graphic file (type png)
+<use images//acquisitions/sine_spectrum_2V.png>
+Package pdftex.def Info: images//acquisitions/sine_spectrum_2V.png  used on input line 387.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+<images//acquisitions/sine_spectrum_8V.png, id=310, 1027.84pt x 770.88pt>
+File: images//acquisitions/sine_spectrum_8V.png Graphic file (type png)
+<use images//acquisitions/sine_spectrum_8V.png>
+Package pdftex.def Info: images//acquisitions/sine_spectrum_8V.png  used on input line 393.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+
+Underfull \vbox (badness 5696) has occurred while \output is active []
+
+ [41 <./images//circuits/noninverting_amp_circuit.png> <./images//block_diagrams/mis_sin_oscilloscope.png>]
+<images//acquisitions/trans_sine_cut.png, id=316, 391.4625pt x 407.27156pt>
+File: images//acquisitions/trans_sine_cut.png Graphic file (type png)
+<use images//acquisitions/trans_sine_cut.png>
+Package pdftex.def Info: images//acquisitions/trans_sine_cut.png  used on input line 410.
+(pdftex.def)             Requested size: 195.73076pt x 203.63527pt.
+ [42 <./images//acquisitions/sine_wave_2V.png (PNG copy)> <./images//acquisitions/sine_wave_8V.png (PNG copy)> <./images//acquisitions/sine_spectrum_2V.png (PNG copy)> <./images//acquisitions/sine_spectrum_8V.png (PNG copy)> <./images//acquisitions/trans_sine_cut.png>]) [43]
 \openout2 = `chapters/ch06-interfaccia_uscita.aux'.
 
  (chapters/ch06-interfaccia_uscita.tex
 Capitolo 6.
-<images//circuits/active_filter_circuit.png, id=278, 142.3719pt x 113.82526pt>
+<images//circuits/active_filter_circuit.png, id=324, 142.3719pt x 113.82526pt>
 File: images//circuits/active_filter_circuit.png Graphic file (type png)
 <use images//circuits/active_filter_circuit.png>
 Package pdftex.def Info: images//circuits/active_filter_circuit.png  used on input line 11.
 (pdftex.def)             Requested size: 142.37154pt x 113.82497pt.
-[38
+[44
 
 
 
 
  <./images//circuits/active_filter_circuit.png>]
-<images//block_diagrams/mis_filter.png, id=283, 170.67764pt x 136.5903pt>
+<images//block_diagrams/mis_filter.png, id=329, 170.67764pt x 136.5903pt>
 File: images//block_diagrams/mis_filter.png Graphic file (type png)
 <use images//block_diagrams/mis_filter.png>
-Package pdftex.def Info: images//block_diagrams/mis_filter.png  used on input line 52.
+Package pdftex.def Info: images//block_diagrams/mis_filter.png  used on input line 53.
 (pdftex.def)             Requested size: 170.6772pt x 136.58995pt.
 
-Overfull \hbox (2.02391pt too wide) in paragraph at lines 65--65
+Overfull \hbox (2.02391pt too wide) in paragraph at lines 70--70
  []|$\OML/cmm/m/it/12 V[] \OT1/cmr/m/n/12 [\OML/cmm/m/it/12 V\OT1/cmr/m/n/12 ]$| 
  []
 
-Package pgfplots info on input line 88: Using 'lua backend=false' for axis: xmode=log unsupported (yet).
+Package pgfplots info on input line 93: Using 'lua backend=false' for axis: xmode=log unsupported (yet).
 PGFPlots: reading {./data/misure_bode.csv}
 PGFPlots: reading {./data/misure_bode.csv}
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39 <./images//block_diagrams/mis_filter.png>]
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 106.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 112.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 118.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
-File: images//misc/oscilloscope_placeholder.png Graphic file (type png)
-<use images//misc/oscilloscope_placeholder.png>
-Package pdftex.def Info: images//misc/oscilloscope_placeholder.png  used on input line 124.
-(pdftex.def)             Requested size: 171.52037pt x 137.4331pt.
- [40]
-<images//circuits/inverting_output_stage_circuit.png, id=291, 238.9728pt x 153.6942pt>
+ [45 <./images//block_diagrams/mis_filter.png>]
+<images//acquisitions/filter_10kHz.png, id=334, 1027.84pt x 770.88pt>
+File: images//acquisitions/filter_10kHz.png Graphic file (type png)
+<use images//acquisitions/filter_10kHz.png>
+Package pdftex.def Info: images//acquisitions/filter_10kHz.png  used on input line 111.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+<images//acquisitions/filter_100kHz.png, id=335, 1027.84pt x 770.88pt>
+File: images//acquisitions/filter_100kHz.png Graphic file (type png)
+<use images//acquisitions/filter_100kHz.png>
+Package pdftex.def Info: images//acquisitions/filter_100kHz.png  used on input line 117.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+<images//acquisitions/filter_500kHz.png, id=336, 1027.84pt x 770.88pt>
+File: images//acquisitions/filter_500kHz.png Graphic file (type png)
+<use images//acquisitions/filter_500kHz.png>
+Package pdftex.def Info: images//acquisitions/filter_500kHz.png  used on input line 123.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+<images//acquisitions/filter_1MHz.png, id=337, 1027.84pt x 770.88pt>
+File: images//acquisitions/filter_1MHz.png Graphic file (type png)
+<use images//acquisitions/filter_1MHz.png>
+Package pdftex.def Info: images//acquisitions/filter_1MHz.png  used on input line 129.
+(pdftex.def)             Requested size: 205.56436pt x 154.17326pt.
+ [46 <./images//acquisitions/filter_10kHz.png (PNG copy)> <./images//acquisitions/filter_100kHz.png (PNG copy)> <./images//acquisitions/filter_500kHz.png (PNG copy)> <./images//acquisitions/filter_1MHz.png (PNG copy)>]
+<images//circuits/inverting_output_stage_circuit.png, id=341, 273.1806pt x 153.6942pt>
 File: images//circuits/inverting_output_stage_circuit.png Graphic file (type png)
 <use images//circuits/inverting_output_stage_circuit.png>
-Package pdftex.def Info: images//circuits/inverting_output_stage_circuit.png  used on input line 147.
-(pdftex.def)             Requested size: 238.9722pt x 153.6938pt.
-<images//circuits/noninverting_output_stage_circuit.png, id=292, 324.37186pt x 153.6942pt>
+Package pdftex.def Info: images//circuits/inverting_output_stage_circuit.png  used on input line 154.
+(pdftex.def)             Requested size: 273.17992pt x 153.6938pt.
+<images//circuits/noninverting_output_stage_circuit.png, id=342, 358.4592pt x 153.6942pt>
 File: images//circuits/noninverting_output_stage_circuit.png Graphic file (type png)
 <use images//circuits/noninverting_output_stage_circuit.png>
-Package pdftex.def Info: images//circuits/noninverting_output_stage_circuit.png  used on input line 153.
-(pdftex.def)             Requested size: 324.37105pt x 153.6938pt.
-) [41 <./images//circuits/inverting_output_stage_circuit.png> <./images//circuits/noninverting_output_stage_circuit.png>]
+Package pdftex.def Info: images//circuits/noninverting_output_stage_circuit.png  used on input line 160.
+(pdftex.def)             Requested size: 358.45831pt x 153.6938pt.
+) [47 <./images//circuits/inverting_output_stage_circuit.png> <./images//circuits/noninverting_output_stage_circuit.png>]
 \openout2 = `chapters/ch09-conclusioni.aux'.
 
- (chapters/ch09-conclusioni.tex) [42
+ (chapters/ch09-conclusioni.tex) [48
 
 
 
 
 ]
 Appendice A.
-<pdfs/schematics/FG-VCO-(complete).pdf, id=301, 598.235pt x 845.1575pt>
+<pdfs/schematics/FG-VCO-(complete).pdf, id=351, 845.1575pt x 598.235pt>
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf  used on input line 148.
-(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf  used on input line 157.
+(pdftex.def)             Requested size: 845.15544pt x 598.23354pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf  used on input line 148.
-(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
-<pdfs/schematics/FG-VCO-(complete).pdf, id=304, page=1, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf  used on input line 157.
+(pdftex.def)             Requested size: 845.15544pt x 598.23354pt.
+<pdfs/schematics/FG-VCO-(complete).pdf, id=354, page=1, 845.1575pt x 598.235pt>
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 1>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page1 used on input line 148.
-(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page1 used on input line 157.
+(pdftex.def)             Requested size: 455.24411pt x 322.24792pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 1>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page1 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[43
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page1 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+[49
 
 
 
 ]
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 1>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page1 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page1 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 1>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page1 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page1 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+<pdfs/schematics/FG-VCO-(complete).pdf, id=359, page=2, 845.1575pt x 598.235pt>
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 2>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page2 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 2>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page2 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 1>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page1 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [44 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 270 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=315, page=2, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page1 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 2>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page2 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 2>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page2 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 2>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page2 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [45 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 90 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=322, page=3, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page2 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+ [50 <./pdfs/schematics/FG-VCO-(complete).pdf> <./pdfs/schematics/FG-VCO-(complete).pdf>]
+<pdfs/schematics/FG-VCO-(complete).pdf, id=371, page=3, 845.1575pt x 598.235pt>
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 3>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page3 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page3 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 3>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page3 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page3 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+<pdfs/schematics/FG-VCO-(complete).pdf, id=372, page=4, 845.1575pt x 598.235pt>
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 4>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page4 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 4>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page4 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 3>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page3 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [46 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 270 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=329, page=4, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page3 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 4>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page4 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 4>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page4 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 4>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page4 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [47 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 90 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=336, page=5, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page4 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+ [51 <./pdfs/schematics/FG-VCO-(complete).pdf> <./pdfs/schematics/FG-VCO-(complete).pdf>]
+<pdfs/schematics/FG-VCO-(complete).pdf, id=376, page=5, 845.1575pt x 598.235pt>
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 5>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page5 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page5 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 5>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page5 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page5 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+<pdfs/schematics/FG-VCO-(complete).pdf, id=377, page=6, 845.1575pt x 598.235pt>
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 6>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page6 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 6>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page6 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 5>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page5 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [48 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 270 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=343, page=6, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page5 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 6>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page6 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 6>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page6 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 6>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page6 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [49 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 90 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=351, page=7, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page6 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+ [52 <./pdfs/schematics/FG-VCO-(complete).pdf> <./pdfs/schematics/FG-VCO-(complete).pdf>]
+<pdfs/schematics/FG-VCO-(complete).pdf, id=381, page=7, 845.1575pt x 598.235pt>
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 7>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page7 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page7 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 7>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page7 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page7 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+<pdfs/schematics/FG-VCO-(complete).pdf, id=382, page=8, 845.1575pt x 598.235pt>
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 8>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page8 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 8>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page8 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 7>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page7 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [50 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 270 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=358, page=8, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page7 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 8>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page8 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 8>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page8 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 8>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page8 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [51 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 90 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=365, page=9, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page8 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+ [53 <./pdfs/schematics/FG-VCO-(complete).pdf> <./pdfs/schematics/FG-VCO-(complete).pdf>]
+<pdfs/schematics/FG-VCO-(complete).pdf, id=386, page=9, 845.1575pt x 598.235pt>
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 9>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page9 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page9 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 9>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page9 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page9 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+<pdfs/schematics/FG-VCO-(complete).pdf, id=387, page=10, 845.1575pt x 598.235pt>
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 10>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page10 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 10>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page10 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 9>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page9 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [52 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 270 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=372, page=10, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page9 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 10>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page10 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 10>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page10 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 10>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page10 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [53 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 90 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=379, page=11, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page10 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+ [54 <./pdfs/schematics/FG-VCO-(complete).pdf> <./pdfs/schematics/FG-VCO-(complete).pdf>]
+<pdfs/schematics/FG-VCO-(complete).pdf, id=395, page=11, 845.1575pt x 598.235pt>
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 11>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page11 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page11 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 11>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page11 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page11 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+<pdfs/schematics/FG-VCO-(complete).pdf, id=396, page=12, 845.1575pt x 598.235pt>
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 12>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page12 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 12>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page12 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 11>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page11 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [54 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 270 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=386, page=12, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page11 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 12>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page12 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 12>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page12 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 12>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page12 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [55 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 90 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=394, page=13, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page12 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+ [55 <./pdfs/schematics/FG-VCO-(complete).pdf> <./pdfs/schematics/FG-VCO-(complete).pdf>]
+<pdfs/schematics/FG-VCO-(complete).pdf, id=401, page=13, 845.1575pt x 598.235pt>
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 13>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page13 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page13 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 13>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page13 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page13 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+<pdfs/schematics/FG-VCO-(complete).pdf, id=402, page=14, 845.1575pt x 598.235pt>
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 14>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page14 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 14>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page14 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 13>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page13 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [56 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 270 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=401, page=14, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page13 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 14>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page14 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 14>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page14 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 14>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page14 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [57 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 90 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=408, page=15, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page14 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+ [56 <./pdfs/schematics/FG-VCO-(complete).pdf> <./pdfs/schematics/FG-VCO-(complete).pdf>]
+<pdfs/schematics/FG-VCO-(complete).pdf, id=406, page=15, 845.1575pt x 598.235pt>
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 15>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page15 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page15 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 15>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page15 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page15 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+<pdfs/schematics/FG-VCO-(complete).pdf, id=407, page=16, 845.1575pt x 598.235pt>
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 16>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page16 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 16>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page16 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 15>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page15 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [58 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 270 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=415, page=16, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page15 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 16>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page16 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 16>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page16 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
-<use pdfs/schematics/FG-VCO-(complete).pdf, page 16>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page16 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [59 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 90 degrees>]
-<pdfs/schematics/FG-VCO-(complete).pdf, id=422, page=17, 598.235pt x 845.1575pt>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page16 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+ [57 <./pdfs/schematics/FG-VCO-(complete).pdf> <./pdfs/schematics/FG-VCO-(complete).pdf>]
+<pdfs/schematics/FG-VCO-(complete).pdf, id=411, page=17, 845.1575pt x 598.235pt>
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 17>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page17 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page17 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 17>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page17 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page17 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 1>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page1 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
+<use pdfs/schematics/FG-VCO-(complete).pdf, page 1>
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page1 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
 File: pdfs/schematics/FG-VCO-(complete).pdf Graphic file (type pdf)
 <use pdfs/schematics/FG-VCO-(complete).pdf, page 17>
-Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page17 used on input line 148.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
- [60 <./pdfs/schematics/FG-VCO-(complete).pdf, page is rotated 270 degrees>] [61
+Package pdftex.def Info: pdfs/schematics/FG-VCO-(complete).pdf , page17 used on input line 157.
+(pdftex.def)             Requested size: 1108.9957pt x 784.9898pt.
+ [58 <./pdfs/schematics/FG-VCO-(complete).pdf>] [59
 
-] [62] (main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-segnali_principali.aux) (chapters/ch02-vfc.aux) (chapters/ch03-interfaccia_ingresso.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-interfaccia_uscita.aux) (chapters/ch09-conclusioni.aux))
+] [60] (main.aux (chapters/ch00-introduzione.aux) (chapters/ch01-segnali_principali.aux) (chapters/ch02-vfc.aux) (chapters/ch03-interfaccia_ingresso.aux) (chapters/ch04-selezione_modalità.aux) (chapters/ch05-segnali_secondari.aux) (chapters/ch06-interfaccia_uscita.aux) (chapters/ch09-conclusioni.aux))
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41664 strings out of 478552
- 1044824 string characters out of 2841938
- 1806003 words of memory out of 3000000
- 59175 multiletter control sequences out of 15000+600000
+ 41938 strings out of 478552
+ 1054329 string characters out of 2841938
+ 1807145 words of memory out of 3000000
+ 59424 multiletter control sequences out of 15000+600000
  487921 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,21n,84p,1256b,2405s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gotta/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (62 pages, 3319088 bytes).
+Output written on main.pdf (60 pages, 43617204 bytes).
 PDF statistics:
- 506 PDF objects out of 1000 (max. 8388607)
+ 491 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 408 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 533 words of extra memory for PDF output out of 10000 (max. 10000000)
 

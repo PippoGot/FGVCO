@@ -158,7 +158,7 @@ Verifichiamo quindi la correttezza del circuito realizzato.
     \label{acq_ramp_signals}
 \end{figure}
 
-Si apprezza come l'onda generata abbia esattamente la forma voluta, come descritto nel
+Si apprezza come l'onda generata abbia esattamente la forma voluta, descritta nel
 principio di funzionamento.
 
 %--------------------------------------------------------------------------------------------
@@ -205,7 +205,7 @@ viceversa) e necessita di un segnale che determini la direzione di conteggio (Up
 La configurazione del DAC rimane quella utilizzata per la rampa e rappresentata in figura
 \ref{DAC_circuit}. In questo caso tuttavia il numero di cicli di clock utilizzati è doppio
 rispetto a quello per la rampa, poichè dovranno essere eseguiti 256 conteggi verso l'alto
-e 256 conteggi verso il basso per ottenere un singolo periodo di onda triangolare. Ne
+e altri 256 verso il basso per ottenere un singolo periodo di onda triangolare. Ne
 consegue quindi che anche la frequenza di clock in ingresso a questo sottosistema dovrà
 essere doppia rispetto alla rampa, come risulta evidente in figura \ref{steps}.
 
@@ -277,7 +277,7 @@ Si verifica ora la correttezza del circuito realizzato.
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics{misc/oscilloscope_placeholder.png}
+        \includegraphics[scale = 0.2]{acquisitions/triangle_wave.png}
         \caption{Acquisizione dei segnali ottenuti}
         \label{acq_triangle}
     \end{subfigure}
@@ -346,9 +346,9 @@ attivo a livello logico basso) e connesso all'ingresso $U/D$ del contatore.
     \caption{Pilotaggio del contatore}
 \end{figure}
 
-I componenti utilizzati scopo sono un 74HC73 \cite{74hc73}, che fornisce i due flip-flop
-necessari, e un 2N7000 \cite{2n7000}, mosfet a canale N con tensioni di soglia compatibili
-ai livelli di tensione presenti nel circuito ($+5\ V$).
+I componenti utilizzati per lo scopo sono un 74HC73 \cite{74hc73}, che fornisce i due
+flip-flop necessari, e un 2N7000 \cite{2n7000}, mosfet a canale N con tensioni di soglia
+compatibili con i livelli di tensione presenti nel circuito ($+5\ V$).
 
 Lo schema elettrico per l'inverter è rappresentato in figura \ref{inverter_circuit}.
 
@@ -378,7 +378,7 @@ Si verifica la correttezza dei circuiti:
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics{misc/oscilloscope_placeholder.png}
+        \includegraphics[scale = 0.2]{acquisitions/clock_wave.png}
         \caption{Acquisizione dei segnali $f_{clk}$ e ½$f_{clk}$}
         \label{acq_clock_divider}
     \end{subfigure}
@@ -398,7 +398,7 @@ Si verifica la correttezza dei circuiti:
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics{misc/oscilloscope_placeholder.png}
+        \includegraphics[scale = 0.2]{acquisitions/UD_wave.png}
         \caption{Acquisizione dei segnali $RCO2$ e $U/D$}
         \label{acq_UD}
     \end{subfigure}

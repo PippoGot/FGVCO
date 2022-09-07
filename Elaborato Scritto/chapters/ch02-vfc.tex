@@ -68,7 +68,7 @@ di alimentazione, sostituendoli con quelli dello standard scelto.
 Si noti che gli unici componenti aggiunti sono condensatori di filtro e un resistore di
 pull-up per l'uscita a collettore aperto.
 
-Si riportano le relazioni tra le grandezze in gioco:
+Si riportano anche le relazioni tra le grandezze in gioco:
 
 \begin{equation}\label{duty_cycle}
     I_{in}=I_{ref}\cdot\delta\ [A]
@@ -93,7 +93,7 @@ Si riportano le relazioni tra le grandezze in gioco:
 %--------------------------------------------------------------------------------------------
 
 Si procede allora alla verifica del corretto funzionamento del circuito. Il setup di
-misura utilizzato viene riportato in figura \ref{mis_VFC}.
+misura utilizzato è il seguente:
 
 \begin{figure}[H]
     \centering
@@ -102,13 +102,28 @@ misura utilizzato viene riportato in figura \ref{mis_VFC}.
     \label{mis_VFC}
 \end{figure}
 
+e dati raccolti vengono riportati in tabella:
+
+\begin{table}[H]
+    \centering
+    \csvreader[
+    tabular = |C||C|L|,
+    table head = {\hline \rowcolor{myLightGrey} $V_{in}\ [V]$ & $\delta\ [\%]$ & $f_{out}\ [kHz]$ \\\hline},
+    late after line = \\\hline,
+    ]{data/misure_vfc.csv}{}{
+    \csvcoli & \csvcoliii & \csvcolv
+    }
+    \caption{Valori misurati del blocco VFC}
+    \label{vfc_table}
+\end{table}
+
 Possiamo anzitutto verificare che il comportamento dell'integratore corrisponde a quello
 descritto nel paragrafo precedente, e si nota che la durata del periodo basso di $f_{out}$
 si estende lungo il tratto di rampa crescente come in figura \ref{integrator_behaviour},
-ovvero durante il periodo in cui il timer risulta attivo.
-
-Possiamo anche notare che la durata di $T_{OS}$ non varia in funzione di $V_{in}$ o $f_{out}$,
-ma rimane pressoché costante a circa $100\ ns$.
+ovvero durante il periodo $T_{OS}$, in cui il timer risulta attivo. Possiamo anche
+notare che la sua durata non varia in funzione di $V_{in}$ o $f_{out}$, ma rimane invece
+pressoché costante a circa $100\ ns$. Questo valore risulta corretto se inserito nella
+formula \ref{fout} poichè fornisce una stima accurata dei valori di frequenza misurati.
 
 \begin{figure}[H]
     \centering
@@ -135,22 +150,6 @@ ma rimane pressoché costante a circa $100\ ns$.
     \caption{Acquisizioni dei segnali di interesse per diversi valori di $V_{in}$}
     \label{acq_vfc110}
 \end{figure}
-
-Vengono ora riportati nella tabella \ref{vfc_table} e a grafico (figura \ref{vfc_graphs})
-i dati raccolti dallo studio del circuito:
-
-\begin{table}[H]
-    \centering
-    \csvreader[
-    tabular = |C||C|L|,
-    table head = {\hline \rowcolor{myLightGrey} $V_{in}\ [V]$ & $\delta\ [\%]$ & $f_{out}\ [kHz]$ \\\hline},
-    late after line = \\\hline,
-    ]{data/misure_vfc.csv}{}{
-    \csvcoli & \csvcoliii & \csvcolv
-    }
-    \caption{Valori misurati del blocco VFC}
-    \label{vfc_table}
-\end{table}
 
 \begin{figure}[H]
     \centering
@@ -216,8 +215,8 @@ i dati raccolti dallo studio del circuito:
 
 Si nota che l'andamento del duty cycle si distacca leggermente dalla teoria, pur avendo
 comunque un comportamento lineare. Questo è dovuto probabilmente a causa di diverse
-non-idealità del componente, tuttavia il parametro di maggiore interesse in questo caso è
-$f_{out}$, che invece risulta quasi uguale ai valori calcolati, come evidente in figura
-\ref{vfc_graphs}b.
+non-idealità del componente, come ad esempio le tolleranze dei componenti interni al
+VFC110, tuttavia il parametro di maggiore interesse in questo caso è $f_{out}$, che invece
+risulta quasi uguale ai valori calcolati, come evidente in figura \ref{vfc_graphs}b.
 
 %--------------------------------------------------------------------------------------------
