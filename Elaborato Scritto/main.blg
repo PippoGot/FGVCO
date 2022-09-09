@@ -1,29 +1,29 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[172] biber-MSWIN64:340> INFO - === 
-[244] Biber.pm:418> INFO - Reading 'main.bcf'
-[418] Biber.pm:972> INFO - Found 14 citekeys in bib section 0
-[438] Biber.pm:4383> INFO - Processing section 0
-[455] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[559] bibtex.pm:1713> INFO - LaTeX decoding ...
-[580] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
-[687] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[688] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[688] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'it-IT'
-[688] Biber.pm:4209> INFO - No sort tailoring available for locale 'it-IT'
-[712] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[720] bbl.pm:757> INFO - Output to main.bbl
-[720] Biber.pm:130> WARN - legacy year field '15 Sep 2003' in entry '74hc590' is not an integer - this will probably not sort properly.
-[720] Biber.pm:130> WARN - legacy year field '19 Feb 2013' in entry 'dac0800' is not an integer - this will probably not sort properly.
-[720] Biber.pm:130> WARN - legacy year field '13 Dec 2021' in entry 'tl074' is not an integer - this will probably not sort properly.
-[721] Biber.pm:130> WARN - legacy year field '01 Mar 1988' in entry '74ls169' is not an integer - this will probably not sort properly.
-[721] Biber.pm:130> WARN - legacy year field '31 Jan 2022' in entry '74hc73' is not an integer - this will probably not sort properly.
-[721] Biber.pm:130> WARN - legacy year field 'July 2022' in entry '2n7000' is not an integer - this will probably not sort properly.
-[721] Biber.pm:130> WARN - legacy year field '29 Sep 2015' in entry 'lm331' is not an integer - this will probably not sort properly.
-[721] Biber.pm:130> WARN - legacy year field '25 Apr 2007' in entry 'vfc110' is not an integer - this will probably not sort properly.
-[721] Biber.pm:130> WARN - legacy year field 'March 1999' in entry 'expo_converter' is not an integer - this will probably not sort properly.
-[721] Biber.pm:130> WARN - legacy year field '25 September 2018' in entry 'mpq3904' is not an integer - this will probably not sort properly.
-[721] Biber.pm:130> WARN - legacy year field '2004 Aug 10' in entry '1n4148' is not an integer - this will probably not sort properly.
-[721] Biber.pm:130> WARN - legacy year field '01 Mar 1988' in entry '74ls08' is not an integer - this will probably not sort properly.
-[721] Biber.pm:130> WARN - legacy year field '15 Sep 2014' in entry 'ne555' is not an integer - this will probably not sort properly.
-[721] Biber.pm:132> INFO - WARNINGS: 13
+[204] biber-MSWIN64:340> INFO - === 
+[281] Biber.pm:418> INFO - Reading 'main.bcf'
+[455] Biber.pm:972> INFO - Found 14 citekeys in bib section 0
+[478] Biber.pm:4383> INFO - Processing section 0
+[496] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[604] bibtex.pm:1713> INFO - LaTeX decoding ...
+[627] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
+[737] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[737] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[738] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'it-IT'
+[738] Biber.pm:4209> INFO - No sort tailoring available for locale 'it-IT'
+[763] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[770] bbl.pm:757> INFO - Output to main.bbl
+[770] Biber.pm:130> WARN - legacy year field '15 Sep 2003' in entry '74hc590' is not an integer - this will probably not sort properly.
+[771] Biber.pm:130> WARN - legacy year field '19 Feb 2013' in entry 'dac0800' is not an integer - this will probably not sort properly.
+[771] Biber.pm:130> WARN - legacy year field '13 Dec 2021' in entry 'tl074' is not an integer - this will probably not sort properly.
+[771] Biber.pm:130> WARN - legacy year field '01 Mar 1988' in entry '74ls169' is not an integer - this will probably not sort properly.
+[771] Biber.pm:130> WARN - legacy year field '31 Jan 2022' in entry '74hc73' is not an integer - this will probably not sort properly.
+[771] Biber.pm:130> WARN - legacy year field 'July 2022' in entry '2n7000' is not an integer - this will probably not sort properly.
+[771] Biber.pm:130> WARN - legacy year field '29 Sep 2015' in entry 'lm331' is not an integer - this will probably not sort properly.
+[771] Biber.pm:130> WARN - legacy year field '25 Apr 2007' in entry 'vfc110' is not an integer - this will probably not sort properly.
+[771] Biber.pm:130> WARN - legacy year field 'March 1999' in entry 'expo_converter' is not an integer - this will probably not sort properly.
+[772] Biber.pm:130> WARN - legacy year field '25 September 2018' in entry 'mpq3904' is not an integer - this will probably not sort properly.
+[772] Biber.pm:130> WARN - legacy year field '2004 Aug 10' in entry '1n4148' is not an integer - this will probably not sort properly.
+[772] Biber.pm:130> WARN - legacy year field '01 Mar 1988' in entry '74ls08' is not an integer - this will probably not sort properly.
+[772] Biber.pm:130> WARN - legacy year field '15 Sep 2014' in entry 'ne555' is not an integer - this will probably not sort properly.
+[772] Biber.pm:132> INFO - WARNINGS: 13

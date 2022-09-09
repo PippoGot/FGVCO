@@ -139,22 +139,10 @@
 \include{chapters/ch05-segnali_secondari.tex}
 \include{chapters/ch06-interfaccia_uscita.tex}
 %\include{chapters/ch07-protezione_circuito.tex}
-%\include{chapters/ch08-suddivisione_schede.tex}
-\include{chapters/ch09-conclusioni.tex}
+\include{chapters/ch08-conclusioni.tex}
 
 % appendice schemi elettrici
-\appendix
-\chapter{Schemi Elettrici delle Schede}
-
-\includepdf[
-    width = \textwidth,
-    pagecommand = {\thispagestyle{plain}},
-    pages = -,
-    nup = 1x2,
-    offset = 5mm 0mm
-]{
-    pdfs/schematics/FG-VCO-(complete).pdf
-}
+\include{chapters/appendix.tex}
 
 % bibliografia
 \printbibliography

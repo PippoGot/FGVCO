@@ -172,13 +172,13 @@ guadagno dell'amplificatore nei diversi intervalli di tensione.
 \begin{figure}[H]
     \centering
     \includegraphics{circuits/sin_circuit.png}
-    \caption{Circuito utilizzato per convertire un segnale a triangolo in una sinusoide}
+    \caption{Convertitore triangolo-seno}
     \label{sin_circuit}
 \end{figure}
 
 Per ricavare la relazione ingresso uscita cominciamo con l'osservare che il circuito è
 simmetrico rispetto agli $0\ V$, e quindi possiamo limitare l'analisi ai soli valori positivi
-di $V_s$ ed estendere poi i risultati al semipiano negativo. Procediamo quindi per casi:
+di $V_{in}$ ed estendere poi i risultati al semipiano negativo. Procediamo quindi per casi:
 
 \begin{itemize}
     \item Diodi OFF:
@@ -198,7 +198,7 @@ di $V_s$ ed estendere poi i risultati al semipiano negativo. Procediamo quindi p
           \begin{minipage}{0.45\textwidth}
               \centering
               \begin{equation}
-                  V_{out}=-V_s\frac{R_2+R_3}{R_1}\ [V]
+                  V_{out}=-V_{in}\frac{R_2+R_3}{R_1}\ [V]
               \end{equation}
           \end{minipage}
 
@@ -207,8 +207,8 @@ di $V_s$ ed estendere poi i risultati al semipiano negativo. Procediamo quindi p
           \begin{equation}
               \left\{
               \begin{array}{ll}
-                  V_{D2}\leq V_{\gamma}        & \rightarrow V_s\leq V_{\gamma}\frac{R_1}{R_3}=V_{TH1}          \\
-                  V_{out}\geq-(V_{\gamma}+V_Z) & \rightarrow V_s\leq(V_{\gamma}+V_Z)\frac{R_1}{R_2+R_3}=V_{TH2}
+                  V_{D2}\leq V_{\gamma}        & \rightarrow V_{in}\leq V_{\gamma}\frac{R_1}{R_3}=V_{TH1}          \\
+                  V_{out}\geq-(V_{\gamma}+V_Z) & \rightarrow V_{in}\leq(V_{\gamma}+V_Z)\frac{R_1}{R_2+R_3}=V_{TH2}
               \end{array}
               \right.
           \end{equation}
@@ -229,7 +229,7 @@ di $V_s$ ed estendere poi i risultati al semipiano negativo. Procediamo quindi p
           \begin{minipage}{0.45\textwidth}
               \centering
               \begin{equation}
-                  V_{out}=-V_s\frac{R_2}{R_1}-V_\gamma\ [V]
+                  V_{out}=-V_{in}\frac{R_2}{R_1}-V_\gamma\ [V]
               \end{equation}
           \end{minipage}
 
@@ -238,15 +238,15 @@ di $V_s$ ed estendere poi i risultati al semipiano negativo. Procediamo quindi p
           \begin{equation}
               \left\{
               \begin{array}{ll}
-                  I_{D2}> 0                    & \rightarrow V_s>V_{TH1}                        \\
-                  V_{out}\geq-(V_{\gamma}+V_Z) & \rightarrow V_s\leq V_Z\frac{R_1}{R_2}=V_{TH3}
+                  I_{D2}> 0                    & \rightarrow V_{in}>V_{TH1}                        \\
+                  V_{out}\geq-(V_{\gamma}+V_Z) & \rightarrow V_{in}\leq V_Z\frac{R_1}{R_2}=V_{TH3}
               \end{array}
               \right.
           \end{equation}
 
     \item $D_{Z1}$ in scarica, $D_2$ e $D_{Z2}$ ON:
 
-          Infine nell'ultimo caso, l'uscita è determinata dalle cadute di tensione sui diodi.
+          L'uscita è completamente determinata dalle cadute di tensione sui diodi.
 
           \begin{minipage}{0.45\textwidth}
               \centering
@@ -270,7 +270,7 @@ di $V_s$ ed estendere poi i risultati al semipiano negativo. Procediamo quindi p
               \left\{
               \begin{array}{ll}
                   I_{D2}> 0  & \rightarrow V_Z>V_\gamma\frac{R_2}{R_3} \\
-                  I_{DZ2}> 0 & \rightarrow V_s>V_{TH3}
+                  I_{DZ2}> 0 & \rightarrow V_{in}>V_{TH3}
               \end{array}
               \right.
           \end{equation}
@@ -278,21 +278,25 @@ di $V_s$ ed estendere poi i risultati al semipiano negativo. Procediamo quindi p
 \end{itemize}
 
 Si utilizzano dei diodi zener con tensione di scarica pari a $3.3\ V$, poichè il segnale in
-ingresso è limitato a $+5\ V$, poi procediamo con i valori dei resistori.
+ingresso è limitato a $+5\ V$, e procediamo con la scelta dei resistori e il calcolo delle
+soglie:
 
-Per il primo caso impostiamo guadagno pressochè unitario, quindi otteniamo il vincolo
-$R_1\approx R_2+R_3$. Possiamo scegliere $R_1=33\ k\Omega$, $R_2=22\ k\Omega$ e $R_3=12\ k\Omega$.
-Questo ci permette di definire i valori di soglia del primo intervallo $V_{TH1}\approx1.93\ V$
-e $V_{TH2}\approx3.88\ V$. L'intervallo di funzionamento nella prima configurazione è quindi
-$|V_s|\leq V_{TH1}$ visto che $V_{TH2}>V_{TH1}$.
+\begin{itemize}
+    \item Per il primo caso impostiamo guadagno pressochè unitario, quindi otteniamo il vincolo
+          $R_1\approx R_2+R_3$. Possiamo scegliere $R_1=33\ k\Omega$, $R_2=22\ k\Omega$ e $R_3=12\ k\Omega$.
+          Questo ci permette di definire i valori di soglia del primo intervallo $V_{TH1}\approx1.93\ V$
+          e $V_{TH2}\approx3.88\ V$. L'intervallo di funzionamento nella prima configurazione è quindi
+          $|V_{in}|\leq V_{TH1}$ visto che $V_{TH2}>V_{TH1}$.
 
-Nel secondo caso invece, il valore di soglia vale $V_{TH3}=4.95\ V$, quindi l'intervallo di
-funzionamento è $V_{TH1}<|V_s|\leq V_{TH3}$, e il valore del guadagno risulta
-$\frac{R_2}{R_1}\approx0.67$.
+    \item Nel secondo caso invece, il valore di soglia vale $V_{TH3}=4.95\ V$, quindi l'intervallo di
+          funzionamento è $V_{TH1}<|V_{in}|\leq V_{TH3}$, e il valore del guadagno risulta
+          $\frac{R_2}{R_1}\approx0.67$.
 
-Nell'ultimo caso infine, essendo l'uscita completamente determinata dalle cadute di tensione
-sui diodi, l'intervallo di funzionamento in questa configurazione è $|V_s|>V_{TH3}$, e
-l'uscita viene tagliata a $\approx4\ V$.
+    \item Nell'ultimo caso infine, essendo l'uscita completamente determinata dalle cadute di tensione
+          sui diodi, l'intervallo di funzionamento in questa configurazione è $|V_{in}|>V_{TH3}$, e
+          l'uscita viene tagliata a $\approx4\ V$.
+
+\end{itemize}
 
 \begin{figure}[H]
     \centering
@@ -347,9 +351,8 @@ l'uscita viene tagliata a $\approx4\ V$.
     \end{tikzpicture}
 \end{figure}
 
-Poichè in questo passaggio la tensione massima ottenuta è limitata a $4\ V$ (a causa dei diodi),
-è anche necessario uno stadio amplificatore in cascata per riportare l'onda ai livelli di
-tensione specificati dallo standard.
+A causa del taglio di tensione dei diodi è anche necessario aggiungere in cascata uno stadio
+amplificatore per riportare l'onda ai livelli di tensione specificati dallo standard.
 
 \begin{figure}[H]
     \centering
@@ -402,7 +405,7 @@ Osserviamo quindi l'onda ottenuta e verifichiamo quanto risulta buona come appro
 
 Dall'analisi in frequenza vediamo che le armoniche del rumore sono pressochè ininfluenti e
 quindi l'onda ottenuta risulta effettivamente un'ottima approssimazione di una sinusoide.
-Sl variare della frequenza poi, la bontà dell'onda non cambia, come invece sarebbe successo
+Al variare della frequenza poi, la bontà dell'onda non cambia, come invece sarebbe successo
 se avessimo impiegato un filtro.
 
 \begin{figure}[H]

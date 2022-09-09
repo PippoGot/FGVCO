@@ -35,13 +35,13 @@ oppure, dai valori misurati:
     A_{dB}=20log_{10}\left(\frac{V_{rms\_out}}{V_{rms\_in}}\right)\ [dB]
 \end{equation}
 
-La frequenza di taglio viene presa attorno ai $50\ kHz$ per conservare tutto lo spettro audio
+La frequenza di taglio viene presa attorno ai $30\ kHz$ per conservare tutto lo spettro audio
 e rimuovere invece disturbi in alta frequenza dovuti ad esempio ai segnali di clock.
-Scegliendo $R_f=100\ k\Omega$ quindi, il valore del condensatore va preso di circa $30\ pF$,
+Scegliendo $R_f=100\ k\Omega$ quindi, il valore del condensatore va preso di circa $47\ pF$,
 mentre $R_{in}$ deve avere valore pari a $R_f$. In questo modo si ottiene guadagno unitario e
 
 \begin{equation}
-    f_{cut}=\frac{1}{2\pi\cdot100\cdot10^3\cdot30\cdot10^-12}\approx53\ kHz
+    f_{cut}=\frac{1}{2\pi\cdot100\cdot10^3\cdot47\cdot10^-12}\approx34\ kHz
 \end{equation}
 
 Il setup di misura viene riportato in figura \ref{mis_filter}. Per la verifica del funzionamento
@@ -141,10 +141,9 @@ per riportare le onde alla loro forma originale, in quanto non sono simmetriche,
 invece le altre 3.
 
 Infine, in serie a tutte le uscite degli ultimi operazionali prima del connettore, si collegano
-delle resistenze di protezione, dal valore di circa $1\ k\Omega$ per limitare la corrente in
-uscita in caso di eventuali cortocircuiti, che potrebbero provocare danni agli amplificatori
-operazionali, e in ingresso i segnali vengono collegati ad un potenziometro per la regolazione
-del volume in uscita.
+dei potenziometri per la regolazione del volume e delle resistenze di protezione, dal valore
+di circa $1\ k\Omega$ per limitare la corrente in uscita in caso di eventuali cortocircuiti,
+che potrebbero provocare danni agli amplificatori operazionali.
 
 \begin{figure}[H]
     \centering
