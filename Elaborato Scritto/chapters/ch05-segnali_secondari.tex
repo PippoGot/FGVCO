@@ -2,7 +2,8 @@
 
 %--------------------------------------------------------------------------------------------
 
-Ora si passa a estrarre i segnali mancanti da quelli principali generati al capitolo \ref{segnali_principali}.
+Ora passiamo alla progettazione dei circuiti per la generazione dei segnali mancanti, sfruttando
+quelli principali generati al capitolo \ref{segnali_principali}.
 
 %--------------------------------------------------------------------------------------------
 
@@ -10,8 +11,8 @@ Ora si passa a estrarre i segnali mancanti da quelli principali generati al capi
 
 %--------------------------------------------------------------------------------------------
 
-Il più facile da generare è sicuramente il dente di sega in quanto tutto quello che serve è un
-semplice amplificatore invertente con guadagno pari a uno.
+Il più semplice da generare è sicuramente il dente di sega in quanto tutto quello che serve è un
+normale amplificatore invertente con guadagno pari a uno.
 
 \begin{figure}[H]
     \centering
@@ -58,9 +59,9 @@ Questo è quanto ottenuto in uscita:
 
 Anche l'onda quadra risulta piuttosto semplice da generare, in quanto è necessario solo
 aggiungere un offset e un guadagno al segnale utilizzato per il pilotaggio del contatore
-bidirezionale, ovvero $U/D$. Tale segnale infatti ha già forma e frequenza desiderate, è però
-compresa solo tra $0\ V$ e $+5\ V$, e si deve estendere fino a $-5\ V$.
-Si utilizza quindi un altro amplificatore invertente con uno schema leggermente diverso dai
+bidirezionale, ovvero $U/D$. Tale segnale infatti ha già forma e frequenza desiderate,
+l'onda è però compresa solo tra $0\ V$ e $+5\ V$, e si deve invece estendere fino a $-5\ V$.
+Si utilizza allora un altro amplificatore invertente con uno schema leggermente diverso dai
 precedenti:
 
 \begin{figure}[H]
@@ -81,7 +82,7 @@ La relazione ingresso/uscita è:
 dove si vede chiaramente che $-\frac{R_f}{R_{in}}$ è il guadagno e $V_{pot}\left(1+\frac{R_f}{R_{in}}\right)$
 l'offset.
 
-La forma d'onda osservata in uscita è quindi la seguente:
+La forma d'onda osservata in uscita è dunque la seguente:
 
 \begin{figure}[H]
     \centering
@@ -112,7 +113,7 @@ Per quanto riguarda l'impulso invece, facciamo uso del segnale $RCO$ ricavato al
 \ref{segnali_principali}, figura \ref{ramp_counter_circuit}. Tale segnale viene portato in
 ingresso ad un circuito monostabile realizzato con il celebre NE555 \cite{ne555} che si
 occuperà di invertire la logica dell'impulso. Lo schema utilizzato, è riportato in figura
-\ref{monostable_circuit} e viene preso da pg.10 del datasheet.
+\ref{monostable_circuit} e viene preso da pg.10 del relativo datasheet.
 
 \begin{figure}[H]
     \centering
@@ -167,7 +168,7 @@ La soluzione utilizzata quindi è un circuito con guadagno variabile in base al 
 tensione del segnale fornito in ingresso, che si occuperà di convertire un'onda triangolare
 nella sinusoide voluta. Viene realizzato con un operazionale e dei diodi, sia normali che di
 tipo zener, i quali si occupano di modificare la resistenza di feedback e quindi il valore di
-guadagno dell'amplificatore nei diversi intervalli di tensione.
+guadagno dell'amplificatore, nei diversi intervalli di tensione.
 
 \begin{figure}[H]
     \centering
@@ -277,6 +278,8 @@ di $V_{in}$ ed estendere poi i risultati al semipiano negativo. Procediamo quind
 
 \end{itemize}
 
+Il circuito è tratto dal libro del Professor Simone Buso \cite{buso}.
+
 Si utilizzano dei diodi zener con tensione di scarica pari a $3.3\ V$, poichè il segnale in
 ingresso è limitato a $+5\ V$, e procediamo con la scelta dei resistori e il calcolo delle
 soglie:
@@ -286,10 +289,10 @@ soglie:
           $R_1\approx R_2+R_3$. Possiamo scegliere $R_1=33\ k\Omega$, $R_2=22\ k\Omega$ e $R_3=12\ k\Omega$.
           Questo ci permette di definire i valori di soglia del primo intervallo $V_{TH1}\approx1.93\ V$
           e $V_{TH2}\approx3.88\ V$. L'intervallo di funzionamento nella prima configurazione è quindi
-          $|V_{in}|\leq V_{TH1}$ visto che $V_{TH2}>V_{TH1}$.
+          $|V_{in}|\leq V_{TH1}$ poichè $V_{TH2}>V_{TH1}$.
 
     \item Nel secondo caso invece, il valore di soglia vale $V_{TH3}=4.95\ V$, quindi l'intervallo di
-          funzionamento è $V_{TH1}<|V_{in}|\leq V_{TH3}$, e il valore del guadagno risulta
+          funzionamento è $V_{TH1}<|V_{in}|\leq V_{TH3}$, mentre il valore del guadagno risulta
           $\frac{R_2}{R_1}\approx0.67$.
 
     \item Nell'ultimo caso infine, essendo l'uscita completamente determinata dalle cadute di tensione

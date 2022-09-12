@@ -1849,6 +1849,11 @@ INPUT .\images\\misc\boards_layout_microcontroller.png
 INPUT .\images\\misc\boards_layout_microcontroller.png
 INPUT .\images\\misc\boards_layout_microcontroller.png
 INPUT .\images\\misc\boards_layout_microcontroller.png
+INPUT data\misure_frequenza.csv
+INPUT data\misure_frequenza.csv
+INPUT data\misure_frequenza.csv
+INPUT data\misure_frequenza.csv
+INPUT data\misure_frequenza.csv
 INPUT .\images\\misc\module_result.jpeg
 INPUT .\images\\misc\module_result.jpeg
 INPUT images\\misc\module_result.jpeg

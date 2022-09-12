@@ -45,8 +45,8 @@ mentre $R_{in}$ deve avere valore pari a $R_f$. In questo modo si ottiene guadag
 \end{equation}
 
 Il setup di misura viene riportato in figura \ref{mis_filter}. Per la verifica del funzionamento
-si misura il $V_{rms}$ di un segnale sinusoidale in ingresso e in uscita al filtro, agendo
-sulla frequenza del suddetto segnale.
+si misura il $V_{rms}$ di un segnale sinusoidale sia in ingresso che in uscita al filtro,
+e si agisce sulla frequenza del suddetto segnale.
 
 \begin{figure}[H]
     \centering
@@ -134,6 +134,9 @@ con la formula \ref{gain1}.
     \caption{Acquisizioni dei segnali in ingresso e uscita al filtro per diversi valori di $f_{in}$}
     \label{acq_filter}
 \end{figure}
+
+Vediamo che il circuito si comporta come previsto, e all'aumentare della frequenza il segnale
+viene via via attenuato sempre di più.
 
 In serie ai filtri per le onde a rampa e dente di sega viene anche collegato un amplificatore
 invertente con guadagno unitario, con schema uguale a quello rappresentato in figura \ref{inverting_amp_circuit}

@@ -6,7 +6,7 @@
 
 %--------------------------------------------------------------------------------------------
 
-Ogni blocco discusso finora viene collegato assieme secondo il seguente schema:
+Ogni blocco discusso finora viene collegato assieme, ottenendo lo schema seguente:
 
 \begin{figure}[H]
     \centering
@@ -15,8 +15,9 @@ Ogni blocco discusso finora viene collegato assieme secondo il seguente schema:
     \label{full_block_diagram}
 \end{figure}
 
-Si suddivide poi l'intero circuito in un totale di 3 schede, in modo da ridurre al
-minimo l'ingombro del modulo e non avere delle schede troppo dense di componenti.
+Si suddivide poi l'intero circuito in un totale di 3 schede, in modo da ridurre al minimo
+l'ingombro orizzontale del modulo e allo stesso tempo non avere delle schede troppo dense
+di componenti.
 
 \begin{figure}[H]
     \centering
@@ -30,11 +31,11 @@ L'interfaccia mostrata in figura \ref{panel_explained} sarà effettivamente il p
 frontale del nostro modulo, subito sotto andrà la scheda di interfaccia, la quale ospiterà
 tutti i componenti atti all'interazione con l'utente e gli altri moduli (manopole, connettori
 jack, LED, interruttori, ecc...). Nelle altre due schede invece si collocherà tutto il resto
-del circuito secondo quanto specificato in figura.
+del circuito secondo quanto specificato in figura \ref{full_block_diagram_colored}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics{misc/boards_layout.png}
+    \includegraphics[scale = 0.9]{misc/boards_layout.png}
     \caption{Composizione schede}
     \label{boards_layout}
 \end{figure}
@@ -47,9 +48,10 @@ Gli schemi elettrici finali utilizzati sono riportati nell'appendice \ref{circui
 
 %--------------------------------------------------------------------------------------------
 
-Il modulo in sè non risulta comodamente utilizzabile da solo, e va integrato in un sistema
-adeguato assieme a filtri, amplificatori e altri diversi moduli con funzioni varie ed eventuali.
-Si riportano allora degli esempi di utilizzo:
+Il modulo in sè non risulta comodamente utilizzabile da solo e va integrato in un sistema
+adeguato assieme a filtri, amplificatori e altri diversi moduli con funzioni varie ed eventuali,
+oltre ovviamente ad un sistema per la riproduzione dell'audio. Si riportano allora degli
+esempi di utilizzo:
 
 \begin{figure}[H]
     \centering
@@ -81,11 +83,13 @@ modifica il volume del suono che viene poi filtrato e riprodotto.
     \label{example_setup_3}
 \end{figure}
 
-In questo ultimo esempio infine, il sequenziatore determina la nota generata dal VCO e la
-frequenza di taglio del filtro. Inoltre la sua uscita gate viene data in pasto ad un generatore
-di inviluppo, che si occupa di creare un particolare segnale composto da 4 fasi, ovvero attacco,
-discesa, sostegno e rilascio, che viene poi utilizzato per il controllo del volume della nota.
-Ancora una volta il segnale viene filtrato e poi riprodotto tramite un adeguato sistema.
+In questo ultimo esempio, il sequenziatore determina la nota generata dal VCO e la frequenza
+di taglio del filtro. Inoltre l'uscita "Gate" viene data in pasto ad un generatore di inviluppo,
+che si occupa di creare un particolare segnale composto da 4 fasi, ovvero attacco, discesa,
+sostegno e rilascio, che viene poi utilizzato per il controllo del volume della nota.
+In questo modo è quindi possibile simulare la pressione di un tasto e dare un aspetto più
+naturale al suono. Ancora una volta infine, il segnale viene filtrato e poi riprodotto tramite
+un adeguato sistema.
 
 %--------------------------------------------------------------------------------------------
 
@@ -95,23 +99,72 @@ Ancora una volta il segnale viene filtrato e poi riprodotto tramite un adeguato 
 
 Come già accennato nell'introduzione, la progettazione del modulo sarebbe stata largamente
 semplificata se si fossero utilizzati dei microcontrollori, tuttavia l'implementazione
-analogica realizzata risulta comunque ottima per lo scopo. È ad ogni modo possibile la
-progettazione di una scheda con microcontrollori che realizza le stesse funzioni delle schede
-discusse in questa tesi, e che può quindi essere eventualmente sostituita al corrispettivo
-analogico, sfruttando la divisione delle schede scelta.
+analogica realizzata risulta comunque ottima per lo scopo. È ad ogni modo possibile progettare
+una scheda con microcontrollori che realizza le stesse funzioni di quelle discusse in questa
+tesi, compatibile con la scheda "interfaccia" e che può quindi essere eventualmente sostituita
+al corrispettivo analogico, sfruttando la divisione delle schede scelta.
 
 \begin{figure}[H]
     \centering
-    \includegraphics{misc/boards_layout_microcontroller.png}
+    \includegraphics[scale = 0.9]{misc/boards_layout_microcontroller.png}
     \caption{Composizione schede con scheda a microcontrollore}
     \label{boards_layout_microcontroller}
 \end{figure}
 
-Per quanto riguarda l'obiettivo, possiamo dire che le specifiche di progetto fornite al
-capitolo \ref{introduzione} sono state pienamente rispettate a meno della precisione sulle
+Per quanto riguarda l'obiettivo, possiamo dire che le specifiche di progetto fornite
+nell'introduzione sono state pienamente rispettate a meno della precisione sulle
 note prodotte che risultano in un range leggermente diverso da quello desiderato.
 
-% tabella frequenze per valori di tensione
+\begin{table}[H]
+    \centering
+    \csvreader[
+    tabular = |I||I|I|I|U|,
+    table head = {\hline \rowcolor{myLightGrey} $V_{in}\ [V]$ & $VCO\ [Hz]$ & $LFO\ [Hz]$ & $VCO_{aim}\ [Hz]$ & $LFO_{aim}\ [Hz]$\\\hline},
+    late after line = \\\hline,
+    ]{data/misure_frequenza.csv}{}{
+    \csvcoli & \csvcolii & \csvcoliii & \csvcolvi & \csvcolvii
+    }
+    \caption{Valori di frequenze ottenuti e desiderati}
+    \label{freq_table}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \centering
+        \begin{semilogyaxis}[
+                no marks,
+                width = 0.95\textwidth,
+                height = 0.45\textwidth,
+                xmin = 0, xmax = 11,
+                ymin = 0.1, ymax = 100000,
+                grid = major,
+                grid style = {dashed, gray!30},
+                xlabel = $V_{in}$,
+                ylabel = $f_{out}$,
+                x unit = \si{\V}, y unit = \si{\Hz},
+                legend style = {at = {(0.5, -0.25)}, anchor = north},
+                cycle list name = modular,
+            ]
+
+            \addplot
+            table[x = vin, y = fout vco, col sep = comma]{./data/misure_frequenza.csv};
+
+            \addplot
+            table[x = vin, y = fout lfo, col sep = comma]{./data/misure_frequenza.csv};
+
+            \addplot
+            table[x = vin, y = vco voluto, col sep = comma]{./data/misure_frequenza.csv};
+
+            \addplot
+            table[x = vin, y = lfo voluto, col sep = comma]{./data/misure_frequenza.csv};
+
+            \legend{Colonna 1, Colonna 3, Colonna 2, Colonna 4}
+        \end{semilogyaxis}
+    \end{tikzpicture}
+    \caption{Frequenza di uscita del modulo in modalità VCO e LFO}
+    \label{module_freq_graph}
+\end{figure}
 
 Tuttavia un aspetto che meriterebbe più attenzioni è l'effetto della temperatura dell'ambiente
 sul convertitore lineare-esponenziale, in quanto effettivamente $V_T$ è funzione di essa.
@@ -120,7 +173,6 @@ dimensionata, ma non si scenderà oltre in dettaglio.
 
 %--------------------------------------------------------------------------------------------
 
-\newpage
 \unsection{Risultato}
 
 %--------------------------------------------------------------------------------------------
@@ -130,13 +182,13 @@ Per concludere si riportano delle foto del risultato finale ottenuto.
 \begin{figure}[H]
     \centering
 
-    \begin{subfigure}{.5\textwidth}
+    \begin{subfigure}{.4\textwidth}
         \centering
         \includegraphics[height = \textwidth]{misc/module_result.jpeg}
         \caption{Modulo realizzato}
         \label{module_result}
     \end{subfigure}%
-    \begin{subfigure}{.5\textwidth}
+    \begin{subfigure}{.4\textwidth}
         \centering
         \includegraphics[height = \textwidth]{misc/module_result_side.jpeg}
         \caption{Vista lato}
@@ -145,7 +197,5 @@ Per concludere si riportano delle foto del risultato finale ottenuto.
 
     \caption*{}
 \end{figure}
-
-(foto da sistemare)
 
 %--------------------------------------------------------------------------------------------

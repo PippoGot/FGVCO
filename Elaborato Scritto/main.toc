@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {3.1}Convertitore Lineare-Esponenziale}{21}{}%
 \contentsline {section}{\numberline {3.2}Somma di più Ingressi}{28}{}%
 \contentsline {section}{\numberline {3.3}Raddrizzatore}{29}{}%
-\contentsline {chapter}{\numberline {4}Modalità di Funzionamento}{32}{}%
+\contentsline {chapter}{\numberline {4}Selezione della Modalità di Funzionamento}{32}{}%
 \contentsline {chapter}{\numberline {5}Generazione dei Segnali Secondari}{34}{}%
 \contentsline {section}{\numberline {5.1}Dente di Sega}{34}{}%
 \contentsline {section}{\numberline {5.2}Onda Quadra}{35}{}%
@@ -20,7 +20,7 @@
 \contentsline {chapter}{Conclusioni}{47}{}%
 \contentsline {section}{Suddivisione delle Schede}{47}{}%
 \contentsline {section}{Possibili Impieghi del Modulo}{48}{}%
-\contentsline {section}{Considerazioni Finali}{49}{}%
+\contentsline {section}{Considerazioni Finali}{50}{}%
 \contentsline {section}{Risultato}{51}{}%
 \contentsline {chapter}{\numberline {A}Schemi Elettrici delle Schede}{52}{}%
 \contentsline {chapter}{Bibliografia}{63}{}%

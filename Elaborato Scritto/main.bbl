@@ -19,6 +19,38 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{buso}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1abc9ca226e1140d5708905449566e97}{%
+           family={Buso},
+           familyi={B\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=c4268670b0fc0d873dce9a6224c76ca3}{%
+           family={s.r.l.},
+           familyi={s\bibinitperiod},
+           given={Esculapio},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1abc9ca226e1140d5708905449566e97}
+      \strng{fullhash}{1abc9ca226e1140d5708905449566e97}
+      \strng{bibnamehash}{1abc9ca226e1140d5708905449566e97}
+      \strng{authorbibnamehash}{1abc9ca226e1140d5708905449566e97}
+      \strng{authornamehash}{1abc9ca226e1140d5708905449566e97}
+      \strng{authorfullhash}{1abc9ca226e1140d5708905449566e97}
+      \strng{editorbibnamehash}{c4268670b0fc0d873dce9a6224c76ca3}
+      \strng{editornamehash}{c4268670b0fc0d873dce9a6224c76ca3}
+      \strng{editorfullhash}{c4268670b0fc0d873dce9a6224c76ca3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-88-9385-053-7}
+      \field{title}{Esercizi per il corso di Fondamenti di Elettronica}
+      \field{year}{Ristampa 2019}
+    \endentry
     \entry{eurorack}{online}{}
       \name{author}{1}{}{%
         {{hash=e055ca493d0f48b38712a44989fb41b3}{%

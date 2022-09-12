@@ -1,12 +1,12 @@
-\chapter{Modalità di Funzionamento}
+\chapter{Selezione della Modalità di Funzionamento}
 
 %--------------------------------------------------------------------------------------------
 
 Per quanto riguarda la selezione della modalità di funzionamento, è facile intuire che basta
 dividere $f_{clk}$ ulteriormente per avere un range di frequenze diverso, come già visto nel
-capitolo \ref{segnali_principali}. Quindi aggiungiamo un blocco divisore di frequenza prima
-che il segnale arrivi ai contatori e facciamo in modo che la scelta del segnale di clock
-$f_{out}$ sia determinata da un comando logico.
+capitolo \ref{segnali_principali}. Aggiungiamo quindi un blocco divisore di frequenza prima
+che il segnale arrivi ai contatori e facciamo in modo che la scelta di $f_{out}$ sia
+determinata da un comando logico (in questo caso un deviatore).
 
 \begin{figure}[H]
     \centering
@@ -55,7 +55,8 @@ Possiamo quindi verificare che il circuito divisore di frequenza funzioni corret
     \label{freq_divider}
 \end{figure}
 
-qui si può apprezzare come a 256 cicli di clock del segnale in ingresso ne corrisponda uno
+Spendendo qualche minuto a contare le righe presenti nell'acquisizione (figura \ref{LFO_divider})
+si può apprezzare come a 256 cicli di clock del segnale in ingresso ne corrisponda uno
 solo in uscita, quindi il circuito funziona come desiderato.
 
 %--------------------------------------------------------------------------------------------

@@ -2482,25 +2482,22 @@
       (reference "R13") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/816eded2-4d1e-4711-b80f-520d0bcc8084/1382190d-a40b-40df-b429-059cb272fba8"
-      (reference "R14") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R14") (unit 1) (value "33k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/816eded2-4d1e-4711-b80f-520d0bcc8084/8c7cf991-f22b-460e-b28b-9b666d85ba23"
-      (reference "R15") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R15") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/816eded2-4d1e-4711-b80f-520d0bcc8084/3e61caa7-5d62-4db0-9b97-411cccc7d372"
-      (reference "R16") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/816eded2-4d1e-4711-b80f-520d0bcc8084/0b2b0de5-33e1-4b8f-b4e5-b89855e41cae"
-      (reference "R17") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/816eded2-4d1e-4711-b80f-520d0bcc8084/2551a4be-e64b-44c9-a0ca-63876eced8e4"
-      (reference "R18") (unit 1) (value "33k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R16") (unit 1) (value "12k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/32893f07-87d9-4ecf-894a-bda4253ed38d/fc23fca2-4992-45d3-873e-42647e2fc5b7"
       (reference "R25") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/32893f07-87d9-4ecf-894a-bda4253ed38d/b89d8402-c681-41fc-b2c8-c9f1eb4be32c"
       (reference "R26") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/816eded2-4d1e-4711-b80f-520d0bcc8084/79ecd50a-6c36-45e8-99f3-10d34e9ccfb8"
+      (reference "RV1") (unit 1) (value "50k - gain") (footprint "")
     )
     (path "/6e243853-c636-475f-a906-22f4eb43cb8e/20bb0622-d5e3-45ed-b8bc-4e994fecae80"
       (reference "RV2") (unit 1) (value "1k-33%Pot") (footprint "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical")

@@ -2,8 +2,8 @@
 
 %--------------------------------------------------------------------------------------------
 
-Per la generazione dei segnali a rampa e a triangolo si decide di procedere in ogni caso
-per via digitale, utilizzando dei contatori binari abbinati ad un convertitore
+Si comincia dalla generazione dei segnali a rampa e a triangolo, per i quali si decide di
+procedere per via digitale, utilizzando dei contatori binari abbinati ad un convertitore
 digitale-analogico.
 
 %--------------------------------------------------------------------------------------------
@@ -88,7 +88,7 @@ quindi un range di funzionamento esteso lungo 8 ottave.
 %--------------------------------------------------------------------------------------------
 
 I componenti utilizzati per la realizzazione del circuito sono un 74HC590 \cite{74hc590},
-contatore binario a 8 bit, e un DAC0800 \cite{dac0800}, convertitore digitale-analogico sempre
+contatore binario a 8 bit, e un DAC0800 \cite{dac0800}, convertitore digitale-analogico, sempre
 a 8 bit.
 
 Per il circuito DAC si utilizza lo schema a pg.10 del relativo datasheet del componente.
@@ -136,7 +136,8 @@ gradino di tensione di circa $40\ mV$ come calcolato con la formula \ref{vstep}.
 
 %--------------------------------------------------------------------------------------------
 
-Verifichiamo quindi la correttezza del circuito realizzato.
+Verifichiamo quindi la correttezza del circuito realizzato con il setup di misura in figura
+\ref{mis_ramp}.
 
 \begin{figure}[H]
     \centering
@@ -286,7 +287,7 @@ Si verifica ora la correttezza del circuito realizzato.
     \label{acq_triangle_signals}
 \end{figure}
 
-Ancora una volta si apprezza che quanto discusso finora corrisponde al reale comportamento
+Anche in questo caso si apprezza che quanto discusso finora corrisponde al reale comportamento
 del circuito.
 
 %--------------------------------------------------------------------------------------------
@@ -323,7 +324,7 @@ Le specifiche sul segnale di clock ci impongono allora di generare un segnale a 
 con frequenza variabile nel range $(14\ kHz\div3.6\ MHz)$, in modo che ½$f_{clk}$ abbia
 i valori di frequenza inizialmente calcolati.
 
-Invece, per fare in modo che il contatore del triangolo cambi effettivamente verso di conteggio
+Per fare in modo che il contatore del triangolo cambi effettivamente verso di conteggio invece,
 è necessario impiegare un altro TFF utilizzando come ingresso $\overline{RCO2}$ (poichè
 attivo a livello logico basso) e connesso all'ingresso $U/D$ del contatore.
 

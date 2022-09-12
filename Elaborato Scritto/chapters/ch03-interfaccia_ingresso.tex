@@ -60,7 +60,7 @@ in questo modo possiamo scrivere la seguente relazione:
 
 dove risulta evidente che la dipendenza da $I_s$ viene completamente rimossa.
 
-A questo punto, rinominiamo le grandezze come segue:
+Rinominiamo a questo punto le grandezze come segue:
 
 \begin{equation}\label{renamed_differential_pair}
     \left\{ \begin{aligned}
@@ -114,10 +114,8 @@ ottenendo quindi il seguente circuito con la relativa relazione ingresso/uscita:
 %--------------------------------------------------------------------------------------------
 
 Passiamo quindi al dimensionamento dei componenti, in modo da imporre al circuito il
-comportamento voluto.
-
-Come prima cosa calcoliamo il valore del guadagno $s$ dell'amplificatore invertente.
-Si vuole:
+comportamento voluto, e come prima cosa, calcoliamo il valore del guadagno $s$
+dell'amplificatore invertente. Si vuole:
 
 \begin{equation}\label{iref_doubling}
     I_{freq}=I_{ref}e^{\left(\frac{s\cdot V_{in}}{V_T}\right)}
@@ -211,9 +209,9 @@ ovvero:
     V_{R_e}=R_e\cdot 2I_{ref}=3.3\cdot10^3\cdot24\cdot10^{-6}\approx79.2\ mV
 \end{equation}
 
-notiamo che un valore di resistenza maggiore aumenterebbe la linearità del circuito per bassi
-livelli di $V_{in}$, in quanto incrementerebbe la caduta di potenziale sul resistore,
-risultando quindi meno influenzata dal rumore. Si modifica allora il circuito cosicché la
+Notiamo però che un valore di resistenza maggiore aumenterebbe la linearità del circuito per
+bassi livelli di $V_{in}$, in quanto incrementerebbe la caduta di potenziale sul resistore,
+rendendola quindi meno influenzata dal rumore. Si modifica allora il circuito cosicché la
 resistenza di emettitore sia variabile in modo non-lineare, a seconda della corrente richiesta
 in uscita. Questo è reso possibile sostituendo ad $R_e$ un parallelo tra due resistori di
 diverso valore, di cui quello più piccolo collegato in serie ad un diodo, l'elemento che si
@@ -257,7 +255,7 @@ diodo viene sostituito con uno dei 4 transistor del chip cortocircuitando base e
 \begin{figure}[H]
     \centering
     \includegraphics{circuits/complete_exponential_converter_circuit.png}
-    \caption{Schema elettrico completo del convertitore tensione lineare-esponenziale ($+V_{cc}=+12\ V$)}
+    \caption{Schema elettrico completo del convertitore ($+V_{cc}=+12\ V$)}
     \label{complete_exponential_converter_circuit}
 \end{figure}
 
@@ -291,9 +289,9 @@ o triangolare in ingresso, utilizzando quindi il seguente setup:
 \end{figure}
 
 Questa misura ci fornisce una prima conferma che il circuito funzioni come dovrebbe. Il
-ginocchio osservabile si forma a ausa della saturazione dell'operazionale utilizzato per il
-convertitore corrente-tensione e avviene circa $+8\ V$, valore imposto dai componenti selezionati
-precedentemente.
+ginocchio osservabile si forma a causa della saturazione dell'operazionale utilizzato per il
+convertitore corrente-tensione e avviene circa $+8\ V$, valore imposto dai componenti
+precedentemente selezionati.
 
 Raccogliamo ora in una tabella i dati per tracciare una transcaratteristica più precisa:
 
@@ -394,7 +392,7 @@ c'è un lieve discostamento dovuto con ogni probabilità alla tolleranza dei val
 componenti utilizzati, tuttavia le misure risultano quasi coincidenti con la curva esponenziale
 di pendenza $2$ (in rosso), quindi possiamo affermare che il circuito funziona come desiderato.
 
-Ancora una volta, il ginocchio presente subito dopo i $10\ V$ è dovuto alla saturazione
+Ancora una volta, il ginocchio presente subito dopo i $+10\ V$ è dovuto alla saturazione
 dell'operazionale nel convertitore corrente-tensione, che con una alimentazione di $\pm12\ V$
 presenta dei valori di saturazione di circa $\pm10.5\ V$.
 
@@ -412,7 +410,7 @@ LFO), si aggiunge un resistore uguale a $R_{in}$ all'ingresso invertente dell'am
 modificando quindi la relazione \ref{amplifier} nel seguente modo:
 
 \begin{equation}
-    V_{b1}=-s\cdot\sum_0^n{V_{n}}\ [V]
+    V_{b1}=-s\cdot\sum_1^n{V_{n}}\ [V]
 \end{equation}
 
 \begin{figure}[H]
@@ -476,8 +474,8 @@ polarizzazione del diodo, che altrimenti non si accenderebbe mai. Viene inoltre 
 LED per visualizzare quando il raddrizzatore è in funzione, in modo da permettere all'utente
 di correggere eventuali errori nel segnale modulante in ingresso.
 
-Quindi in uscita si avrà la stessa tensione in ingresso se negativa, mentre un valore molto
-prossimo a $0$ se positiva.
+In uscita si avrà allora la stessa tensione presente in ingresso se negativa, mentre un valore
+molto prossimo a $0$ se positiva.
 
 \begin{equation}\label{clipper_out}
     V_{out} =
@@ -509,7 +507,8 @@ segnali, mentre l'operazionale è sempre un TL074.
 %--------------------------------------------------------------------------------------------
 
 Anche in questo caso possiamo tracciare la transcaratteristica con l'oscilloscopio, sfruttando
-la modalità XY, il setup è molto simile a quello per il convertitore lineare-esponenziale:
+la modalità XY. Il setup è lo stesso di quello utilizzato per il convertitore
+lineare-esponenziale:
 
 \begin{figure}[H]
     \centering
@@ -530,8 +529,8 @@ la modalità XY, il setup è molto simile a quello per il convertitore lineare-e
     \caption{Misura della transcaratteristica con oscilloscopio}
 \end{figure}
 
-Dopo aver apprezzato il corretto funzionamento si passa alla raccolta dei dati per un grafico
-più preciso.
+Dopo questa prima conferma sul corretto funzionamento, si passa alla raccolta dei dati per un
+grafico più preciso.
 
 \begin{figure}[H]
     \centering
